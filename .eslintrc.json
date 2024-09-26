@@ -1,12 +1,7 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"],
+  "extends": "next",
   "rules": {
-    "react/prop-types": 0,
-    "react/display-name": 0,
-    "@next/next/no-img-element": 1,
-    "no-unused-vars": 1,
-    "tailwindcss/no-custom-classname": 1,
-    "import/no-unresolved": [1, { "caseSensitive": false }],
-    "react/no-unescaped-entities": 0
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }

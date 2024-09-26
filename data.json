@@ -1,0 +1,62 @@
+[
+  {
+    "word": "agree",
+    "infinitive": "agree",
+    "past_simple": "agreed",
+    "past_participle": "agreed",
+    "pronunciation": "/əˈɡriː/",
+    "meaning": "đồng ý",
+    "part_of_speech": "verb",
+    "example": "I agree with your opinion."
+  },
+  {
+    "word": "copy",
+    "infinitive": "copy",
+    "past_simple": "copied",
+    "past_participle": "copied",
+    "pronunciation": "/ˈkɑː.pi/",
+    "meaning": "sao chép",
+    "part_of_speech": "verb",
+    "example": "She copied the document for reference."
+  },
+  {
+    "word": "like",
+    "infinitive": "like",
+    "past_simple": "liked",
+    "past_participle": "liked",
+    "pronunciation": "/laɪk/",
+    "meaning": "thích",
+    "part_of_speech": "verb",
+    "example": "I like to read books."
+  },
+  {
+    "word": "hate",
+    "infinitive": "hate",
+    "past_simple": "hated",
+    "past_participle": "hated",
+    "pronunciation": "/heɪt/",
+    "meaning": "ghét",
+    "part_of_speech": "verb",
+    "example": "She hates waiting in long lines."
+  },
+  {
+    "word": "jump",
+    "infinitive": "jump",
+    "past_simple": "jumped",
+    "past_participle": "jumped",
+    "pronunciation": "/dʒʌmp/",
+    "meaning": "nhảy",
+    "part_of_speech": "verb",
+    "example": "The cat jumped over the fence."
+  },
+  {
+    "word": "walk",
+    "infinitive": "walk",
+    "past_simple": "walked",
+    "past_participle": "walked",
+    "pronunciation": "/wɔːk/",
+    "meaning": "đi bộ",
+    "part_of_speech": "verb",
+    "example": "He walks to work every day."
+  }
+]

@@ -1,62 +1,3586 @@
 [
   {
-    "word": "agree",
-    "infinitive": "agree",
-    "past_simple": "agreed",
-    "past_participle": "agreed",
-    "pronunciation": "/əˈɡriː/",
-    "meaning": "đồng ý",
-    "part_of_speech": "verb",
-    "example": "I agree with your opinion."
+    "word": "abide",
+    "infinitive": {
+      "form": "abide",
+      "pronunciation": "/əˈbaid/"
+    },
+    "past_simple": {
+      "form": ["abode", "abided"],
+      "pronunciation": ["/əˈboud/", "/əˈbaidid/"]
+    },
+    "past_participle": {
+      "form": ["abode", "abided"],
+      "pronunciation": ["/əˈboud/", "/əˈbaidid/"]
+    },
+    "meaning": "Lưu trú"
   },
   {
-    "word": "copy",
-    "infinitive": "copy",
-    "past_simple": "copied",
-    "past_participle": "copied",
-    "pronunciation": "/ˈkɑː.pi/",
-    "meaning": "sao chép",
-    "part_of_speech": "verb",
-    "example": "She copied the document for reference."
+    "word": "arise",
+    "infinitive": {
+      "form": "arise",
+      "pronunciation": "/əˈraiz/"
+    },
+    "past_simple": {
+      "form": "arose",
+      "pronunciation": "/əˈrouz/"
+    },
+    "past_participle": {
+      "form": "arisen",
+      "pronunciation": "/əˈrizn/"
+    },
+    "meaning": "Phát sinh"
   },
   {
-    "word": "like",
-    "infinitive": "like",
-    "past_simple": "liked",
-    "past_participle": "liked",
-    "pronunciation": "/laɪk/",
-    "meaning": "thích",
-    "part_of_speech": "verb",
-    "example": "I like to read books."
+    "word": "awake",
+    "infinitive": {
+      "form": "awake",
+      "pronunciation": "/əˈweik/"
+    },
+    "past_simple": {
+      "form": "awoke",
+      "pronunciation": "/əˈwouk/"
+    },
+    "past_participle": {
+      "form": "awoken",
+      "pronunciation": "/əˈwoukən/"
+    },
+    "meaning": "Đánh thức"
   },
   {
-    "word": "hate",
-    "infinitive": "hate",
-    "past_simple": "hated",
-    "past_participle": "hated",
-    "pronunciation": "/heɪt/",
-    "meaning": "ghét",
-    "part_of_speech": "verb",
-    "example": "She hates waiting in long lines."
+    "word": "be",
+    "infinitive": {
+      "form": "be",
+      "pronunciation": "/bi/"
+    },
+    "past_simple": {
+      "form": ["was", "were"],
+      "pronunciation": ["/wəz/", "/wɜːr/"]
+    },
+    "past_participle": {
+      "form": "been",
+      "pronunciation": "/bɪn/"
+    },
+    "meaning": "Thì, là, bị, ở"
   },
   {
-    "word": "jump",
-    "infinitive": "jump",
-    "past_simple": "jumped",
-    "past_participle": "jumped",
-    "pronunciation": "/dʒʌmp/",
-    "meaning": "nhảy",
-    "part_of_speech": "verb",
-    "example": "The cat jumped over the fence."
+    "word": "bear",
+    "infinitive": {
+      "form": "bear",
+      "pronunciation": "/beə/"
+    },
+    "past_simple": {
+      "form": "bore",
+      "pronunciation": "/bɔːr/"
+    },
+    "past_participle": {
+      "form": "borne",
+      "pronunciation": "/bɔːrn/"
+    },
+    "meaning": "Mang, Chịu đựng"
   },
   {
-    "word": "walk",
-    "infinitive": "walk",
-    "past_simple": "walked",
-    "past_participle": "walked",
-    "pronunciation": "/wɔːk/",
-    "meaning": "đi bộ",
-    "part_of_speech": "verb",
-    "example": "He walks to work every day."
+    "word": "beat",
+    "infinitive": {
+      "form": "beat",
+      "pronunciation": "/biːt/"
+    },
+    "past_simple": {
+      "form": "beat",
+      "pronunciation": "/biːt/"
+    },
+    "past_participle": {
+      "form": "beaten",
+      "pronunciation": "/ˈbiːtn̩/"
+    },
+    "meaning": "Đánh bại"
+  },
+  {
+    "word": "become",
+    "infinitive": {
+      "form": "become",
+      "pronunciation": "/bɪˈkʌm/"
+    },
+    "past_simple": {
+      "form": "became",
+      "pronunciation": "/bɪˈkeɪm/"
+    },
+    "past_participle": {
+      "form": "become",
+      "pronunciation": "/bɪˈkʌm/"
+    },
+    "meaning": "Trở nên"
+  },
+  {
+    "word": "befall",
+    "infinitive": {
+      "form": "befall",
+      "pronunciation": "/bɪˈfɔːl/"
+    },
+    "past_simple": {
+      "form": "befell",
+      "pronunciation": "/bɪˈfɛl/"
+    },
+    "past_participle": {
+      "form": "befallen",
+      "pronunciation": "/bɪˈfɔːlən/"
+    },
+    "meaning": "Xảy đến"
+  },
+  {
+    "word": "Begin",
+    "infinitive": {
+      "form": "Begin",
+      "pronunciation": "/bɪˈɡɪn/"
+    },
+    "past_simple": {
+      "form": "Began",
+      "pronunciation": "/bɪˈɡæn/"
+    },
+    "past_participle": {
+      "form": "Begun",
+      "pronunciation": "/bɪˈɡʌn/"
+    },
+    "meaning": "Bắt đầu"
+  },
+  {
+    "word": "Behold",
+    "infinitive": {
+      "form": "Behold",
+      "pronunciation": "/bɪˈhəʊld/"
+    },
+    "past_simple": {
+      "form": "Beheld",
+      "pronunciation": "/bɪˈhɛld/"
+    },
+    "past_participle": {
+      "form": "Beheld",
+      "pronunciation": "/bɪˈhɛld/"
+    },
+    "meaning": "Ngắm nhìn"
+  },
+  {
+    "word": "Bend",
+    "infinitive": {
+      "form": "Bend",
+      "pronunciation": "/bend/"
+    },
+    "past_simple": {
+      "form": "Bent",
+      "pronunciation": "/bent/"
+    },
+    "past_participle": {
+      "form": "Bent",
+      "pronunciation": "/bent/"
+    },
+    "meaning": "Bẻ cong"
+  },
+  {
+    "word": "Beset",
+    "infinitive": {
+      "form": "Beset",
+      "pronunciation": "/bɪˈsɛt/"
+    },
+    "past_simple": {
+      "form": "Beset",
+      "pronunciation": "/bɪˈsɛt/"
+    },
+    "past_participle": {
+      "form": "Beset",
+      "pronunciation": "/bɪˈsɛt/"
+    },
+    "meaning": "Bao quanh"
+  },
+  {
+    "word": "bespeak",
+    "infinitive": {
+      "form": "bespeak",
+      "pronunciation": "/bɪˈspiːk/"
+    },
+    "past_simple": {
+      "form": "bespoke",
+      "pronunciation": "/bɪˈspəʊk/"
+    },
+    "past_participle": {
+      "form": "bespoken",
+      "pronunciation": "/bɪˈspəʊkən/"
+    },
+    "meaning": "Chứng tỏ"
+  },
+  {
+    "word": "bid",
+    "infinitive": {
+      "form": "bid",
+      "pronunciation": "/bɪd/"
+    },
+    "past_simple": {
+      "form": ["Bade", "bid"],
+      "pronunciation": ["/bæd/", "/bɪd/"]
+    },
+    "past_participle": {
+      "form": ["bidden", "bid"],
+      "pronunciation": ["/bɪdən/", "/bɪd/"]
+    },
+    "meaning": "Trả giá"
+  },
+  {
+    "word": "Bind",
+    "infinitive": {
+      "form": "Bind",
+      "pronunciation": "/baɪnd/"
+    },
+    "past_simple": {
+      "form": "Bound",
+      "pronunciation": "/baʊnd/"
+    },
+    "past_participle": {
+      "form": "Bound",
+      "pronunciation": "/baʊnd/"
+    },
+    "meaning": "Buộc, trói"
+  },
+  {
+    "word": "Bleed",
+    "infinitive": {
+      "form": "Bleed",
+      "pronunciation": "/bliːd/"
+    },
+    "past_simple": {
+      "form": "Bled",
+      "pronunciation": "/bled/"
+    },
+    "past_participle": {
+      "form": "Bled",
+      "pronunciation": "/bled/"
+    },
+    "meaning": "Chảy máu"
+  },
+  {
+    "word": "Blow",
+    "infinitive": {
+      "form": "Blow",
+      "pronunciation": "/bloʊ/"
+    },
+    "past_simple": {
+      "form": "Blew",
+      "pronunciation": "/bluː/"
+    },
+    "past_participle": {
+      "form": "Blown",
+      "pronunciation": "/bloʊn/"
+    },
+    "meaning": "Thổi"
+  },
+  {
+    "word": "Break",
+    "infinitive": {
+      "form": "Break",
+      "pronunciation": "/breɪk/"
+    },
+    "past_simple": {
+      "form": "Broke",
+      "pronunciation": "/broʊk/"
+    },
+    "past_participle": {
+      "form": "Broken",
+      "pronunciation": "/ˈbroʊkən/"
+    },
+    "meaning": "Đập vỡ"
+  },
+  {
+    "word": "Breed",
+    "infinitive": {
+      "form": "Breed",
+      "pronunciation": "/briːd/"
+    },
+    "past_simple": {
+      "form": "Bred",
+      "pronunciation": "/brɛd/"
+    },
+    "past_participle": {
+      "form": "Bred",
+      "pronunciation": "/brɛd/"
+    },
+    "meaning": "Nuôi; Dạy dỗ"
+  },
+  {
+    "word": "bring",
+    "infinitive": {
+      "form": "bring",
+      "pronunciation": "/brɪŋ/"
+    },
+    "past_simple": {
+      "form": "brought",
+      "pronunciation": "/brɔːt/"
+    },
+    "past_participle": {
+      "form": "brought",
+      "pronunciation": "/brɔːt/"
+    },
+    "meaning": "Mang đến"
+  },
+  {
+    "word": "Broadcast",
+    "infinitive": {
+      "form": "Broadcast",
+      "pronunciation": "/ˈbrɔːdkɑːst/"
+    },
+    "past_simple": {
+      "form": "Broadcast",
+      "pronunciation": "/ˈbrɔːdkɑːst/"
+    },
+    "past_participle": {
+      "form": "Broadcast",
+      "pronunciation": "/ˈbrɔːdkɑːst/"
+    },
+    "meaning": "Phát thanh"
+  },
+  {
+    "word": "Build",
+    "infinitive": {
+      "form": "Build",
+      "pronunciation": "/bɪld/"
+    },
+    "past_simple": {
+      "form": "Built",
+      "pronunciation": "/bɪlt/"
+    },
+    "past_participle": {
+      "form": "Built",
+      "pronunciation": "/bɪlt/"
+    },
+    "meaning": "Xây dựng"
+  },
+  {
+    "word": "burn",
+    "infinitive": {
+      "form": "burn",
+      "pronunciation": "/bɜːn/"
+    },
+    "past_simple": {
+      "form": ["burnt", "burned"],
+      "pronunciation": ["/bɜːnt/", "/bɜːnd/"]
+    },
+    "past_participle": {
+      "form": ["burnt", "burned"],
+      "pronunciation": ["/bɜːnt/", "/bɜːnd/"]
+    },
+    "meaning": "Đốt; Cháy"
+  },
+  {
+    "word": "Buy",
+    "infinitive": {
+      "form": "Buy",
+      "pronunciation": "/baɪ/"
+    },
+    "past_simple": {
+      "form": "Bought",
+      "pronunciation": "/bɔːt/"
+    },
+    "past_participle": {
+      "form": "Bought",
+      "pronunciation": "/bɔːt/"
+    },
+    "meaning": "Mua"
+  },
+  {
+    "word": "Cast",
+    "infinitive": {
+      "form": "Cast",
+      "pronunciation": "/kɑːst/"
+    },
+    "past_simple": {
+      "form": "Cast",
+      "pronunciation": "/kɑːst/"
+    },
+    "past_participle": {
+      "form": "Cast",
+      "pronunciation": "/kɑːst/"
+    },
+    "meaning": "Ném; Tung"
+  },
+  {
+    "word": "Catch",
+    "infinitive": {
+      "form": "Catch",
+      "pronunciation": "/kætʃ/"
+    },
+    "past_simple": {
+      "form": "Caught",
+      "pronunciation": "/kɔːt/"
+    },
+    "past_participle": {
+      "form": "Caught",
+      "pronunciation": "/kɔːt/"
+    },
+    "meaning": "Bắt; Chụp"
+  },
+  {
+    "word": "Chide",
+    "infinitive": {
+      "form": "Chide",
+      "pronunciation": "/tʃaɪd/"
+    },
+    "past_simple": {
+      "form": ["chid", "chided"],
+      "pronunciation": ["/tʃɪd/ ", "/ˈtʃaɪdɪd/"]
+    },
+    "past_participle": {
+      "form": ["chidden", "chided"],
+      "pronunciation": ["/tʃɪd/", "/ˈtʃaɪdɪd/"]
+    },
+    "meaning": "Mắng; Chửi"
+  },
+  {
+    "word": "Choose",
+    "infinitive": {
+      "form": "Choose",
+      "pronunciation": "/tʃuːz/"
+    },
+    "past_simple": {
+      "form": "Chose",
+      "pronunciation": "/tʃoʊz/"
+    },
+    "past_participle": {
+      "form": "Chosen",
+      "pronunciation": "/ˈtʃoʊzən/"
+    },
+    "meaning": "Chọn; Lựa"
+  },
+  {
+    "word": "Cleave",
+    "infinitive": {
+      "form": "Cleave",
+      "pronunciation": "/kliːv/"
+    },
+    "past_simple": {
+      "form": "Cleft",
+      "pronunciation": ["/klɛft/", "/kləʊv/"]
+    },
+    "past_participle": {
+      "form": "Cleft",
+      "pronunciation": ["/klɛft/", "/kləʊv/"]
+    },
+    "meaning": "Chẻ; Tách hai"
+  },
+  {
+    "word": "Cleave",
+    "infinitive": {
+      "form": "Cleave",
+      "pronunciation": "/kliːv/"
+    },
+    "past_simple": {
+      "form": "Clave",
+      "pronunciation": "/kliːvd/"
+    },
+    "past_participle": {
+      "form": "Cleaved",
+      "pronunciation": "/kliːvd/"
+    },
+    "meaning": "Dính chặt"
+  },
+  {
+    "word": "Come",
+    "infinitive": {
+      "form": "Come",
+      "pronunciation": "/kʌm/"
+    },
+    "past_simple": {
+      "form": "Came",
+      "pronunciation": "/keɪm/"
+    },
+    "past_participle": {
+      "form": "Come",
+      "pronunciation": "/kʌm/"
+    },
+    "meaning": "Đến; Đi đến"
+  },
+  {
+    "word": "Cost",
+    "infinitive": {
+      "form": "Cost",
+      "pronunciation": "/kɒst/"
+    },
+    "past_simple": {
+      "form": "Cost",
+      "pronunciation": "/kɒst/"
+    },
+    "past_participle": {
+      "form": "Cost",
+      "pronunciation": "/kɒst/"
+    },
+    "meaning": "Có giá là"
+  },
+  {
+    "word": "Crow",
+    "infinitive": {
+      "form": "Crow",
+      "pronunciation": "/krəʊ/"
+    },
+    "past_simple": {
+      "form": "Crew",
+      "pronunciation": "/krəʊd/"
+    },
+    "past_participle": {
+      "form": "Crowed",
+      "pronunciation": "/krəʊd/"
+    },
+    "meaning": "Gáy (gà)"
+  },
+  {
+    "word": "Cut",
+    "infinitive": {
+      "form": "Cut",
+      "pronunciation": "/kʌt/"
+    },
+    "past_simple": {
+      "form": "Cut",
+      "pronunciation": "/kʌt/"
+    },
+    "past_participle": {
+      "form": "Cut",
+      "pronunciation": "/kʌt/"
+    },
+    "meaning": "Cắn; Chặt"
+  },
+  {
+    "word": "Deal",
+    "infinitive": {
+      "form": "Deal",
+      "pronunciation": "/diːl/"
+    },
+    "past_simple": {
+      "form": "Dealt",
+      "pronunciation": "/delt/"
+    },
+    "past_participle": {
+      "form": "Dealt",
+      "pronunciation": "/delt/"
+    },
+    "meaning": "giao thiệp"
+  },
+  {
+    "word": "Dig",
+    "infinitive": {
+      "form": "Dig",
+      "pronunciation": "/dɪɡ/"
+    },
+    "past_simple": {
+      "form": "Dug",
+      "pronunciation": "/dʌɡ/"
+    },
+    "past_participle": {
+      "form": "Dug",
+      "pronunciation": "/dʌɡ/"
+    },
+    "meaning": "Đào"
+  },
+  {
+    "word": "Dive",
+    "infinitive": {
+      "form": "Dive",
+      "pronunciation": "/daɪv/"
+    },
+    "past_simple": {
+      "form": ["Dove", "Dived"],
+      "pronunciation": ["/doʊv/", "/daɪvd/"]
+    },
+    "past_participle": {
+      "form": "Dived",
+      "pronunciation": "/daɪvd/"
+    },
+    "meaning": "Lặn; Lao xuống"
+  },
+  {
+    "word": "Draw",
+    "infinitive": {
+      "form": "Draw",
+      "pronunciation": "/drɔː/"
+    },
+    "past_simple": {
+      "form": "Drew",
+      "pronunciation": "/druː/"
+    },
+    "past_participle": {
+      "form": "Drawn",
+      "pronunciation": "/drɔːn/"
+    },
+    "meaning": "Vẽ; Kéo"
+  },
+  {
+    "word": "Dream",
+    "infinitive": {
+      "form": "Dream",
+      "pronunciation": "/driːm/"
+    },
+    "past_simple": {
+      "form": ["Dreamt", "Dreamed"],
+      "pronunciation": ["/drɛmt/", "/driːmd/"]
+    },
+    "past_participle": {
+      "form": ["Dreamt", "Dreamed"],
+      "pronunciation": ["/drɛmt/", "/driːmd/"]
+    },
+    "meaning": "Mơ thấy"
+  },
+  {
+    "word": "Drink",
+    "infinitive": {
+      "form": "Drink",
+      "pronunciation": "/drɪŋk/"
+    },
+    "past_simple": {
+      "form": "Drank",
+      "pronunciation": "/dræŋk/"
+    },
+    "past_participle": {
+      "form": "Drunk",
+      "pronunciation": "/drʌŋk/"
+    },
+    "meaning": "Uống"
+  },
+  {
+    "word": "Drive",
+    "infinitive": {
+      "form": "Drive",
+      "pronunciation": "/draɪv/"
+    },
+    "past_simple": {
+      "form": "Drove",
+      "pronunciation": "/droʊv/"
+    },
+    "past_participle": {
+      "form": "Driven",
+      "pronunciation": "/ˈdrɪvən/"
+    },
+    "meaning": "Lái xe"
+  },
+  {
+    "word": "Dwell",
+    "infinitive": {
+      "form": "Dwell",
+      "pronunciation": "/dwɛl/"
+    },
+    "past_simple": {
+      "form": "Dwelt",
+      "pronunciation": "/dwɛlt/"
+    },
+    "past_participle": {
+      "form": "Dwelt",
+      "pronunciation": "/dwɛlt/"
+    },
+    "meaning": "Trú ngụ"
+  },
+  {
+    "word": "Eat",
+    "infinitive": {
+      "form": "Eat",
+      "pronunciation": "/iːt/"
+    },
+    "past_simple": {
+      "form": "Ate",
+      "pronunciation": "/eɪt/"
+    },
+    "past_participle": {
+      "form": "Eaten",
+      "pronunciation": "/ˈiːtn̩/"
+    },
+    "meaning": "Ăn"
+  },
+  {
+    "word": "Fall",
+    "infinitive": {
+      "form": "Fall",
+      "pronunciation": "/fɔːl/"
+    },
+    "past_simple": {
+      "form": "Fell",
+      "pronunciation": "/fel/"
+    },
+    "past_participle": {
+      "form": "Fallen",
+      "pronunciation": "/ˈfɔːlən/"
+    },
+    "meaning": "Ngã; Rơi"
+  },
+  {
+    "word": "Feed",
+    "infinitive": {
+      "form": "Feed",
+      "pronunciation": "/fiːd/"
+    },
+    "past_simple": {
+      "form": "Fed",
+      "pronunciation": "/fed/"
+    },
+    "past_participle": {
+      "form": "Fed",
+      "pronunciation": "/fed/"
+    },
+    "meaning": "cho ăn, ăn, nuôi"
+  },
+  {
+    "word": "Feel",
+    "infinitive": {
+      "form": "Feel",
+      "pronunciation": "/fiːl/"
+    },
+    "past_simple": {
+      "form": "Felt",
+      "pronunciation": "/felt/"
+    },
+    "past_participle": {
+      "form": "Felt",
+      "pronunciation": "/felt/"
+    },
+    "meaning": "Cảm thấy"
+  },
+  {
+    "word": "Fight",
+    "infinitive": {
+      "form": "Fight",
+      "pronunciation": "/faɪt/"
+    },
+    "past_simple": {
+      "form": "Fought",
+      "pronunciation": "/fɔːt/"
+    },
+    "past_participle": {
+      "form": "Fought",
+      "pronunciation": "/fɔːt/"
+    },
+    "meaning": "Chiến đấu"
+  },
+  {
+    "word": "Find",
+    "infinitive": {
+      "form": "Find",
+      "pronunciation": "/faɪnd/"
+    },
+    "past_simple": {
+      "form": "Found",
+      "pronunciation": "/faʊnd/"
+    },
+    "past_participle": {
+      "form": "Found",
+      "pronunciation": "/faʊnd/"
+    },
+    "meaning": "Tìm thấy; Thấy"
+  },
+  {
+    "word": "Flee",
+    "infinitive": {
+      "form": "Flee",
+      "pronunciation": "/fliː/"
+    },
+    "past_simple": {
+      "form": "Fled",
+      "pronunciation": "/flɛd/"
+    },
+    "past_participle": {
+      "form": "Fled",
+      "pronunciation": "/flɛd/"
+    },
+    "meaning": "Chạy trốn"
+  },
+  {
+    "word": "Fling",
+    "infinitive": {
+      "form": "Fling",
+      "pronunciation": "/flɪŋ/"
+    },
+    "past_simple": {
+      "form": "Flung",
+      "pronunciation": "/flʌŋ/"
+    },
+    "past_participle": {
+      "form": "Flung",
+      "pronunciation": "/flʌŋ/"
+    },
+    "meaning": "Tung; Quang"
+  },
+  {
+    "word": "Fly",
+    "infinitive": {
+      "form": "Fly",
+      "pronunciation": "/flaɪ/"
+    },
+    "past_simple": {
+      "form": "Flew",
+      "pronunciation": "/fluː/"
+    },
+    "past_participle": {
+      "form": "Flown",
+      "pronunciation": "/floʊn/"
+    },
+    "meaning": "Bay"
+  },
+  {
+    "word": "Forbear",
+    "infinitive": {
+      "form": "Forbear",
+      "pronunciation": "/fɔːrˈbɛər/"
+    },
+    "past_simple": {
+      "form": "Forbore",
+      "pronunciation": "/fɔːrˈbɔːr/"
+    },
+    "past_participle": {
+      "form": "Forborne",
+      "pronunciation": "/fɔːrˈbɔːrn/"
+    },
+    "meaning": "Nhịn"
+  },
+  {
+    "word": "Forbid",
+    "infinitive": {
+      "form": "Forbid",
+      "pronunciation": "/fərˈbɪd/"
+    },
+    "past_simple": {
+      "form": "Forbade",
+      "pronunciation": "/fərˈbæd/"
+    },
+    "past_participle": {
+      "form": "Forbidden",
+      "pronunciation": "/fərˈbɪdən/"
+    },
+    "meaning": "Cấm; Cấm đoán"
+  },
+  {
+    "word": "Forecast",
+    "infinitive": {
+      "form": "Forecast",
+      "pronunciation": "/ˈfɔːrkɑːst/"
+    },
+    "past_simple": {
+      "form": "Forecasted",
+      "pronunciation": "/ˈfɔːrkɑːst/"
+    },
+    "past_participle": {
+      "form": "Forecasted",
+      "pronunciation": "/ˈfɔːrkɑːst/"
+    },
+    "meaning": "Tiên đoán"
+  },
+  {
+    "word": "Foresee",
+    "infinitive": {
+      "form": "Foresee",
+      "pronunciation": "/fɔːrˈsiː/"
+    },
+    "past_simple": {
+      "form": "Foresaw",
+      "pronunciation": "/fɔːrˈsɔː/"
+    },
+    "past_participle": {
+      "form": "Foreseen",
+      "pronunciation": "/fɔːrˈsiːn/"
+    },
+    "meaning": "Thấy trước"
+  },
+  {
+    "word": "Foretell",
+    "infinitive": {
+      "form": "Foretell",
+      "pronunciation": "/fɔːrˈtɛl/"
+    },
+    "past_simple": {
+      "form": "Foretold",
+      "pronunciation": "/fɔːrˈtoʊld/"
+    },
+    "past_participle": {
+      "form": "Foretold",
+      "pronunciation": "/fɔːrˈtoʊld/"
+    },
+    "meaning": "Đoán trước"
+  },
+  {
+    "word": "Forget",
+    "infinitive": {
+      "form": "Forget",
+      "pronunciation": "/fərˈɡɛt/"
+    },
+    "past_simple": {
+      "form": "Forgot",
+      "pronunciation": "/fərˈɡɒt/"
+    },
+    "past_participle": {
+      "form": "Forgotten",
+      "pronunciation": "/fərˈɡɒtn/"
+    },
+    "meaning": "Quên"
+  },
+  {
+    "word": "Forgive",
+    "infinitive": {
+      "form": "Forgive",
+      "pronunciation": "/fəˈɡɪv/"
+    },
+    "past_simple": {
+      "form": "Forgave",
+      "pronunciation": "/fəˈɡeɪv/"
+    },
+    "past_participle": {
+      "form": "Forgiven",
+      "pronunciation": "/fəˈɡɪvən/"
+    },
+    "meaning": "Tha thứ"
+  },
+  {
+    "word": "Forsake",
+    "infinitive": {
+      "form": "Forsake",
+      "pronunciation": "/fɔːrˈseɪk/"
+    },
+    "past_simple": {
+      "form": "Forsook",
+      "pronunciation": "/fɔːrˈsʊk/"
+    },
+    "past_participle": {
+      "form": "Forsaken",
+      "pronunciation": "/fɔːrˈseɪkən/"
+    },
+    "meaning": "Ruồng bỏ"
+  },
+  {
+    "word": "Freeze",
+    "infinitive": {
+      "form": "Freeze",
+      "pronunciation": "/friːz/"
+    },
+    "past_simple": {
+      "form": "Froze",
+      "pronunciation": "/froʊz/"
+    },
+    "past_participle": {
+      "form": "Frozen",
+      "pronunciation": "/ˈfroʊzn̩/"
+    },
+    "meaning": "Làm đông"
+  },
+  {
+    "word": "Get",
+    "infinitive": {
+      "form": "Get",
+      "pronunciation": "/ɡɛt/"
+    },
+    "past_simple": {
+      "form": "Got",
+      "pronunciation": "/ɡɒt/"
+    },
+    "past_participle": {
+      "form": ["Got", "Gotten"],
+      "pronunciation": "/ˈɡɒtn̩/"
+    },
+    "meaning": "Có được"
+  },
+  {
+    "word": "Gild",
+    "infinitive": {
+      "form": "Gild",
+      "pronunciation": "/ɡɪld/"
+    },
+    "past_simple": {
+      "form": "Gilt / Gilded",
+      "pronunciation": "/ɡɪlt/ /ɡɪldəd/"
+    },
+    "past_participle": {
+      "form": "Gilt / Gilded",
+      "pronunciation": "/ɡɪlt/ /ɡɪldəd/"
+    },
+    "meaning": "Mạ vàng"
+  },
+  {
+    "word": "Gird",
+    "infinitive": {
+      "form": "Gird",
+      "pronunciation": "/ɡɜːrd/"
+    },
+    "past_simple": {
+      "form": "Girt / Girded",
+      "pronunciation": "/ɡɜːrt/ /ɡɜːrdəd/"
+    },
+    "past_participle": {
+      "form": "Girt / Girded",
+      "pronunciation": "/ɡɜːrt/ /ɡɜːrdəd/"
+    },
+    "meaning": "Đeo vào"
+  },
+  {
+    "word": "Give",
+    "infinitive": {
+      "form": "Give",
+      "pronunciation": "/ɡɪv/"
+    },
+    "past_simple": {
+      "form": "Gave",
+      "pronunciation": "/ɡeɪv/"
+    },
+    "past_participle": {
+      "form": "Given",
+      "pronunciation": "/ˈɡɪvən/"
+    },
+    "meaning": "Cho"
+  },
+  {
+    "word": "Go",
+    "infinitive": {
+      "form": "Go",
+      "pronunciation": "/ɡoʊ/"
+    },
+    "past_simple": {
+      "form": "Went",
+      "pronunciation": "/wɛnt/"
+    },
+    "past_participle": {
+      "form": "Gone",
+      "pronunciation": "/ɡɒn/"
+    },
+    "meaning": "Đi"
+  },
+  {
+    "word": "Grind",
+    "infinitive": {
+      "form": "Grind",
+      "pronunciation": "/ɡraɪnd/"
+    },
+    "past_simple": {
+      "form": "Ground",
+      "pronunciation": "/ɡraʊnd/"
+    },
+    "past_participle": {
+      "form": "Ground",
+      "pronunciation": "/ɡraʊnd/"
+    },
+    "meaning": "Nghiền; Xay"
+  },
+  {
+    "word": "Grow",
+    "infinitive": {
+      "form": "Grow",
+      "pronunciation": "/ɡroʊ/"
+    },
+    "past_simple": {
+      "form": "Grew",
+      "pronunciation": "/ɡruː/"
+    },
+    "past_participle": {
+      "form": "Grown",
+      "pronunciation": "/ɡroʊn/"
+    },
+    "meaning": "Mọc; Trồng"
+  },
+  {
+    "word": "Hang",
+    "infinitive": {
+      "form": "Hang",
+      "pronunciation": "/hæŋ/"
+    },
+    "past_simple": {
+      "form": "Hung",
+      "pronunciation": "/hʌŋ/"
+    },
+    "past_participle": {
+      "form": "Hung",
+      "pronunciation": "/hʌŋ/"
+    },
+    "meaning": "Móc lên; Treo lên"
+  },
+  {
+    "word": "Hear",
+    "infinitive": {
+      "form": "Hear",
+      "pronunciation": "/hɪər/"
+    },
+    "past_simple": {
+      "form": "Heard",
+      "pronunciation": "/hɜːrd/"
+    },
+    "past_participle": {
+      "form": "Heard",
+      "pronunciation": "/hɜːrd/"
+    },
+    "meaning": "Nghe"
+  },
+  {
+    "word": "Have",
+    "infinitive": {
+      "form": "Have",
+      "pronunciation": "/hæv/"
+    },
+    "past_simple": {
+      "form": "Had",
+      "pronunciation": "/hæd/"
+    },
+    "past_participle": {
+      "form": "Had",
+      "pronunciation": "/hæd/"
+    },
+    "meaning": "Trục lên"
+  },
+  {
+    "word": "Hide",
+    "infinitive": {
+      "form": "Hide",
+      "pronunciation": "/haɪd/"
+    },
+    "past_simple": {
+      "form": "Hid",
+      "pronunciation": "/hɪd/"
+    },
+    "past_participle": {
+      "form": "Hidden",
+      "pronunciation": "/ˈhɪdn/"
+    },
+    "meaning": "Giấu; Trốn; Nấp"
+  },
+  {
+    "word": "Hit",
+    "infinitive": {
+      "form": "Hit",
+      "pronunciation": "/hɪt/"
+    },
+    "past_simple": {
+      "form": "Hit",
+      "pronunciation": "/hɪt/"
+    },
+    "past_participle": {
+      "form": "Hit",
+      "pronunciation": "/hɪt/"
+    },
+    "meaning": "Đụng"
+  },
+  {
+    "word": "Hurt",
+    "infinitive": {
+      "form": "Hurt",
+      "pronunciation": "/hɜːrt/"
+    },
+    "past_simple": {
+      "form": "Hurt",
+      "pronunciation": "/hɜːrt/"
+    },
+    "past_participle": {
+      "form": "Hurt",
+      "pronunciation": "/hɜːrt/"
+    },
+    "meaning": "Làm đau"
+  },
+  {
+    "word": "Inlay",
+    "infinitive": {
+      "form": "Inlay",
+      "pronunciation": "/ɪnˈleɪ/"
+    },
+    "past_simple": {
+      "form": "Inlaid",
+      "pronunciation": "/ɪnˈleɪd/"
+    },
+    "past_participle": {
+      "form": "Inlaid",
+      "pronunciation": "/ɪnˈleɪd/"
+    },
+    "meaning": "Cẩn; Khảm"
+  },
+  {
+    "word": "Input",
+    "infinitive": {
+      "form": "Input",
+      "pronunciation": "/ˈɪnpʊt/"
+    },
+    "past_simple": {
+      "form": "Input",
+      "pronunciation": "/ˈɪnpʊt/"
+    },
+    "past_participle": {
+      "form": "Input",
+      "pronunciation": "/ˈɪnpʊt/"
+    },
+    "meaning": "Đưa vào (máy điện toán)"
+  },
+  {
+    "word": "Insert",
+    "infinitive": {
+      "form": "Insert",
+      "pronunciation": "/ˈɪnsɛt/"
+    },
+    "past_simple": {
+      "form": "Insert",
+      "pronunciation": "/ˈɪnsɛt/"
+    },
+    "past_participle": {
+      "form": "Dát; Ghép",
+      "pronunciation": "/ˈɪnsɛt/"
+    },
+    "meaning": "Dát; Ghép"
+  },
+  {
+    "word": "Keep",
+    "infinitive": {
+      "form": "Kept",
+      "pronunciation": "/kiːp/"
+    },
+    "past_simple": {
+      "form": "Kept",
+      "pronunciation": "/kept/"
+    },
+    "past_participle": {
+      "form": "Giữ",
+      "pronunciation": "/kept/"
+    },
+    "meaning": "Giữ"
+  },
+  {
+    "word": "Kneel",
+    "infinitive": {
+      "form": "knelt/ kneeled",
+      "pronunciation": "/niːl/"
+    },
+    "past_simple": {
+      "form": "knelt/ kneeled",
+      "pronunciation": "/nɛlt/"
+    },
+    "past_participle": {
+      "form": "Quỳ",
+      "pronunciation": "/nɛlt/"
+    },
+    "meaning": "Quỳ"
+  },
+  {
+    "word": "Knit",
+    "infinitive": {
+      "form": "knit/ knitted",
+      "pronunciation": "/nɪt/"
+    },
+    "past_simple": {
+      "form": "knit/ knitted",
+      "pronunciation": "/nɪtɪd/"
+    },
+    "past_participle": {
+      "form": "Đan",
+      "pronunciation": "/nɪtɪd/"
+    },
+    "meaning": "Đan"
+  },
+  {
+    "word": "Know",
+    "infinitive": {
+      "form": "Knew",
+      "pronunciation": "/noʊ/"
+    },
+    "past_simple": {
+      "form": "Known",
+      "pronunciation": "/njuː/"
+    },
+    "past_participle": {
+      "form": "Biết; Quen biết",
+      "pronunciation": "/noʊn/"
+    },
+    "meaning": "Biết; Quen biết"
+  },
+  {
+    "word": "Lay",
+    "infinitive": {
+      "form": "Laid",
+      "pronunciation": "/leɪ/"
+    },
+    "past_simple": {
+      "form": "Laid",
+      "pronunciation": "/leɪd/"
+    },
+    "past_participle": {
+      "form": "Đặt; Để",
+      "pronunciation": "/leɪd/"
+    },
+    "meaning": "Đặt; Để"
+  },
+  {
+    "word": "Lead",
+    "infinitive": {
+      "form": "Led",
+      "pronunciation": "/liːd/"
+    },
+    "past_simple": {
+      "form": "Led",
+      "pronunciation": "/led/"
+    },
+    "past_participle": {
+      "form": "Dẫn dắt; Lãnh đạo",
+      "pronunciation": "/led/"
+    },
+    "meaning": "Dẫn dắt; Lãnh đạo"
+  },
+  {
+    "word": "Leap",
+    "infinitive": {
+      "form": "Leapt",
+      "pronunciation": "/liːp/"
+    },
+    "past_simple": {
+      "form": "Leapt",
+      "pronunciation": ["/lɛpt/", "/liːpt/"]
+    },
+    "past_participle": {
+      "form": "Nhảy; Nhảy qua",
+      "pronunciation": ["/lɛpt/", "/liːpt/"]
+    },
+    "meaning": "Nhảy; Nhảy qua"
+  },
+  {
+    "word": "Learn",
+    "infinitive": {
+      "form": "Learn",
+      "pronunciation": "/lɜːrn/"
+    },
+    "past_simple": {
+      "form": ["learn", "learned"],
+      "pronunciation": ["/lɜːrnd/", "/lɜːnt/"]
+    },
+    "past_participle": {
+      "form": ["learn", "learned"],
+      "pronunciation": ["/lɜːrnd/", "/lɜːnt/"]
+    },
+    "meaning": "Học; Được biết"
+  },
+  {
+    "word": "Leave",
+    "infinitive": {
+      "form": "Left",
+      "pronunciation": "/liːv/"
+    },
+    "past_simple": {
+      "form": "Left",
+      "pronunciation": "/left/"
+    },
+    "past_participle": {
+      "form": "Ra đi; Để lại",
+      "pronunciation": "/left/"
+    },
+    "meaning": "Ra đi; Để lại"
+  },
+  {
+    "word": "Lend",
+    "infinitive": {
+      "form": "Lent",
+      "pronunciation": "/lend/"
+    },
+    "past_simple": {
+      "form": "Lent",
+      "pronunciation": "/lent/"
+    },
+    "past_participle": {
+      "form": "Cho mượn (vay)",
+      "pronunciation": "/lent/"
+    },
+    "meaning": "Cho mượn (vay)"
+  },
+  {
+    "word": "Let",
+    "infinitive": {
+      "form": "Let",
+      "pronunciation": "/let/"
+    },
+    "past_simple": {
+      "form": "Let",
+      "pronunciation": "/let/"
+    },
+    "past_participle": {
+      "form": "Cho phép; Để cho",
+      "pronunciation": "/let/"
+    },
+    "meaning": "Cho phép; Để cho"
+  },
+  {
+    "word": "Lie",
+    "infinitive": {
+      "form": "Lay",
+      "pronunciation": "/laɪ/"
+    },
+    "past_simple": {
+      "form": "Lain",
+      "pronunciation": "/leɪ/"
+    },
+    "past_participle": {
+      "form": "Nằm",
+      "pronunciation": "/leɪn/"
+    },
+    "meaning": "Nằm"
+  },
+  {
+    "word": "Light",
+    "infinitive": {
+      "form": "lit/lighted",
+      "pronunciation": "/laɪt/"
+    },
+    "past_simple": {
+      "form": "lit/lighted",
+      "pronunciation": "/lɪt/"
+    },
+    "past_participle": {
+      "form": "Thắp sáng",
+      "pronunciation": "/lɪt/"
+    },
+    "meaning": "Thắp sáng"
+  },
+  {
+    "word": "Lose",
+    "infinitive": {
+      "form": "Lost",
+      "pronunciation": "/luːz/"
+    },
+    "past_simple": {
+      "form": "Lost",
+      "pronunciation": "/lɒst/"
+    },
+    "past_participle": {
+      "form": "Làm mất",
+      "pronunciation": "/lɒst/"
+    },
+    "meaning": "Làm mất"
+  },
+  {
+    "word": "Make",
+    "infinitive": {
+      "form": "Made",
+      "pronunciation": "/meɪk/"
+    },
+    "past_simple": {
+      "form": "Made",
+      "pronunciation": "/meɪd/"
+    },
+    "past_participle": {
+      "form": "Chế tạo; Sản xuất",
+      "pronunciation": "/meɪd/"
+    },
+    "meaning": "Chế tạo; Sản xuất"
+  },
+  {
+    "word": "Mean",
+    "infinitive": {
+      "form": "Mean",
+      "pronunciation": "/miːn/"
+    },
+    "past_simple": {
+      "form": "Meant",
+      "pronunciation": "/ment/"
+    },
+    "past_participle": {
+      "form": "Meant",
+      "pronunciation": "/ment/"
+    },
+    "meaning": "Có nghĩa là"
+  },
+  {
+    "word": "Meet",
+    "infinitive": {
+      "form": "Meet",
+      "pronunciation": "/miːt/"
+    },
+    "past_simple": {
+      "form": "Met",
+      "pronunciation": "/met/"
+    },
+    "past_participle": {
+      "form": "Met",
+      "pronunciation": "/met/"
+    },
+    "meaning": "Gặp mặt"
+  },
+  {
+    "word": "Mislay",
+    "infinitive": {
+      "form": "Mislaid",
+      "pronunciation": "/mɪsˈleɪ/"
+    },
+    "past_simple": {
+      "form": "Mislaid",
+      "pronunciation": "/mɪsˈleɪd/"
+    },
+    "past_participle": {
+      "form": "Mislaid",
+      "pronunciation": "/mɪsˈleɪd/"
+    },
+    "meaning": "Để lạc mất"
+  },
+  {
+    "word": "Misread",
+    "infinitive": {
+      "form": "Misread",
+      "pronunciation": "/ˌmɪsˈriːd/"
+    },
+    "past_simple": {
+      "form": "Misread",
+      "pronunciation": "/ˌmɪsˈrɛd/"
+    },
+    "past_participle": {
+      "form": "Misread",
+      "pronunciation": "/ˌmɪsˈrɛd/"
+    },
+    "meaning": "Đọc sai"
+  },
+  {
+    "word": "Misspell",
+    "infinitive": {
+      "form": "Misspell",
+      "pronunciation": "/ˌmɪsˈspɛl/"
+    },
+    "past_simple": {
+      "form": "Misspelt",
+      "pronunciation": "/ˌmɪsˈspɛlt/"
+    },
+    "past_participle": {
+      "form": "Misspelt",
+      "pronunciation": "/ˌmɪsˈspɛlt/"
+    },
+    "meaning": "Viết sai chính tả"
+  },
+  {
+    "word": "Mistake",
+    "infinitive": {
+      "form": "Mistake",
+      "pronunciation": "/mɪˈsteɪk/"
+    },
+    "past_simple": {
+      "form": "Mistook",
+      "pronunciation": "/mɪsˈtʊk/"
+    },
+    "past_participle": {
+      "form": "Mistaken",
+      "pronunciation": "/mɪsˈteɪkən/"
+    },
+    "meaning": "Phạm lỗi; Lầm lẫn"
+  },
+  {
+    "word": "Misunderstand",
+    "infinitive": {
+      "form": "Misunderstand",
+      "pronunciation": "/ˌmɪsʌndərˈstænd/"
+    },
+    "past_simple": {
+      "form": "Misunderstood",
+      "pronunciation": "/ˌmɪsʌndərˈstʊd/"
+    },
+    "past_participle": {
+      "form": "Misunderstood",
+      "pronunciation": "/ˌmɪsʌndərˈstʊd/"
+    },
+    "meaning": "Hiểu lầm"
+  },
+  {
+    "word": "Mow",
+    "infinitive": {
+      "form": "Mow",
+      "pronunciation": "/moʊ/"
+    },
+    "past_simple": {
+      "form": "Mowed",
+      "pronunciation": "/moʊd/"
+    },
+    "past_participle": {
+      "form": "mown/ mowed",
+      "pronunciation": "/moʊn/"
+    },
+    "meaning": "Cắt cỏ"
+  },
+  {
+    "word": "Outbid",
+    "infinitive": {
+      "form": "Outbid",
+      "pronunciation": "/aʊtˈbɪd/"
+    },
+    "past_simple": {
+      "form": "Outbid",
+      "pronunciation": "/aʊtˈbɪd/"
+    },
+    "past_participle": {
+      "form": "Outbid",
+      "pronunciation": "/aʊtˈbɪd/"
+    },
+    "meaning": "Trả hơn giá"
+  },
+  {
+    "word": "Outdo",
+    "infinitive": {
+      "form": "Outdo",
+      "pronunciation": "/ˌaʊtˈduː/"
+    },
+    "past_simple": {
+      "form": "Outdid",
+      "pronunciation": "/ˌaʊtˈdɪd/"
+    },
+    "past_participle": {
+      "form": "Outdone",
+      "pronunciation": "/ˌaʊtˈdɪd/"
+    },
+    "meaning": "Làm giỏi hơn"
+  },
+  {
+    "word": "Outgrow",
+    "infinitive": {
+      "form": "Outgrow",
+      "pronunciation": "/aʊtˈɡroʊ/"
+    },
+    "past_simple": {
+      "form": "Outgrew",
+      "pronunciation": "/aʊtˈɡruː/"
+    },
+    "past_participle": {
+      "form": "Outgrown",
+      "pronunciation": "/aʊtˈɡroʊn/"
+    },
+    "meaning": "Lớn nhanh hơn"
+  },
+  {
+    "word": "Output",
+    "infinitive": {
+      "form": "Output",
+      "pronunciation": "/ˈaʊtpʊt/"
+    },
+    "past_simple": {
+      "form": "Output",
+      "pronunciation": "/ˈaʊtpʊt/"
+    },
+    "past_participle": {
+      "form": "Output",
+      "pronunciation": "/ˈaʊtpʊt/"
+    },
+    "meaning": "Cho ra (dữ kiện)"
+  },
+  {
+    "word": "Outrun",
+    "infinitive": {
+      "form": "Outrun",
+      "pronunciation": "/aʊtˈrʌn/"
+    },
+    "past_simple": {
+      "form": "Outran",
+      "pronunciation": "/aʊtˈræn/"
+    },
+    "past_participle": {
+      "form": "Outrun",
+      "pronunciation": "/aʊtˈrʌn/"
+    },
+    "meaning": "Chạy nhanh hơn; Vượt giá"
+  },
+  {
+    "word": "Outsell",
+    "infinitive": {
+      "form": "Outsell",
+      "pronunciation": "/aʊtˈsɛl/"
+    },
+    "past_simple": {
+      "form": "Outsold",
+      "pronunciation": "/aʊtˈsoʊld/"
+    },
+    "past_participle": {
+      "form": "Outsold",
+      "pronunciation": "/aʊtˈsoʊld/"
+    },
+    "meaning": "Bán nhanh hơn"
+  },
+  {
+    "word": "Overcome",
+    "infinitive": {
+      "form": "Overcome",
+      "pronunciation": "/ˌoʊvərˈkʌm/"
+    },
+    "past_simple": {
+      "form": "Overcame",
+      "pronunciation": "/ˌoʊvərˈkeɪm/"
+    },
+    "past_participle": {
+      "form": "Overcome",
+      "pronunciation": "/ˌoʊvərˈkʌm/"
+    },
+    "meaning": "Khắc phục"
+  },
+  {
+    "word": "Overeat",
+    "infinitive": {
+      "form": "Overeat",
+      "pronunciation": "/ˌoʊvərˈiːt/"
+    },
+    "past_simple": {
+      "form": "Overate",
+      "pronunciation": "/ˌoʊvərˈeɪt/"
+    },
+    "past_participle": {
+      "form": "Overeaten",
+      "pronunciation": "/ˌoʊvərˈiːtn/"
+    },
+    "meaning": "Ăn quá nhiều"
+  },
+  {
+    "word": "Overfly",
+    "infinitive": {
+      "form": "Overfly",
+      "pronunciation": "/ˌoʊvərˈflaɪ/"
+    },
+    "past_simple": {
+      "form": "Overflew",
+      "pronunciation": "/ˌoʊvərˈfluː/"
+    },
+    "past_participle": {
+      "form": "Overflown",
+      "pronunciation": "/ˌoʊvərˈfloʊn/"
+    },
+    "meaning": "Bay qua"
+  },
+  {
+    "word": "Overhang",
+    "infinitive": {
+      "form": "Overhang",
+      "pronunciation": "/ˌoʊvərˈhæŋ/"
+    },
+    "past_simple": {
+      "form": "Overhung",
+      "pronunciation": "/ˌoʊvərˈhʌŋ/"
+    },
+    "past_participle": {
+      "form": "Overhung",
+      "pronunciation": "/ˌoʊvərˈhʌŋ/"
+    },
+    "meaning": "Nhô lên trên; Treo lơ lửng"
+  },
+  {
+    "word": "Overhear",
+    "infinitive": {
+      "form": "Overhear",
+      "pronunciation": "/ˌoʊvərˈhɪər/"
+    },
+    "past_simple": {
+      "form": "Overheard",
+      "pronunciation": "/ˌoʊvərˈhɜːrd/"
+    },
+    "past_participle": {
+      "form": "Overheard",
+      "pronunciation": "/ˌoʊvərˈhɜːrd/"
+    },
+    "meaning": "Nghe trộm"
+  },
+  {
+    "word": "Overlay",
+    "infinitive": {
+      "form": "Overlay",
+      "pronunciation": "/ˌoʊvərˈleɪ/"
+    },
+    "past_simple": {
+      "form": "Overlaid",
+      "pronunciation": "/ˌoʊvərˈleɪd/"
+    },
+    "past_participle": {
+      "form": "Overlaid",
+      "pronunciation": "/ˌoʊvərˈleɪd/"
+    },
+    "meaning": "Phủ lên"
+  },
+  {
+    "word": "Overpay",
+    "infinitive": {
+      "form": "Overpay",
+      "pronunciation": "/ˌoʊvərˈpeɪ/"
+    },
+    "past_simple": {
+      "form": "Overpaid",
+      "pronunciation": "/ˌoʊvərˈpeɪd/"
+    },
+    "past_participle": {
+      "form": "Overpaid",
+      "pronunciation": "/ˌoʊvərˈpeɪd/"
+    },
+    "meaning": "Trả quá tiền"
+  },
+  {
+    "word": "Overrun",
+    "infinitive": {
+      "form": "Overrun",
+      "pronunciation": "/ˌoʊvərˈrʌn/"
+    },
+    "past_simple": {
+      "form": "Overran",
+      "pronunciation": "/ˌoʊvərˈræn/"
+    },
+    "past_participle": {
+      "form": "Overrun",
+      "pronunciation": "/ˌoʊvərˈrʌn/"
+    },
+    "meaning": "Tràn ngập"
+  },
+  {
+    "word": "Oversee",
+    "infinitive": {
+      "form": "Oversee",
+      "pronunciation": "/ˌoʊvərˈsiː/"
+    },
+    "past_simple": {
+      "form": "Oversaw",
+      "pronunciation": "/ˌoʊvərˈsɔː/"
+    },
+    "past_participle": {
+      "form": "Overseen",
+      "pronunciation": "/ˌoʊvərˈsiːn/"
+    },
+    "meaning": "Trông nom"
+  },
+  {
+    "word": "Overshoot",
+    "infinitive": {
+      "form": "Overshoot",
+      "pronunciation": "/ˌoʊvərˈʃuːt/"
+    },
+    "past_simple": {
+      "form": "Overshot",
+      "pronunciation": "/ˌoʊvərˈʃɒt/"
+    },
+    "past_participle": {
+      "form": "Overshot",
+      "pronunciation": "/ˌoʊvərˈʃɒt/"
+    },
+    "meaning": "Đi quá đích"
+  },
+  {
+    "word": "Oversleep",
+    "infinitive": {
+      "form": "Oversleep",
+      "pronunciation": "/ˌoʊvərˈsliːp/"
+    },
+    "past_simple": {
+      "form": "Overslept",
+      "pronunciation": "/ˌoʊvərˈslɛpt/"
+    },
+    "past_participle": {
+      "form": "Overslept",
+      "pronunciation": "/ˌoʊvərˈslɛpt/"
+    },
+    "meaning": "Ngủ quên"
+  },
+  {
+    "word": "Overtake",
+    "infinitive": {
+      "form": "Overtake",
+      "pronunciation": "/ˌoʊvərˈteɪk/"
+    },
+    "past_simple": {
+      "form": "Overtook",
+      "pronunciation": "/ˌoʊvərˈtʊk/"
+    },
+    "past_participle": {
+      "form": "Overtaken",
+      "pronunciation": "/ˌoʊvərˈteɪkən/"
+    },
+    "meaning": "Đuổi bắt kịp"
+  },
+  {
+    "word": "Overthrow",
+    "infinitive": {
+      "form": "Overthrow",
+      "pronunciation": "/ˌoʊvərˈθroʊ/"
+    },
+    "past_simple": {
+      "form": "Overthrew",
+      "pronunciation": "/ˌoʊvərˈθruː/"
+    },
+    "past_participle": {
+      "form": "Overthrown",
+      "pronunciation": "/ˌoʊvərˈθroʊn/"
+    },
+    "meaning": "Lật đổ"
+  },
+  {
+    "word": "Pay",
+    "infinitive": {
+      "form": "Pay",
+      "pronunciation": "/peɪ/"
+    },
+    "past_simple": {
+      "form": "Paid",
+      "pronunciation": "/peɪd/"
+    },
+    "past_participle": {
+      "form": "Paid",
+      "pronunciation": "/peɪd/"
+    },
+    "meaning": "Trả (tiền)"
+  },
+  {
+    "word": "Prove",
+    "infinitive": {
+      "form": "Prove",
+      "pronunciation": "/pruːv/"
+    },
+    "past_simple": {
+      "form": "Proved",
+      "pronunciation": "/ˈpruːvən/"
+    },
+    "past_participle": {
+      "form": "proven/proved",
+      "pronunciation": "pruːvd or /ˈpruːvən/"
+    },
+    "meaning": "Chứng minh"
+  },
+  {
+    "word": "Put",
+    "infinitive": {
+      "form": "Put",
+      "pronunciation": "/pʊt/"
+    },
+    "past_simple": {
+      "form": "Put",
+      "pronunciation": "/pʊt/"
+    },
+    "past_participle": {
+      "form": "Put",
+      "pronunciation": "/pʊt/"
+    },
+    "meaning": "Đặt; Để"
+  },
+  {
+    "word": "Read",
+    "infinitive": {
+      "form": "Read",
+      "pronunciation": "/riːd/"
+    },
+    "past_simple": {
+      "form": "Read",
+      "pronunciation": "/rɛd/"
+    },
+    "past_participle": {
+      "form": "Read",
+      "pronunciation": "/rɛd/"
+    },
+    "meaning": "Đọc"
+  },
+  {
+    "word": "Rebuild",
+    "infinitive": {
+      "form": "Rebuild",
+      "pronunciation": "/riːˈbɪld/"
+    },
+    "past_simple": {
+      "form": "Rebuilt",
+      "pronunciation": "/riːˈbɪlt/"
+    },
+    "past_participle": {
+      "form": "Rebuilt",
+      "pronunciation": "/riːˈbɪlt/"
+    },
+    "meaning": "Xây dựng lại"
+  },
+  {
+    "word": "Redo",
+    "infinitive": {
+      "form": "Redo",
+      "pronunciation": "/ˌriːˈduː/"
+    },
+    "past_simple": {
+      "form": "Redid",
+      "pronunciation": "/ˌriːˈdɪd/"
+    },
+    "past_participle": {
+      "form": "Redone",
+      "pronunciation": "/ˌriːˈdʌn/"
+    },
+    "meaning": "Làm lại"
+  },
+  {
+    "word": "Remake",
+    "infinitive": {
+      "form": "Remake",
+      "pronunciation": "/riːˈmeɪk/"
+    },
+    "past_simple": {
+      "form": "Remade",
+      "pronunciation": "/riːˈmeɪd/"
+    },
+    "past_participle": {
+      "form": "Remade",
+      "pronunciation": "/riːˈmeɪd/"
+    },
+    "meaning": "Làm lại; Chế tạo lại"
+  },
+  {
+    "word": "Rend",
+    "infinitive": {
+      "form": "Rent",
+      "pronunciation": "/rɛnd/"
+    },
+    "past_simple": {
+      "form": "Rent",
+      "pronunciation": "/rɛnt/"
+    },
+    "past_participle": {
+      "form": "Rent",
+      "pronunciation": "/rɛnt/"
+    },
+    "meaning": "Toạc ra; Xé"
+  },
+  {
+    "word": "Repay",
+    "infinitive": {
+      "form": "Repaid",
+      "pronunciation": "/rɪˈpeɪ/"
+    },
+    "past_simple": {
+      "form": "Repaid",
+      "pronunciation": "/rɪˈpeɪd/"
+    },
+    "past_participle": {
+      "form": "Repaid",
+      "pronunciation": "/rɪˈpeɪd/"
+    },
+    "meaning": "Hoàn tiền lại"
+  },
+  {
+    "word": "Resell",
+    "infinitive": {
+      "form": "Resold",
+      "pronunciation": "/ˌriːˈsɛl/"
+    },
+    "past_simple": {
+      "form": "Resold",
+      "pronunciation": "/ˌriːˈsoʊld/"
+    },
+    "past_participle": {
+      "form": "Resold",
+      "pronunciation": "/ˌriːˈsoʊld/"
+    },
+    "meaning": "Bán lại"
+  },
+  {
+    "word": "Retake",
+    "infinitive": {
+      "form": "Retook",
+      "pronunciation": "/ˌriːˈteɪk/"
+    },
+    "past_simple": {
+      "form": "Retaken",
+      "pronunciation": "/ˌriːˈtʊk/"
+    },
+    "past_participle": {
+      "form": "Retaken",
+      "pronunciation": "/ˌriːˈteɪkən/"
+    },
+    "meaning": "Chiếm lại; Tái chiếm"
+  },
+  {
+    "word": "Rewrite",
+    "infinitive": {
+      "form": "Rewrote",
+      "pronunciation": "/ˌriːˈraɪt/"
+    },
+    "past_simple": {
+      "form": "Rewritten",
+      "pronunciation": "/ˌriːˈroʊt/"
+    },
+    "past_participle": {
+      "form": "Rewritten",
+      "pronunciation": "/ˌriːˈrɪtn/"
+    },
+    "meaning": "Viết lại"
+  },
+  {
+    "word": "Rid",
+    "infinitive": {
+      "form": "Rid",
+      "pronunciation": "/rɪd/"
+    },
+    "past_simple": {
+      "form": "Rid",
+      "pronunciation": "/rɪd/"
+    },
+    "past_participle": {
+      "form": "Rid",
+      "pronunciation": "/rɪd/"
+    },
+    "meaning": "Giải thoát"
+  },
+  {
+    "word": "Ride",
+    "infinitive": {
+      "form": "Rode",
+      "pronunciation": "/raɪd/"
+    },
+    "past_simple": {
+      "form": "Ridden",
+      "pronunciation": "/roʊd/"
+    },
+    "past_participle": {
+      "form": "Ridden",
+      "pronunciation": "/ˈrɪdn̩/"
+    },
+    "meaning": "Cưỡi"
+  },
+  {
+    "word": "Ring",
+    "infinitive": {
+      "form": "Rang",
+      "pronunciation": "/rɪŋ/"
+    },
+    "past_simple": {
+      "form": "Rung",
+      "pronunciation": "/ræŋ/"
+    },
+    "past_participle": {
+      "form": "Rung",
+      "pronunciation": "/rʌŋ/"
+    },
+    "meaning": "Rung chuông"
+  },
+  {
+    "word": "Rise",
+    "infinitive": {
+      "form": "Rose",
+      "pronunciation": "/raɪz/"
+    },
+    "past_simple": {
+      "form": "Risen",
+      "pronunciation": "/roʊz/"
+    },
+    "past_participle": {
+      "form": "Risen",
+      "pronunciation": "/ˈrɪzn̩/"
+    },
+    "meaning": "Đứng dậy; Mọc"
+  },
+  {
+    "word": "Run",
+    "infinitive": {
+      "form": "Ran",
+      "pronunciation": "/rʌn/"
+    },
+    "past_simple": {
+      "form": "Run",
+      "pronunciation": "/ræm/"
+    },
+    "past_participle": {
+      "form": "Run",
+      "pronunciation": "/rʌn/"
+    },
+    "meaning": "Chạy"
+  },
+  {
+    "word": "Saw",
+    "infinitive": {
+      "form": "Sawed",
+      "pronunciation": "/sɔː/"
+    },
+    "past_simple": {
+      "form": "Sawn",
+      "pronunciation": "/sɔːd/"
+    },
+    "past_participle": {
+      "form": "Sawn",
+      "pronunciation": "/sɔːn/"
+    },
+    "meaning": "Cưa"
+  },
+  {
+    "word": "Say",
+    "infinitive": {
+      "form": "Said",
+      "pronunciation": "/seɪ/"
+    },
+    "past_simple": {
+      "form": "Said",
+      "pronunciation": "/sɛd/"
+    },
+    "past_participle": {
+      "form": "Said",
+      "pronunciation": "/sɛd/"
+    },
+    "meaning": "Nói"
+  },
+  {
+    "word": "See",
+    "infinitive": {
+      "form": "Saw",
+      "pronunciation": "/siː/"
+    },
+    "past_simple": {
+      "form": "Seen",
+      "pronunciation": "/sɔː/"
+    },
+    "past_participle": {
+      "form": "Seen",
+      "pronunciation": "/siːn/"
+    },
+    "meaning": "Nhìn thấy"
+  },
+  {
+    "word": "Seek",
+    "infinitive": {
+      "form": "Sought",
+      "pronunciation": "/siːk/"
+    },
+    "past_simple": {
+      "form": "Sought",
+      "pronunciation": "/sɔːt/"
+    },
+    "past_participle": {
+      "form": "Sought",
+      "pronunciation": "/sɔːt/"
+    },
+    "meaning": "Tìm kiếm"
+  },
+  {
+    "word": "Sell",
+    "infinitive": {
+      "form": "Sold",
+      "pronunciation": "/sel/"
+    },
+    "past_simple": {
+      "form": "Sold",
+      "pronunciation": "/soʊld/"
+    },
+    "past_participle": {
+      "form": "Sold",
+      "pronunciation": "/soʊld/"
+    },
+    "meaning": "Bán"
+  },
+  {
+    "word": "Send",
+    "infinitive": {
+      "form": "Sent",
+      "pronunciation": "/send/"
+    },
+    "past_simple": {
+      "form": "Sent",
+      "pronunciation": "/sent/"
+    },
+    "past_participle": {
+      "form": "Sent",
+      "pronunciation": "/sent/"
+    },
+    "meaning": "Gửi"
+  },
+  {
+    "word": "Sew",
+    "infinitive": {
+      "form": "Sewed",
+      "pronunciation": "/soʊ/"
+    },
+    "past_simple": {
+      "form": "Sewn",
+      "pronunciation": "/soʊd/"
+    },
+    "past_participle": {
+      "form": "Sewn",
+      "pronunciation": "/soʊn/"
+    },
+    "meaning": "Gieo; Rải"
+  },
+  {
+    "word": "Shake",
+    "infinitive": {
+      "form": "Shook",
+      "pronunciation": "/ʃeɪk/"
+    },
+    "past_simple": {
+      "form": "Shaken",
+      "pronunciation": "/ʃʊk/"
+    },
+    "past_participle": {
+      "form": "Shaken",
+      "pronunciation": "/ˈʃeɪkən/"
+    },
+    "meaning": "Lay; Lắc"
+  },
+  {
+    "word": "Shear",
+    "infinitive": {
+      "form": "Sheared",
+      "pronunciation": "/ʃɪər/"
+    },
+    "past_simple": {
+      "form": "Shorn",
+      "pronunciation": "/ʃɔːrn/"
+    },
+    "past_participle": {
+      "form": "Shorn",
+      "pronunciation": "/ʃɪrd/"
+    },
+    "meaning": "Xén lông (Cừu)"
+  },
+  {
+    "word": "Shed",
+    "infinitive": {
+      "form": "Shed",
+      "pronunciation": "/ʃɛd/"
+    },
+    "past_simple": {
+      "form": "Shed",
+      "pronunciation": "/ʃɛd/"
+    },
+    "past_participle": {
+      "form": "Shed",
+      "pronunciation": "/ʃɛd/"
+    },
+    "meaning": "Rơi; Rụng"
+  },
+  {
+    "word": "Shine",
+    "infinitive": {
+      "form": "Shone",
+      "pronunciation": "/ʃaɪn/"
+    },
+    "past_simple": {
+      "form": "Shone",
+      "pronunciation": "/ʃɒn/"
+    },
+    "past_participle": {
+      "form": "Shone",
+      "pronunciation": "/ʃɒn/"
+    },
+    "meaning": "Chiếu sáng"
+  },
+  {
+    "word": "Shoot",
+    "infinitive": {
+      "form": "Shot",
+      "pronunciation": "/ʃuːt/"
+    },
+    "past_simple": {
+      "form": "Shot",
+      "pronunciation": "/ʃɒt/"
+    },
+    "past_participle": {
+      "form": "Shot",
+      "pronunciation": "/ʃɒt/"
+    },
+    "meaning": "Bắn"
+  },
+  {
+    "word": "Show",
+    "infinitive": {
+      "form": "Showed",
+      "pronunciation": "/ʃoʊ/"
+    },
+    "past_simple": {
+      "form": "Shown",
+      "pronunciation": "/ʃoʊd/"
+    },
+    "past_participle": {
+      "form": "Shown",
+      "pronunciation": "/ʃoʊn/"
+    },
+    "meaning": "Cho xem"
+  },
+  {
+    "word": "Shrink",
+    "infinitive": {
+      "form": "Shrank",
+      "pronunciation": "/ʃrɪŋk/"
+    },
+    "past_simple": {
+      "form": "Shrunk",
+      "pronunciation": "/ʃræŋk/"
+    },
+    "past_participle": {
+      "form": "Shrunk",
+      "pronunciation": "/ʃrʌŋk/"
+    },
+    "meaning": "Co rút"
+  },
+  {
+    "word": "Shut",
+    "infinitive": {
+      "form": "Shut",
+      "pronunciation": "/ʃʌt/"
+    },
+    "past_simple": {
+      "form": "Shut",
+      "pronunciation": "/ʃʌt/"
+    },
+    "past_participle": {
+      "form": "Shut",
+      "pronunciation": "/ʃʌt/"
+    },
+    "meaning": "Đóng lại"
+  },
+  {
+    "word": "Sing",
+    "infinitive": {
+      "form": "Sang",
+      "pronunciation": "/sɪŋ/"
+    },
+    "past_simple": {
+      "form": "Sung",
+      "pronunciation": "/sæŋ/"
+    },
+    "past_participle": {
+      "form": "Sung",
+      "pronunciation": "/sʌŋ/"
+    },
+    "meaning": "Ca hát"
+  },
+  {
+    "word": "Sink",
+    "infinitive": {
+      "form": "Sank",
+      "pronunciation": "/sɪŋk/"
+    },
+    "past_simple": {
+      "form": "Sunk",
+      "pronunciation": "/sæŋk/"
+    },
+    "past_participle": {
+      "form": "Sunk",
+      "pronunciation": "/sʌŋk/"
+    },
+    "meaning": "Chìm; Lặn"
+  },
+  {
+    "word": "Sit",
+    "infinitive": {
+      "form": "Sat",
+      "pronunciation": "/sɪt/"
+    },
+    "past_simple": {
+      "form": "Sat",
+      "pronunciation": "/sæt/"
+    },
+    "past_participle": {
+      "form": "Sat",
+      "pronunciation": "/sæt/"
+    },
+    "meaning": "Ngồi"
+  },
+  {
+    "word": "Slay",
+    "infinitive": {
+      "form": "Slew",
+      "pronunciation": "/sleɪ/"
+    },
+    "past_simple": {
+      "form": "Slain",
+      "pronunciation": "/sluː/"
+    },
+    "past_participle": {
+      "form": "Slain",
+      "pronunciation": "/sleɪn/"
+    },
+    "meaning": "Sát hại; Giết hại"
+  },
+  {
+    "word": "Sleep",
+    "infinitive": {
+      "form": "Slept",
+      "pronunciation": "/sliːp/"
+    },
+    "past_simple": {
+      "form": "Slept",
+      "pronunciation": "/slept/"
+    },
+    "past_participle": {
+      "form": "Slept",
+      "pronunciation": "/slept/"
+    },
+    "meaning": "Ngủ"
+  },
+  {
+    "word": "Slide",
+    "infinitive": {
+      "form": "Slid",
+      "pronunciation": "/slaɪd/"
+    },
+    "past_simple": {
+      "form": "Slid",
+      "pronunciation": "/slɪd/"
+    },
+    "past_participle": {
+      "form": "Slid",
+      "pronunciation": "/slɪd/"
+    },
+    "meaning": "Trượt; Lướt"
+  },
+  {
+    "word": "Sling",
+    "infinitive": {
+      "form": "Slung",
+      "pronunciation": "/slɪŋ/"
+    },
+    "past_simple": {
+      "form": "Slung",
+      "pronunciation": "/slʌŋ/"
+    },
+    "past_participle": {
+      "form": "Slung",
+      "pronunciation": "/slʌŋ/"
+    },
+    "meaning": "Ném mạnh"
+  },
+  {
+    "word": "Slink",
+    "infinitive": {
+      "form": "Slunk",
+      "pronunciation": "/slɪŋk/"
+    },
+    "past_simple": {
+      "form": "Slunk",
+      "pronunciation": "/slʌŋk/"
+    },
+    "past_participle": {
+      "form": "Slunk",
+      "pronunciation": "/slʌŋk/"
+    },
+    "meaning": "Lẻn đi"
+  },
+  {
+    "word": "Smell",
+    "infinitive": {
+      "form": "Smelt",
+      "pronunciation": "/smɛl/"
+    },
+    "past_simple": {
+      "form": "Smelt",
+      "pronunciation": "/smɛlt/"
+    },
+    "past_participle": {
+      "form": "Smelt",
+      "pronunciation": "/smɛlt/"
+    },
+    "meaning": "Ngửi"
+  },
+  {
+    "word": "Smite",
+    "infinitive": {
+      "form": "Smote",
+      "pronunciation": "/smaɪt/"
+    },
+    "past_simple": {
+      "form": "Smitten",
+      "pronunciation": "/smoʊt/"
+    },
+    "past_participle": {
+      "form": "Smitten",
+      "pronunciation": "/ˈsmɪtn/"
+    },
+    "meaning": "Đập mạnh"
+  },
+  {
+    "word": "Sow",
+    "infinitive": {
+      "form": "Sowed",
+      "pronunciation": "/soʊ/"
+    },
+    "past_simple": {
+      "form": "Sown",
+      "pronunciation": "/soʊd/"
+    },
+    "past_participle": {
+      "form": "Sown",
+      "pronunciation": "/soʊn/"
+    },
+    "meaning": "Gieo; Rải"
+  },
+  {
+    "word": "Speak",
+    "infinitive": {
+      "form": "Spoke",
+      "pronunciation": "/spiːk/"
+    },
+    "past_simple": {
+      "form": "Spoken",
+      "pronunciation": "/spoʊk/"
+    },
+    "past_participle": {
+      "form": "Spoken",
+      "pronunciation": "/ˈspoʊkən/"
+    },
+    "meaning": "Nói"
+  },
+  {
+    "word": "Speed",
+    "infinitive": {
+      "form": "Sped",
+      "pronunciation": "/spiːd/"
+    },
+    "past_simple": {
+      "form": "Sped",
+      "pronunciation": "/spɛd/"
+    },
+    "past_participle": {
+      "form": "Sped",
+      "pronunciation": "/spɛd/"
+    },
+    "meaning": "Chạy vụt"
+  },
+  {
+    "word": "Spell",
+    "infinitive": {
+      "form": "Spelt",
+      "pronunciation": "/spɛl/"
+    },
+    "past_simple": {
+      "form": "Spelt",
+      "pronunciation": "/spɛlt/"
+    },
+    "past_participle": {
+      "form": "Spelt",
+      "pronunciation": "/spɛlt/"
+    },
+    "meaning": "Đánh vần"
+  },
+  {
+    "word": "Spend",
+    "infinitive": {
+      "form": "Spent",
+      "pronunciation": "/spɛnd/"
+    },
+    "past_simple": {
+      "form": "Spent",
+      "pronunciation": "/spent/"
+    },
+    "past_participle": {
+      "form": "Spent",
+      "pronunciation": "/spent/"
+    },
+    "meaning": "Tiêu sài"
+  },
+  {
+    "word": "Spill",
+    "infinitive": {
+      "form": "Spilt",
+      "pronunciation": "/spɪl/"
+    },
+    "past_simple": {
+      "form": "Spilt",
+      "pronunciation": "/spɪlt/"
+    },
+    "past_participle": {
+      "form": "Spilt",
+      "pronunciation": "/spɪlt/"
+    },
+    "meaning": "Tràn; Đổ ra"
+  },
+  {
+    "word": "Spin",
+    "infinitive": {
+      "form": "Spun",
+      "pronunciation": "/spɪn/"
+    },
+    "past_simple": {
+      "form": "Spun",
+      "pronunciation": "/spʌn/"
+    },
+    "past_participle": {
+      "form": "Spun",
+      "pronunciation": "/spʌn/"
+    },
+    "meaning": "Quay sợi"
+  },
+  {
+    "word": "Spit",
+    "infinitive": {
+      "form": "Spat",
+      "pronunciation": "/spɪt/"
+    },
+    "past_simple": {
+      "form": "Spat",
+      "pronunciation": "/spɪt/"
+    },
+    "past_participle": {
+      "form": "Spat",
+      "pronunciation": "/spɪt/"
+    },
+    "meaning": "Khạc nhổ"
+  },
+  {
+    "word": "Spoil",
+    "infinitive": {
+      "form": "Spoilt",
+      "pronunciation": "/spɔɪl/"
+    },
+    "past_simple": {
+      "form": "Spoilt",
+      "pronunciation": "/spɔɪlt/"
+    },
+    "past_participle": {
+      "form": "Spoilt",
+      "pronunciation": "/spɔɪlt/"
+    },
+    "meaning": "Làm hỏng"
+  },
+  {
+    "word": "Spread",
+    "infinitive": {
+      "form": "Spread",
+      "pronunciation": "/sprɛd/"
+    },
+    "past_simple": {
+      "form": "Spread",
+      "pronunciation": "/sprɛd/"
+    },
+    "past_participle": {
+      "form": "Spread",
+      "pronunciation": "/sprɛd/"
+    },
+    "meaning": "Lan truyền"
+  },
+  {
+    "word": "Spring",
+    "infinitive": {
+      "form": "Sprang",
+      "pronunciation": "/sprɪŋ/"
+    },
+    "past_simple": {
+      "form": "Sprung",
+      "pronunciation": "/spræŋ/"
+    },
+    "past_participle": {
+      "form": "Sprung",
+      "pronunciation": "/sprʌŋ/"
+    },
+    "meaning": "Nhảy"
+  },
+  {
+    "word": "Stand",
+    "infinitive": {
+      "form": "Stood",
+      "pronunciation": "/stænd/"
+    },
+    "past_simple": {
+      "form": "Stood",
+      "pronunciation": "/stʊd/"
+    },
+    "past_participle": {
+      "form": "Stood",
+      "pronunciation": "/stʊd/"
+    },
+    "meaning": "Đứng"
+  },
+  {
+    "word": "Stave",
+    "infinitive": {
+      "form": "stave",
+      "pronunciation": "/steɪv/"
+    },
+    "past_simple": {
+      "form": "stove",
+      "pronunciation": "/stoʊv/"
+    },
+    "past_participle": {
+      "form": "staved",
+      "pronunciation": "/steɪvd/ or /stoʊvd/"
+    },
+    "meaning": "đâm thủng"
+  },
+  {
+    "word": "Steal",
+    "infinitive": {
+      "form": "steal",
+      "pronunciation": "/stiːl/"
+    },
+    "past_simple": {
+      "form": "stole",
+      "pronunciation": "/stoʊl/"
+    },
+    "past_participle": {
+      "form": "stolen",
+      "pronunciation": "/ˈstoʊlən/"
+    },
+    "meaning": "Đánh cắp"
+  },
+  {
+    "word": "Stick",
+    "infinitive": {
+      "form": "stick",
+      "pronunciation": "/stɪk/"
+    },
+    "past_simple": {
+      "form": "stuck",
+      "pronunciation": "/stʌk/"
+    },
+    "past_participle": {
+      "form": "stuck",
+      "pronunciation": "/stʌk/"
+    },
+    "meaning": "Ghim vào; đính"
+  },
+  {
+    "word": "Sting",
+    "infinitive": {
+      "form": "sting",
+      "pronunciation": "/stɪŋ/"
+    },
+    "past_simple": {
+      "form": "stung",
+      "pronunciation": "/stʌŋ/"
+    },
+    "past_participle": {
+      "form": "stung",
+      "pronunciation": "/stʌŋ/"
+    },
+    "meaning": "hâm ; chích; đốt"
+  },
+  {
+    "word": "Stink",
+    "infinitive": {
+      "form": "stink",
+      "pronunciation": "/stɪŋk/"
+    },
+    "past_simple": {
+      "form": "stank",
+      "pronunciation": "/stæŋk/"
+    },
+    "past_participle": {
+      "form": "stunk",
+      "pronunciation": "/stʌŋk/"
+    },
+    "meaning": "Bốc mùi hôi"
+  },
+  {
+    "word": "Strew",
+    "infinitive": {
+      "form": "strew",
+      "pronunciation": "/struː/"
+    },
+    "past_simple": {
+      "form": "strewed",
+      "pronunciation": "/struːd/"
+    },
+    "past_participle": {
+      "form": "strewn",
+      "pronunciation": "/struːn/"
+    },
+    "meaning": "Rắc; Rải"
+  },
+  {
+    "word": "Stride",
+    "infinitive": {
+      "form": "stride",
+      "pronunciation": "/straɪd/"
+    },
+    "past_simple": {
+      "form": "strode",
+      "pronunciation": "/stroʊd/"
+    },
+    "past_participle": {
+      "form": "stridden",
+      "pronunciation": "/ˈstrɪdn/"
+    },
+    "meaning": "Bước sải"
+  },
+  {
+    "word": "Strike",
+    "infinitive": {
+      "form": "strike",
+      "pronunciation": "/straɪk/"
+    },
+    "past_simple": {
+      "form": "struck",
+      "pronunciation": "/strʌk/"
+    },
+    "past_participle": {
+      "form": "struck/stricken",
+      "pronunciation": "/ˈstrɪkən/"
+    },
+    "meaning": "Đánh đập"
+  },
+  {
+    "word": "String",
+    "infinitive": {
+      "form": "string",
+      "pronunciation": "/strɪŋ/"
+    },
+    "past_simple": {
+      "form": "strung",
+      "pronunciation": "/strʌŋ/"
+    },
+    "past_participle": {
+      "form": "strung",
+      "pronunciation": "/strʌŋ/"
+    },
+    "meaning": "Gắn dây vào"
+  },
+  {
+    "word": "Strive",
+    "infinitive": {
+      "form": "strive",
+      "pronunciation": "/straɪv/"
+    },
+    "past_simple": {
+      "form": "strove",
+      "pronunciation": "/stroʊv/"
+    },
+    "past_participle": {
+      "form": "striven",
+      "pronunciation": "/ˈstrɪvn/"
+    },
+    "meaning": "Cố sức"
+  },
+  {
+    "word": "Swear",
+    "infinitive": {
+      "form": "swear",
+      "pronunciation": "/sweə/"
+    },
+    "past_simple": {
+      "form": "swore",
+      "pronunciation": "/swɔːr/"
+    },
+    "past_participle": {
+      "form": "sworn",
+      "pronunciation": "/swɔːrn/"
+    },
+    "meaning": "Tuyên thệ"
+  },
+  {
+    "word": "Sweep",
+    "infinitive": {
+      "form": "sweep",
+      "pronunciation": "/swiːp/"
+    },
+    "past_simple": {
+      "form": "swept",
+      "pronunciation": "/swept/"
+    },
+    "past_participle": {
+      "form": "swept",
+      "pronunciation": "/swept/"
+    },
+    "meaning": "Quét"
+  },
+  {
+    "word": "Swell",
+    "infinitive": {
+      "form": "swell",
+      "pronunciation": "/swɛl/"
+    },
+    "past_simple": {
+      "form": "swelled",
+      "pronunciation": "/swɛld/"
+    },
+    "past_participle": {
+      "form": "swollen",
+      "pronunciation": "/ˈswoʊlən/"
+    },
+    "meaning": "Phồng; Sưng"
+  },
+  {
+    "word": "Swim",
+    "infinitive": {
+      "form": "swim",
+      "pronunciation": "/swɪm/"
+    },
+    "past_simple": {
+      "form": "swam",
+      "pronunciation": "/swæm/"
+    },
+    "past_participle": {
+      "form": "swum",
+      "pronunciation": "/swʌm/"
+    },
+    "meaning": "Bơi lội"
+  },
+  {
+    "word": "Swing",
+    "infinitive": {
+      "form": "swing",
+      "pronunciation": "/swɪŋ/"
+    },
+    "past_simple": {
+      "form": "swung",
+      "pronunciation": "/swʌŋ/"
+    },
+    "past_participle": {
+      "form": "swung",
+      "pronunciation": "/swʌŋ/"
+    },
+    "meaning": "Đong đưa"
+  },
+  {
+    "word": "Take",
+    "infinitive": {
+      "form": "take",
+      "pronunciation": "/teɪk/"
+    },
+    "past_simple": {
+      "form": "took",
+      "pronunciation": "/tʊk/"
+    },
+    "past_participle": {
+      "form": "taken",
+      "pronunciation": "/ˈteɪkən/"
+    },
+    "meaning": "Cầm; Lấy"
+  },
+  {
+    "word": "Teach",
+    "infinitive": {
+      "form": "teach",
+      "pronunciation": "/tiːtʃ/"
+    },
+    "past_simple": {
+      "form": "taught",
+      "pronunciation": "/tɔːt/"
+    },
+    "past_participle": {
+      "form": "taught",
+      "pronunciation": "/tɔːt/"
+    },
+    "meaning": "Dạy; Giảng dạy"
+  },
+  {
+    "word": "Tear",
+    "infinitive": {
+      "form": "tear",
+      "pronunciation": "/teə/"
+    },
+    "past_simple": {
+      "form": "tore",
+      "pronunciation": "/tɔːr/"
+    },
+    "past_participle": {
+      "form": "torn",
+      "pronunciation": "/tɔːrn/"
+    },
+    "meaning": "Xé; Rách"
+  },
+  {
+    "word": "Tell",
+    "infinitive": {
+      "form": "tell",
+      "pronunciation": "/tel/"
+    },
+    "past_simple": {
+      "form": "told",
+      "pronunciation": "/toʊld/"
+    },
+    "past_participle": {
+      "form": "told",
+      "pronunciation": "/toʊld/"
+    },
+    "meaning": "Kể; Bảo"
+  },
+  {
+    "word": "Think",
+    "infinitive": {
+      "form": "think",
+      "pronunciation": "/θɪŋk/"
+    },
+    "past_simple": {
+      "form": "thought",
+      "pronunciation": "/θɔːt/"
+    },
+    "past_participle": {
+      "form": "thought",
+      "pronunciation": "/θɔːt/"
+    },
+    "meaning": "Suy nghĩ"
+  },
+  {
+    "word": "Throw",
+    "infinitive": {
+      "form": "Throw",
+      "pronunciation": "/θroʊ/"
+    },
+    "past_simple": {
+      "form": "Threw",
+      "pronunciation": "/θruː/"
+    },
+    "past_participle": {
+      "form": "Thrown",
+      "pronunciation": "/θroʊn/"
+    },
+    "meaning": "Ném; Liệng"
+  },
+  {
+    "word": "Thrust",
+    "infinitive": {
+      "form": "Thrust",
+      "pronunciation": "/θrʌst/"
+    },
+    "past_simple": {
+      "form": "Thrust",
+      "pronunciation": "/θrʌst/"
+    },
+    "past_participle": {
+      "form": "Thrust",
+      "pronunciation": "/θrʌst/"
+    },
+    "meaning": "Thọc; Nhấn"
+  },
+  {
+    "word": "Tread",
+    "infinitive": {
+      "form": "Tread",
+      "pronunciation": "/trɛd/"
+    },
+    "past_simple": {
+      "form": "Trod",
+      "pronunciation": "/trɒd/"
+    },
+    "past_participle": {
+      "form": "Trodden/Trod",
+      "pronunciation": "/ˈtrɒdn/"
+    },
+    "meaning": "Giẫm; Đạp"
+  },
+  {
+    "word": "Unbend",
+    "infinitive": {
+      "form": "Unbend",
+      "pronunciation": "/ˌʌnˈbɛnd/"
+    },
+    "past_simple": {
+      "form": "Unbent",
+      "pronunciation": "/ˌʌnˈbɛnt/"
+    },
+    "past_participle": {
+      "form": "Unbent",
+      "pronunciation": "/ˌʌnˈbɛnt/"
+    },
+    "meaning": "Làm thẳng lại"
+  },
+  {
+    "word": "Undercut",
+    "infinitive": {
+      "form": "Undercut",
+      "pronunciation": "/ˌʌndərˈkʌt/"
+    },
+    "past_simple": {
+      "form": "Undercut",
+      "pronunciation": "/ˌʌndərˈkʌt/"
+    },
+    "past_participle": {
+      "form": "Undercut",
+      "pronunciation": "/ˌʌndərˈkʌt/"
+    },
+    "meaning": "Ra giá rẻ hơn"
+  },
+  {
+    "word": "Undergo",
+    "infinitive": {
+      "form": "Undergo",
+      "pronunciation": "/ˌʌndərˈɡoʊ/"
+    },
+    "past_simple": {
+      "form": "Underwent",
+      "pronunciation": "/ˌʌndərˈwɛnt/"
+    },
+    "past_participle": {
+      "form": "Undergone",
+      "pronunciation": "/ˌʌndərˈɡʌn/"
+    },
+    "meaning": "Kinh qua"
+  },
+  {
+    "word": "Underlie",
+    "infinitive": {
+      "form": "Underlie",
+      "pronunciation": "/ˌʌndərˈlaɪ/"
+    },
+    "past_simple": {
+      "form": "Underlay",
+      "pronunciation": "/ˌʌndərˈleɪ/"
+    },
+    "past_participle": {
+      "form": "Underlain",
+      "pronunciation": "/ˌʌndərˈleɪn/"
+    },
+    "meaning": "Nằm dưới"
+  },
+  {
+    "word": "Underpay",
+    "infinitive": {
+      "form": "Underpay",
+      "pronunciation": "/ˌʌndərˈpeɪ/"
+    },
+    "past_simple": {
+      "form": "Underpaid",
+      "pronunciation": "/ˌʌndərˈpeɪd/"
+    },
+    "past_participle": {
+      "form": "Underpaid",
+      "pronunciation": "/ˌʌndərˈpeɪd/"
+    },
+    "meaning": "Trả lương thấp"
+  },
+  {
+    "word": "Undersell",
+    "infinitive": {
+      "form": "Undersell",
+      "pronunciation": "/ˌʌndərˈsɛl/"
+    },
+    "past_simple": {
+      "form": "Undersold",
+      "pronunciation": "/ˌʌndərˈsoʊld/"
+    },
+    "past_participle": {
+      "form": "Undersold",
+      "pronunciation": "/ˌʌndərˈsoʊld/"
+    },
+    "meaning": "Bán rẻ hơn"
+  },
+  {
+    "word": "Understand",
+    "infinitive": {
+      "form": "Understand",
+      "pronunciation": "/ˌʌndərˈstænd/"
+    },
+    "past_simple": {
+      "form": "Understood",
+      "pronunciation": "/ˌʌndərˈstʊd/"
+    },
+    "past_participle": {
+      "form": "Understood",
+      "pronunciation": "/ˌʌndərˈstʊd/"
+    },
+    "meaning": "Hiểu"
+  },
+  {
+    "word": "Undertake",
+    "infinitive": {
+      "form": "Undertake",
+      "pronunciation": "/ˌʌndərˈteɪk/"
+    },
+    "past_simple": {
+      "form": "Undertook",
+      "pronunciation": "/ˌʌndərˈtʊk/"
+    },
+    "past_participle": {
+      "form": "Undertaken",
+      "pronunciation": "/ˌʌndərˈteɪkən/"
+    },
+    "meaning": "Đảm nhận"
+  },
+  {
+    "word": "Underwrite",
+    "infinitive": {
+      "form": "Underwrite",
+      "pronunciation": "/ˌʌndərˈraɪt/"
+    },
+    "past_simple": {
+      "form": "Underwrote",
+      "pronunciation": "/ˌʌndərˈroʊt/"
+    },
+    "past_participle": {
+      "form": "Underwritten",
+      "pronunciation": "/ˌʌndərˈrɪtn/"
+    },
+    "meaning": "Bảo hiểm"
+  },
+  {
+    "word": "Undo",
+    "infinitive": {
+      "form": "Undo",
+      "pronunciation": "/ʌnˈduː/"
+    },
+    "past_simple": {
+      "form": "Undid",
+      "pronunciation": "/ʌnˈdɪd/"
+    },
+    "past_participle": {
+      "form": "Undone",
+      "pronunciation": "/ʌnˈdʌn/"
+    },
+    "meaning": "Tháo ra"
+  },
+  {
+    "word": "Unfreeze",
+    "infinitive": {
+      "form": "Unfreeze",
+      "pronunciation": "/ˌʌnˈfriːz/"
+    },
+    "past_simple": {
+      "form": "Unfroze",
+      "pronunciation": "/ʌnˈfroʊz/"
+    },
+    "past_participle": {
+      "form": "Unfrozen",
+      "pronunciation": "/ˌʌnˈfroʊzn/"
+    },
+    "meaning": "Làm tan đông"
+  },
+  {
+    "word": "Unwind",
+    "infinitive": {
+      "form": "Unwind",
+      "pronunciation": "/ˌʌnˈwaɪnd/"
+    },
+    "past_simple": {
+      "form": "Unwound",
+      "pronunciation": "/ˌʌnˈwaʊnd/"
+    },
+    "past_participle": {
+      "form": "Unwound",
+      "pronunciation": "/ˌʌnˈwaʊnd/"
+    },
+    "meaning": "Tháo ra"
+  },
+  {
+    "word": "Uphold",
+    "infinitive": {
+      "form": "Uphold",
+      "pronunciation": "/ˌʌpˈhoʊld/"
+    },
+    "past_simple": {
+      "form": "Upheld",
+      "pronunciation": "/ˌʌpˈhɛld/"
+    },
+    "past_participle": {
+      "form": "Upheld",
+      "pronunciation": "/ˌʌpˈhɛld/"
+    },
+    "meaning": "Ủng hộ"
+  },
+  {
+    "word": "Upset",
+    "infinitive": {
+      "form": "Upset",
+      "pronunciation": "/ʌpˈsɛt/"
+    },
+    "past_simple": {
+      "form": "Upset",
+      "pronunciation": "/ʌpˈsɛt/"
+    },
+    "past_participle": {
+      "form": "Upset",
+      "pronunciation": "/ʌpˈsɛt/"
+    },
+    "meaning": "Đánh đổ; Lật đổ"
+  },
+  {
+    "word": "Wake",
+    "infinitive": {
+      "form": "Wake",
+      "pronunciation": "/weɪk/"
+    },
+    "past_simple": {
+      "form": "Woke",
+      "pronunciation": "/woʊk/"
+    },
+    "past_participle": {
+      "form": "Woken",
+      "pronunciation": "/ˈwoʊkən/"
+    },
+    "meaning": "Thức giấc"
+  },
+  {
+    "word": "Waylay",
+    "infinitive": {
+      "form": "Waylay",
+      "pronunciation": "/ˌweɪˈleɪ/"
+    },
+    "past_simple": {
+      "form": "Waylaid",
+      "pronunciation": "/ˌweɪˈleɪd/"
+    },
+    "past_participle": {
+      "form": "Waylaid",
+      "pronunciation": "/ˌweɪˈleɪd/"
+    },
+    "meaning": "Mai phục"
+  },
+  {
+    "word": "Wear",
+    "infinitive": {
+      "form": "Wear",
+      "pronunciation": "/weər/"
+    },
+    "past_simple": {
+      "form": "Wore",
+      "pronunciation": "/wɔːr/"
+    },
+    "past_participle": {
+      "form": "Worn",
+      "pronunciation": "/wɔːrn/"
+    },
+    "meaning": "Mặc"
+  },
+  {
+    "word": "Weave",
+    "infinitive": {
+      "form": "weave",
+      "pronunciation": "/wiːv/"
+    },
+    "past_simple": {
+      "form": "wove",
+      "pronunciation": "/ˈwoʊv/"
+    },
+    "past_participle": {
+      "form": "woven",
+      "pronunciation": "/ˈwoʊvn/"
+    },
+    "meaning": "Dệt"
+  },
+  {
+    "word": "Wed",
+    "infinitive": {
+      "form": "wed",
+      "pronunciation": "/wɛd/"
+    },
+    "past_simple": {
+      "form": "wed",
+      "pronunciation": "/ˈwɛdɪd/"
+    },
+    "past_participle": {
+      "form": "wed",
+      "pronunciation": "/ˈwɛdɪd/"
+    },
+    "meaning": "Kết hôn"
+  },
+  {
+    "word": "Weep",
+    "infinitive": {
+      "form": "weep",
+      "pronunciation": "/wiːp/"
+    },
+    "past_simple": {
+      "form": "wept",
+      "pronunciation": "/wɛpt/"
+    },
+    "past_participle": {
+      "form": "wept",
+      "pronunciation": "/wɛpt/"
+    },
+    "meaning": "Khóc"
+  },
+  {
+    "word": "Wet",
+    "infinitive": {
+      "form": "wet",
+      "pronunciation": "/wɛt/"
+    },
+    "past_simple": {
+      "form": "wet",
+      "pronunciation": "/ˈwɛtɪd/"
+    },
+    "past_participle": {
+      "form": "wet",
+      "pronunciation": "/ˈwɛtɪd/"
+    },
+    "meaning": "Làm ướt"
+  },
+  {
+    "word": "Win",
+    "infinitive": {
+      "form": "win",
+      "pronunciation": "/wɪn/"
+    },
+    "past_simple": {
+      "form": "won",
+      "pronunciation": "/wʌn/"
+    },
+    "past_participle": {
+      "form": "won",
+      "pronunciation": "/wʌn/"
+    },
+    "meaning": "Chiến thắng"
+  },
+  {
+    "word": "Wind",
+    "infinitive": {
+      "form": "wind",
+      "pronunciation": "/waɪnd/"
+    },
+    "past_simple": {
+      "form": "wound",
+      "pronunciation": "/waʊnd/"
+    },
+    "past_participle": {
+      "form": "wound",
+      "pronunciation": "/waʊnd/"
+    },
+    "meaning": "Quấn"
+  },
+  {
+    "word": "Withdraw",
+    "infinitive": {
+      "form": "withdraw",
+      "pronunciation": "/wɪðˈdrɔː/"
+    },
+    "past_simple": {
+      "form": "withdrew",
+      "pronunciation": "/wɪðˈdruː/"
+    },
+    "past_participle": {
+      "form": "withdrawn",
+      "pronunciation": "/wɪðˈdrɔːn/"
+    },
+    "meaning": "Rút lui"
+  },
+  {
+    "word": "Withhold",
+    "infinitive": {
+      "form": "withhold",
+      "pronunciation": "/wɪðˈhoʊld/"
+    },
+    "past_simple": {
+      "form": "withheld",
+      "pronunciation": "/wɪðˈhɛld/"
+    },
+    "past_participle": {
+      "form": "withheld",
+      "pronunciation": "/wɪðˈhɛld/"
+    },
+    "meaning": "Từ khước"
+  },
+  {
+    "word": "Withstand",
+    "infinitive": {
+      "form": "withstand",
+      "pronunciation": "/wɪðˈstænd/"
+    },
+    "past_simple": {
+      "form": "withstood",
+      "pronunciation": "/wɪðˈstʊd/"
+    },
+    "past_participle": {
+      "form": "withstood",
+      "pronunciation": "/wɪðˈstʊd/"
+    },
+    "meaning": "Cầm cự"
+  },
+  {
+    "word": "Work",
+    "infinitive": {
+      "form": "work",
+      "pronunciation": "/wɜrk/"
+    },
+    "past_simple": {
+      "form": "worked",
+      "pronunciation": "/wɜrkt/"
+    },
+    "past_participle": {
+      "form": "worked",
+      "pronunciation": "/wɜrkt/"
+    },
+    "meaning": "Rèn (sắt), Nhào nặng đất"
+  },
+  {
+    "word": "Wring",
+    "infinitive": {
+      "form": "wring",
+      "pronunciation": "/rɪŋ/"
+    },
+    "past_simple": {
+      "form": "wrung",
+      "pronunciation": "/rʌŋ/"
+    },
+    "past_participle": {
+      "form": "wrung",
+      "pronunciation": "/rʌŋ/"
+    },
+    "meaning": "Vặn; Siết chặt"
+  },
+  {
+    "word": "Write",
+    "infinitive": {
+      "form": "write",
+      "pronunciation": "/raɪt/"
+    },
+    "past_simple": {
+      "form": "wrote",
+      "pronunciation": "/roʊt/"
+    },
+    "past_participle": {
+      "form": "written",
+      "pronunciation": "/ˈrɪtən/"
+    },
+    "meaning": "Viết"
   }
 ]

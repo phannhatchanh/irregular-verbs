@@ -5,9 +5,10 @@ import { motion } from "framer-motion";
 
 interface AudioPlayerProps {
   word: string;
+  verb: string;
 }
 
-const AudioPlayer: React.FC<AudioPlayerProps> = ({ word }) => {
+const AudioPlayer: React.FC<AudioPlayerProps> = ({ word, verb }) => {
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
 
   const playAudio = () => {
@@ -24,6 +25,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ word }) => {
   return (
     <div>
       <button onClick={playAudio} disabled={isPlaying}>
+        <span className="font-medium">{verb}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -32,7 +34,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ word }) => {
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
-          className="size-5 text-gray-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
+          className="inline ml-0.5 size-5 text-gray-600 hover:text-slate-900"
         >
           <motion.polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
           <motion.path

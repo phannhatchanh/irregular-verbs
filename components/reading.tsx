@@ -25,7 +25,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ word, verb }) => {
   return (
     <div>
       <button onClick={playAudio} disabled={isPlaying}>
-        <span className="font-medium">{verb}</span>
+        <span className="font-bold">{verb}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"

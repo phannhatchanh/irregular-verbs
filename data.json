@@ -982,12 +982,12 @@
       "pronunciation": "/ɡɪld/"
     },
     "past_simple": {
-      "form": "Gilt / Gilded",
-      "pronunciation": "/ɡɪlt/ /ɡɪldəd/"
+      "form": ["Gilt", "Gilded"],
+      "pronunciation": ["/ɡɪlt/", "/ɡɪldəd/"]
     },
     "past_participle": {
-      "form": "Gilt / Gilded",
-      "pronunciation": "/ɡɪlt/ /ɡɪldəd/"
+      "form": ["Gilt", "Gilded"],
+      "pronunciation": ["/ɡɪlt/", "/ɡɪldəd/"]
     },
     "meaning": "Mạ vàng"
   },
@@ -998,12 +998,12 @@
       "pronunciation": "/ɡɜːrd/"
     },
     "past_simple": {
-      "form": "Girt / Girded",
-      "pronunciation": "/ɡɜːrt/ /ɡɜːrdəd/"
+      "form": ["Girt", "Girded"],
+      "pronunciation": ["/ɡɜːrt/", "/ɡɜːrdəd/"]
     },
     "past_participle": {
-      "form": "Girt / Girded",
-      "pronunciation": "/ɡɜːrt/ /ɡɜːrdəd/"
+      "form": ["Girt", "Girded"],
+      "pronunciation": ["/ɡɜːrt/", "/ɡɜːrdəd/"]
     },
     "meaning": "Đeo vào"
   },
@@ -1200,17 +1200,17 @@
     "meaning": "Đưa vào (máy điện toán)"
   },
   {
-    "word": "Insert",
+    "word": "Inset",
     "infinitive": {
-      "form": "Insert",
+      "form": "Inset",
       "pronunciation": "/ˈɪnsɛt/"
     },
     "past_simple": {
-      "form": "Insert",
+      "form": "Inset",
       "pronunciation": "/ˈɪnsɛt/"
     },
     "past_participle": {
-      "form": "Dát; Ghép",
+      "form": "Inset",
       "pronunciation": "/ˈɪnsɛt/"
     },
     "meaning": "Dát; Ghép"
@@ -1234,47 +1234,47 @@
   {
     "word": "Kneel",
     "infinitive": {
-      "form": "knelt/ kneeled",
+      "form": "Kneel",
       "pronunciation": "/niːl/"
     },
     "past_simple": {
-      "form": "knelt/ kneeled",
-      "pronunciation": "/nɛlt/"
+      "form": ["knelt", "kneeled"],
+      "pronunciation": ["/nɛlt/", "/niːld/"]
     },
     "past_participle": {
-      "form": "Quỳ",
-      "pronunciation": "/nɛlt/"
+      "form": ["knelt", "kneeled"],
+      "pronunciation": ["/nɛlt/", "/niːld/"]
     },
     "meaning": "Quỳ"
   },
   {
     "word": "Knit",
     "infinitive": {
-      "form": "knit/ knitted",
+      "form": "Knit",
       "pronunciation": "/nɪt/"
     },
     "past_simple": {
-      "form": "knit/ knitted",
-      "pronunciation": "/nɪtɪd/"
+      "form": ["Knit", "knitted"],
+      "pronunciation": ["/nɪt/", "/nɪtɪd/"]
     },
     "past_participle": {
-      "form": "Đan",
-      "pronunciation": "/nɪtɪd/"
+      "form": ["Knit", "knitted"],
+      "pronunciation": ["/nɪt/", "/nɪtɪd/"]
     },
     "meaning": "Đan"
   },
   {
     "word": "Know",
     "infinitive": {
-      "form": "Knew",
+      "form": "Know",
       "pronunciation": "/noʊ/"
     },
     "past_simple": {
-      "form": "Known",
+      "form": "Knew",
       "pronunciation": "/njuː/"
     },
     "past_participle": {
-      "form": "Biết; Quen biết",
+      "form": "Known",
       "pronunciation": "/noʊn/"
     },
     "meaning": "Biết; Quen biết"
@@ -1282,7 +1282,7 @@
   {
     "word": "Lay",
     "infinitive": {
-      "form": "Laid",
+      "form": "Lay",
       "pronunciation": "/leɪ/"
     },
     "past_simple": {
@@ -1290,7 +1290,7 @@
       "pronunciation": "/leɪd/"
     },
     "past_participle": {
-      "form": "Đặt; Để",
+      "form": "Laid",
       "pronunciation": "/leɪd/"
     },
     "meaning": "Đặt; Để"
@@ -1298,7 +1298,7 @@
   {
     "word": "Lead",
     "infinitive": {
-      "form": "Led",
+      "form": "Lead",
       "pronunciation": "/liːd/"
     },
     "past_simple": {
@@ -1306,7 +1306,7 @@
       "pronunciation": "/led/"
     },
     "past_participle": {
-      "form": "Dẫn dắt; Lãnh đạo",
+      "form": "Led",
       "pronunciation": "/led/"
     },
     "meaning": "Dẫn dắt; Lãnh đạo"
@@ -1314,16 +1314,16 @@
   {
     "word": "Leap",
     "infinitive": {
-      "form": "Leapt",
+      "form": "Leap",
       "pronunciation": "/liːp/"
     },
     "past_simple": {
       "form": "Leapt",
-      "pronunciation": ["/lɛpt/", "/liːpt/"]
+      "pronunciation": "/lɛpt/"
     },
     "past_participle": {
-      "form": "Nhảy; Nhảy qua",
-      "pronunciation": ["/lɛpt/", "/liːpt/"]
+      "form": "Leapt",
+      "pronunciation": "/lɛpt/"
     },
     "meaning": "Nhảy; Nhảy qua"
   },
@@ -1346,7 +1346,7 @@
   {
     "word": "Leave",
     "infinitive": {
-      "form": "Left",
+      "form": "Leave",
       "pronunciation": "/liːv/"
     },
     "past_simple": {
@@ -1354,7 +1354,7 @@
       "pronunciation": "/left/"
     },
     "past_participle": {
-      "form": "Ra đi; Để lại",
+      "form": "Left",
       "pronunciation": "/left/"
     },
     "meaning": "Ra đi; Để lại"
@@ -1362,7 +1362,7 @@
   {
     "word": "Lend",
     "infinitive": {
-      "form": "Lent",
+      "form": "Lend",
       "pronunciation": "/lend/"
     },
     "past_simple": {
@@ -1370,7 +1370,7 @@
       "pronunciation": "/lent/"
     },
     "past_participle": {
-      "form": "Cho mượn (vay)",
+      "form": "Lent",
       "pronunciation": "/lent/"
     },
     "meaning": "Cho mượn (vay)"
@@ -1386,7 +1386,7 @@
       "pronunciation": "/let/"
     },
     "past_participle": {
-      "form": "Cho phép; Để cho",
+      "form": "Let",
       "pronunciation": "/let/"
     },
     "meaning": "Cho phép; Để cho"
@@ -1394,15 +1394,15 @@
   {
     "word": "Lie",
     "infinitive": {
-      "form": "Lay",
+      "form": "Lie",
       "pronunciation": "/laɪ/"
     },
     "past_simple": {
-      "form": "Lain",
+      "form": "Lay",
       "pronunciation": "/leɪ/"
     },
     "past_participle": {
-      "form": "Nằm",
+      "form": "Lain",
       "pronunciation": "/leɪn/"
     },
     "meaning": "Nằm"
@@ -1410,23 +1410,23 @@
   {
     "word": "Light",
     "infinitive": {
-      "form": "lit/lighted",
+      "form": "Light",
       "pronunciation": "/laɪt/"
     },
     "past_simple": {
-      "form": "lit/lighted",
-      "pronunciation": "/lɪt/"
+      "form": ["lit", "lighted"],
+      "pronunciation": ["/lɪt/", "/ˈlaɪtɪd/"]
     },
     "past_participle": {
-      "form": "Thắp sáng",
-      "pronunciation": "/lɪt/"
+      "form": ["lit", "lighted"],
+      "pronunciation": ["/lɪt/", "/ˈlaɪtɪd/"]
     },
     "meaning": "Thắp sáng"
   },
   {
     "word": "Lose",
     "infinitive": {
-      "form": "Lost",
+      "form": "Lose",
       "pronunciation": "/luːz/"
     },
     "past_simple": {
@@ -1434,7 +1434,7 @@
       "pronunciation": "/lɒst/"
     },
     "past_participle": {
-      "form": "Làm mất",
+      "form": "Lost",
       "pronunciation": "/lɒst/"
     },
     "meaning": "Làm mất"
@@ -1442,7 +1442,7 @@
   {
     "word": "Make",
     "infinitive": {
-      "form": "Made",
+      "form": "Make",
       "pronunciation": "/meɪk/"
     },
     "past_simple": {
@@ -1450,7 +1450,7 @@
       "pronunciation": "/meɪd/"
     },
     "past_participle": {
-      "form": "Chế tạo; Sản xuất",
+      "form": "Made",
       "pronunciation": "/meɪd/"
     },
     "meaning": "Chế tạo; Sản xuất"
@@ -1490,7 +1490,7 @@
   {
     "word": "Mislay",
     "infinitive": {
-      "form": "Mislaid",
+      "form": "Mislay",
       "pronunciation": "/mɪsˈleɪ/"
     },
     "past_simple": {
@@ -1578,7 +1578,7 @@
       "pronunciation": "/moʊd/"
     },
     "past_participle": {
-      "form": "mown/ mowed",
+      "form": ["mown", "mowed"],
       "pronunciation": "/moʊn/"
     },
     "meaning": "Cắt cỏ"
@@ -1914,8 +1914,8 @@
       "pronunciation": "/ˈpruːvən/"
     },
     "past_participle": {
-      "form": "proven/proved",
-      "pronunciation": "pruːvd or /ˈpruːvən/"
+      "form": ["proven", "proved"],
+      "pronunciation": ["/pruːvd/", "/ˈpruːvən/"]
     },
     "meaning": "Chứng minh"
   },
@@ -2002,7 +2002,7 @@
   {
     "word": "Rend",
     "infinitive": {
-      "form": "Rent",
+      "form": "Rend",
       "pronunciation": "/rɛnd/"
     },
     "past_simple": {
@@ -2018,7 +2018,7 @@
   {
     "word": "Repay",
     "infinitive": {
-      "form": "Repaid",
+      "form": "Repay",
       "pronunciation": "/rɪˈpeɪ/"
     },
     "past_simple": {
@@ -2034,7 +2034,7 @@
   {
     "word": "Resell",
     "infinitive": {
-      "form": "Resold",
+      "form": "Resell",
       "pronunciation": "/ˌriːˈsɛl/"
     },
     "past_simple": {
@@ -2050,11 +2050,11 @@
   {
     "word": "Retake",
     "infinitive": {
-      "form": "Retook",
+      "form": "Retake",
       "pronunciation": "/ˌriːˈteɪk/"
     },
     "past_simple": {
-      "form": "Retaken",
+      "form": "Retook",
       "pronunciation": "/ˌriːˈtʊk/"
     },
     "past_participle": {
@@ -2066,11 +2066,11 @@
   {
     "word": "Rewrite",
     "infinitive": {
-      "form": "Rewrote",
+      "form": "Rewrite",
       "pronunciation": "/ˌriːˈraɪt/"
     },
     "past_simple": {
-      "form": "Rewritten",
+      "form": "Rewrote",
       "pronunciation": "/ˌriːˈroʊt/"
     },
     "past_participle": {
@@ -2098,11 +2098,11 @@
   {
     "word": "Ride",
     "infinitive": {
-      "form": "Rode",
+      "form": "Ride",
       "pronunciation": "/raɪd/"
     },
     "past_simple": {
-      "form": "Ridden",
+      "form": "Rode",
       "pronunciation": "/roʊd/"
     },
     "past_participle": {
@@ -2114,11 +2114,11 @@
   {
     "word": "Ring",
     "infinitive": {
-      "form": "Rang",
+      "form": "Ring",
       "pronunciation": "/rɪŋ/"
     },
     "past_simple": {
-      "form": "Rung",
+      "form": "Rang",
       "pronunciation": "/ræŋ/"
     },
     "past_participle": {
@@ -2130,11 +2130,11 @@
   {
     "word": "Rise",
     "infinitive": {
-      "form": "Rose",
+      "form": "Rise",
       "pronunciation": "/raɪz/"
     },
     "past_simple": {
-      "form": "Risen",
+      "form": "Rose",
       "pronunciation": "/roʊz/"
     },
     "past_participle": {
@@ -2146,11 +2146,11 @@
   {
     "word": "Run",
     "infinitive": {
-      "form": "Ran",
+      "form": "Run",
       "pronunciation": "/rʌn/"
     },
     "past_simple": {
-      "form": "Run",
+      "form": "Ran",
       "pronunciation": "/ræm/"
     },
     "past_participle": {
@@ -2162,11 +2162,11 @@
   {
     "word": "Saw",
     "infinitive": {
-      "form": "Sawed",
+      "form": "Saw",
       "pronunciation": "/sɔː/"
     },
     "past_simple": {
-      "form": "Sawn",
+      "form": "Sawed",
       "pronunciation": "/sɔːd/"
     },
     "past_participle": {
@@ -2178,7 +2178,7 @@
   {
     "word": "Say",
     "infinitive": {
-      "form": "Said",
+      "form": "Say",
       "pronunciation": "/seɪ/"
     },
     "past_simple": {
@@ -2194,11 +2194,11 @@
   {
     "word": "See",
     "infinitive": {
-      "form": "Saw",
+      "form": "See",
       "pronunciation": "/siː/"
     },
     "past_simple": {
-      "form": "Seen",
+      "form": "Saw",
       "pronunciation": "/sɔː/"
     },
     "past_participle": {
@@ -2210,7 +2210,7 @@
   {
     "word": "Seek",
     "infinitive": {
-      "form": "Sought",
+      "form": "Seek",
       "pronunciation": "/siːk/"
     },
     "past_simple": {
@@ -2226,7 +2226,7 @@
   {
     "word": "Sell",
     "infinitive": {
-      "form": "Sold",
+      "form": "Sell",
       "pronunciation": "/sel/"
     },
     "past_simple": {
@@ -2242,7 +2242,7 @@
   {
     "word": "Send",
     "infinitive": {
-      "form": "Sent",
+      "form": "Send",
       "pronunciation": "/send/"
     },
     "past_simple": {
@@ -2258,27 +2258,27 @@
   {
     "word": "Sew",
     "infinitive": {
-      "form": "Sewed",
+      "form": "Sew",
       "pronunciation": "/soʊ/"
     },
     "past_simple": {
-      "form": "Sewn",
+      "form": "Sewed",
       "pronunciation": "/soʊd/"
     },
     "past_participle": {
-      "form": "Sewn",
-      "pronunciation": "/soʊn/"
+      "form": ["sewn", "sewed"],
+      "pronunciation": ["/soʊn/", "/soʊd/"]
     },
-    "meaning": "Gieo; Rải"
+    "meaning": "May"
   },
   {
     "word": "Shake",
     "infinitive": {
-      "form": "Shook",
+      "form": "Shake",
       "pronunciation": "/ʃeɪk/"
     },
     "past_simple": {
-      "form": "Shaken",
+      "form": "Shook",
       "pronunciation": "/ʃʊk/"
     },
     "past_participle": {
@@ -2290,11 +2290,11 @@
   {
     "word": "Shear",
     "infinitive": {
-      "form": "Sheared",
+      "form": "Shear",
       "pronunciation": "/ʃɪər/"
     },
     "past_simple": {
-      "form": "Shorn",
+      "form": "Sheared",
       "pronunciation": "/ʃɔːrn/"
     },
     "past_participle": {
@@ -2322,7 +2322,7 @@
   {
     "word": "Shine",
     "infinitive": {
-      "form": "Shone",
+      "form": "Shine",
       "pronunciation": "/ʃaɪn/"
     },
     "past_simple": {
@@ -2338,7 +2338,7 @@
   {
     "word": "Shoot",
     "infinitive": {
-      "form": "Shot",
+      "form": "Shoot",
       "pronunciation": "/ʃuːt/"
     },
     "past_simple": {
@@ -2354,11 +2354,11 @@
   {
     "word": "Show",
     "infinitive": {
-      "form": "Showed",
+      "form": "Show",
       "pronunciation": "/ʃoʊ/"
     },
     "past_simple": {
-      "form": "Shown",
+      "form": "Showed",
       "pronunciation": "/ʃoʊd/"
     },
     "past_participle": {
@@ -2370,11 +2370,11 @@
   {
     "word": "Shrink",
     "infinitive": {
-      "form": "Shrank",
+      "form": "Shrink",
       "pronunciation": "/ʃrɪŋk/"
     },
     "past_simple": {
-      "form": "Shrunk",
+      "form": "Shrank",
       "pronunciation": "/ʃræŋk/"
     },
     "past_participle": {
@@ -2402,11 +2402,11 @@
   {
     "word": "Sing",
     "infinitive": {
-      "form": "Sang",
+      "form": "Sing",
       "pronunciation": "/sɪŋ/"
     },
     "past_simple": {
-      "form": "Sung",
+      "form": "Sang",
       "pronunciation": "/sæŋ/"
     },
     "past_participle": {
@@ -2418,11 +2418,11 @@
   {
     "word": "Sink",
     "infinitive": {
-      "form": "Sank",
+      "form": "Sink",
       "pronunciation": "/sɪŋk/"
     },
     "past_simple": {
-      "form": "Sunk",
+      "form": "Sank",
       "pronunciation": "/sæŋk/"
     },
     "past_participle": {
@@ -2434,7 +2434,7 @@
   {
     "word": "Sit",
     "infinitive": {
-      "form": "Sat",
+      "form": "Sit",
       "pronunciation": "/sɪt/"
     },
     "past_simple": {
@@ -2450,11 +2450,11 @@
   {
     "word": "Slay",
     "infinitive": {
-      "form": "Slew",
+      "form": "Slay",
       "pronunciation": "/sleɪ/"
     },
     "past_simple": {
-      "form": "Slain",
+      "form": "Slew",
       "pronunciation": "/sluː/"
     },
     "past_participle": {
@@ -2466,7 +2466,7 @@
   {
     "word": "Sleep",
     "infinitive": {
-      "form": "Slept",
+      "form": "Sleep",
       "pronunciation": "/sliːp/"
     },
     "past_simple": {
@@ -2482,7 +2482,7 @@
   {
     "word": "Slide",
     "infinitive": {
-      "form": "Slid",
+      "form": "Slide",
       "pronunciation": "/slaɪd/"
     },
     "past_simple": {
@@ -2498,7 +2498,7 @@
   {
     "word": "Sling",
     "infinitive": {
-      "form": "Slung",
+      "form": "Sling",
       "pronunciation": "/slɪŋ/"
     },
     "past_simple": {
@@ -2514,7 +2514,7 @@
   {
     "word": "Slink",
     "infinitive": {
-      "form": "Slunk",
+      "form": "Slink",
       "pronunciation": "/slɪŋk/"
     },
     "past_simple": {
@@ -2530,7 +2530,7 @@
   {
     "word": "Smell",
     "infinitive": {
-      "form": "Smelt",
+      "form": "Smell",
       "pronunciation": "/smɛl/"
     },
     "past_simple": {
@@ -2546,11 +2546,11 @@
   {
     "word": "Smite",
     "infinitive": {
-      "form": "Smote",
+      "form": "Smite",
       "pronunciation": "/smaɪt/"
     },
     "past_simple": {
-      "form": "Smitten",
+      "form": "Smote",
       "pronunciation": "/smoʊt/"
     },
     "past_participle": {
@@ -2562,27 +2562,27 @@
   {
     "word": "Sow",
     "infinitive": {
-      "form": "Sowed",
+      "form": "Sow",
       "pronunciation": "/soʊ/"
     },
     "past_simple": {
-      "form": "Sown",
+      "form": "Sowed",
       "pronunciation": "/soʊd/"
     },
     "past_participle": {
-      "form": "Sown",
-      "pronunciation": "/soʊn/"
+      "form": ["sown", "sewed"],
+      "pronunciation": ["/soʊn/", "/soʊd/"]
     },
     "meaning": "Gieo; Rải"
   },
   {
     "word": "Speak",
     "infinitive": {
-      "form": "Spoke",
+      "form": "Speak",
       "pronunciation": "/spiːk/"
     },
     "past_simple": {
-      "form": "Spoken",
+      "form": "Spoke",
       "pronunciation": "/spoʊk/"
     },
     "past_participle": {
@@ -2594,15 +2594,15 @@
   {
     "word": "Speed",
     "infinitive": {
-      "form": "Sped",
+      "form": "Speed",
       "pronunciation": "/spiːd/"
     },
     "past_simple": {
-      "form": "Sped",
+      "form": ["sped", "speeded"],
       "pronunciation": "/spɛd/"
     },
     "past_participle": {
-      "form": "Sped",
+      "form": ["sped", "speeded"],
       "pronunciation": "/spɛd/"
     },
     "meaning": "Chạy vụt"
@@ -2610,23 +2610,23 @@
   {
     "word": "Spell",
     "infinitive": {
-      "form": "Spelt",
+      "form": "Spell",
       "pronunciation": "/spɛl/"
     },
     "past_simple": {
-      "form": "Spelt",
-      "pronunciation": "/spɛlt/"
+      "form": ["Spelt", "spelled"],
+      "pronunciation": ["/spɛlt/", "/spɛld/"]
     },
     "past_participle": {
-      "form": "Spelt",
-      "pronunciation": "/spɛlt/"
+      "form": ["Spelt", "spelled"],
+      "pronunciation": ["/spɛlt/", "/spɛld/"]
     },
     "meaning": "Đánh vần"
   },
   {
     "word": "Spend",
     "infinitive": {
-      "form": "Spent",
+      "form": "Spend",
       "pronunciation": "/spɛnd/"
     },
     "past_simple": {
@@ -2642,23 +2642,23 @@
   {
     "word": "Spill",
     "infinitive": {
-      "form": "Spilt",
+      "form": "Spill",
       "pronunciation": "/spɪl/"
     },
     "past_simple": {
-      "form": "Spilt",
-      "pronunciation": "/spɪlt/"
+      "form": ["spilt", "spilled"],
+      "pronunciation": ["/spɪlt/", "/spɪld/"]
     },
     "past_participle": {
-      "form": "Spilt",
-      "pronunciation": "/spɪlt/"
+      "form": ["spilt", "spilled"],
+      "pronunciation": ["/spɪlt/", "/spɪld/"]
     },
     "meaning": "Tràn; Đổ ra"
   },
   {
     "word": "Spin",
     "infinitive": {
-      "form": "Spun",
+      "form": "Spin",
       "pronunciation": "/spɪn/"
     },
     "past_simple": {
@@ -2674,7 +2674,7 @@
   {
     "word": "Spit",
     "infinitive": {
-      "form": "Spat",
+      "form": "Spit",
       "pronunciation": "/spɪt/"
     },
     "past_simple": {
@@ -2690,16 +2690,16 @@
   {
     "word": "Spoil",
     "infinitive": {
-      "form": "Spoilt",
+      "form": "Spoil",
       "pronunciation": "/spɔɪl/"
     },
     "past_simple": {
-      "form": "Spoilt",
-      "pronunciation": "/spɔɪlt/"
+      "form": ["spoilt", "spoiled"],
+      "pronunciation": ["/spɔɪlt/", "/spɔɪld/"]
     },
     "past_participle": {
-      "form": "Spoilt",
-      "pronunciation": "/spɔɪlt/"
+      "form": ["spoilt", "spoiled"],
+      "pronunciation": ["/spɔɪlt/", "/spɔɪld/"]
     },
     "meaning": "Làm hỏng"
   },
@@ -2722,11 +2722,11 @@
   {
     "word": "Spring",
     "infinitive": {
-      "form": "Sprang",
+      "form": "Spring",
       "pronunciation": "/sprɪŋ/"
     },
     "past_simple": {
-      "form": "Sprung",
+      "form": "Sprang",
       "pronunciation": "/spræŋ/"
     },
     "past_participle": {
@@ -2738,7 +2738,7 @@
   {
     "word": "Stand",
     "infinitive": {
-      "form": "Stood",
+      "form": "Stand",
       "pronunciation": "/stænd/"
     },
     "past_simple": {
@@ -2758,12 +2758,12 @@
       "pronunciation": "/steɪv/"
     },
     "past_simple": {
-      "form": "stove",
-      "pronunciation": "/stoʊv/"
+      "form": ["stove", "staved"],
+      "pronunciation": ["/stoʊv/", "/steɪvd/"]
     },
     "past_participle": {
-      "form": "staved",
-      "pronunciation": "/steɪvd/ or /stoʊvd/"
+      "form": ["stove", "staved"],
+      "pronunciation": ["/stoʊv/", "/steɪvd/"]
     },
     "meaning": "đâm thủng"
   },
@@ -2842,7 +2842,7 @@
       "pronunciation": "/struːd/"
     },
     "past_participle": {
-      "form": "strewn",
+      "form": ["strewn", "strewed"],
       "pronunciation": "/struːn/"
     },
     "meaning": "Rắc; Rải"
@@ -2954,7 +2954,7 @@
       "pronunciation": "/swɛld/"
     },
     "past_participle": {
-      "form": "swollen",
+      "form": ["swollen", "swelled"],
       "pronunciation": "/ˈswoʊlən/"
     },
     "meaning": "Phồng; Sưng"
@@ -3114,8 +3114,8 @@
       "pronunciation": "/trɒd/"
     },
     "past_participle": {
-      "form": "Trodden/Trod",
-      "pronunciation": "/ˈtrɒdn/"
+      "form": ["Trodden", "Trod"],
+      "pronunciation": ["/ˈtrɒdən/", "/ˈtrɒdn/"]
     },
     "meaning": "Giẫm; Đạp"
   },
@@ -3168,9 +3168,9 @@
     "meaning": "Kinh qua"
   },
   {
-    "word": "Underlie",
+    "word": "Underline",
     "infinitive": {
-      "form": "Underlie",
+      "form": "Underline",
       "pronunciation": "/ˌʌndərˈlaɪ/"
     },
     "past_simple": {
@@ -3398,12 +3398,12 @@
       "pronunciation": "/wiːv/"
     },
     "past_simple": {
-      "form": "wove",
-      "pronunciation": "/ˈwoʊv/"
+      "form": ["wove", "weaved"],
+      "pronunciation": ["/ˈwoʊv/", "/wiːvd/"]
     },
     "past_participle": {
-      "form": "woven",
-      "pronunciation": "/ˈwoʊvn/"
+      "form": ["woven", "weaved"],
+      "pronunciation": ["/ˈwoʊvn/", "/wiːvd/"]
     },
     "meaning": "Dệt"
   },
@@ -3414,12 +3414,12 @@
       "pronunciation": "/wɛd/"
     },
     "past_simple": {
-      "form": "wed",
-      "pronunciation": "/ˈwɛdɪd/"
+      "form": ["wed", "wedded"],
+      "pronunciation": ["/wɛd/", "/ˈwɛdɪd/"]
     },
     "past_participle": {
-      "form": "wed",
-      "pronunciation": "/ˈwɛdɪd/"
+      "form": ["wed", "wedded"],
+      "pronunciation": ["/wɛd/", "/ˈwɛdɪd/"]
     },
     "meaning": "Kết hôn"
   },
@@ -3446,12 +3446,12 @@
       "pronunciation": "/wɛt/"
     },
     "past_simple": {
-      "form": "wet",
-      "pronunciation": "/ˈwɛtɪd/"
+      "form": ["wet", "wetted"],
+      "pronunciation": ["/wɛt/", "/ˈwɛtɪd/"]
     },
     "past_participle": {
-      "form": "wet",
-      "pronunciation": "/ˈwɛtɪd/"
+      "form": ["wet", "wetted"],
+      "pronunciation": ["/wɛt/", "/ˈwɛtɪd/"]
     },
     "meaning": "Làm ướt"
   },

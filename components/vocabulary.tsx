@@ -29,17 +29,17 @@ export function Vocabulary() {
         placeholder="Search verb..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        className="mb-4 p-2 border border-gray-300 rounded"
+        className="mb-2 border border-gray-300 rounded"
       />
       <Table className="border">
         <TableCaption>Common irregular verbs.</TableCaption>
         <TableHeader>
           <TableRow>
-            <TableHead className="bg-gray-600 text-white">No.</TableHead>
-            <TableHead className="w-[100px] bg-blue-600 text-white">Infinitive</TableHead>
-            <TableHead className="bg-green-600 text-white">Past Simple</TableHead>
-            <TableHead className="bg-pink-600 text-white">Past Participle</TableHead>
-            <TableHead className="bg-gray-600 text-white">Meaning</TableHead>
+            <TableHead className="bg-gray-600 text-white font-bold">No.</TableHead>
+            <TableHead className="bg-blue-600 text-white font-bold">Infinitive</TableHead>
+            <TableHead className="bg-green-600 text-white font-bold">Past Simple</TableHead>
+            <TableHead className="bg-pink-600 text-white font-bold">Past Participle</TableHead>
+            <TableHead className="bg-gray-600 text-white font-bold">Meaning</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -53,34 +53,40 @@ export function Vocabulary() {
               <TableCell className="bg-green-100">
                 {Array.isArray(item.past_simple.form) ? (
                   item.past_simple.form.map((form, i) => (
-                    <div key={i}>
+                    <div key={i} className="flex items-center">
                       <AudioPlayer word={form} verb={form} />
+                      <span className="text-gray-700">
+                        {Array.isArray(item.past_simple.pronunciation)
+                          ? item.past_simple.pronunciation[i]
+                          : item.past_simple.pronunciation}
+                      </span>
                     </div>
                   ))
                 ) : (
-                  <AudioPlayer word={item.past_simple.form} verb={item.past_simple.form} />
+                  <div>
+                    <AudioPlayer word={item.past_simple.form} verb={item.past_simple.form} />
+                    <span className="text-gray-700">{item.past_simple.pronunciation}</span>
+                  </div>
                 )}
-                <span className="text-gray-700">
-                  {Array.isArray(item.past_simple.pronunciation)
-                    ? item.past_simple.pronunciation.join(", ")
-                    : item.past_simple.pronunciation}
-                </span>
               </TableCell>
               <TableCell className="bg-pink-100">
                 {Array.isArray(item.past_participle.form) ? (
                   item.past_participle.form.map((form, i) => (
-                    <div key={i}>
+                    <div key={i} className="flex items-center">
                       <AudioPlayer word={form} verb={form} />
+                      <span className="text-gray-700">
+                        {Array.isArray(item.past_participle.pronunciation)
+                          ? item.past_participle.pronunciation[i]
+                          : item.past_participle.pronunciation}
+                      </span>
                     </div>
                   ))
                 ) : (
-                  <AudioPlayer word={item.past_participle.form} verb={item.past_participle.form} />
+                  <div>
+                    <AudioPlayer word={item.past_participle.form} verb={item.past_participle.form} />
+                    <span className="text-gray-700">{item.past_participle.pronunciation}</span>
+                  </div>
                 )}
-                <span className="text-gray-700">
-                  {Array.isArray(item.past_participle.pronunciation)
-                    ? item.past_participle.pronunciation.join(", ")
-                    : item.past_participle.pronunciation}
-                </span>
               </TableCell>
               <TableCell className="bg-gray-100">{item.meaning}</TableCell>
             </TableRow>

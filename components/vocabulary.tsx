@@ -9,6 +9,10 @@ import data from "../data.json";
 export function Vocabulary() {
   const [searchTerm, setSearchTerm] = useState("");
 
+  const clearSearch = () => {
+    setSearchTerm("");
+  };
+
   const filteredData = data.filter(
     (item) =>
       item.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -24,13 +28,31 @@ export function Vocabulary() {
 
   return (
     <>
-      <Input
-        type="text"
-        placeholder="Search verb..."
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        className="mb-2 border border-gray-300 rounded"
-      />
+      <div className="relative w-full">
+        <Input
+          type="text"
+          placeholder="Search verb..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="mb-2 border border-gray-300 rounded"
+        />
+        {searchTerm && (
+          <button
+            onClick={clearSearch}
+            className="absolute right-2 top-[18px] transform -translate-y-1/2 hover:opacity-70"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              className="w-5 h-5"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        )}
+      </div>
       <Table className="border">
         <TableCaption>Common irregular verbs.</TableCaption>
         <TableHeader>

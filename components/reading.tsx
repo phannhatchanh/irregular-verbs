@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 interface AudioPlayerProps {
   word: string;
   verb: string;
+  pronunciation: any;
 }
 
 const PlayIcon: React.FC<{ isPlaying: boolean }> = ({ isPlaying }) => (
@@ -17,7 +18,7 @@ const PlayIcon: React.FC<{ isPlaying: boolean }> = ({ isPlaying }) => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="inline ml-0.5 size-5 text-gray-600 hover:text-slate-900"
+    className="inline size-8 text-gray-600 hover:text-slate-900"
   >
     <motion.polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
     <motion.path
@@ -35,7 +36,7 @@ const PlayIcon: React.FC<{ isPlaying: boolean }> = ({ isPlaying }) => (
   </svg>
 );
 
-const AudioPlayer: React.FC<AudioPlayerProps> = ({ word, verb }) => {
+const AudioPlayer: React.FC<AudioPlayerProps> = ({ word, verb, pronunciation }) => {
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
 
   const playAudio = () => {
@@ -50,11 +51,14 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ word, verb }) => {
   };
 
   return (
-    <div>
-      <button onClick={playAudio} disabled={isPlaying}>
-        <span className="font-bold">{verb}</span>
-        <PlayIcon isPlaying={isPlaying} />
-      </button>
+    <div className="flex items-center justify-between">
+      <div className="flex items-center text-2xl gap-2">
+        <span className="font-bold text-2xl lowercase">{verb}</span>
+        <button onClick={playAudio} disabled={isPlaying} className="flex items-center gap-2">
+          <PlayIcon isPlaying={isPlaying} />
+          <span>{pronunciation}</span>
+        </button>
+      </div>
     </div>
   );
 };

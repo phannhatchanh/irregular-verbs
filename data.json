@@ -3,15 +3,18 @@
     "word": "abide",
     "infinitive": {
       "form": "abide",
-      "pronunciation": "/əˈbaid/"
+      "pronunciation": "/əˈbaid/",
+      "example": "I will abide by the school rules."
     },
     "past_simple": {
       "form": ["abode", "abided"],
-      "pronunciation": ["/əˈboud/", "/əˈbaidid/"]
+      "pronunciation": ["/əˈboud/", "/əˈbaidid/"],
+      "example": ["He abode in the classroom quietly.", "She abided by the teacher's instructions."]
     },
     "past_participle": {
       "form": ["abode", "abided"],
-      "pronunciation": ["/əˈboud/", "/əˈbaidid/"]
+      "pronunciation": ["/əˈboud/", "/əˈbaidid/"],
+      "example": ["He abode by the rules during the exam.", "They have abided by the traffic laws"]
     },
     "meaning": "Lưu trú"
   },
@@ -19,15 +22,18 @@
     "word": "arise",
     "infinitive": {
       "form": "arise",
-      "pronunciation": "/əˈraiz/"
+      "pronunciation": "/əˈraiz/",
+      "example": ["The sun arises early in the summer."]
     },
     "past_simple": {
       "form": "arose",
-      "pronunciation": "/əˈrouz/"
+      "pronunciation": "/əˈrouz/",
+      "example": ["A problem arose during the test."]
     },
     "past_participle": {
       "form": "arisen",
-      "pronunciation": "/əˈrizn/"
+      "pronunciation": "/əˈrizn/",
+      "example": ["A new problem has arisen in our class."]
     },
     "meaning": "Phát sinh"
   },
@@ -35,15 +41,18 @@
     "word": "awake",
     "infinitive": {
       "form": "awake",
-      "pronunciation": "/əˈweik/"
+      "pronunciation": "/əˈweik/",
+      "example": ["I awake early every morning."]
     },
     "past_simple": {
       "form": "awoke",
-      "pronunciation": "/əˈwouk/"
+      "pronunciation": "/əˈwouk/",
+      "example": ["I awoke early to study for the test."]
     },
     "past_participle": {
       "form": "awoken",
-      "pronunciation": "/əˈwoukən/"
+      "pronunciation": "/əˈwoukən/",
+      "example": ["She was awoken by a loud noise early in the morning."]
     },
     "meaning": "Đánh thức"
   },
@@ -51,15 +60,18 @@
     "word": "be",
     "infinitive": {
       "form": "be",
-      "pronunciation": "/bi/"
+      "pronunciation": "/bi/",
+      "example": ["I want to be a teacher."]
     },
     "past_simple": {
       "form": ["was", "were"],
-      "pronunciation": ["/wəz/", "/wɜːr/"]
+      "pronunciation": ["/wəz/", "/wɜːr/"],
+      "example": ["He was at school yesterday.", "They were happy last weekend."]
     },
     "past_participle": {
       "form": "been",
-      "pronunciation": "/bɪn/"
+      "pronunciation": "/bɪn/",
+      "example": ["I have been to Hanoi."]
     },
     "meaning": "Thì, là, bị, ở"
   },
@@ -67,15 +79,18 @@
     "word": "bear",
     "infinitive": {
       "form": "bear",
-      "pronunciation": "/beə/"
+      "pronunciation": "/beə/",
+      "example": ["I cannot bear the noise."]
     },
     "past_simple": {
       "form": "bore",
-      "pronunciation": "/bɔːr/"
+      "pronunciation": "/bɔːr/",
+      "example": ["She bore the pain bravely."]
     },
     "past_participle": {
       "form": "borne",
-      "pronunciation": "/bɔːrn/"
+      "pronunciation": "/bɔːrn/",
+      "example": ["The heavy load has been borne by the workers."]
     },
     "meaning": "Mang, Chịu đựng"
   },
@@ -83,15 +98,18 @@
     "word": "beat",
     "infinitive": {
       "form": "beat",
-      "pronunciation": "/biːt/"
+      "pronunciation": "/biːt/",
+      "example": ["He can beat the drums very well."]
     },
     "past_simple": {
       "form": "beat",
-      "pronunciation": "/biːt/"
+      "pronunciation": "/biːt/",
+      "example": ["They beat their opponents in the match."]
     },
     "past_participle": {
       "form": "beaten",
-      "pronunciation": "/ˈbiːtn̩/"
+      "pronunciation": "/ˈbiːtn̩/",
+      "example": ["The team was beaten by a stronger one."]
     },
     "meaning": "Đánh bại"
   },
@@ -99,15 +117,18 @@
     "word": "become",
     "infinitive": {
       "form": "become",
-      "pronunciation": "/bɪˈkʌm/"
+      "pronunciation": "/bɪˈkʌm/",
+      "example": ["She wants to become a doctor."]
     },
     "past_simple": {
       "form": "became",
-      "pronunciation": "/bɪˈkeɪm/"
+      "pronunciation": "/bɪˈkeɪm/",
+      "example": ["He became tired after the long run."]
     },
     "past_participle": {
       "form": "become",
-      "pronunciation": "/bɪˈkʌm/"
+      "pronunciation": "/bɪˈkʌm/",
+      "example": ["She has become a famous singer."]
     },
     "meaning": "Trở nên"
   },
@@ -115,15 +136,18 @@
     "word": "befall",
     "infinitive": {
       "form": "befall",
-      "pronunciation": "/bɪˈfɔːl/"
+      "pronunciation": "/bɪˈfɔːl/",
+      "example": ["Accidents can befall anyone."]
     },
     "past_simple": {
       "form": "befell",
-      "pronunciation": "/bɪˈfɛl/"
+      "pronunciation": "/bɪˈfɛl/",
+      "example": ["An unfortunate event befell him yesterday."]
     },
     "past_participle": {
       "form": "befallen",
-      "pronunciation": "/bɪˈfɔːlən/"
+      "pronunciation": "/bɪˈfɔːlən/",
+      "example": ["The disaster has befallen the village."]
     },
     "meaning": "Xảy đến"
   },
@@ -131,15 +155,18 @@
     "word": "Begin",
     "infinitive": {
       "form": "Begin",
-      "pronunciation": "/bɪˈɡɪn/"
+      "pronunciation": "/bɪˈɡɪn/",
+      "example": ["The class will begin at 8 AM."]
     },
     "past_simple": {
       "form": "Began",
-      "pronunciation": "/bɪˈɡæn/"
+      "pronunciation": "/bɪˈɡæn/",
+      "example": ["She began her studies early in the morning."]
     },
     "past_participle": {
       "form": "Begun",
-      "pronunciation": "/bɪˈɡʌn/"
+      "pronunciation": "/bɪˈɡʌn/",
+      "example": ["They have already begun the project."]
     },
     "meaning": "Bắt đầu"
   },
@@ -147,15 +174,18 @@
     "word": "Behold",
     "infinitive": {
       "form": "Behold",
-      "pronunciation": "/bɪˈhəʊld/"
+      "pronunciation": "/bɪˈhəʊld/",
+      "example": ["Behold the beauty of the sunset."]
     },
     "past_simple": {
       "form": "Beheld",
-      "pronunciation": "/bɪˈhɛld/"
+      "pronunciation": "/bɪˈhɛld/",
+      "example": ["She beheld the majestic mountains."]
     },
     "past_participle": {
       "form": "Beheld",
-      "pronunciation": "/bɪˈhɛld/"
+      "pronunciation": "/bɪˈhɛld/",
+      "example": ["He has beheld many wonders in his life."]
     },
     "meaning": "Ngắm nhìn"
   },
@@ -163,15 +193,18 @@
     "word": "Bend",
     "infinitive": {
       "form": "Bend",
-      "pronunciation": "/bend/"
+      "pronunciation": "/bend/",
+      "example": ["Please bend the paper carefully."]
     },
     "past_simple": {
       "form": "Bent",
-      "pronunciation": "/bent/"
+      "pronunciation": "/bent/",
+      "example": ["He bent the wire into a circle."]
     },
     "past_participle": {
       "form": "Bent",
-      "pronunciation": "/bent/"
+      "pronunciation": "/bent/",
+      "example": ["The tree has bent under the weight of the snow."]
     },
     "meaning": "Bẻ cong"
   },
@@ -179,15 +212,18 @@
     "word": "Beset",
     "infinitive": {
       "form": "Beset",
-      "pronunciation": "/bɪˈsɛt/"
+      "pronunciation": "/bɪˈsɛt/",
+      "example": ["The team was beset with challenges."]
     },
     "past_simple": {
       "form": "Beset",
-      "pronunciation": "/bɪˈsɛt/"
+      "pronunciation": "/bɪˈsɛt/",
+      "example": ["They were beset by difficulties all year."]
     },
     "past_participle": {
       "form": "Beset",
-      "pronunciation": "/bɪˈsɛt/"
+      "pronunciation": "/bɪˈsɛt/",
+      "example": ["The city has been beset with problems."]
     },
     "meaning": "Bao quanh"
   },
@@ -195,15 +231,18 @@
     "word": "bespeak",
     "infinitive": {
       "form": "bespeak",
-      "pronunciation": "/bɪˈspiːk/"
+      "pronunciation": "/bɪˈspiːk/",
+      "example": ["The evidence bespeaks his innocence."]
     },
     "past_simple": {
       "form": "bespoke",
-      "pronunciation": "/bɪˈspəʊk/"
+      "pronunciation": "/bɪˈspəʊk/",
+      "example": ["The situation bespoke a deep concern."]
     },
     "past_participle": {
       "form": "bespoken",
-      "pronunciation": "/bɪˈspəʊkən/"
+      "pronunciation": "/bɪˈspəʊkən/",
+      "example": ["The truth has been bespoken by many witnesses."]
     },
     "meaning": "Chứng tỏ"
   },
@@ -211,15 +250,18 @@
     "word": "bid",
     "infinitive": {
       "form": "bid",
-      "pronunciation": "/bɪd/"
+      "pronunciation": "/bɪd/",
+      "example": ["He bid $10 for the old book."]
     },
     "past_simple": {
       "form": ["Bade", "bid"],
-      "pronunciation": ["/bæd/", "/bɪd/"]
+      "pronunciation": ["/bæd/", "/bɪd/"],
+      "example": ["She bade him farewell before leaving.", "He bid $100 for the old clock."]
     },
     "past_participle": {
       "form": ["bidden", "bid"],
-      "pronunciation": ["/bɪdən/", "/bɪd/"]
+      "pronunciation": ["/bɪdən/", "/bɪd/"],
+      "example": ["She had bidden them to follow her.", "He had bid higher than anyone else."]
     },
     "meaning": "Trả giá"
   },
@@ -227,15 +269,18 @@
     "word": "Bind",
     "infinitive": {
       "form": "Bind",
-      "pronunciation": "/baɪnd/"
+      "pronunciation": "/baɪnd/",
+      "example": ["I need to bind these books."]
     },
     "past_simple": {
       "form": "Bound",
-      "pronunciation": "/baʊnd/"
+      "pronunciation": "/baʊnd/",
+      "example": ["She bound the package with string."]
     },
     "past_participle": {
       "form": "Bound",
-      "pronunciation": "/baʊnd/"
+      "pronunciation": "/baʊnd/",
+      "example": ["He has bound the wound tightly."]
     },
     "meaning": "Buộc, trói"
   },
@@ -243,15 +288,18 @@
     "word": "Bleed",
     "infinitive": {
       "form": "Bleed",
-      "pronunciation": "/bliːd/"
+      "pronunciation": "/bliːd/",
+      "example": ["Your nose might bleed if you pick it."]
     },
     "past_simple": {
       "form": "Bled",
-      "pronunciation": "/bled/"
+      "pronunciation": "/bled/",
+      "example": ["He bled after falling off his bike."]
     },
     "past_participle": {
       "form": "Bled",
-      "pronunciation": "/bled/"
+      "pronunciation": "/bled/",
+      "example": ["The cut has bled a lot."]
     },
     "meaning": "Chảy máu"
   },
@@ -259,15 +307,18 @@
     "word": "Blow",
     "infinitive": {
       "form": "Blow",
-      "pronunciation": "/bloʊ/"
+      "pronunciation": "/bloʊ/",
+      "example": ["Blow out the candles on the cake."]
     },
     "past_simple": {
       "form": "Blew",
-      "pronunciation": "/bluː/"
+      "pronunciation": "/bluː/",
+      "example": ["The wind blew the leaves away."]
     },
     "past_participle": {
       "form": "Blown",
-      "pronunciation": "/bloʊn/"
+      "pronunciation": "/bloʊn/",
+      "example": ["The balloon has been blown up."]
     },
     "meaning": "Thổi"
   },
@@ -275,15 +326,18 @@
     "word": "Break",
     "infinitive": {
       "form": "Break",
-      "pronunciation": "/breɪk/"
+      "pronunciation": "/breɪk/",
+      "example": ["Don't break that vase!"]
     },
     "past_simple": {
       "form": "Broke",
-      "pronunciation": "/broʊk/"
+      "pronunciation": "/broʊk/",
+      "example": ["She broke her phone yesterday."]
     },
     "past_participle": {
       "form": "Broken",
-      "pronunciation": "/ˈbroʊkən/"
+      "pronunciation": "/ˈbroʊkən/",
+      "example": ["The window has been broken."]
     },
     "meaning": "Đập vỡ"
   },
@@ -291,31 +345,37 @@
     "word": "Breed",
     "infinitive": {
       "form": "Breed",
-      "pronunciation": "/briːd/"
+      "pronunciation": "/briːd/",
+      "example": ["They breed rabbits for food."]
     },
     "past_simple": {
       "form": "Bred",
-      "pronunciation": "/brɛd/"
+      "pronunciation": "/brɛd/",
+      "example": ["She bred horses on her farm."]
     },
     "past_participle": {
       "form": "Bred",
-      "pronunciation": "/brɛd/"
+      "pronunciation": "/brɛd/",
+      "example": ["They have bred many different animals."]
     },
-    "meaning": "Nuôi; Dạy dỗ"
+    "meaning": "Nuôi, Dạy dỗ"
   },
   {
     "word": "bring",
     "infinitive": {
       "form": "bring",
-      "pronunciation": "/brɪŋ/"
+      "pronunciation": "/brɪŋ/",
+      "example": ["Please bring your homework tomorrow."]
     },
     "past_simple": {
       "form": "brought",
-      "pronunciation": "/brɔːt/"
+      "pronunciation": "/brɔːt/",
+      "example": ["She brought a gift to the party."]
     },
     "past_participle": {
       "form": "brought",
-      "pronunciation": "/brɔːt/"
+      "pronunciation": "/brɔːt/",
+      "example": ["He has brought all the necessary tools."]
     },
     "meaning": "Mang đến"
   },
@@ -323,15 +383,18 @@
     "word": "Broadcast",
     "infinitive": {
       "form": "Broadcast",
-      "pronunciation": "/ˈbrɔːdkɑːst/"
+      "pronunciation": "/ˈbrɔːdkɑːst/",
+      "example": ["They broadcast the news every evening."]
     },
     "past_simple": {
       "form": "Broadcast",
-      "pronunciation": "/ˈbrɔːdkɑːst/"
+      "pronunciation": "/ˈbrɔːdkɑːst/",
+      "example": ["The station broadcast a live concert."]
     },
     "past_participle": {
       "form": "Broadcast",
-      "pronunciation": "/ˈbrɔːdkɑːst/"
+      "pronunciation": "/ˈbrɔːdkɑːst/",
+      "example": ["The show has been broadcast worldwide."]
     },
     "meaning": "Phát thanh"
   },
@@ -339,15 +402,18 @@
     "word": "Build",
     "infinitive": {
       "form": "Build",
-      "pronunciation": "/bɪld/"
+      "pronunciation": "/bɪld/",
+      "example": ["We plan to build a new school."]
     },
     "past_simple": {
       "form": "Built",
-      "pronunciation": "/bɪlt/"
+      "pronunciation": "/bɪlt/",
+      "example": ["They built a bridge last year."]
     },
     "past_participle": {
       "form": "Built",
-      "pronunciation": "/bɪlt/"
+      "pronunciation": "/bɪlt/",
+      "example": ["He has built a successful career."]
     },
     "meaning": "Xây dựng"
   },
@@ -355,31 +421,37 @@
     "word": "burn",
     "infinitive": {
       "form": "burn",
-      "pronunciation": "/bɜːn/"
+      "pronunciation": "/bɜːn/",
+      "example": ["Don't burn the toast!"]
     },
     "past_simple": {
       "form": ["burnt", "burned"],
-      "pronunciation": ["/bɜːnt/", "/bɜːnd/"]
+      "pronunciation": ["/bɜːnt/", "/bɜːnd/"],
+      "example": ["The fire burnt brightly all night.", "He burned his hand on the stove."]
     },
     "past_participle": {
       "form": ["burnt", "burned"],
-      "pronunciation": ["/bɜːnt/", "/bɜːnd/"]
+      "pronunciation": ["/bɜːnt/", "/bɜːnd/"],
+      "example": ["The house was burnt to the ground.", "He has burned the old papers."]
     },
-    "meaning": "Đốt; Cháy"
+    "meaning": "Đốt, Cháy"
   },
   {
     "word": "Buy",
     "infinitive": {
       "form": "Buy",
-      "pronunciation": "/baɪ/"
+      "pronunciation": "/baɪ/",
+      "example": ["I want to buy a new book."]
     },
     "past_simple": {
       "form": "Bought",
-      "pronunciation": "/bɔːt/"
+      "pronunciation": "/bɔːt/",
+      "example": ["She bought a dress yesterday."]
     },
     "past_participle": {
       "form": "Bought",
-      "pronunciation": "/bɔːt/"
+      "pronunciation": "/bɔːt/",
+      "example": ["He has bought a new car recently."]
     },
     "meaning": "Mua"
   },
@@ -387,95 +459,116 @@
     "word": "Cast",
     "infinitive": {
       "form": "Cast",
-      "pronunciation": "/kɑːst/"
+      "pronunciation": "/kɑːst/",
+      "example": ["He cast a stone into the river."]
     },
     "past_simple": {
       "form": "Cast",
-      "pronunciation": "/kɑːst/"
+      "pronunciation": "/kɑːst/",
+      "example": ["The statue has been cast in bronze."]
     },
     "past_participle": {
       "form": "Cast",
-      "pronunciation": "/kɑːst/"
+      "pronunciation": "/kɑːst/",
+      "example": ["The statue has been cast in bronze."]
     },
-    "meaning": "Ném; Tung"
+    "meaning": "Ném, Tung"
   },
   {
     "word": "Catch",
     "infinitive": {
       "form": "Catch",
-      "pronunciation": "/kætʃ/"
+      "pronunciation": "/kætʃ/",
+      "example": ["Try to catch the ball."]
     },
     "past_simple": {
       "form": "Caught",
-      "pronunciation": "/kɔːt/"
+      "pronunciation": "/kɔːt/",
+      "example": ["She caught a cold last week."]
     },
     "past_participle": {
       "form": "Caught",
-      "pronunciation": "/kɔːt/"
+      "pronunciation": "/kɔːt/",
+      "example": ["He has caught many fish today."]
     },
-    "meaning": "Bắt; Chụp"
+    "meaning": "Bắt, Chụp"
   },
   {
     "word": "Chide",
     "infinitive": {
       "form": "Chide",
-      "pronunciation": "/tʃaɪd/"
+      "pronunciation": "/tʃaɪd/",
+      "example": ["Parents sometimes chide their children for being late."]
     },
     "past_simple": {
       "form": ["chid", "chided"],
-      "pronunciation": ["/tʃɪd/ ", "/ˈtʃaɪdɪd/"]
+      "pronunciation": ["/tʃɪd/ ", "/ˈtʃaɪdɪd/"],
+      "example": [
+        "The teacher chid the students for talking too loudly.",
+        "She chided him for forgetting their anniversary."
+      ]
     },
     "past_participle": {
       "form": ["chidden", "chided"],
-      "pronunciation": ["/tʃɪd/", "/ˈtʃaɪdɪd/"]
+      "pronunciation": ["/tʃɪd/", "/ˈtʃaɪdɪd/"],
+      "example": ["He has been chidden for his mistakes.", "They have chided the team for poor performance."]
     },
-    "meaning": "Mắng; Chửi"
+    "meaning": "Mắng, Chửi"
   },
   {
     "word": "Choose",
     "infinitive": {
       "form": "Choose",
-      "pronunciation": "/tʃuːz/"
+      "pronunciation": "/tʃuːz/",
+      "example": ["You can choose any book you like."]
     },
     "past_simple": {
       "form": "Chose",
-      "pronunciation": "/tʃoʊz/"
+      "pronunciation": "/tʃoʊz/",
+      "example": ["She chose the blue dress for the party."]
     },
     "past_participle": {
       "form": "Chosen",
-      "pronunciation": "/ˈtʃoʊzən/"
+      "pronunciation": "/ˈtʃoʊzən/",
+      "example": ["They have chosen a new leader for the group."]
     },
-    "meaning": "Chọn; Lựa"
+    "meaning": "Chọn, Lựa"
   },
   {
     "word": "Cleave",
     "infinitive": {
       "form": "Cleave",
-      "pronunciation": "/kliːv/"
+      "pronunciation": "/kliːv/",
+      "example": ["He used an axe to cleave the log."]
     },
     "past_simple": {
       "form": "Cleft",
-      "pronunciation": ["/klɛft/", "/kləʊv/"]
+      "pronunciation": ["/klɛft/", "/kləʊv/"],
+      "example": ["The rock cleft in two after the explosion."]
     },
     "past_participle": {
       "form": "Cleft",
-      "pronunciation": ["/klɛft/", "/kləʊv/"]
+      "pronunciation": ["/klɛft/", "/kləʊv/"],
+      "example": ["The wood has been cleft into smaller pieces."]
     },
-    "meaning": "Chẻ; Tách hai"
+    "meaning": "Chẻ, Tách hai"
   },
   {
     "word": "Cleave",
     "infinitive": {
       "form": "Cleave",
-      "pronunciation": "/kliːv/"
+      "pronunciation": "/kliːv/",
+      "example": ["Some people cleave to their traditions."]
     },
     "past_simple": {
       "form": "Clave",
-      "pronunciation": "/kliːvd/"
+      "pronunciation": "/kliːvd/",
+      "example": ["She clave to her beliefs despite the challenges."]
     },
     "past_participle": {
       "form": "Cleaved",
-      "pronunciation": "/kliːvd/"
+      "pronunciation": "/kliːvd/",
+      "example": ["He has cleaved to the old customs for years."]
     },
     "meaning": "Dính chặt"
   },
@@ -483,31 +576,37 @@
     "word": "Come",
     "infinitive": {
       "form": "Come",
-      "pronunciation": "/kʌm/"
+      "pronunciation": "/kʌm/",
+      "example": ["Please come to my house after school."]
     },
     "past_simple": {
       "form": "Came",
-      "pronunciation": "/keɪm/"
+      "pronunciation": "/keɪm/",
+      "example": ["She came to the party late."]
     },
     "past_participle": {
       "form": "Come",
-      "pronunciation": "/kʌm/"
+      "pronunciation": "/kʌm/",
+      "example": ["They have come here many times."]
     },
-    "meaning": "Đến; Đi đến"
+    "meaning": "Đến, Đi đến"
   },
   {
     "word": "Cost",
     "infinitive": {
       "form": "Cost",
-      "pronunciation": "/kɒst/"
+      "pronunciation": "/kɒst/",
+      "example": [""]
     },
     "past_simple": {
       "form": "Cost",
-      "pronunciation": "/kɒst/"
+      "pronunciation": "/kɒst/",
+      "example": ["This book costs $10."]
     },
     "past_participle": {
       "form": "Cost",
-      "pronunciation": "/kɒst/"
+      "pronunciation": "/kɒst/",
+      "example": ["The trip cost a lot of money last year."]
     },
     "meaning": "Có giá là"
   },
@@ -515,15 +614,18 @@
     "word": "Crow",
     "infinitive": {
       "form": "Crow",
-      "pronunciation": "/krəʊ/"
+      "pronunciation": "/krəʊ/",
+      "example": ["The rooster crows every morning."]
     },
     "past_simple": {
       "form": "Crew",
-      "pronunciation": "/krəʊd/"
+      "pronunciation": "/krəʊd/",
+      "example": ["The rooster crew loudly at dawn."]
     },
     "past_participle": {
       "form": "Crowed",
-      "pronunciation": "/krəʊd/"
+      "pronunciation": "/krəʊd/",
+      "example": ["The rooster has crowed all morning."]
     },
     "meaning": "Gáy (gà)"
   },
@@ -531,31 +633,37 @@
     "word": "Cut",
     "infinitive": {
       "form": "Cut",
-      "pronunciation": "/kʌt/"
+      "pronunciation": "/kʌt/",
+      "example": ["Be careful not to cut your finger."]
     },
     "past_simple": {
       "form": "Cut",
-      "pronunciation": "/kʌt/"
+      "pronunciation": "/kʌt/",
+      "example": ["He cut the paper with scissors."]
     },
     "past_participle": {
       "form": "Cut",
-      "pronunciation": "/kʌt/"
+      "pronunciation": "/kʌt/",
+      "example": ["She has cut her hair short."]
     },
-    "meaning": "Cắn; Chặt"
+    "meaning": "Cắn, Chặt"
   },
   {
     "word": "Deal",
     "infinitive": {
       "form": "Deal",
-      "pronunciation": "/diːl/"
+      "pronunciation": "/diːl/",
+      "example": ["We need to deal with this problem quickly."]
     },
     "past_simple": {
       "form": "Dealt",
-      "pronunciation": "/delt/"
+      "pronunciation": "/delt/",
+      "example": ["He dealt the cards to everyone."]
     },
     "past_participle": {
       "form": "Dealt",
-      "pronunciation": "/delt/"
+      "pronunciation": "/delt/",
+      "example": ["They have dealt with many difficult situations."]
     },
     "meaning": "giao thiệp"
   },
@@ -563,15 +671,18 @@
     "word": "Dig",
     "infinitive": {
       "form": "Dig",
-      "pronunciation": "/dɪɡ/"
+      "pronunciation": "/dɪɡ/",
+      "example": ["The dog loves to dig holes in the garden."]
     },
     "past_simple": {
       "form": "Dug",
-      "pronunciation": "/dʌɡ/"
+      "pronunciation": "/dʌɡ/",
+      "example": ["He dug a deep hole to plant the tree."]
     },
     "past_participle": {
       "form": "Dug",
-      "pronunciation": "/dʌɡ/"
+      "pronunciation": "/dʌɡ/",
+      "example": ["They have dug a well for water."]
     },
     "meaning": "Đào"
   },
@@ -579,47 +690,56 @@
     "word": "Dive",
     "infinitive": {
       "form": "Dive",
-      "pronunciation": "/daɪv/"
+      "pronunciation": "/daɪv/",
+      "example": ["He loves to dive into the swimming pool."]
     },
     "past_simple": {
       "form": ["Dove", "Dived"],
-      "pronunciation": ["/doʊv/", "/daɪvd/"]
+      "pronunciation": ["/doʊv/", "/daɪvd/"],
+      "example": ["He dove off the cliff into the ocean.", "She dived into the water to save the child."]
     },
     "past_participle": {
       "form": "Dived",
-      "pronunciation": "/daɪvd/"
+      "pronunciation": "/daɪvd/",
+      "example": ["The submarine has dived deep under the sea."]
     },
-    "meaning": "Lặn; Lao xuống"
+    "meaning": "Lặn, Lao xuống"
   },
   {
     "word": "Draw",
     "infinitive": {
       "form": "Draw",
-      "pronunciation": "/drɔː/"
+      "pronunciation": "/drɔː/",
+      "example": ["She likes to draw pictures of landscapes."]
     },
     "past_simple": {
       "form": "Drew",
-      "pronunciation": "/druː/"
+      "pronunciation": "/druː/",
+      "example": ["He drew a map to show the way."]
     },
     "past_participle": {
       "form": "Drawn",
-      "pronunciation": "/drɔːn/"
+      "pronunciation": "/drɔːn/",
+      "example": ["The artist has drawn a beautiful portrait."]
     },
-    "meaning": "Vẽ; Kéo"
+    "meaning": "Vẽ, Kéo"
   },
   {
     "word": "Dream",
     "infinitive": {
       "form": "Dream",
-      "pronunciation": "/driːm/"
+      "pronunciation": "/driːm/",
+      "example": ["I often dream about traveling the world."]
     },
     "past_simple": {
       "form": ["Dreamt", "Dreamed"],
-      "pronunciation": ["/drɛmt/", "/driːmd/"]
+      "pronunciation": ["/drɛmt/", "/driːmd/"],
+      "example": ["Last night, I dreamt about my childhood.", "He dreamed of becoming a pilot."]
     },
     "past_participle": {
       "form": ["Dreamt", "Dreamed"],
-      "pronunciation": ["/drɛmt/", "/driːmd/"]
+      "pronunciation": ["/drɛmt/", "/driːmd/"],
+      "example": ["She has dreamt of this day for years.", "They have dreamed of success since starting their journey."]
     },
     "meaning": "Mơ thấy"
   },
@@ -627,15 +747,18 @@
     "word": "Drink",
     "infinitive": {
       "form": "Drink",
-      "pronunciation": "/drɪŋk/"
+      "pronunciation": "/drɪŋk/",
+      "example": ["I drink water every morning."]
     },
     "past_simple": {
       "form": "Drank",
-      "pronunciation": "/dræŋk/"
+      "pronunciation": "/dræŋk/",
+      "example": ["He drank a glass of milk before bed."]
     },
     "past_participle": {
       "form": "Drunk",
-      "pronunciation": "/drʌŋk/"
+      "pronunciation": "/drʌŋk/",
+      "example": ["She has drunk three cups of coffee today."]
     },
     "meaning": "Uống"
   },
@@ -643,15 +766,18 @@
     "word": "Drive",
     "infinitive": {
       "form": "Drive",
-      "pronunciation": "/draɪv/"
+      "pronunciation": "/draɪv/",
+      "example": ["He likes to drive on long road trips."]
     },
     "past_simple": {
       "form": "Drove",
-      "pronunciation": "/droʊv/"
+      "pronunciation": "/droʊv/",
+      "example": ["Yesterday, she drove to the countryside."]
     },
     "past_participle": {
       "form": "Driven",
-      "pronunciation": "/ˈdrɪvən/"
+      "pronunciation": "/ˈdrɪvən/",
+      "example": ["They have driven across the entire country."]
     },
     "meaning": "Lái xe"
   },
@@ -659,15 +785,18 @@
     "word": "Dwell",
     "infinitive": {
       "form": "Dwell",
-      "pronunciation": "/dwɛl/"
+      "pronunciation": "/dwɛl/",
+      "example": ["The hermit chose to dwell in a remote forest."]
     },
     "past_simple": {
       "form": "Dwelt",
-      "pronunciation": "/dwɛlt/"
+      "pronunciation": "/dwɛlt/",
+      "example": ["He dwelt in the mountains for years."]
     },
     "past_participle": {
       "form": "Dwelt",
-      "pronunciation": "/dwɛlt/"
+      "pronunciation": "/dwɛlt/",
+      "example": ["The tribe has dwelt in this region for centuries."]
     },
     "meaning": "Trú ngụ"
   },
@@ -675,15 +804,18 @@
     "word": "Eat",
     "infinitive": {
       "form": "Eat",
-      "pronunciation": "/iːt/"
+      "pronunciation": "/iːt/",
+      "example": ["I eat breakfast at 7 AM."]
     },
     "past_simple": {
       "form": "Ate",
-      "pronunciation": "/eɪt/"
+      "pronunciation": "/eɪt/",
+      "example": ["She ate an apple for lunch."]
     },
     "past_participle": {
       "form": "Eaten",
-      "pronunciation": "/ˈiːtn̩/"
+      "pronunciation": "/ˈiːtn̩/",
+      "example": ["We have eaten at that restaurant before."]
     },
     "meaning": "Ăn"
   },
@@ -691,31 +823,37 @@
     "word": "Fall",
     "infinitive": {
       "form": "Fall",
-      "pronunciation": "/fɔːl/"
+      "pronunciation": "/fɔːl/",
+      "example": ["Leaves fall from trees in autumn."]
     },
     "past_simple": {
       "form": "Fell",
-      "pronunciation": "/fel/"
+      "pronunciation": "/fel/",
+      "example": ["She fell off the ladder."]
     },
     "past_participle": {
       "form": "Fallen",
-      "pronunciation": "/ˈfɔːlən/"
+      "pronunciation": "/ˈfɔːlən/",
+      "example": ["The empire has fallen."]
     },
-    "meaning": "Ngã; Rơi"
+    "meaning": "Ngã, Rơi"
   },
   {
     "word": "Feed",
     "infinitive": {
       "form": "Feed",
-      "pronunciation": "/fiːd/"
+      "pronunciation": "/fiːd/",
+      "example": ["I need to feed the dog."]
     },
     "past_simple": {
       "form": "Fed",
-      "pronunciation": "/fed/"
+      "pronunciation": "/fed/",
+      "example": ["He fed the birds in the park."]
     },
     "past_participle": {
       "form": "Fed",
-      "pronunciation": "/fed/"
+      "pronunciation": "/fed/",
+      "example": ["The baby has been fed."]
     },
     "meaning": "cho ăn, ăn, nuôi"
   },
@@ -723,15 +861,18 @@
     "word": "Feel",
     "infinitive": {
       "form": "Feel",
-      "pronunciation": "/fiːl/"
+      "pronunciation": "/fiːl/",
+      "example": ["I feel happy today."]
     },
     "past_simple": {
       "form": "Felt",
-      "pronunciation": "/felt/"
+      "pronunciation": "/felt/",
+      "example": ["She felt tired after the trip."]
     },
     "past_participle": {
       "form": "Felt",
-      "pronunciation": "/felt/"
+      "pronunciation": "/felt/",
+      "example": ["He has felt this way for years."]
     },
     "meaning": "Cảm thấy"
   },
@@ -739,15 +880,18 @@
     "word": "Fight",
     "infinitive": {
       "form": "Fight",
-      "pronunciation": "/faɪt/"
+      "pronunciation": "/faɪt/",
+      "example": ["They fight for their rights."]
     },
     "past_simple": {
       "form": "Fought",
-      "pronunciation": "/fɔːt/"
+      "pronunciation": "/fɔːt/",
+      "example": ["He fought bravely in the battle."]
     },
     "past_participle": {
       "form": "Fought",
-      "pronunciation": "/fɔːt/"
+      "pronunciation": "/fɔːt/",
+      "example": ["The team has fought hard to win the championship."]
     },
     "meaning": "Chiến đấu"
   },
@@ -755,31 +899,37 @@
     "word": "Find",
     "infinitive": {
       "form": "Find",
-      "pronunciation": "/faɪnd/"
+      "pronunciation": "/faɪnd/",
+      "example": ["I always find my keys on the table."]
     },
     "past_simple": {
       "form": "Found",
-      "pronunciation": "/faʊnd/"
+      "pronunciation": "/faʊnd/",
+      "example": ["She found a wallet on the street."]
     },
     "past_participle": {
       "form": "Found",
-      "pronunciation": "/faʊnd/"
+      "pronunciation": "/faʊnd/",
+      "example": ["They have found the missing documents."]
     },
-    "meaning": "Tìm thấy; Thấy"
+    "meaning": "Tìm thấy, Thấy"
   },
   {
     "word": "Flee",
     "infinitive": {
       "form": "Flee",
-      "pronunciation": "/fliː/"
+      "pronunciation": "/fliː/",
+      "example": ["People flee from danger."]
     },
     "past_simple": {
       "form": "Fled",
-      "pronunciation": "/flɛd/"
+      "pronunciation": "/flɛd/",
+      "example": ["They fled the city during the war."]
     },
     "past_participle": {
       "form": "Fled",
-      "pronunciation": "/flɛd/"
+      "pronunciation": "/flɛd/",
+      "example": ["The refugees have fled the conflict."]
     },
     "meaning": "Chạy trốn"
   },
@@ -787,31 +937,37 @@
     "word": "Fling",
     "infinitive": {
       "form": "Fling",
-      "pronunciation": "/flɪŋ/"
+      "pronunciation": "/flɪŋ/",
+      "example": ["She decided to fling the ball across the field."]
     },
     "past_simple": {
       "form": "Flung",
-      "pronunciation": "/flʌŋ/"
+      "pronunciation": "/flʌŋ/",
+      "example": ["He flung the door open in anger."]
     },
     "past_participle": {
       "form": "Flung",
-      "pronunciation": "/flʌŋ/"
+      "pronunciation": "/flʌŋ/",
+      "example": ["The soldier had flung the spear with great force."]
     },
-    "meaning": "Tung; Quang"
+    "meaning": "Tung, Quang"
   },
   {
     "word": "Fly",
     "infinitive": {
       "form": "Fly",
-      "pronunciation": "/flaɪ/"
+      "pronunciation": "/flaɪ/",
+      "example": ["Birds fly high in the sky."]
     },
     "past_simple": {
       "form": "Flew",
-      "pronunciation": "/fluː/"
+      "pronunciation": "/fluː/",
+      "example": ["The plane flew over the mountains."]
     },
     "past_participle": {
       "form": "Flown",
-      "pronunciation": "/floʊn/"
+      "pronunciation": "/floʊn/",
+      "example": ["The bird has flown away."]
     },
     "meaning": "Bay"
   },
@@ -819,15 +975,18 @@
     "word": "Forbear",
     "infinitive": {
       "form": "Forbear",
-      "pronunciation": "/fɔːrˈbɛər/"
+      "pronunciation": "/fɔːrˈbɛər/",
+      "example": ["He had to forbear from speaking."]
     },
     "past_simple": {
       "form": "Forbore",
-      "pronunciation": "/fɔːrˈbɔːr/"
+      "pronunciation": "/fɔːrˈbɔːr/",
+      "example": ["She forbore from making any comments."]
     },
     "past_participle": {
       "form": "Forborne",
-      "pronunciation": "/fɔːrˈbɔːrn/"
+      "pronunciation": "/fɔːrˈbɔːrn/",
+      "example": ["They have forborne from taking any action."]
     },
     "meaning": "Nhịn"
   },
@@ -835,31 +994,37 @@
     "word": "Forbid",
     "infinitive": {
       "form": "Forbid",
-      "pronunciation": "/fərˈbɪd/"
+      "pronunciation": "/fərˈbɪd/",
+      "example": ["They forbid him from entering the restricted area."]
     },
     "past_simple": {
       "form": "Forbade",
-      "pronunciation": "/fərˈbæd/"
+      "pronunciation": "/fərˈbæd/",
+      "example": ["She forbade her children from going out at night."]
     },
     "past_participle": {
       "form": "Forbidden",
-      "pronunciation": "/fərˈbɪdən/"
+      "pronunciation": "/fərˈbɪdən/",
+      "example": ["The practice has been forbidden by law."]
     },
-    "meaning": "Cấm; Cấm đoán"
+    "meaning": "Cấm, Cấm đoán"
   },
   {
     "word": "Forecast",
     "infinitive": {
       "form": "Forecast",
-      "pronunciation": "/ˈfɔːrkɑːst/"
+      "pronunciation": "/ˈfɔːrkɑːst/",
+      "example": ["The weather forecast predicts rain."]
     },
     "past_simple": {
       "form": "Forecasted",
-      "pronunciation": "/ˈfɔːrkɑːst/"
+      "pronunciation": "/ˈfɔːrkɑːst/",
+      "example": ["They forecasted heavy snowfall last week."]
     },
     "past_participle": {
       "form": "Forecasted",
-      "pronunciation": "/ˈfɔːrkɑːst/"
+      "pronunciation": "/ˈfɔːrkɑːst/",
+      "example": ["The company has forecasted growth for the next quarter."]
     },
     "meaning": "Tiên đoán"
   },
@@ -867,15 +1032,18 @@
     "word": "Foresee",
     "infinitive": {
       "form": "Foresee",
-      "pronunciation": "/fɔːrˈsiː/"
+      "pronunciation": "/fɔːrˈsiː/",
+      "example": ["I foresee challenges in this project."]
     },
     "past_simple": {
       "form": "Foresaw",
-      "pronunciation": "/fɔːrˈsɔː/"
+      "pronunciation": "/fɔːrˈsɔː/",
+      "example": ["She foresaw the difficulties."]
     },
     "past_participle": {
       "form": "Foreseen",
-      "pronunciation": "/fɔːrˈsiːn/"
+      "pronunciation": "/fɔːrˈsiːn/",
+      "example": ["The changes were foreseen months ago."]
     },
     "meaning": "Thấy trước"
   },
@@ -883,15 +1051,18 @@
     "word": "Foretell",
     "infinitive": {
       "form": "Foretell",
-      "pronunciation": "/fɔːrˈtɛl/"
+      "pronunciation": "/fɔːrˈtɛl/",
+      "example": ["The ancient oracle could foretell the future."]
     },
     "past_simple": {
       "form": "Foretold",
-      "pronunciation": "/fɔːrˈtoʊld/"
+      "pronunciation": "/fɔːrˈtoʊld/",
+      "example": ["He foretold the coming of a great storm."]
     },
     "past_participle": {
       "form": "Foretold",
-      "pronunciation": "/fɔːrˈtoʊld/"
+      "pronunciation": "/fɔːrˈtoʊld/",
+      "example": ["The events were foretold in the prophecy."]
     },
     "meaning": "Đoán trước"
   },
@@ -899,15 +1070,18 @@
     "word": "Forget",
     "infinitive": {
       "form": "Forget",
-      "pronunciation": "/fərˈɡɛt/"
+      "pronunciation": "/fərˈɡɛt/",
+      "example": ["Don't forget to lock the door."]
     },
     "past_simple": {
       "form": "Forgot",
-      "pronunciation": "/fərˈɡɒt/"
+      "pronunciation": "/fərˈɡɒt/",
+      "example": ["I forgot where I put my keys."]
     },
     "past_participle": {
       "form": "Forgotten",
-      "pronunciation": "/fərˈɡɒtn/"
+      "pronunciation": "/fərˈɡɒtn/",
+      "example": ["She had forgotten his birthday."]
     },
     "meaning": "Quên"
   },
@@ -915,15 +1089,18 @@
     "word": "Forgive",
     "infinitive": {
       "form": "Forgive",
-      "pronunciation": "/fəˈɡɪv/"
+      "pronunciation": "/fəˈɡɪv/",
+      "example": ["It's important to forgive others."]
     },
     "past_simple": {
       "form": "Forgave",
-      "pronunciation": "/fəˈɡeɪv/"
+      "pronunciation": "/fəˈɡeɪv/",
+      "example": ["He forgave her for the mistake."]
     },
     "past_participle": {
       "form": "Forgiven",
-      "pronunciation": "/fəˈɡɪvən/"
+      "pronunciation": "/fəˈɡɪvən/",
+      "example": ["They have forgiven each other."]
     },
     "meaning": "Tha thứ"
   },
@@ -931,15 +1108,18 @@
     "word": "Forsake",
     "infinitive": {
       "form": "Forsake",
-      "pronunciation": "/fɔːrˈseɪk/"
+      "pronunciation": "/fɔːrˈseɪk/",
+      "example": ["He promised never to forsake his family."]
     },
     "past_simple": {
       "form": "Forsook",
-      "pronunciation": "/fɔːrˈsʊk/"
+      "pronunciation": "/fɔːrˈsʊk/",
+      "example": ["She forsook her homeland for a better life."]
     },
     "past_participle": {
       "form": "Forsaken",
-      "pronunciation": "/fɔːrˈseɪkən/"
+      "pronunciation": "/fɔːrˈseɪkən/",
+      "example": ["The old building has been forsaken for decades."]
     },
     "meaning": "Ruồng bỏ"
   },
@@ -947,15 +1127,18 @@
     "word": "Freeze",
     "infinitive": {
       "form": "Freeze",
-      "pronunciation": "/friːz/"
+      "pronunciation": "/friːz/",
+      "example": ["Water will freeze at 0°C."]
     },
     "past_simple": {
       "form": "Froze",
-      "pronunciation": "/froʊz/"
+      "pronunciation": "/froʊz/",
+      "example": ["The lake froze over during the winter."]
     },
     "past_participle": {
       "form": "Frozen",
-      "pronunciation": "/ˈfroʊzn̩/"
+      "pronunciation": "/ˈfroʊzn̩/",
+      "example": ["They have frozen the leftover food."]
     },
     "meaning": "Làm đông"
   },
@@ -963,15 +1146,18 @@
     "word": "Get",
     "infinitive": {
       "form": "Get",
-      "pronunciation": "/ɡɛt/"
+      "pronunciation": "/ɡɛt/",
+      "example": ["I need to get some rest."]
     },
     "past_simple": {
       "form": "Got",
-      "pronunciation": "/ɡɒt/"
+      "pronunciation": "/ɡɒt/",
+      "example": ["She got a new job last week."]
     },
     "past_participle": {
       "form": ["Got", "Gotten"],
-      "pronunciation": "/ˈɡɒtn̩/"
+      "pronunciation": "/ˈɡɒtn̩/",
+      "example": ["He has got the tickets.", "They have gotten better at singing."]
     },
     "meaning": "Có được"
   },
@@ -979,15 +1165,18 @@
     "word": "Gild",
     "infinitive": {
       "form": "Gild",
-      "pronunciation": "/ɡɪld/"
+      "pronunciation": "/ɡɪld/",
+      "example": ["They gilded the statue to make it shine."]
     },
     "past_simple": {
       "form": ["Gilt", "Gilded"],
-      "pronunciation": ["/ɡɪlt/", "/ɡɪldəd/"]
+      "pronunciation": ["/ɡɪlt/", "/ɡɪldəd/"],
+      "example": ["The edges were gilt for decoration.", "She gilded the picture frame."]
     },
     "past_participle": {
       "form": ["Gilt", "Gilded"],
-      "pronunciation": ["/ɡɪlt/", "/ɡɪldəd/"]
+      "pronunciation": ["/ɡɪlt/", "/ɡɪldəd/"],
+      "example": ["The book edges have been gilt.", "The frame has been gilded."]
     },
     "meaning": "Mạ vàng"
   },
@@ -995,15 +1184,18 @@
     "word": "Gird",
     "infinitive": {
       "form": "Gird",
-      "pronunciation": "/ɡɜːrd/"
+      "pronunciation": "/ɡɜːrd/",
+      "example": ["The knight girded himself with a sword."]
     },
     "past_simple": {
       "form": ["Girt", "Girded"],
-      "pronunciation": ["/ɡɜːrt/", "/ɡɜːrdəd/"]
+      "pronunciation": ["/ɡɜːrt/", "/ɡɜːrdəd/"],
+      "example": ["He girt his loins before battle.", "She girded her waist with a belt."]
     },
     "past_participle": {
       "form": ["Girt", "Girded"],
-      "pronunciation": ["/ɡɜːrt/", "/ɡɜːrdəd/"]
+      "pronunciation": ["/ɡɜːrt/", "/ɡɜːrdəd/"],
+      "example": ["The robe was girt with a golden cord.", "He has girded the belt securely."]
     },
     "meaning": "Đeo vào"
   },
@@ -1011,15 +1203,18 @@
     "word": "Give",
     "infinitive": {
       "form": "Give",
-      "pronunciation": "/ɡɪv/"
+      "pronunciation": "/ɡɪv/",
+      "example": ["Please give me a moment."]
     },
     "past_simple": {
       "form": "Gave",
-      "pronunciation": "/ɡeɪv/"
+      "pronunciation": "/ɡeɪv/",
+      "example": ["He gave her a bouquet of flowers."]
     },
     "past_participle": {
       "form": "Given",
-      "pronunciation": "/ˈɡɪvən/"
+      "pronunciation": "/ˈɡɪvən/",
+      "example": ["They have given him another chance."]
     },
     "meaning": "Cho"
   },
@@ -1027,15 +1222,18 @@
     "word": "Go",
     "infinitive": {
       "form": "Go",
-      "pronunciation": "/ɡoʊ/"
+      "pronunciation": "/ɡoʊ/",
+      "example": ["I go to the park every weekend."]
     },
     "past_simple": {
       "form": "Went",
-      "pronunciation": "/wɛnt/"
+      "pronunciation": "/wɛnt/",
+      "example": ["She went to the store yesterday."]
     },
     "past_participle": {
       "form": "Gone",
-      "pronunciation": "/ɡɒn/"
+      "pronunciation": "/ɡɒn/",
+      "example": ["He has gone to Europe for the holidays."]
     },
     "meaning": "Đi"
   },
@@ -1043,63 +1241,75 @@
     "word": "Grind",
     "infinitive": {
       "form": "Grind",
-      "pronunciation": "/ɡraɪnd/"
+      "pronunciation": "/ɡraɪnd/",
+      "example": ["I need to grind some coffee beans."]
     },
     "past_simple": {
       "form": "Ground",
-      "pronunciation": "/ɡraʊnd/"
+      "pronunciation": "/ɡraʊnd/",
+      "example": ["They ground the spices for the recipe."]
     },
     "past_participle": {
       "form": "Ground",
-      "pronunciation": "/ɡraʊnd/"
+      "pronunciation": "/ɡraʊnd/",
+      "example": ["The flour was ground very finely."]
     },
-    "meaning": "Nghiền; Xay"
+    "meaning": "Nghiền, Xay"
   },
   {
     "word": "Grow",
     "infinitive": {
       "form": "Grow",
-      "pronunciation": "/ɡroʊ/"
+      "pronunciation": "/ɡroʊ/",
+      "example": ["Plants grow quickly in the spring."]
     },
     "past_simple": {
       "form": "Grew",
-      "pronunciation": "/ɡruː/"
+      "pronunciation": "/ɡruː/",
+      "example": ["He grew tomatoes in his garden last year."]
     },
     "past_participle": {
       "form": "Grown",
-      "pronunciation": "/ɡroʊn/"
+      "pronunciation": "/ɡroʊn/",
+      "example": ["The trees have grown tall over the years."]
     },
-    "meaning": "Mọc; Trồng"
+    "meaning": "Mọc, Trồng"
   },
   {
     "word": "Hang",
     "infinitive": {
       "form": "Hang",
-      "pronunciation": "/hæŋ/"
+      "pronunciation": "/hæŋ/",
+      "example": ["Can you hang the picture on the wall?"]
     },
     "past_simple": {
       "form": "Hung",
-      "pronunciation": "/hʌŋ/"
+      "pronunciation": "/hʌŋ/",
+      "example": ["She hung the coat on the hook."]
     },
     "past_participle": {
       "form": "Hung",
-      "pronunciation": "/hʌŋ/"
+      "pronunciation": "/hʌŋ/",
+      "example": ["The decorations have been hung already."]
     },
-    "meaning": "Móc lên; Treo lên"
+    "meaning": "Móc lên, Treo lên"
   },
   {
     "word": "Hear",
     "infinitive": {
       "form": "Hear",
-      "pronunciation": "/hɪər/"
+      "pronunciation": "/hɪər/",
+      "example": ["I can hear the sound of birds singing."]
     },
     "past_simple": {
       "form": "Heard",
-      "pronunciation": "/hɜːrd/"
+      "pronunciation": "/hɜːrd/",
+      "example": ["Have you heard the latest news?"]
     },
     "past_participle": {
       "form": "Heard",
-      "pronunciation": "/hɜːrd/"
+      "pronunciation": "/hɜːrd/",
+      "example": ["Have you heard the latest news?"]
     },
     "meaning": "Nghe"
   },
@@ -1107,15 +1317,18 @@
     "word": "Have",
     "infinitive": {
       "form": "Have",
-      "pronunciation": "/hæv/"
+      "pronunciation": "/hæv/",
+      "example": ["I have a lot of work to do."]
     },
     "past_simple": {
       "form": "Had",
-      "pronunciation": "/hæd/"
+      "pronunciation": "/hæd/",
+      "example": ["She had lunch with her friends."]
     },
     "past_participle": {
       "form": "Had",
-      "pronunciation": "/hæd/"
+      "pronunciation": "/hæd/",
+      "example": ["They have had a busy week."]
     },
     "meaning": "Trục lên"
   },
@@ -1123,31 +1336,37 @@
     "word": "Hide",
     "infinitive": {
       "form": "Hide",
-      "pronunciation": "/haɪd/"
+      "pronunciation": "/haɪd/",
+      "example": ["She can hide her emotions very well."]
     },
     "past_simple": {
       "form": "Hid",
-      "pronunciation": "/hɪd/"
+      "pronunciation": "/hɪd/",
+      "example": ["He hid the letter in a drawer."]
     },
     "past_participle": {
       "form": "Hidden",
-      "pronunciation": "/ˈhɪdn/"
+      "pronunciation": "/ˈhɪdn/",
+      "example": ["The treasure was hidden under the old oak tree."]
     },
-    "meaning": "Giấu; Trốn; Nấp"
+    "meaning": "Giấu, Trốn, Nấp"
   },
   {
     "word": "Hit",
     "infinitive": {
       "form": "Hit",
-      "pronunciation": "/hɪt/"
+      "pronunciation": "/hɪt/",
+      "example": ["He can hit the ball very hard."]
     },
     "past_simple": {
       "form": "Hit",
-      "pronunciation": "/hɪt/"
+      "pronunciation": "/hɪt/",
+      "example": ["She hit her head on the door frame."]
     },
     "past_participle": {
       "form": "Hit",
-      "pronunciation": "/hɪt/"
+      "pronunciation": "/hɪt/",
+      "example": ["The storm has hit the city badly."]
     },
     "meaning": "Đụng"
   },
@@ -1155,15 +1374,18 @@
     "word": "Hurt",
     "infinitive": {
       "form": "Hurt",
-      "pronunciation": "/hɜːrt/"
+      "pronunciation": "/hɜːrt/",
+      "example": ["It can hurt to say goodbye."]
     },
     "past_simple": {
       "form": "Hurt",
-      "pronunciation": "/hɜːrt/"
+      "pronunciation": "/hɜːrt/",
+      "example": ["He hurt his knee while playing football."]
     },
     "past_participle": {
       "form": "Hurt",
-      "pronunciation": "/hɜːrt/"
+      "pronunciation": "/hɜːrt/",
+      "example": ["She has hurt her feelings many times."]
     },
     "meaning": "Làm đau"
   },
@@ -1171,31 +1393,37 @@
     "word": "Inlay",
     "infinitive": {
       "form": "Inlay",
-      "pronunciation": "/ɪnˈleɪ/"
+      "pronunciation": "/ɪnˈleɪ/",
+      "example": ["The artist can inlay the table with beautiful patterns."]
     },
     "past_simple": {
       "form": "Inlaid",
-      "pronunciation": "/ɪnˈleɪd/"
+      "pronunciation": "/ɪnˈleɪd/",
+      "example": ["He inlaid the box with gold and mother-of-pearl."]
     },
     "past_participle": {
       "form": "Inlaid",
-      "pronunciation": "/ɪnˈleɪd/"
+      "pronunciation": "/ɪnˈleɪd/",
+      "example": ["The craftsman has inlaid the frame with silver."]
     },
-    "meaning": "Cẩn; Khảm"
+    "meaning": "Cẩn, Khảm"
   },
   {
     "word": "Input",
     "infinitive": {
       "form": "Input",
-      "pronunciation": "/ˈɪnpʊt/"
+      "pronunciation": "/ˈɪnpʊt/",
+      "example": ["Please input the data into the system."]
     },
     "past_simple": {
       "form": "Input",
-      "pronunciation": "/ˈɪnpʊt/"
+      "pronunciation": "/ˈɪnpʊt/",
+      "example": ["She input all the information manually."]
     },
     "past_participle": {
       "form": "Input",
-      "pronunciation": "/ˈɪnpʊt/"
+      "pronunciation": "/ˈɪnpʊt/",
+      "example": ["The data has been input correctly."]
     },
     "meaning": "Đưa vào (máy điện toán)"
   },
@@ -1203,31 +1431,37 @@
     "word": "Inset",
     "infinitive": {
       "form": "Inset",
-      "pronunciation": "/ˈɪnsɛt/"
+      "pronunciation": "/ˈɪnsɛt/",
+      "example": ["The designer will inset a decorative panel into the wall."]
     },
     "past_simple": {
       "form": "Inset",
-      "pronunciation": "/ˈɪnsɛt/"
+      "pronunciation": "/ˈɪnsɛt/",
+      "example": ["He inset the jewels into the necklace."]
     },
     "past_participle": {
       "form": "Inset",
-      "pronunciation": "/ˈɪnsɛt/"
+      "pronunciation": "/ˈɪnsɛt/",
+      "example": ["The stones were inset into the sculpture beautifully."]
     },
-    "meaning": "Dát; Ghép"
+    "meaning": "Dát, Ghép"
   },
   {
     "word": "Keep",
     "infinitive": {
       "form": "Kept",
-      "pronunciation": "/kiːp/"
+      "pronunciation": "/kiːp/",
+      "example": ["You should keep your promises."]
     },
     "past_simple": {
       "form": "Kept",
-      "pronunciation": "/kept/"
+      "pronunciation": "/kept/",
+      "example": ["She kept her word."]
     },
     "past_participle": {
-      "form": "Giữ",
-      "pronunciation": "/kept/"
+      "form": "Kept",
+      "pronunciation": "/kept/",
+      "example": ["He has kept the secret for years."]
     },
     "meaning": "Giữ"
   },
@@ -1235,15 +1469,18 @@
     "word": "Kneel",
     "infinitive": {
       "form": "Kneel",
-      "pronunciation": "/niːl/"
+      "pronunciation": "/niːl/",
+      "example": ["The priest asked everyone to kneel."]
     },
     "past_simple": {
       "form": ["knelt", "kneeled"],
-      "pronunciation": ["/nɛlt/", "/niːld/"]
+      "pronunciation": ["/nɛlt/", "/niːld/"],
+      "example": ["He knelt before the altar.", "She kneeled to tie her shoe."]
     },
     "past_participle": {
       "form": ["knelt", "kneeled"],
-      "pronunciation": ["/nɛlt/", "/niːld/"]
+      "pronunciation": ["/nɛlt/", "/niːld/"],
+      "example": ["They had knelt in prayer for hours.", "She has kneeled to plant the flowers."]
     },
     "meaning": "Quỳ"
   },
@@ -1251,15 +1488,18 @@
     "word": "Knit",
     "infinitive": {
       "form": "Knit",
-      "pronunciation": "/nɪt/"
+      "pronunciation": "/nɪt/",
+      "example": ["She loves to knit scarves during winter."]
     },
     "past_simple": {
       "form": ["Knit", "knitted"],
-      "pronunciation": ["/nɪt/", "/nɪtɪd/"]
+      "pronunciation": ["/nɪt/", "/nɪtɪd/"],
+      "example": ["He knit a sweater last month.", "She knitted a blanket for her baby."]
     },
     "past_participle": {
       "form": ["Knit", "knitted"],
-      "pronunciation": ["/nɪt/", "/nɪtɪd/"]
+      "pronunciation": ["/nɪt/", "/nɪtɪd/"],
+      "example": ["The scarf was knit by her grandmother.", "The socks have been knitted beautifully."]
     },
     "meaning": "Đan"
   },
@@ -1267,111 +1507,132 @@
     "word": "Know",
     "infinitive": {
       "form": "Know",
-      "pronunciation": "/noʊ/"
+      "pronunciation": "/noʊ/",
+      "example": ["I know the answer to the question."]
     },
     "past_simple": {
       "form": "Knew",
-      "pronunciation": "/njuː/"
+      "pronunciation": "/njuː/",
+      "example": ["She knew him from high school."]
     },
     "past_participle": {
       "form": "Known",
-      "pronunciation": "/noʊn/"
+      "pronunciation": "/noʊn/",
+      "example": ["He has known the truth for years."]
     },
-    "meaning": "Biết; Quen biết"
+    "meaning": "Biết, Quen biết"
   },
   {
     "word": "Lay",
     "infinitive": {
       "form": "Lay",
-      "pronunciation": "/leɪ/"
+      "pronunciation": "/leɪ/",
+      "example": ["She will lay the book on the table."]
     },
     "past_simple": {
       "form": "Laid",
-      "pronunciation": "/leɪd/"
+      "pronunciation": "/leɪd/",
+      "example": ["He laid the foundation for the new project."]
     },
     "past_participle": {
       "form": "Laid",
-      "pronunciation": "/leɪd/"
+      "pronunciation": "/leɪd/",
+      "example": ["The bricks have been laid perfectly."]
     },
-    "meaning": "Đặt; Để"
+    "meaning": "Đặt, Để"
   },
   {
     "word": "Lead",
     "infinitive": {
       "form": "Lead",
-      "pronunciation": "/liːd/"
+      "pronunciation": "/liːd/",
+      "example": ["She will lead the team to victory."]
     },
     "past_simple": {
       "form": "Led",
-      "pronunciation": "/led/"
+      "pronunciation": "/led/",
+      "example": ["He led the group during the expedition."]
     },
     "past_participle": {
       "form": "Led",
-      "pronunciation": "/led/"
+      "pronunciation": "/led/",
+      "example": ["The charge was led by a brave soldier."]
     },
-    "meaning": "Dẫn dắt; Lãnh đạo"
+    "meaning": "Dẫn dắt, Lãnh đạo"
   },
   {
     "word": "Leap",
     "infinitive": {
       "form": "Leap",
-      "pronunciation": "/liːp/"
+      "pronunciation": "/liːp/",
+      "example": ["The deer will leap over the fence."]
     },
     "past_simple": {
       "form": "Leapt",
-      "pronunciation": "/lɛpt/"
+      "pronunciation": "/lɛpt/",
+      "example": ["She leapt to catch the ball."]
     },
     "past_participle": {
       "form": "Leapt",
-      "pronunciation": "/lɛpt/"
+      "pronunciation": "/lɛpt/",
+      "example": ["The dancer has leapt across the stage gracefully."]
     },
-    "meaning": "Nhảy; Nhảy qua"
+    "meaning": "Nhảy, Nhảy qua"
   },
   {
     "word": "Learn",
     "infinitive": {
       "form": "Learn",
-      "pronunciation": "/lɜːrn/"
+      "pronunciation": "/lɜːrn/",
+      "example": ["Students learn new things every day."]
     },
     "past_simple": {
-      "form": ["learn", "learned"],
-      "pronunciation": ["/lɜːrnd/", "/lɜːnt/"]
+      "form": ["learnt", "learned"],
+      "pronunciation": ["/lɜːrnd/", "/lɜːnt/"],
+      "example": ["She learnt the piano at an early age.", "He learned about the history of the city."]
     },
     "past_participle": {
-      "form": ["learn", "learned"],
-      "pronunciation": ["/lɜːrnd/", "/lɜːnt/"]
+      "form": ["learnt", "learned"],
+      "pronunciation": ["/lɜːrnd/", "/lɜːnt/"],
+      "example": ["The lesson has been learnt well.", "They have learned the recipe by heart."]
     },
-    "meaning": "Học; Được biết"
+    "meaning": "Học, Được biết"
   },
   {
     "word": "Leave",
     "infinitive": {
       "form": "Leave",
-      "pronunciation": "/liːv/"
+      "pronunciation": "/liːv/",
+      "example": ["She will leave the office at 5 PM."]
     },
     "past_simple": {
       "form": "Left",
-      "pronunciation": "/left/"
+      "pronunciation": "/left/",
+      "example": ["He left the house early this morning."]
     },
     "past_participle": {
       "form": "Left",
-      "pronunciation": "/left/"
+      "pronunciation": "/left/",
+      "example": ["The keys were left on the table."]
     },
-    "meaning": "Ra đi; Để lại"
+    "meaning": "Ra đi, Để lại"
   },
   {
     "word": "Lend",
     "infinitive": {
       "form": "Lend",
-      "pronunciation": "/lend/"
+      "pronunciation": "/lend/",
+      "example": ["Can you lend me some money for lunch?"]
     },
     "past_simple": {
       "form": "Lent",
-      "pronunciation": "/lent/"
+      "pronunciation": "/lent/",
+      "example": ["She lent him a book last week."]
     },
     "past_participle": {
       "form": "Lent",
-      "pronunciation": "/lent/"
+      "pronunciation": "/lent/",
+      "example": ["He has lent me his car for the weekend."]
     },
     "meaning": "Cho mượn (vay)"
   },
@@ -1379,31 +1640,37 @@
     "word": "Let",
     "infinitive": {
       "form": "Let",
-      "pronunciation": "/let/"
+      "pronunciation": "/let/",
+      "example": ["Please let me know if you need any help."]
     },
     "past_simple": {
       "form": "Let",
-      "pronunciation": "/let/"
+      "pronunciation": "/let/",
+      "example": ["She let me borrow her umbrella."]
     },
     "past_participle": {
       "form": "Let",
-      "pronunciation": "/let/"
+      "pronunciation": "/let/",
+      "example": ["They have let the house for rent."]
     },
-    "meaning": "Cho phép; Để cho"
+    "meaning": "Cho phép, Để cho"
   },
   {
     "word": "Lie",
     "infinitive": {
       "form": "Lie",
-      "pronunciation": "/laɪ/"
+      "pronunciation": "/laɪ/",
+      "example": ["He lies on the couch all day."]
     },
     "past_simple": {
       "form": "Lay",
-      "pronunciation": "/leɪ/"
+      "pronunciation": "/leɪ/",
+      "example": ["She lay in bed for hours."]
     },
     "past_participle": {
       "form": "Lain",
-      "pronunciation": "/leɪn/"
+      "pronunciation": "/leɪn/",
+      "example": ["The book has lain on the table for days."]
     },
     "meaning": "Nằm"
   },
@@ -1411,15 +1678,18 @@
     "word": "Light",
     "infinitive": {
       "form": "Light",
-      "pronunciation": "/laɪt/"
+      "pronunciation": "/laɪt/",
+      "example": ["Please light the candle."]
     },
     "past_simple": {
       "form": ["lit", "lighted"],
-      "pronunciation": ["/lɪt/", "/ˈlaɪtɪd/"]
+      "pronunciation": ["/lɪt/", "/ˈlaɪtɪd/"],
+      "example": ["He lit the match and started the fire.", "She lighted the lamp."]
     },
     "past_participle": {
       "form": ["lit", "lighted"],
-      "pronunciation": ["/lɪt/", "/ˈlaɪtɪd/"]
+      "pronunciation": ["/lɪt/", "/ˈlaɪtɪd/"],
+      "example": ["The streetlights have been lit.", "The lantern was lighted during the event."]
     },
     "meaning": "Thắp sáng"
   },
@@ -1427,15 +1697,18 @@
     "word": "Lose",
     "infinitive": {
       "form": "Lose",
-      "pronunciation": "/luːz/"
+      "pronunciation": "/luːz/",
+      "example": ["I don't want to lose my keys."]
     },
     "past_simple": {
       "form": "Lost",
-      "pronunciation": "/lɒst/"
+      "pronunciation": "/lɒst/",
+      "example": ["She lost her wallet yesterday."]
     },
     "past_participle": {
       "form": "Lost",
-      "pronunciation": "/lɒst/"
+      "pronunciation": "/lɒst/",
+      "example": ["I have lost my way."]
     },
     "meaning": "Làm mất"
   },
@@ -1443,31 +1716,37 @@
     "word": "Make",
     "infinitive": {
       "form": "Make",
-      "pronunciation": "/meɪk/"
+      "pronunciation": "/meɪk/",
+      "example": ["She likes to make cookies."]
     },
     "past_simple": {
       "form": "Made",
-      "pronunciation": "/meɪd/"
+      "pronunciation": "/meɪd/",
+      "example": ["He made a beautiful painting."]
     },
     "past_participle": {
       "form": "Made",
-      "pronunciation": "/meɪd/"
+      "pronunciation": "/meɪd/",
+      "example": ["The cake was made with love."]
     },
-    "meaning": "Chế tạo; Sản xuất"
+    "meaning": "Chế tạo, Sản xuất"
   },
   {
     "word": "Mean",
     "infinitive": {
       "form": "Mean",
-      "pronunciation": "/miːn/"
+      "pronunciation": "/miːn/",
+      "example": ["What does this word mean?"]
     },
     "past_simple": {
       "form": "Meant",
-      "pronunciation": "/ment/"
+      "pronunciation": "/ment/",
+      "example": ["She meant to call you earlier."]
     },
     "past_participle": {
       "form": "Meant",
-      "pronunciation": "/ment/"
+      "pronunciation": "/ment/",
+      "example": ["The message has been meant for you."]
     },
     "meaning": "Có nghĩa là"
   },
@@ -1475,15 +1754,18 @@
     "word": "Meet",
     "infinitive": {
       "form": "Meet",
-      "pronunciation": "/miːt/"
+      "pronunciation": "/miːt/",
+      "example": ["I want to meet with you."]
     },
     "past_simple": {
       "form": "Met",
-      "pronunciation": "/met/"
+      "pronunciation": "/met/",
+      "example": ["We met at the park yesterday."]
     },
     "past_participle": {
       "form": "Met",
-      "pronunciation": "/met/"
+      "pronunciation": "/met/",
+      "example": ["They have met before."]
     },
     "meaning": "Gặp mặt"
   },
@@ -1491,15 +1773,18 @@
     "word": "Mislay",
     "infinitive": {
       "form": "Mislay",
-      "pronunciation": "/mɪsˈleɪ/"
+      "pronunciation": "/mɪsˈleɪ/",
+      "example": ["I think I mislaid my keys."]
     },
     "past_simple": {
       "form": "Mislaid",
-      "pronunciation": "/mɪsˈleɪd/"
+      "pronunciation": "/mɪsˈleɪd/",
+      "example": ["She mislaid the document."]
     },
     "past_participle": {
       "form": "Mislaid",
-      "pronunciation": "/mɪsˈleɪd/"
+      "pronunciation": "/mɪsˈleɪd/",
+      "example": ["I have mislaid the book."]
     },
     "meaning": "Để lạc mất"
   },
@@ -1507,15 +1792,18 @@
     "word": "Misread",
     "infinitive": {
       "form": "Misread",
-      "pronunciation": "/ˌmɪsˈriːd/"
+      "pronunciation": "/ˌmɪsˈriːd/",
+      "example": ["I think I misread the instructions."]
     },
     "past_simple": {
       "form": "Misread",
-      "pronunciation": "/ˌmɪsˈrɛd/"
+      "pronunciation": "/ˌmɪsˈrɛd/",
+      "example": ["He misread the map and got lost."]
     },
     "past_participle": {
       "form": "Misread",
-      "pronunciation": "/ˌmɪsˈrɛd/"
+      "pronunciation": "/ˌmɪsˈrɛd/",
+      "example": ["I have misread the note."]
     },
     "meaning": "Đọc sai"
   },
@@ -1523,15 +1811,18 @@
     "word": "Misspell",
     "infinitive": {
       "form": "Misspell",
-      "pronunciation": "/ˌmɪsˈspɛl/"
+      "pronunciation": "/ˌmɪsˈspɛl/",
+      "example": ["I often misspell difficult words."]
     },
     "past_simple": {
       "form": "Misspelt",
-      "pronunciation": "/ˌmɪsˈspɛlt/"
+      "pronunciation": "/ˌmɪsˈspɛlt/",
+      "example": ["You misspelled my name."]
     },
     "past_participle": {
       "form": "Misspelt",
-      "pronunciation": "/ˌmɪsˈspɛlt/"
+      "pronunciation": "/ˌmɪsˈspɛlt/",
+      "example": ["The word was misspelt on the test."]
     },
     "meaning": "Viết sai chính tả"
   },
@@ -1539,31 +1830,37 @@
     "word": "Mistake",
     "infinitive": {
       "form": "Mistake",
-      "pronunciation": "/mɪˈsteɪk/"
+      "pronunciation": "/mɪˈsteɪk/",
+      "example": ["I made a mistake in my calculations."]
     },
     "past_simple": {
       "form": "Mistook",
-      "pronunciation": "/mɪsˈtʊk/"
+      "pronunciation": "/mɪsˈtʊk/",
+      "example": ["She mistook the time of the meeting."]
     },
     "past_participle": {
       "form": "Mistaken",
-      "pronunciation": "/mɪsˈteɪkən/"
+      "pronunciation": "/mɪsˈteɪkən/",
+      "example": ["I have mistaken the answer."]
     },
-    "meaning": "Phạm lỗi; Lầm lẫn"
+    "meaning": "Phạm lỗi, Lầm lẫn"
   },
   {
     "word": "Misunderstand",
     "infinitive": {
       "form": "Misunderstand",
-      "pronunciation": "/ˌmɪsʌndərˈstænd/"
+      "pronunciation": "/ˌmɪsʌndərˈstænd/",
+      "example": ["I misunderstood the question."]
     },
     "past_simple": {
       "form": "Misunderstood",
-      "pronunciation": "/ˌmɪsʌndərˈstʊd/"
+      "pronunciation": "/ˌmɪsʌndərˈstʊd/",
+      "example": ["She misunderstood my intentions."]
     },
     "past_participle": {
       "form": "Misunderstood",
-      "pronunciation": "/ˌmɪsʌndərˈstʊd/"
+      "pronunciation": "/ˌmɪsʌndərˈstʊd/",
+      "example": ["The issue has been misunderstood."]
     },
     "meaning": "Hiểu lầm"
   },
@@ -1571,15 +1868,18 @@
     "word": "Mow",
     "infinitive": {
       "form": "Mow",
-      "pronunciation": "/moʊ/"
+      "pronunciation": "/moʊ/",
+      "example": ["I need to mow the lawn."]
     },
     "past_simple": {
       "form": "Mowed",
-      "pronunciation": "/moʊd/"
+      "pronunciation": "/moʊd/",
+      "example": ["He mowed the grass yesterday."]
     },
     "past_participle": {
       "form": ["mown", "mowed"],
-      "pronunciation": "/moʊn/"
+      "pronunciation": ["/moʊn/", "/məʊd/"],
+      "example": ["The lawn has been mown.", "He has mowed the lawn."]
     },
     "meaning": "Cắt cỏ"
   },
@@ -1587,15 +1887,18 @@
     "word": "Outbid",
     "infinitive": {
       "form": "Outbid",
-      "pronunciation": "/aʊtˈbɪd/"
+      "pronunciation": "/aʊtˈbɪd/",
+      "example": ["He outbid me at the auction."]
     },
     "past_simple": {
       "form": "Outbid",
-      "pronunciation": "/aʊtˈbɪd/"
+      "pronunciation": "/aʊtˈbɪd/",
+      "example": ["I was outbid for the item."]
     },
     "past_participle": {
       "form": "Outbid",
-      "pronunciation": "/aʊtˈbɪd/"
+      "pronunciation": "/aʊtˈbɪd/",
+      "example": ["They have outbid all the other buyers."]
     },
     "meaning": "Trả hơn giá"
   },
@@ -1603,15 +1906,18 @@
     "word": "Outdo",
     "infinitive": {
       "form": "Outdo",
-      "pronunciation": "/ˌaʊtˈduː/"
+      "pronunciation": "/ˌaʊtˈduː/",
+      "example": ["I hope to outdo my previous performance."]
     },
     "past_simple": {
       "form": "Outdid",
-      "pronunciation": "/ˌaʊtˈdɪd/"
+      "pronunciation": "/ˌaʊtˈdɪd/",
+      "example": ["She outdid herself this time."]
     },
     "past_participle": {
       "form": "Outdone",
-      "pronunciation": "/ˌaʊtˈdɪd/"
+      "pronunciation": "/ˌaʊtˈdɪd/",
+      "example": ["He has outdone himself in the competition."]
     },
     "meaning": "Làm giỏi hơn"
   },
@@ -1619,15 +1925,18 @@
     "word": "Outgrow",
     "infinitive": {
       "form": "Outgrow",
-      "pronunciation": "/aʊtˈɡroʊ/"
+      "pronunciation": "/aʊtˈɡroʊ/",
+      "example": ["She will outgrow her childhood habits."]
     },
     "past_simple": {
       "form": "Outgrew",
-      "pronunciation": "/aʊtˈɡruː/"
+      "pronunciation": "/aʊtˈɡruː/",
+      "example": ["I outgrew that old jacket."]
     },
     "past_participle": {
       "form": "Outgrown",
-      "pronunciation": "/aʊtˈɡroʊn/"
+      "pronunciation": "/aʊtˈɡroʊn/",
+      "example": ["He has outgrown his old toys."]
     },
     "meaning": "Lớn nhanh hơn"
   },
@@ -1635,15 +1944,18 @@
     "word": "Output",
     "infinitive": {
       "form": "Output",
-      "pronunciation": "/ˈaʊtpʊt/"
+      "pronunciation": "/ˈaʊtpʊt/",
+      "example": ["The system will output the data after processing."]
     },
     "past_simple": {
       "form": "Output",
-      "pronunciation": "/ˈaʊtpʊt/"
+      "pronunciation": "/ˈaʊtpʊt/",
+      "example": ["The program output the results immediately."]
     },
     "past_participle": {
       "form": "Output",
-      "pronunciation": "/ˈaʊtpʊt/"
+      "pronunciation": "/ˈaʊtpʊt/",
+      "example": ["The data has been output to the screen."]
     },
     "meaning": "Cho ra (dữ kiện)"
   },
@@ -1651,31 +1963,37 @@
     "word": "Outrun",
     "infinitive": {
       "form": "Outrun",
-      "pronunciation": "/aʊtˈrʌn/"
+      "pronunciation": "/aʊtˈrʌn/",
+      "example": ["He tried to outrun his competitors."]
     },
     "past_simple": {
       "form": "Outran",
-      "pronunciation": "/aʊtˈræn/"
+      "pronunciation": "/aʊtˈræn/",
+      "example": ["She outran everyone in the race."]
     },
     "past_participle": {
       "form": "Outrun",
-      "pronunciation": "/aʊtˈrʌn/"
+      "pronunciation": "/aʊtˈrʌn/",
+      "example": ["He has outrun all his previous records."]
     },
-    "meaning": "Chạy nhanh hơn; Vượt giá"
+    "meaning": "Chạy nhanh hơn, Vượt giá"
   },
   {
     "word": "Outsell",
     "infinitive": {
       "form": "Outsell",
-      "pronunciation": "/aʊtˈsɛl/"
+      "pronunciation": "/aʊtˈsɛl/",
+      "example": ["This product is expected to outsell its competitors."]
     },
     "past_simple": {
       "form": "Outsold",
-      "pronunciation": "/aʊtˈsoʊld/"
+      "pronunciation": "/aʊtˈsoʊld/",
+      "example": ["This item outsold all others in the store."]
     },
     "past_participle": {
       "form": "Outsold",
-      "pronunciation": "/aʊtˈsoʊld/"
+      "pronunciation": "/aʊtˈsoʊld/",
+      "example": ["The new model has outsold the old version."]
     },
     "meaning": "Bán nhanh hơn"
   },
@@ -1683,15 +2001,18 @@
     "word": "Overcome",
     "infinitive": {
       "form": "Overcome",
-      "pronunciation": "/ˌoʊvərˈkʌm/"
+      "pronunciation": "/ˌoʊvərˈkʌm/",
+      "example": ["She had to overcome many obstacles to succeed."]
     },
     "past_simple": {
       "form": "Overcame",
-      "pronunciation": "/ˌoʊvərˈkeɪm/"
+      "pronunciation": "/ˌoʊvərˈkeɪm/",
+      "example": ["He overcame his fear of speaking in public."]
     },
     "past_participle": {
       "form": "Overcome",
-      "pronunciation": "/ˌoʊvərˈkʌm/"
+      "pronunciation": "/ˌoʊvərˈkʌm/",
+      "example": ["They have overcome all the challenges."]
     },
     "meaning": "Khắc phục"
   },
@@ -1699,15 +2020,18 @@
     "word": "Overeat",
     "infinitive": {
       "form": "Overeat",
-      "pronunciation": "/ˌoʊvərˈiːt/"
+      "pronunciation": "/ˌoʊvərˈiːt/",
+      "example": ["It's easy to overeat during the holidays."]
     },
     "past_simple": {
       "form": "Overate",
-      "pronunciation": "/ˌoʊvərˈeɪt/"
+      "pronunciation": "/ˌoʊvərˈeɪt/",
+      "example": ["She overate at the party last night."]
     },
     "past_participle": {
       "form": "Overeaten",
-      "pronunciation": "/ˌoʊvərˈiːtn/"
+      "pronunciation": "/ˌoʊvərˈiːtn/",
+      "example": ["He has overeaten at every meal this week."]
     },
     "meaning": "Ăn quá nhiều"
   },
@@ -1715,15 +2039,18 @@
     "word": "Overfly",
     "infinitive": {
       "form": "Overfly",
-      "pronunciation": "/ˌoʊvərˈflaɪ/"
+      "pronunciation": "/ˌoʊvərˈflaɪ/",
+      "example": ["The plane will overfly the city before landing."]
     },
     "past_simple": {
       "form": "Overflew",
-      "pronunciation": "/ˌoʊvərˈfluː/"
+      "pronunciation": "/ˌoʊvərˈfluː/",
+      "example": ["The aircraft overflew the airport without stopping."]
     },
     "past_participle": {
       "form": "Overflown",
-      "pronunciation": "/ˌoʊvərˈfloʊn/"
+      "pronunciation": "/ˌoʊvərˈfloʊn/",
+      "example": ["The helicopter has overflown the area several times."]
     },
     "meaning": "Bay qua"
   },
@@ -1731,31 +2058,37 @@
     "word": "Overhang",
     "infinitive": {
       "form": "Overhang",
-      "pronunciation": "/ˌoʊvərˈhæŋ/"
+      "pronunciation": "/ˌoʊvərˈhæŋ/",
+      "example": ["The roof overhangs the porch, protecting it from rain."]
     },
     "past_simple": {
       "form": "Overhung",
-      "pronunciation": "/ˌoʊvərˈhʌŋ/"
+      "pronunciation": "/ˌoʊvərˈhʌŋ/",
+      "example": ["The branches overhung the street, creating a canopy."]
     },
     "past_participle": {
       "form": "Overhung",
-      "pronunciation": "/ˌoʊvərˈhʌŋ/"
+      "pronunciation": "/ˌoʊvərˈhʌŋ/",
+      "example": ["The vines have overhung the old stone wall."]
     },
-    "meaning": "Nhô lên trên; Treo lơ lửng"
+    "meaning": "Nhô lên trên, Treo lơ lửng"
   },
   {
     "word": "Overhear",
     "infinitive": {
       "form": "Overhear",
-      "pronunciation": "/ˌoʊvərˈhɪər/"
+      "pronunciation": "/ˌoʊvərˈhɪər/",
+      "example": ["I accidentally overheard their conversation."]
     },
     "past_simple": {
       "form": "Overheard",
-      "pronunciation": "/ˌoʊvərˈhɜːrd/"
+      "pronunciation": "/ˌoʊvərˈhɜːrd/",
+      "example": ["He overheard the meeting discussions through the door."]
     },
     "past_participle": {
       "form": "Overheard",
-      "pronunciation": "/ˌoʊvərˈhɜːrd/"
+      "pronunciation": "/ˌoʊvərˈhɜːrd/",
+      "example": ["I have overheard parts of the lecture."]
     },
     "meaning": "Nghe trộm"
   },
@@ -1763,15 +2096,18 @@
     "word": "Overlay",
     "infinitive": {
       "form": "Overlay",
-      "pronunciation": "/ˌoʊvərˈleɪ/"
+      "pronunciation": "/ˌoʊvərˈleɪ/",
+      "example": ["They decided to overlay the surface with a smooth finish."]
     },
     "past_simple": {
       "form": "Overlaid",
-      "pronunciation": "/ˌoʊvərˈleɪd/"
+      "pronunciation": "/ˌoʊvərˈleɪd/",
+      "example": ["The floor was overlaid with tiles."]
     },
     "past_participle": {
       "form": "Overlaid",
-      "pronunciation": "/ˌoʊvərˈleɪd/"
+      "pronunciation": "/ˌoʊvərˈleɪd/",
+      "example": ["The walls have been overlaid with decorative paper."]
     },
     "meaning": "Phủ lên"
   },
@@ -1779,15 +2115,18 @@
     "word": "Overpay",
     "infinitive": {
       "form": "Overpay",
-      "pronunciation": "/ˌoʊvərˈpeɪ/"
+      "pronunciation": "/ˌoʊvərˈpeɪ/",
+      "example": ["You shouldn't overpay for something that isn't worth it."]
     },
     "past_simple": {
       "form": "Overpaid",
-      "pronunciation": "/ˌoʊvərˈpeɪd/"
+      "pronunciation": "/ˌoʊvərˈpeɪd/",
+      "example": ["He overpaid for the antique chair."]
     },
     "past_participle": {
       "form": "Overpaid",
-      "pronunciation": "/ˌoʊvərˈpeɪd/"
+      "pronunciation": "/ˌoʊvərˈpeɪd/",
+      "example": ["She has overpaid for the concert tickets."]
     },
     "meaning": "Trả quá tiền"
   },
@@ -1795,15 +2134,18 @@
     "word": "Overrun",
     "infinitive": {
       "form": "Overrun",
-      "pronunciation": "/ˌoʊvərˈrʌn/"
+      "pronunciation": "/ˌoʊvərˈrʌn/",
+      "example": ["The water has overrun the riverbanks."]
     },
     "past_simple": {
       "form": "Overran",
-      "pronunciation": "/ˌoʊvərˈræn/"
+      "pronunciation": "/ˌoʊvərˈræn/",
+      "example": ["The river overran its banks after the storm."]
     },
     "past_participle": {
       "form": "Overrun",
-      "pronunciation": "/ˌoʊvərˈrʌn/"
+      "pronunciation": "/ˌoʊvərˈrʌn/",
+      "example": ["The city was overrun by tourists during the summer."]
     },
     "meaning": "Tràn ngập"
   },
@@ -1811,15 +2153,18 @@
     "word": "Oversee",
     "infinitive": {
       "form": "Oversee",
-      "pronunciation": "/ˌoʊvərˈsiː/"
+      "pronunciation": "/ˌoʊvərˈsiː/",
+      "example": ["The manager will oversee the project."]
     },
     "past_simple": {
       "form": "Oversaw",
-      "pronunciation": "/ˌoʊvərˈsɔː/"
+      "pronunciation": "/ˌoʊvərˈsɔː/",
+      "example": ["She oversaw the construction of the new building."]
     },
     "past_participle": {
       "form": "Overseen",
-      "pronunciation": "/ˌoʊvərˈsiːn/"
+      "pronunciation": "/ˌoʊvərˈsiːn/",
+      "example": ["The process has been overseen by experts."]
     },
     "meaning": "Trông nom"
   },
@@ -1827,15 +2172,18 @@
     "word": "Overshoot",
     "infinitive": {
       "form": "Overshoot",
-      "pronunciation": "/ˌoʊvərˈʃuːt/"
+      "pronunciation": "/ˌoʊvərˈʃuːt/",
+      "example": ["The rocket may overshoot its target."]
     },
     "past_simple": {
       "form": "Overshot",
-      "pronunciation": "/ˌoʊvərˈʃɒt/"
+      "pronunciation": "/ˌoʊvərˈʃɒt/",
+      "example": ["The missile overshot its target and landed far away."]
     },
     "past_participle": {
       "form": "Overshot",
-      "pronunciation": "/ˌoʊvərˈʃɒt/"
+      "pronunciation": "/ˌoʊvərˈʃɒt/",
+      "example": ["The airplane has overshot the runway."]
     },
     "meaning": "Đi quá đích"
   },
@@ -1843,15 +2191,18 @@
     "word": "Oversleep",
     "infinitive": {
       "form": "Oversleep",
-      "pronunciation": "/ˌoʊvərˈsliːp/"
+      "pronunciation": "/ˌoʊvərˈsliːp/",
+      "example": ["I tend to oversleep on weekends."]
     },
     "past_simple": {
       "form": "Overslept",
-      "pronunciation": "/ˌoʊvərˈslɛpt/"
+      "pronunciation": "/ˌoʊvərˈslɛpt/",
+      "example": ["She overslept and missed the bus."]
     },
     "past_participle": {
       "form": "Overslept",
-      "pronunciation": "/ˌoʊvərˈslɛpt/"
+      "pronunciation": "/ˌoʊvərˈslɛpt/",
+      "example": ["I have overslept this morning."]
     },
     "meaning": "Ngủ quên"
   },
@@ -1859,15 +2210,18 @@
     "word": "Overtake",
     "infinitive": {
       "form": "Overtake",
-      "pronunciation": "/ˌoʊvərˈteɪk/"
+      "pronunciation": "/ˌoʊvərˈteɪk/",
+      "example": ["The car tried to overtake the truck."]
     },
     "past_simple": {
       "form": "Overtook",
-      "pronunciation": "/ˌoʊvərˈtʊk/"
+      "pronunciation": "/ˌoʊvərˈtʊk/",
+      "example": ["The cyclist overtook everyone on the race track."]
     },
     "past_participle": {
       "form": "Overtaken",
-      "pronunciation": "/ˌoʊvərˈteɪkən/"
+      "pronunciation": "/ˌoʊvərˈteɪkən/",
+      "example": ["The runner has overtaken his competitors."]
     },
     "meaning": "Đuổi bắt kịp"
   },
@@ -1875,15 +2229,18 @@
     "word": "Overthrow",
     "infinitive": {
       "form": "Overthrow",
-      "pronunciation": "/ˌoʊvərˈθroʊ/"
+      "pronunciation": "/ˌoʊvərˈθroʊ/",
+      "example": ["They planned to overthrow the government."]
     },
     "past_simple": {
       "form": "Overthrew",
-      "pronunciation": "/ˌoʊvərˈθruː/"
+      "pronunciation": "/ˌoʊvərˈθruː/",
+      "example": ["The rebels overthrew the dictator."]
     },
     "past_participle": {
       "form": "Overthrown",
-      "pronunciation": "/ˌoʊvərˈθroʊn/"
+      "pronunciation": "/ˌoʊvərˈθroʊn/",
+      "example": ["The regime has been overthrown."]
     },
     "meaning": "Lật đổ"
   },
@@ -1891,15 +2248,18 @@
     "word": "Pay",
     "infinitive": {
       "form": "Pay",
-      "pronunciation": "/peɪ/"
+      "pronunciation": "/peɪ/",
+      "example": ["I will pay the bill tomorrow."]
     },
     "past_simple": {
       "form": "Paid",
-      "pronunciation": "/peɪd/"
+      "pronunciation": "/peɪd/",
+      "example": ["She paid for the groceries."]
     },
     "past_participle": {
       "form": "Paid",
-      "pronunciation": "/peɪd/"
+      "pronunciation": "/peɪd/",
+      "example": ["I have paid the rent."]
     },
     "meaning": "Trả (tiền)"
   },
@@ -1907,15 +2267,18 @@
     "word": "Prove",
     "infinitive": {
       "form": "Prove",
-      "pronunciation": "/pruːv/"
+      "pronunciation": "/pruːv/",
+      "example": ["You need to prove your skills."]
     },
     "past_simple": {
       "form": "Proved",
-      "pronunciation": "/ˈpruːvən/"
+      "pronunciation": "/ˈpruːvən/",
+      "example": ["The theory proved to be correct."]
     },
     "past_participle": {
       "form": ["proven", "proved"],
-      "pronunciation": ["/pruːvd/", "/ˈpruːvən/"]
+      "pronunciation": ["/pruːvd/", "/ˈpruːvən/"],
+      "example": ["He has proven his point.", "She had proved her innocence."]
     },
     "meaning": "Chứng minh"
   },
@@ -1923,31 +2286,37 @@
     "word": "Put",
     "infinitive": {
       "form": "Put",
-      "pronunciation": "/pʊt/"
+      "pronunciation": "/pʊt/",
+      "example": ["Please put the book on the shelf."]
     },
     "past_simple": {
       "form": "Put",
-      "pronunciation": "/pʊt/"
+      "pronunciation": "/pʊt/",
+      "example": ["He put the keys on the table."]
     },
     "past_participle": {
       "form": "Put",
-      "pronunciation": "/pʊt/"
+      "pronunciation": "/pʊt/",
+      "example": ["I have put the documents in the drawer."]
     },
-    "meaning": "Đặt; Để"
+    "meaning": "Đặt, Để"
   },
   {
     "word": "Read",
     "infinitive": {
       "form": "Read",
-      "pronunciation": "/riːd/"
+      "pronunciation": "/riːd/",
+      "example": ["I like to read books in my free time."]
     },
     "past_simple": {
       "form": "Read",
-      "pronunciation": "/rɛd/"
+      "pronunciation": "/rɛd/",
+      "example": ["She read the newspaper this morning."]
     },
     "past_participle": {
       "form": "Read",
-      "pronunciation": "/rɛd/"
+      "pronunciation": "/rɛd/",
+      "example": ["I have read the article."]
     },
     "meaning": "Đọc"
   },
@@ -1955,15 +2324,18 @@
     "word": "Rebuild",
     "infinitive": {
       "form": "Rebuild",
-      "pronunciation": "/riːˈbɪld/"
+      "pronunciation": "/riːˈbɪld/",
+      "example": ["They plan to rebuild the bridge next year."]
     },
     "past_simple": {
       "form": "Rebuilt",
-      "pronunciation": "/riːˈbɪlt/"
+      "pronunciation": "/riːˈbɪlt/",
+      "example": ["He rebuilt the house after the fire."]
     },
     "past_participle": {
       "form": "Rebuilt",
-      "pronunciation": "/riːˈbɪlt/"
+      "pronunciation": "/riːˈbɪlt/",
+      "example": ["The city has been rebuilt after the earthquake."]
     },
     "meaning": "Xây dựng lại"
   },
@@ -1971,15 +2343,18 @@
     "word": "Redo",
     "infinitive": {
       "form": "Redo",
-      "pronunciation": "/ˌriːˈduː/"
+      "pronunciation": "/ˌriːˈduː/",
+      "example": ["I need to redo my homework."]
     },
     "past_simple": {
       "form": "Redid",
-      "pronunciation": "/ˌriːˈdɪd/"
+      "pronunciation": "/ˌriːˈdɪd/",
+      "example": ["She redid the test because she wasn't satisfied with her score."]
     },
     "past_participle": {
       "form": "Redone",
-      "pronunciation": "/ˌriːˈdʌn/"
+      "pronunciation": "/ˌriːˈdʌn/",
+      "example": ["The work has been redone after the mistake."]
     },
     "meaning": "Làm lại"
   },
@@ -1987,47 +2362,56 @@
     "word": "Remake",
     "infinitive": {
       "form": "Remake",
-      "pronunciation": "/riːˈmeɪk/"
+      "pronunciation": "/riːˈmeɪk/",
+      "example": ["They will remake the classic movie."]
     },
     "past_simple": {
       "form": "Remade",
-      "pronunciation": "/riːˈmeɪd/"
+      "pronunciation": "/riːˈmeɪd/",
+      "example": ["The director remade the film with new actors."]
     },
     "past_participle": {
       "form": "Remade",
-      "pronunciation": "/riːˈmeɪd/"
+      "pronunciation": "/riːˈmeɪd/",
+      "example": ["The toy has been remade in a different style."]
     },
-    "meaning": "Làm lại; Chế tạo lại"
+    "meaning": "Làm lại, Chế tạo lại"
   },
   {
     "word": "Rend",
     "infinitive": {
       "form": "Rend",
-      "pronunciation": "/rɛnd/"
+      "pronunciation": "/rɛnd/",
+      "example": ["The storm will rend the trees."]
     },
     "past_simple": {
       "form": "Rent",
-      "pronunciation": "/rɛnt/"
+      "pronunciation": "/rɛnt/",
+      "example": ["The earthquake rent the earth in two."]
     },
     "past_participle": {
       "form": "Rent",
-      "pronunciation": "/rɛnt/"
+      "pronunciation": "/rɛnt/",
+      "example": ["The fabric has been rent by the sharp object."]
     },
-    "meaning": "Toạc ra; Xé"
+    "meaning": "Toạc ra, Xé"
   },
   {
     "word": "Repay",
     "infinitive": {
       "form": "Repay",
-      "pronunciation": "/rɪˈpeɪ/"
+      "pronunciation": "/rɪˈpeɪ/",
+      "example": ["I need to repay the money I borrowed."]
     },
     "past_simple": {
       "form": "Repaid",
-      "pronunciation": "/rɪˈpeɪd/"
+      "pronunciation": "/rɪˈpeɪd/",
+      "example": ["He repaid the debt last month."]
     },
     "past_participle": {
       "form": "Repaid",
-      "pronunciation": "/rɪˈpeɪd/"
+      "pronunciation": "/rɪˈpeɪd/",
+      "example": ["The loan has been repaid in full."]
     },
     "meaning": "Hoàn tiền lại"
   },
@@ -2035,15 +2419,18 @@
     "word": "Resell",
     "infinitive": {
       "form": "Resell",
-      "pronunciation": "/ˌriːˈsɛl/"
+      "pronunciation": "/ˌriːˈsɛl/",
+      "example": ["I will resell the old furniture."]
     },
     "past_simple": {
       "form": "Resold",
-      "pronunciation": "/ˌriːˈsoʊld/"
+      "pronunciation": "/ˌriːˈsoʊld/",
+      "example": ["He resold the tickets at a higher price."]
     },
     "past_participle": {
       "form": "Resold",
-      "pronunciation": "/ˌriːˈsoʊld/"
+      "pronunciation": "/ˌriːˈsoʊld/",
+      "example": ["The item has been resold multiple times."]
     },
     "meaning": "Bán lại"
   },
@@ -2051,31 +2438,37 @@
     "word": "Retake",
     "infinitive": {
       "form": "Retake",
-      "pronunciation": "/ˌriːˈteɪk/"
+      "pronunciation": "/ˌriːˈteɪk/",
+      "example": ["I need to retake the photo."]
     },
     "past_simple": {
       "form": "Retook",
-      "pronunciation": "/ˌriːˈtʊk/"
+      "pronunciation": "/ˌriːˈtʊk/",
+      "example": ["He retook the exam after failing."]
     },
     "past_participle": {
       "form": "Retaken",
-      "pronunciation": "/ˌriːˈteɪkən/"
+      "pronunciation": "/ˌriːˈteɪkən/",
+      "example": ["The test has been retaken several times."]
     },
-    "meaning": "Chiếm lại; Tái chiếm"
+    "meaning": "Chiếm lại, Tái chiếm"
   },
   {
     "word": "Rewrite",
     "infinitive": {
       "form": "Rewrite",
-      "pronunciation": "/ˌriːˈraɪt/"
+      "pronunciation": "/ˌriːˈraɪt/",
+      "example": ["I will rewrite the essay."]
     },
     "past_simple": {
       "form": "Rewrote",
-      "pronunciation": "/ˌriːˈroʊt/"
+      "pronunciation": "/ˌriːˈroʊt/",
+      "example": ["She rewrote the story to improve it."]
     },
     "past_participle": {
       "form": "Rewritten",
-      "pronunciation": "/ˌriːˈrɪtn/"
+      "pronunciation": "/ˌriːˈrɪtn/",
+      "example": ["The paragraph has been rewritten."]
     },
     "meaning": "Viết lại"
   },
@@ -2083,15 +2476,18 @@
     "word": "Rid",
     "infinitive": {
       "form": "Rid",
-      "pronunciation": "/rɪd/"
+      "pronunciation": "/rɪd/",
+      "example": ["I want to rid my room of clutter."]
     },
     "past_simple": {
       "form": "Rid",
-      "pronunciation": "/rɪd/"
+      "pronunciation": "/rɪd/",
+      "example": ["He rid himself of the old clothes."]
     },
     "past_participle": {
       "form": "Rid",
-      "pronunciation": "/rɪd/"
+      "pronunciation": "/rɪd/",
+      "example": ["She has rid herself of all the bad habits."]
     },
     "meaning": "Giải thoát"
   },
@@ -2099,15 +2495,18 @@
     "word": "Ride",
     "infinitive": {
       "form": "Ride",
-      "pronunciation": "/raɪd/"
+      "pronunciation": "/raɪd/",
+      "example": ["I love to ride my bike."]
     },
     "past_simple": {
       "form": "Rode",
-      "pronunciation": "/roʊd/"
+      "pronunciation": "/roʊd/",
+      "example": ["He rode his horse through the field."]
     },
     "past_participle": {
       "form": "Ridden",
-      "pronunciation": "/ˈrɪdn̩/"
+      "pronunciation": "/ˈrɪdn̩/",
+      "example": ["The horse has been ridden by many people."]
     },
     "meaning": "Cưỡi"
   },
@@ -2115,15 +2514,18 @@
     "word": "Ring",
     "infinitive": {
       "form": "Ring",
-      "pronunciation": "/rɪŋ/"
+      "pronunciation": "/rɪŋ/",
+      "example": ["The bell will ring at noon."]
     },
     "past_simple": {
       "form": "Rang",
-      "pronunciation": "/ræŋ/"
+      "pronunciation": "/ræŋ/",
+      "example": ["The phone rang five times."]
     },
     "past_participle": {
       "form": "Rung",
-      "pronunciation": "/rʌŋ/"
+      "pronunciation": "/rʌŋ/",
+      "example": ["The bell has rung loudly."]
     },
     "meaning": "Rung chuông"
   },
@@ -2131,31 +2533,37 @@
     "word": "Rise",
     "infinitive": {
       "form": "Rise",
-      "pronunciation": "/raɪz/"
+      "pronunciation": "/raɪz/",
+      "example": ["The sun will rise at 6 AM."]
     },
     "past_simple": {
       "form": "Rose",
-      "pronunciation": "/roʊz/"
+      "pronunciation": "/roʊz/",
+      "example": ["She rose early to catch the train."]
     },
     "past_participle": {
       "form": "Risen",
-      "pronunciation": "/ˈrɪzn̩/"
+      "pronunciation": "/ˈrɪzn̩/",
+      "example": ["The moon has risen in the sky."]
     },
-    "meaning": "Đứng dậy; Mọc"
+    "meaning": "Đứng dậy, Mọc"
   },
   {
     "word": "Run",
     "infinitive": {
       "form": "Run",
-      "pronunciation": "/rʌn/"
+      "pronunciation": "/rʌn/",
+      "example": ["He loves to run in the park."]
     },
     "past_simple": {
       "form": "Ran",
-      "pronunciation": "/ræm/"
+      "pronunciation": "/ræm/",
+      "example": ["I ran to catch the bus."]
     },
     "past_participle": {
       "form": "Run",
-      "pronunciation": "/rʌn/"
+      "pronunciation": "/rʌn/",
+      "example": ["She has run five miles today."]
     },
     "meaning": "Chạy"
   },
@@ -2163,15 +2571,18 @@
     "word": "Saw",
     "infinitive": {
       "form": "Saw",
-      "pronunciation": "/sɔː/"
+      "pronunciation": "/sɔː/",
+      "example": ["He sawed the wood into pieces."]
     },
     "past_simple": {
       "form": "Sawed",
-      "pronunciation": "/sɔːd/"
+      "pronunciation": "/sɔːd/",
+      "example": ["She sawed the tree branch last weekend."]
     },
     "past_participle": {
       "form": "Sawn",
-      "pronunciation": "/sɔːn/"
+      "pronunciation": "/sɔːn/",
+      "example": ["The wood has been sawn into planks."]
     },
     "meaning": "Cưa"
   },
@@ -2179,15 +2590,18 @@
     "word": "Say",
     "infinitive": {
       "form": "Say",
-      "pronunciation": "/seɪ/"
+      "pronunciation": "/seɪ/",
+      "example": ["I want to say thank you."]
     },
     "past_simple": {
       "form": "Said",
-      "pronunciation": "/sɛd/"
+      "pronunciation": "/sɛd/",
+      "example": ["He said goodbye before leaving."]
     },
     "past_participle": {
       "form": "Said",
-      "pronunciation": "/sɛd/"
+      "pronunciation": "/sɛd/",
+      "example": ["She has said everything she wanted."]
     },
     "meaning": "Nói"
   },
@@ -2195,15 +2609,18 @@
     "word": "See",
     "infinitive": {
       "form": "See",
-      "pronunciation": "/siː/"
+      "pronunciation": "/siː/",
+      "example": ["I can see the stars tonight."]
     },
     "past_simple": {
       "form": "Saw",
-      "pronunciation": "/sɔː/"
+      "pronunciation": "/sɔː/",
+      "example": ["She saw the movie yesterday."]
     },
     "past_participle": {
       "form": "Seen",
-      "pronunciation": "/siːn/"
+      "pronunciation": "/siːn/",
+      "example": ["He has seen that movie before."]
     },
     "meaning": "Nhìn thấy"
   },
@@ -2211,15 +2628,18 @@
     "word": "Seek",
     "infinitive": {
       "form": "Seek",
-      "pronunciation": "/siːk/"
+      "pronunciation": "/siːk/",
+      "example": ["He seeks knowledge every day."]
     },
     "past_simple": {
       "form": "Sought",
-      "pronunciation": "/sɔːt/"
+      "pronunciation": "/sɔːt/",
+      "example": ["She sought help from her friends."]
     },
     "past_participle": {
       "form": "Sought",
-      "pronunciation": "/sɔːt/"
+      "pronunciation": "/sɔːt/",
+      "example": ["They have sought advice from experts."]
     },
     "meaning": "Tìm kiếm"
   },
@@ -2227,15 +2647,18 @@
     "word": "Sell",
     "infinitive": {
       "form": "Sell",
-      "pronunciation": "/sel/"
+      "pronunciation": "/sel/",
+      "example": ["They want to sell their old car."]
     },
     "past_simple": {
       "form": "Sold",
-      "pronunciation": "/soʊld/"
+      "pronunciation": "/soʊld/",
+      "example": ["She sold her bike yesterday."]
     },
     "past_participle": {
       "form": "Sold",
-      "pronunciation": "/soʊld/"
+      "pronunciation": "/soʊld/",
+      "example": ["He has sold all his books."]
     },
     "meaning": "Bán"
   },
@@ -2243,15 +2666,18 @@
     "word": "Send",
     "infinitive": {
       "form": "Send",
-      "pronunciation": "/send/"
+      "pronunciation": "/send/",
+      "example": ["I need to send this letter."]
     },
     "past_simple": {
       "form": "Sent",
-      "pronunciation": "/sent/"
+      "pronunciation": "/sent/",
+      "example": ["She sent an email to her friend."]
     },
     "past_participle": {
       "form": "Sent",
-      "pronunciation": "/sent/"
+      "pronunciation": "/sent/",
+      "example": ["He has sent the package already."]
     },
     "meaning": "Gửi"
   },
@@ -2259,15 +2685,18 @@
     "word": "Sew",
     "infinitive": {
       "form": "Sew",
-      "pronunciation": "/soʊ/"
+      "pronunciation": "/soʊ/",
+      "example": ["She likes to sew her clothes."]
     },
     "past_simple": {
       "form": "Sewed",
-      "pronunciation": "/soʊd/"
+      "pronunciation": "/soʊd/",
+      "example": ["He sewed the button back onto his shirt."]
     },
     "past_participle": {
       "form": ["sewn", "sewed"],
-      "pronunciation": ["/soʊn/", "/soʊd/"]
+      "pronunciation": ["/soʊn/", "/soʊd/"],
+      "example": ["The dress has been sewn by hand.", "He sewed a new jacket."]
     },
     "meaning": "May"
   },
@@ -2275,31 +2704,37 @@
     "word": "Shake",
     "infinitive": {
       "form": "Shake",
-      "pronunciation": "/ʃeɪk/"
+      "pronunciation": "/ʃeɪk/",
+      "example": ["Shake the bottle before use."]
     },
     "past_simple": {
       "form": "Shook",
-      "pronunciation": "/ʃʊk/"
+      "pronunciation": "/ʃʊk/",
+      "example": ["She shook the tree to get the apples."]
     },
     "past_participle": {
       "form": "Shaken",
-      "pronunciation": "/ˈʃeɪkən/"
+      "pronunciation": "/ˈʃeɪkən/",
+      "example": ["The bottle has been shaken too much."]
     },
-    "meaning": "Lay; Lắc"
+    "meaning": "Lay, Lắc"
   },
   {
     "word": "Shear",
     "infinitive": {
       "form": "Shear",
-      "pronunciation": "/ʃɪər/"
+      "pronunciation": "/ʃɪər/",
+      "example": ["Farmers shear the sheep every spring."]
     },
     "past_simple": {
       "form": "Sheared",
-      "pronunciation": "/ʃɔːrn/"
+      "pronunciation": "/ʃɔːrn/",
+      "example": ["He sheared the sheep last month."]
     },
     "past_participle": {
       "form": "Shorn",
-      "pronunciation": "/ʃɪrd/"
+      "pronunciation": "/ʃɪrd/",
+      "example": ["The sheep has been shorn."]
     },
     "meaning": "Xén lông (Cừu)"
   },
@@ -2307,31 +2742,37 @@
     "word": "Shed",
     "infinitive": {
       "form": "Shed",
-      "pronunciation": "/ʃɛd/"
+      "pronunciation": "/ʃɛd/",
+      "example": ["The tree sheds its leaves every fall."]
     },
     "past_simple": {
       "form": "Shed",
-      "pronunciation": "/ʃɛd/"
+      "pronunciation": "/ʃɛd/",
+      "example": ["She shed a tear after hearing the news."]
     },
     "past_participle": {
       "form": "Shed",
-      "pronunciation": "/ʃɛd/"
+      "pronunciation": "/ʃɛd/",
+      "example": ["The snake has shed its skin."]
     },
-    "meaning": "Rơi; Rụng"
+    "meaning": "Rơi, Rụng"
   },
   {
     "word": "Shine",
     "infinitive": {
       "form": "Shine",
-      "pronunciation": "/ʃaɪn/"
+      "pronunciation": "/ʃaɪn/",
+      "example": ["The sun shines brightly in the sky."]
     },
     "past_simple": {
       "form": "Shone",
-      "pronunciation": "/ʃɒn/"
+      "pronunciation": "/ʃɒn/",
+      "example": ["The moon shone brightly last night."]
     },
     "past_participle": {
       "form": "Shone",
-      "pronunciation": "/ʃɒn/"
+      "pronunciation": "/ʃɒn/",
+      "example": ["The stars have shone all night."]
     },
     "meaning": "Chiếu sáng"
   },
@@ -2339,15 +2780,18 @@
     "word": "Shoot",
     "infinitive": {
       "form": "Shoot",
-      "pronunciation": "/ʃuːt/"
+      "pronunciation": "/ʃuːt/",
+      "example": ["He will shoot the ball into the basket."]
     },
     "past_simple": {
       "form": "Shot",
-      "pronunciation": "/ʃɒt/"
+      "pronunciation": "/ʃɒt/",
+      "example": ["She shot an arrow at the target."]
     },
     "past_participle": {
       "form": "Shot",
-      "pronunciation": "/ʃɒt/"
+      "pronunciation": "/ʃɒt/",
+      "example": ["They have shot several videos."]
     },
     "meaning": "Bắn"
   },
@@ -2355,15 +2799,18 @@
     "word": "Show",
     "infinitive": {
       "form": "Show",
-      "pronunciation": "/ʃoʊ/"
+      "pronunciation": "/ʃoʊ/",
+      "example": ["He will show us his new car tomorrow."]
     },
     "past_simple": {
       "form": "Showed",
-      "pronunciation": "/ʃoʊd/"
+      "pronunciation": "/ʃoʊd/",
+      "example": ["She showed me her favorite book."]
     },
     "past_participle": {
       "form": "Shown",
-      "pronunciation": "/ʃoʊn/"
+      "pronunciation": "/ʃoʊn/",
+      "example": ["The results have been shown to the public."]
     },
     "meaning": "Cho xem"
   },
@@ -2371,15 +2818,18 @@
     "word": "Shrink",
     "infinitive": {
       "form": "Shrink",
-      "pronunciation": "/ʃrɪŋk/"
+      "pronunciation": "/ʃrɪŋk/",
+      "example": ["Wool tends to shrink when washed."]
     },
     "past_simple": {
       "form": "Shrank",
-      "pronunciation": "/ʃræŋk/"
+      "pronunciation": "/ʃræŋk/",
+      "example": ["The shirt shrank in the hot water."]
     },
     "past_participle": {
       "form": "Shrunk",
-      "pronunciation": "/ʃrʌŋk/"
+      "pronunciation": "/ʃrʌŋk/",
+      "example": ["My sweater has shrunk after washing."]
     },
     "meaning": "Co rút"
   },
@@ -2387,15 +2837,18 @@
     "word": "Shut",
     "infinitive": {
       "form": "Shut",
-      "pronunciation": "/ʃʌt/"
+      "pronunciation": "/ʃʌt/",
+      "example": ["Please shut the door behind you."]
     },
     "past_simple": {
       "form": "Shut",
-      "pronunciation": "/ʃʌt/"
+      "pronunciation": "/ʃʌt/",
+      "example": ["She shut the window before leaving."]
     },
     "past_participle": {
       "form": "Shut",
-      "pronunciation": "/ʃʌt/"
+      "pronunciation": "/ʃʌt/",
+      "example": ["The door has been shut for hours."]
     },
     "meaning": "Đóng lại"
   },
@@ -2403,15 +2856,18 @@
     "word": "Sing",
     "infinitive": {
       "form": "Sing",
-      "pronunciation": "/sɪŋ/"
+      "pronunciation": "/sɪŋ/",
+      "example": ["She loves to sing in the shower."]
     },
     "past_simple": {
       "form": "Sang",
-      "pronunciation": "/sæŋ/"
+      "pronunciation": "/sæŋ/",
+      "example": ["He sang a beautiful song at the concert."]
     },
     "past_participle": {
       "form": "Sung",
-      "pronunciation": "/sʌŋ/"
+      "pronunciation": "/sʌŋ/",
+      "example": ["The song has been sung by many artists."]
     },
     "meaning": "Ca hát"
   },
@@ -2419,31 +2875,37 @@
     "word": "Sink",
     "infinitive": {
       "form": "Sink",
-      "pronunciation": "/sɪŋk/"
+      "pronunciation": "/sɪŋk/",
+      "example": ["The ship will sink if it takes on too much water."]
     },
     "past_simple": {
       "form": "Sank",
-      "pronunciation": "/sæŋk/"
+      "pronunciation": "/sæŋk/",
+      "example": ["The boat sank quickly after hitting the rock."]
     },
     "past_participle": {
       "form": "Sunk",
-      "pronunciation": "/sʌŋk/"
+      "pronunciation": "/sʌŋk/",
+      "example": ["The ship has sunk to the bottom of the ocean."]
     },
-    "meaning": "Chìm; Lặn"
+    "meaning": "Chìm, Lặn"
   },
   {
     "word": "Sit",
     "infinitive": {
       "form": "Sit",
-      "pronunciation": "/sɪt/"
+      "pronunciation": "/sɪt/",
+      "example": ["She sits at her desk all day."]
     },
     "past_simple": {
       "form": "Sat",
-      "pronunciation": "/sæt/"
+      "pronunciation": "/sæt/",
+      "example": ["He sat on the bench for an hour."]
     },
     "past_participle": {
       "form": "Sat",
-      "pronunciation": "/sæt/"
+      "pronunciation": "/sæt/",
+      "example": ["They have sat together many times."]
     },
     "meaning": "Ngồi"
   },
@@ -2451,31 +2913,37 @@
     "word": "Slay",
     "infinitive": {
       "form": "Slay",
-      "pronunciation": "/sleɪ/"
+      "pronunciation": "/sleɪ/",
+      "example": ["The knight will slay the dragon."]
     },
     "past_simple": {
       "form": "Slew",
-      "pronunciation": "/sluː/"
+      "pronunciation": "/sluː/",
+      "example": ["The dragon slew the warrior in the battle."]
     },
     "past_participle": {
       "form": "Slain",
-      "pronunciation": "/sleɪn/"
+      "pronunciation": "/sleɪn/",
+      "example": ["The beast has been slain."]
     },
-    "meaning": "Sát hại; Giết hại"
+    "meaning": "Sát hại, Giết hại"
   },
   {
     "word": "Sleep",
     "infinitive": {
       "form": "Sleep",
-      "pronunciation": "/sliːp/"
+      "pronunciation": "/sliːp/",
+      "example": ["He usually sleeps eight hours a night."]
     },
     "past_simple": {
       "form": "Slept",
-      "pronunciation": "/slept/"
+      "pronunciation": "/slept/",
+      "example": ["She slept soundly during the night."]
     },
     "past_participle": {
       "form": "Slept",
-      "pronunciation": "/slept/"
+      "pronunciation": "/slept/",
+      "example": ["They have slept for twelve hours."]
     },
     "meaning": "Ngủ"
   },
@@ -2483,31 +2951,37 @@
     "word": "Slide",
     "infinitive": {
       "form": "Slide",
-      "pronunciation": "/slaɪd/"
+      "pronunciation": "/slaɪd/",
+      "example": ["He loves to slide down the hill in winter."]
     },
     "past_simple": {
       "form": "Slid",
-      "pronunciation": "/slɪd/"
+      "pronunciation": "/slɪd/",
+      "example": ["She slid across the ice effortlessly."]
     },
     "past_participle": {
       "form": "Slid",
-      "pronunciation": "/slɪd/"
+      "pronunciation": "/slɪd/",
+      "example": ["The book has slid off the shelf."]
     },
-    "meaning": "Trượt; Lướt"
+    "meaning": "Trượt, Lướt"
   },
   {
     "word": "Sling",
     "infinitive": {
       "form": "Sling",
-      "pronunciation": "/slɪŋ/"
+      "pronunciation": "/slɪŋ/",
+      "example": ["He will sling the bag over his shoulder."]
     },
     "past_simple": {
       "form": "Slung",
-      "pronunciation": "/slʌŋ/"
+      "pronunciation": "/slʌŋ/",
+      "example": ["She slung her coat on the chair."]
     },
     "past_participle": {
       "form": "Slung",
-      "pronunciation": "/slʌŋ/"
+      "pronunciation": "/slʌŋ/",
+      "example": ["The bag has been slung over the chair."]
     },
     "meaning": "Ném mạnh"
   },
@@ -2515,15 +2989,18 @@
     "word": "Slink",
     "infinitive": {
       "form": "Slink",
-      "pronunciation": "/slɪŋk/"
+      "pronunciation": "/slɪŋk/",
+      "example": ["The cat slinked through the alley."]
     },
     "past_simple": {
       "form": "Slunk",
-      "pronunciation": "/slʌŋk/"
+      "pronunciation": "/slʌŋk/",
+      "example": ["He slunk away from the scene of the crime."]
     },
     "past_participle": {
       "form": "Slunk",
-      "pronunciation": "/slʌŋk/"
+      "pronunciation": "/slʌŋk/",
+      "example": ["The dog has slunk into the house."]
     },
     "meaning": "Lẻn đi"
   },
@@ -2531,15 +3008,18 @@
     "word": "Smell",
     "infinitive": {
       "form": "Smell",
-      "pronunciation": "/smɛl/"
+      "pronunciation": "/smɛl/",
+      "example": ["She can smell the flowers from here."]
     },
     "past_simple": {
       "form": "Smelt",
-      "pronunciation": "/smɛlt/"
+      "pronunciation": "/smɛlt/",
+      "example": ["He smelt something burning."]
     },
     "past_participle": {
       "form": "Smelt",
-      "pronunciation": "/smɛlt/"
+      "pronunciation": "/smɛlt/",
+      "example": ["The cheese has smelt all day."]
     },
     "meaning": "Ngửi"
   },
@@ -2547,15 +3027,18 @@
     "word": "Smite",
     "infinitive": {
       "form": "Smite",
-      "pronunciation": "/smaɪt/"
+      "pronunciation": "/smaɪt/",
+      "example": ["The knight swore to smite the dragon."]
     },
     "past_simple": {
       "form": "Smote",
-      "pronunciation": "/smoʊt/"
+      "pronunciation": "/smoʊt/",
+      "example": ["The hero smote the villain with his sword."]
     },
     "past_participle": {
       "form": "Smitten",
-      "pronunciation": "/ˈsmɪtn/"
+      "pronunciation": "/ˈsmɪtn/",
+      "example": ["She has been smitten by his charm."]
     },
     "meaning": "Đập mạnh"
   },
@@ -2563,31 +3046,37 @@
     "word": "Sow",
     "infinitive": {
       "form": "Sow",
-      "pronunciation": "/soʊ/"
+      "pronunciation": "/soʊ/",
+      "example": ["Farmers sow seeds in the spring."]
     },
     "past_simple": {
       "form": "Sowed",
-      "pronunciation": "/soʊd/"
+      "pronunciation": "/soʊd/",
+      "example": ["He sowed the seeds last week."]
     },
     "past_participle": {
       "form": ["sown", "sewed"],
-      "pronunciation": ["/soʊn/", "/soʊd/"]
+      "pronunciation": ["/soʊn/", "/soʊd/"],
+      "example": ["The seeds have been sown.", "She has sewn the fabric."]
     },
-    "meaning": "Gieo; Rải"
+    "meaning": "Gieo, Rải"
   },
   {
     "word": "Speak",
     "infinitive": {
       "form": "Speak",
-      "pronunciation": "/spiːk/"
+      "pronunciation": "/spiːk/",
+      "example": ["I speak English every day."]
     },
     "past_simple": {
       "form": "Spoke",
-      "pronunciation": "/spoʊk/"
+      "pronunciation": "/spoʊk/",
+      "example": ["She spoke about her experiences."]
     },
     "past_participle": {
       "form": "Spoken",
-      "pronunciation": "/ˈspoʊkən/"
+      "pronunciation": "/ˈspoʊkən/",
+      "example": ["The president has spoken to the nation."]
     },
     "meaning": "Nói"
   },
@@ -2595,15 +3084,18 @@
     "word": "Speed",
     "infinitive": {
       "form": "Speed",
-      "pronunciation": "/spiːd/"
+      "pronunciation": "/spiːd/",
+      "example": ["He speeds down the road in his car."]
     },
     "past_simple": {
       "form": ["sped", "speeded"],
-      "pronunciation": "/spɛd/"
+      "pronunciation": "/spɛd/",
+      "example": ["He sped through the traffic."]
     },
     "past_participle": {
       "form": ["sped", "speeded"],
-      "pronunciation": "/spɛd/"
+      "pronunciation": "/spɛd/",
+      "example": ["The car has sped down the street."]
     },
     "meaning": "Chạy vụt"
   },
@@ -2611,15 +3103,18 @@
     "word": "Spell",
     "infinitive": {
       "form": "Spell",
-      "pronunciation": "/spɛl/"
+      "pronunciation": "/spɛl/",
+      "example": ["Can you spell your name for me?"]
     },
     "past_simple": {
       "form": ["Spelt", "spelled"],
-      "pronunciation": ["/spɛlt/", "/spɛld/"]
+      "pronunciation": ["/spɛlt/", "/spɛld/"],
+      "example": ["She spelt the word correctly."]
     },
     "past_participle": {
       "form": ["Spelt", "spelled"],
-      "pronunciation": ["/spɛlt/", "/spɛld/"]
+      "pronunciation": ["/spɛlt/", "/spɛld/"],
+      "example": ["The word has been spelt wrong."]
     },
     "meaning": "Đánh vần"
   },
@@ -2627,15 +3122,18 @@
     "word": "Spend",
     "infinitive": {
       "form": "Spend",
-      "pronunciation": "/spɛnd/"
+      "pronunciation": "/spɛnd/",
+      "example": ["I spend my weekends with family."]
     },
     "past_simple": {
       "form": "Spent",
-      "pronunciation": "/spent/"
+      "pronunciation": "/spent/",
+      "example": ["They spent all their money on clothes."]
     },
     "past_participle": {
       "form": "Spent",
-      "pronunciation": "/spent/"
+      "pronunciation": "/spent/",
+      "example": ["We have spent a lot of time preparing for the event."]
     },
     "meaning": "Tiêu sài"
   },
@@ -2643,31 +3141,37 @@
     "word": "Spill",
     "infinitive": {
       "form": "Spill",
-      "pronunciation": "/spɪl/"
+      "pronunciation": "/spɪl/",
+      "example": ["Be careful not to spill your drink."]
     },
     "past_simple": {
       "form": ["spilt", "spilled"],
-      "pronunciation": ["/spɪlt/", "/spɪld/"]
+      "pronunciation": ["/spɪlt/", "/spɪld/"],
+      "example": ["She spilt the coffee on the floor."]
     },
     "past_participle": {
       "form": ["spilt", "spilled"],
-      "pronunciation": ["/spɪlt/", "/spɪld/"]
+      "pronunciation": ["/spɪlt/", "/spɪld/"],
+      "example": ["The milk has spilt everywhere."]
     },
-    "meaning": "Tràn; Đổ ra"
+    "meaning": "Tràn, Đổ ra"
   },
   {
     "word": "Spin",
     "infinitive": {
       "form": "Spin",
-      "pronunciation": "/spɪn/"
+      "pronunciation": "/spɪn/",
+      "example": ["The children like to spin around in circles."]
     },
     "past_simple": {
       "form": "Spun",
-      "pronunciation": "/spʌn/"
+      "pronunciation": "/spʌn/",
+      "example": ["She spun the wheel to see the result."]
     },
     "past_participle": {
       "form": "Spun",
-      "pronunciation": "/spʌn/"
+      "pronunciation": "/spʌn/",
+      "example": ["The wheel has spun several times."]
     },
     "meaning": "Quay sợi"
   },
@@ -2675,15 +3179,18 @@
     "word": "Spit",
     "infinitive": {
       "form": "Spit",
-      "pronunciation": "/spɪt/"
+      "pronunciation": "/spɪt/",
+      "example": ["He spit on the ground."]
     },
     "past_simple": {
       "form": "Spat",
-      "pronunciation": "/spɪt/"
+      "pronunciation": "/spæt/",
+      "example": ["She spat out the water."]
     },
     "past_participle": {
       "form": "Spat",
-      "pronunciation": "/spɪt/"
+      "pronunciation": "/spæt/",
+      "example": ["He has spat in the face of danger."]
     },
     "meaning": "Khạc nhổ"
   },
@@ -2691,15 +3198,18 @@
     "word": "Spoil",
     "infinitive": {
       "form": "Spoil",
-      "pronunciation": "/spɔɪl/"
+      "pronunciation": "/spɔɪl/",
+      "example": ["Don't spoil your dinner by eating too much candy."]
     },
     "past_simple": {
       "form": ["spoilt", "spoiled"],
-      "pronunciation": ["/spɔɪlt/", "/spɔɪld/"]
+      "pronunciation": ["/spɔɪlt/", "/spɔɪld/"],
+      "example": ["The milk spoiled quickly.", "The surprise was spoiled."]
     },
     "past_participle": {
       "form": ["spoilt", "spoiled"],
-      "pronunciation": ["/spɔɪlt/", "/spɔɪld/"]
+      "pronunciation": ["/spɔɪlt/", "/spɔɪld/"],
+      "example": ["The cake has spoiled.", "He has spoiled his chances."]
     },
     "meaning": "Làm hỏng"
   },
@@ -2707,15 +3217,18 @@
     "word": "Spread",
     "infinitive": {
       "form": "Spread",
-      "pronunciation": "/sprɛd/"
+      "pronunciation": "/sprɛd/",
+      "example": ["She spread the butter on the bread."]
     },
     "past_simple": {
       "form": "Spread",
-      "pronunciation": "/sprɛd/"
+      "pronunciation": "/sprɛd/",
+      "example": ["He spread the news quickly."]
     },
     "past_participle": {
       "form": "Spread",
-      "pronunciation": "/sprɛd/"
+      "pronunciation": "/sprɛd/",
+      "example": ["The word has spread throughout the city."]
     },
     "meaning": "Lan truyền"
   },
@@ -2723,15 +3236,18 @@
     "word": "Spring",
     "infinitive": {
       "form": "Spring",
-      "pronunciation": "/sprɪŋ/"
+      "pronunciation": "/sprɪŋ/",
+      "example": ["He will spring into action."]
     },
     "past_simple": {
       "form": "Sprang",
-      "pronunciation": "/spræŋ/"
+      "pronunciation": "/spræŋ/",
+      "example": ["She sprang out of bed."]
     },
     "past_participle": {
       "form": "Sprung",
-      "pronunciation": "/sprʌŋ/"
+      "pronunciation": "/sprʌŋ/",
+      "example": ["The door has sprung open."]
     },
     "meaning": "Nhảy"
   },
@@ -2739,15 +3255,18 @@
     "word": "Stand",
     "infinitive": {
       "form": "Stand",
-      "pronunciation": "/stænd/"
+      "pronunciation": "/stænd/",
+      "example": ["Please stand up."]
     },
     "past_simple": {
       "form": "Stood",
-      "pronunciation": "/stʊd/"
+      "pronunciation": "/stʊd/",
+      "example": ["He stood in front of the class."]
     },
     "past_participle": {
       "form": "Stood",
-      "pronunciation": "/stʊd/"
+      "pronunciation": "/stʊd/",
+      "example": ["She has stood by me through everything."]
     },
     "meaning": "Đứng"
   },
@@ -2755,31 +3274,37 @@
     "word": "Stave",
     "infinitive": {
       "form": "stave",
-      "pronunciation": "/steɪv/"
+      "pronunciation": "/steɪv/",
+      "example": ["They tried to stave off the attack."]
     },
     "past_simple": {
       "form": ["stove", "staved"],
-      "pronunciation": ["/stoʊv/", "/steɪvd/"]
+      "pronunciation": ["/stoʊv/", "/steɪvd/"],
+      "example": ["He staved the door shut."]
     },
     "past_participle": {
       "form": ["stove", "staved"],
-      "pronunciation": ["/stoʊv/", "/steɪvd/"]
+      "pronunciation": ["/stoʊv/", "/steɪvd/"],
+      "example": ["The door has been staved in."]
     },
-    "meaning": "đâm thủng"
+    "meaning": "Đâm thủng"
   },
   {
     "word": "Steal",
     "infinitive": {
       "form": "steal",
-      "pronunciation": "/stiːl/"
+      "pronunciation": "/stiːl/",
+      "example": ["Don't steal my pencil."]
     },
     "past_simple": {
       "form": "stole",
-      "pronunciation": "/stoʊl/"
+      "pronunciation": "/stoʊl/",
+      "example": ["He stole a candy bar."]
     },
     "past_participle": {
       "form": "stolen",
-      "pronunciation": "/ˈstoʊlən/"
+      "pronunciation": "/ˈstoʊlən/",
+      "example": ["The money has been stolen."]
     },
     "meaning": "Đánh cắp"
   },
@@ -2787,47 +3312,56 @@
     "word": "Stick",
     "infinitive": {
       "form": "stick",
-      "pronunciation": "/stɪk/"
+      "pronunciation": "/stɪk/",
+      "example": ["Please stick the paper on the wall."]
     },
     "past_simple": {
       "form": "stuck",
-      "pronunciation": "/stʌk/"
+      "pronunciation": "/stʌk/",
+      "example": ["The sticker stuck to the surface."]
     },
     "past_participle": {
       "form": "stuck",
-      "pronunciation": "/stʌk/"
+      "pronunciation": "/stʌk/",
+      "example": ["The glue has stuck."]
     },
-    "meaning": "Ghim vào; đính"
+    "meaning": "Ghim vào, đính"
   },
   {
     "word": "Sting",
     "infinitive": {
       "form": "sting",
-      "pronunciation": "/stɪŋ/"
+      "pronunciation": "/stɪŋ/",
+      "example": ["The bee will sting if provoked."]
     },
     "past_simple": {
       "form": "stung",
-      "pronunciation": "/stʌŋ/"
+      "pronunciation": "/stʌŋ/",
+      "example": ["He was stung by a jellyfish."]
     },
     "past_participle": {
       "form": "stung",
-      "pronunciation": "/stʌŋ/"
+      "pronunciation": "/stʌŋ/",
+      "example": ["She has been stung by a bee."]
     },
-    "meaning": "hâm ; chích; đốt"
+    "meaning": "Hâm, chích, đốt"
   },
   {
     "word": "Stink",
     "infinitive": {
       "form": "stink",
-      "pronunciation": "/stɪŋk/"
+      "pronunciation": "/stɪŋk/",
+      "example": ["The garbage stinks."]
     },
     "past_simple": {
       "form": "stank",
-      "pronunciation": "/stæŋk/"
+      "pronunciation": "/stæŋk/",
+      "example": ["The fish stank after a few hours."]
     },
     "past_participle": {
       "form": "stunk",
-      "pronunciation": "/stʌŋk/"
+      "pronunciation": "/stʌŋk/",
+      "example": ["The room has stunk ever since."]
     },
     "meaning": "Bốc mùi hôi"
   },
@@ -2835,31 +3369,37 @@
     "word": "Strew",
     "infinitive": {
       "form": "strew",
-      "pronunciation": "/struː/"
+      "pronunciation": "/struː/",
+      "example": ["She will strew the flowers across the path."]
     },
     "past_simple": {
       "form": "strewed",
-      "pronunciation": "/struːd/"
+      "pronunciation": "/struːd/",
+      "example": ["They strewed the seeds on the soil."]
     },
     "past_participle": {
       "form": ["strewn", "strewed"],
-      "pronunciation": "/struːn/"
+      "pronunciation": ["/struːn/", "/struːd/"],
+      "example": ["The leaves have been strewn across the yard."]
     },
-    "meaning": "Rắc; Rải"
+    "meaning": "Rắc, rải"
   },
   {
     "word": "Stride",
     "infinitive": {
       "form": "stride",
-      "pronunciation": "/straɪd/"
+      "pronunciation": "/straɪd/",
+      "example": ["He will stride across the room."]
     },
     "past_simple": {
       "form": "strode",
-      "pronunciation": "/stroʊd/"
+      "pronunciation": "/stroʊd/",
+      "example": ["She strode confidently into the office."]
     },
     "past_participle": {
       "form": "stridden",
-      "pronunciation": "/ˈstrɪdn/"
+      "pronunciation": "/ˈstrɪdn/",
+      "example": ["He has stridden ahead of everyone."]
     },
     "meaning": "Bước sải"
   },
@@ -2867,15 +3407,18 @@
     "word": "Strike",
     "infinitive": {
       "form": "strike",
-      "pronunciation": "/straɪk/"
+      "pronunciation": "/straɪk/",
+      "example": ["The clock will strike twelve."]
     },
     "past_simple": {
       "form": "struck",
-      "pronunciation": "/strʌk/"
+      "pronunciation": "/strʌk/",
+      "example": ["She struck the ball with all her might."]
     },
     "past_participle": {
       "form": "struck/stricken",
-      "pronunciation": "/ˈstrɪkən/"
+      "pronunciation": "/ˈstrɪkən/",
+      "example": ["He was struck by lightning."]
     },
     "meaning": "Đánh đập"
   },
@@ -2883,15 +3426,18 @@
     "word": "String",
     "infinitive": {
       "form": "string",
-      "pronunciation": "/strɪŋ/"
+      "pronunciation": "/strɪŋ/",
+      "example": ["She needs to string the guitar before playing."]
     },
     "past_simple": {
       "form": "strung",
-      "pronunciation": "/strʌŋ/"
+      "pronunciation": "/strʌŋ/",
+      "example": ["He strung the lights across the room."]
     },
     "past_participle": {
       "form": "strung",
-      "pronunciation": "/strʌŋ/"
+      "pronunciation": "/strʌŋ/",
+      "example": ["The decorations have been strung up."]
     },
     "meaning": "Gắn dây vào"
   },
@@ -2899,15 +3445,18 @@
     "word": "Strive",
     "infinitive": {
       "form": "strive",
-      "pronunciation": "/straɪv/"
+      "pronunciation": "/straɪv/",
+      "example": ["She strives to be the best student."]
     },
     "past_simple": {
       "form": "strove",
-      "pronunciation": "/stroʊv/"
+      "pronunciation": "/stroʊv/",
+      "example": ["He strove to finish the project on time."]
     },
     "past_participle": {
       "form": "striven",
-      "pronunciation": "/ˈstrɪvn/"
+      "pronunciation": "/ˈstrɪvn/",
+      "example": ["They have striven for success."]
     },
     "meaning": "Cố sức"
   },
@@ -2915,15 +3464,18 @@
     "word": "Swear",
     "infinitive": {
       "form": "swear",
-      "pronunciation": "/sweə/"
+      "pronunciation": "/sweə/",
+      "example": ["I swear I will never lie again."]
     },
     "past_simple": {
       "form": "swore",
-      "pronunciation": "/swɔːr/"
+      "pronunciation": "/swɔːr/",
+      "example": ["He swore to keep the secret."]
     },
     "past_participle": {
       "form": "sworn",
-      "pronunciation": "/swɔːrn/"
+      "pronunciation": "/swɔːrn/",
+      "example": ["She has sworn to tell the truth."]
     },
     "meaning": "Tuyên thệ"
   },
@@ -2931,15 +3483,18 @@
     "word": "Sweep",
     "infinitive": {
       "form": "sweep",
-      "pronunciation": "/swiːp/"
+      "pronunciation": "/swiːp/",
+      "example": ["Please sweep the floor after dinner."]
     },
     "past_simple": {
       "form": "swept",
-      "pronunciation": "/swept/"
+      "pronunciation": "/swept/",
+      "example": ["She swept the dust from the floor."]
     },
     "past_participle": {
       "form": "swept",
-      "pronunciation": "/swept/"
+      "pronunciation": "/swept/",
+      "example": ["The streets have been swept clean."]
     },
     "meaning": "Quét"
   },
@@ -2947,31 +3502,37 @@
     "word": "Swell",
     "infinitive": {
       "form": "swell",
-      "pronunciation": "/swɛl/"
+      "pronunciation": "/swɛl/",
+      "example": ["The river will swell during the rain."]
     },
     "past_simple": {
       "form": "swelled",
-      "pronunciation": "/swɛld/"
+      "pronunciation": "/swɛld/",
+      "example": ["His finger swelled after the sting."]
     },
     "past_participle": {
       "form": ["swollen", "swelled"],
-      "pronunciation": "/ˈswoʊlən/"
+      "pronunciation": ["/ˈswoʊlən/", "/swɛld/"],
+      "example": ["Her ankle has swollen up.", "The river had swelled over the banks."]
     },
-    "meaning": "Phồng; Sưng"
+    "meaning": "Phồng, Sưng"
   },
   {
     "word": "Swim",
     "infinitive": {
       "form": "swim",
-      "pronunciation": "/swɪm/"
+      "pronunciation": "/swɪm/",
+      "example": ["I love to swim in the pool."]
     },
     "past_simple": {
       "form": "swam",
-      "pronunciation": "/swæm/"
+      "pronunciation": "/swæm/",
+      "example": ["He swam across the lake."]
     },
     "past_participle": {
       "form": "swum",
-      "pronunciation": "/swʌm/"
+      "pronunciation": "/swʌm/",
+      "example": ["They have swum in the ocean."]
     },
     "meaning": "Bơi lội"
   },
@@ -2979,15 +3540,18 @@
     "word": "Swing",
     "infinitive": {
       "form": "swing",
-      "pronunciation": "/swɪŋ/"
+      "pronunciation": "/swɪŋ/",
+      "example": ["She likes to swing on the playground."]
     },
     "past_simple": {
       "form": "swung",
-      "pronunciation": "/swʌŋ/"
+      "pronunciation": "/swʌŋ/",
+      "example": ["He swung the bat with all his strength."]
     },
     "past_participle": {
       "form": "swung",
-      "pronunciation": "/swʌŋ/"
+      "pronunciation": "/swʌŋ/",
+      "example": ["The door has swung open."]
     },
     "meaning": "Đong đưa"
   },
@@ -2995,399 +3559,474 @@
     "word": "Take",
     "infinitive": {
       "form": "take",
-      "pronunciation": "/teɪk/"
+      "pronunciation": "/teɪk/",
+      "example": ["Please take this book to the library."]
     },
     "past_simple": {
       "form": "took",
-      "pronunciation": "/tʊk/"
+      "pronunciation": "/tʊk/",
+      "example": ["She took the last cookie."]
     },
     "past_participle": {
       "form": "taken",
-      "pronunciation": "/ˈteɪkən/"
+      "pronunciation": "/ˈteɪkən/",
+      "example": ["The picture has been taken."]
     },
-    "meaning": "Cầm; Lấy"
+    "meaning": "Cầm, Lấy"
   },
   {
     "word": "Teach",
     "infinitive": {
       "form": "teach",
-      "pronunciation": "/tiːtʃ/"
+      "pronunciation": "/tiːtʃ/",
+      "example": ["I love to teach my students new things."]
     },
     "past_simple": {
       "form": "taught",
-      "pronunciation": "/tɔːt/"
+      "pronunciation": "/tɔːt/",
+      "example": ["He taught me how to swim."]
     },
     "past_participle": {
       "form": "taught",
-      "pronunciation": "/tɔːt/"
+      "pronunciation": "/tɔːt/",
+      "example": ["She has taught English for many years."]
     },
-    "meaning": "Dạy; Giảng dạy"
+    "meaning": "Dạy, Giảng dạy"
   },
   {
     "word": "Tear",
     "infinitive": {
       "form": "tear",
-      "pronunciation": "/teə/"
+      "pronunciation": "/teə/",
+      "example": ["Be careful not to tear the paper."]
     },
     "past_simple": {
       "form": "tore",
-      "pronunciation": "/tɔːr/"
+      "pronunciation": "/tɔːr/",
+      "example": ["He tore the letter in half."]
     },
     "past_participle": {
       "form": "torn",
-      "pronunciation": "/tɔːrn/"
+      "pronunciation": "/tɔːrn/",
+      "example": ["The book has been torn apart."]
     },
-    "meaning": "Xé; Rách"
+    "meaning": "Xé, Rách"
   },
   {
     "word": "Tell",
     "infinitive": {
       "form": "tell",
-      "pronunciation": "/tel/"
+      "pronunciation": "/tel/",
+      "example": ["Please tell me the truth."]
     },
     "past_simple": {
       "form": "told",
-      "pronunciation": "/toʊld/"
+      "pronunciation": "/toʊld/",
+      "example": ["She told me a funny story."]
     },
     "past_participle": {
       "form": "told",
-      "pronunciation": "/toʊld/"
+      "pronunciation": "/toʊld/",
+      "example": ["I have told you everything."]
     },
-    "meaning": "Kể; Bảo"
+    "meaning": "Kể, Bảo"
   },
   {
     "word": "Think",
     "infinitive": {
       "form": "think",
-      "pronunciation": "/θɪŋk/"
+      "pronunciation": "/θɪŋk/",
+      "example": ["I need to think about the problem."]
     },
     "past_simple": {
       "form": "thought",
-      "pronunciation": "/θɔːt/"
+      "pronunciation": "/θɔːt/",
+      "example": ["She thought about it for a while."]
     },
     "past_participle": {
       "form": "thought",
-      "pronunciation": "/θɔːt/"
+      "pronunciation": "/θɔːt/",
+      "example": ["I have thought about your suggestion."]
     },
     "meaning": "Suy nghĩ"
   },
   {
     "word": "Throw",
     "infinitive": {
-      "form": "Throw",
-      "pronunciation": "/θroʊ/"
+      "form": "throw",
+      "pronunciation": "/θroʊ/",
+      "example": ["Can you throw me the ball?"]
     },
     "past_simple": {
-      "form": "Threw",
-      "pronunciation": "/θruː/"
+      "form": "threw",
+      "pronunciation": "/θruː/",
+      "example": ["He threw the paper into the bin."]
     },
     "past_participle": {
-      "form": "Thrown",
-      "pronunciation": "/θroʊn/"
+      "form": "thrown",
+      "pronunciation": "/θroʊn/",
+      "example": ["The ball has been thrown to the other side."]
     },
-    "meaning": "Ném; Liệng"
+    "meaning": "Ném, Liệng"
   },
   {
     "word": "Thrust",
     "infinitive": {
-      "form": "Thrust",
-      "pronunciation": "/θrʌst/"
+      "form": "thrust",
+      "pronunciation": "/θrʌst/",
+      "example": ["He thrust the sword into the stone."]
     },
     "past_simple": {
-      "form": "Thrust",
-      "pronunciation": "/θrʌst/"
+      "form": "thrust",
+      "pronunciation": "/θrʌst/",
+      "example": ["She thrust the door open."]
     },
     "past_participle": {
-      "form": "Thrust",
-      "pronunciation": "/θrʌst/"
+      "form": "thrust",
+      "pronunciation": "/θrʌst/",
+      "example": ["The knife has been thrust into the ground."]
     },
-    "meaning": "Thọc; Nhấn"
+    "meaning": "Thọc, Nhấn"
   },
   {
     "word": "Tread",
     "infinitive": {
-      "form": "Tread",
-      "pronunciation": "/trɛd/"
+      "form": "tread",
+      "pronunciation": "/trɛd/",
+      "example": ["Be careful not to tread on the glass."]
     },
     "past_simple": {
-      "form": "Trod",
-      "pronunciation": "/trɒd/"
+      "form": "trod",
+      "pronunciation": "/trɒd/",
+      "example": ["He trod carefully on the icy ground."]
     },
     "past_participle": {
-      "form": ["Trodden", "Trod"],
-      "pronunciation": ["/ˈtrɒdən/", "/ˈtrɒdn/"]
+      "form": ["trodden", "trod"],
+      "pronunciation": ["/ˈtrɒdən/", "/ˈtrɒd/"],
+      "example": ["The path has been trodden many times."]
     },
-    "meaning": "Giẫm; Đạp"
+    "meaning": "Giẫm, Đạp"
   },
   {
     "word": "Unbend",
     "infinitive": {
-      "form": "Unbend",
-      "pronunciation": "/ˌʌnˈbɛnd/"
+      "form": "unbend",
+      "pronunciation": "/ˌʌnˈbɛnd/",
+      "example": ["She tried to unbend the metal wire."]
     },
     "past_simple": {
-      "form": "Unbent",
-      "pronunciation": "/ˌʌnˈbɛnt/"
+      "form": "unbent",
+      "pronunciation": "/ˌʌnˈbɛnt/",
+      "example": ["He unbent the paperclip."]
     },
     "past_participle": {
-      "form": "Unbent",
-      "pronunciation": "/ˌʌnˈbɛnt/"
+      "form": "unbent",
+      "pronunciation": "/ˌʌnˈbɛnt/",
+      "example": ["The metal has unbent after the heat."]
     },
     "meaning": "Làm thẳng lại"
   },
   {
     "word": "Undercut",
     "infinitive": {
-      "form": "Undercut",
-      "pronunciation": "/ˌʌndərˈkʌt/"
+      "form": "undercut",
+      "pronunciation": "/ˌʌndərˈkʌt/",
+      "example": ["The competitor decided to undercut the prices."]
     },
     "past_simple": {
-      "form": "Undercut",
-      "pronunciation": "/ˌʌndərˈkʌt/"
+      "form": "undercut",
+      "pronunciation": "/ˌʌndərˈkʌt/",
+      "example": ["They undercut the competition to attract more customers."]
     },
     "past_participle": {
-      "form": "Undercut",
-      "pronunciation": "/ˌʌndərˈkʌt/"
+      "form": "undercut",
+      "pronunciation": "/ˌʌndərˈkʌt/",
+      "example": ["The prices have been undercut for a better deal."]
     },
     "meaning": "Ra giá rẻ hơn"
   },
   {
     "word": "Undergo",
     "infinitive": {
-      "form": "Undergo",
-      "pronunciation": "/ˌʌndərˈɡoʊ/"
+      "form": "undergo",
+      "pronunciation": "/ˌʌndərˈɡoʊ/",
+      "example": ["She will undergo surgery next week."]
     },
     "past_simple": {
-      "form": "Underwent",
-      "pronunciation": "/ˌʌndərˈwɛnt/"
+      "form": "underwent",
+      "pronunciation": "/ˌʌndərˈwɛnt/",
+      "example": ["The company underwent significant changes."]
     },
     "past_participle": {
-      "form": "Undergone",
-      "pronunciation": "/ˌʌndərˈɡʌn/"
+      "form": "undergone",
+      "pronunciation": "/ˌʌndərˈɡʌn/",
+      "example": ["The patient has undergone two procedures."]
     },
     "meaning": "Kinh qua"
   },
   {
     "word": "Underline",
     "infinitive": {
-      "form": "Underline",
-      "pronunciation": "/ˌʌndərˈlaɪ/"
+      "form": "underline",
+      "pronunciation": "/ˌʌndərˈlaɪ/",
+      "example": ["Please underline the important points."]
     },
     "past_simple": {
-      "form": "Underlay",
-      "pronunciation": "/ˌʌndərˈleɪ/"
+      "form": "underlay",
+      "pronunciation": "/ˌʌndərˈleɪ/",
+      "example": ["The carpet was underlaid with a layer of foam."]
     },
     "past_participle": {
-      "form": "Underlain",
-      "pronunciation": "/ˌʌndərˈleɪn/"
+      "form": "underlain",
+      "pronunciation": "/ˌʌndərˈleɪn/",
+      "example": ["The foundation had been underlain with concrete."]
     },
     "meaning": "Nằm dưới"
   },
   {
     "word": "Underpay",
     "infinitive": {
-      "form": "Underpay",
-      "pronunciation": "/ˌʌndərˈpeɪ/"
+      "form": "underpay",
+      "pronunciation": "/ˌʌndərˈpeɪ/",
+      "example": ["The workers were underpaid for their efforts."]
     },
     "past_simple": {
-      "form": "Underpaid",
-      "pronunciation": "/ˌʌndərˈpeɪd/"
+      "form": "underpaid",
+      "pronunciation": "/ˌʌndərˈpeɪd/",
+      "example": ["He underpaid his employees last month."]
     },
     "past_participle": {
-      "form": "Underpaid",
-      "pronunciation": "/ˌʌndərˈpeɪd/"
+      "form": "underpaid",
+      "pronunciation": "/ˌʌndərˈpeɪd/",
+      "example": ["The workers have been underpaid for years."]
     },
     "meaning": "Trả lương thấp"
   },
   {
     "word": "Undersell",
     "infinitive": {
-      "form": "Undersell",
-      "pronunciation": "/ˌʌndərˈsɛl/"
+      "form": "undersell",
+      "pronunciation": "/ˌʌndərˈsɛl/",
+      "example": ["They tried to undersell their competitors."]
     },
     "past_simple": {
-      "form": "Undersold",
-      "pronunciation": "/ˌʌndərˈsoʊld/"
+      "form": "undersold",
+      "pronunciation": "/ˌʌndərˈsoʊld/",
+      "example": ["The company undersold its products to increase market share."]
     },
     "past_participle": {
-      "form": "Undersold",
-      "pronunciation": "/ˌʌndərˈsoʊld/"
+      "form": "undersold",
+      "pronunciation": "/ˌʌndərˈsoʊld/",
+      "example": ["Their product has been undersold in comparison."]
     },
     "meaning": "Bán rẻ hơn"
   },
   {
     "word": "Understand",
     "infinitive": {
-      "form": "Understand",
-      "pronunciation": "/ˌʌndərˈstænd/"
+      "form": "understand",
+      "pronunciation": "/ˌʌndərˈstænd/",
+      "example": ["Do you understand the instructions?"]
     },
     "past_simple": {
-      "form": "Understood",
-      "pronunciation": "/ˌʌndərˈstʊd/"
+      "form": "understood",
+      "pronunciation": "/ˌʌndərˈstʊd/",
+      "example": ["She understood the problem immediately."]
     },
     "past_participle": {
-      "form": "Understood",
-      "pronunciation": "/ˌʌndərˈstʊd/"
+      "form": "understood",
+      "pronunciation": "/ˌʌndərˈstʊd/",
+      "example": ["The concept has been understood by most students."]
     },
     "meaning": "Hiểu"
   },
   {
     "word": "Undertake",
     "infinitive": {
-      "form": "Undertake",
-      "pronunciation": "/ˌʌndərˈteɪk/"
+      "form": "undertake",
+      "pronunciation": "/ˌʌndərˈteɪk/",
+      "example": ["He undertook the responsibility with great care."]
     },
     "past_simple": {
-      "form": "Undertook",
-      "pronunciation": "/ˌʌndərˈtʊk/"
+      "form": "undertook",
+      "pronunciation": "/ˌʌndərˈtʊk/",
+      "example": ["They undertook a new project last year."]
     },
     "past_participle": {
-      "form": "Undertaken",
-      "pronunciation": "/ˌʌndərˈteɪkən/"
+      "form": "undertaken",
+      "pronunciation": "/ˌʌndərˈteɪkən/",
+      "example": ["The task has been undertaken by the team."]
     },
     "meaning": "Đảm nhận"
   },
   {
     "word": "Underwrite",
     "infinitive": {
-      "form": "Underwrite",
-      "pronunciation": "/ˌʌndərˈraɪt/"
+      "form": "underwrite",
+      "pronunciation": "/ˌʌndərˈraɪt/",
+      "example": ["The bank will underwrite the loan for the new project."]
     },
     "past_simple": {
-      "form": "Underwrote",
-      "pronunciation": "/ˌʌndərˈroʊt/"
+      "form": "underwrote",
+      "pronunciation": "/ˌʌndərˈroʊt/",
+      "example": ["They underwrote the insurance policy."]
     },
     "past_participle": {
-      "form": "Underwritten",
-      "pronunciation": "/ˌʌndərˈrɪtn/"
+      "form": "underwritten",
+      "pronunciation": "/ˌʌndərˈrɪtn/",
+      "example": ["The loan has been underwritten by a leading bank."]
     },
     "meaning": "Bảo hiểm"
   },
   {
     "word": "Undo",
     "infinitive": {
-      "form": "Undo",
-      "pronunciation": "/ʌnˈduː/"
+      "form": "undo",
+      "pronunciation": "/ʌnˈduː/",
+      "example": ["Can you undo the changes you made?"]
     },
     "past_simple": {
-      "form": "Undid",
-      "pronunciation": "/ʌnˈdɪd/"
+      "form": "undid",
+      "pronunciation": "/ʌnˈdɪd/",
+      "example": ["He undid the knot with ease."]
     },
     "past_participle": {
-      "form": "Undone",
-      "pronunciation": "/ʌnˈdʌn/"
+      "form": "undone",
+      "pronunciation": "/ʌnˈdʌn/",
+      "example": ["The work has been undone."]
     },
     "meaning": "Tháo ra"
   },
   {
     "word": "Unfreeze",
     "infinitive": {
-      "form": "Unfreeze",
-      "pronunciation": "/ˌʌnˈfriːz/"
+      "form": "unfreeze",
+      "pronunciation": "/ˌʌnˈfriːz/",
+      "example": ["They will unfreeze the assets once the investigation is over."]
     },
     "past_simple": {
-      "form": "Unfroze",
-      "pronunciation": "/ʌnˈfroʊz/"
+      "form": "unfroze",
+      "pronunciation": "/ʌnˈfroʊz/",
+      "example": ["The workers unfroze the pipes last night."]
     },
     "past_participle": {
-      "form": "Unfrozen",
-      "pronunciation": "/ˌʌnˈfroʊzn/"
+      "form": "unfrozen",
+      "pronunciation": "/ˌʌnˈfroʊzn/",
+      "example": ["The meat has been unfrozen in the refrigerator."]
     },
     "meaning": "Làm tan đông"
   },
   {
     "word": "Unwind",
     "infinitive": {
-      "form": "Unwind",
-      "pronunciation": "/ˌʌnˈwaɪnd/"
+      "form": "unwind",
+      "pronunciation": "/ˌʌnˈwaɪnd/",
+      "example": ["She likes to unwind with a good book."]
     },
     "past_simple": {
-      "form": "Unwound",
-      "pronunciation": "/ˌʌnˈwaʊnd/"
+      "form": "unwound",
+      "pronunciation": "/ˌʌnˈwaʊnd/",
+      "example": ["They unwound the string carefully."]
     },
     "past_participle": {
-      "form": "Unwound",
-      "pronunciation": "/ˌʌnˈwaʊnd/"
+      "form": "unwound",
+      "pronunciation": "/ˌʌnˈwaʊnd/",
+      "example": ["The rope has been unwound."]
     },
     "meaning": "Tháo ra"
   },
   {
     "word": "Uphold",
     "infinitive": {
-      "form": "Uphold",
-      "pronunciation": "/ˌʌpˈhoʊld/"
+      "form": "uphold",
+      "pronunciation": "/ˌʌpˈhoʊld/",
+      "example": ["The judge will uphold the law."]
     },
     "past_simple": {
-      "form": "Upheld",
-      "pronunciation": "/ˌʌpˈhɛld/"
+      "form": "upheld",
+      "pronunciation": "/ˌʌpˈhɛld/",
+      "example": ["They upheld the decision after careful review."]
     },
     "past_participle": {
-      "form": "Upheld",
-      "pronunciation": "/ˌʌpˈhɛld/"
+      "form": "upheld",
+      "pronunciation": "/ˌʌpˈhɛld/",
+      "example": ["The decision has been upheld by the court."]
     },
     "meaning": "Ủng hộ"
   },
   {
     "word": "Upset",
     "infinitive": {
-      "form": "Upset",
-      "pronunciation": "/ʌpˈsɛt/"
+      "form": "upset",
+      "pronunciation": "/ʌpˈsɛt/",
+      "example": ["He upset the balance of the game."]
     },
     "past_simple": {
-      "form": "Upset",
-      "pronunciation": "/ʌpˈsɛt/"
+      "form": "upset",
+      "pronunciation": "/ʌpˈsɛt/",
+      "example": ["The news upset everyone in the office."]
     },
     "past_participle": {
-      "form": "Upset",
-      "pronunciation": "/ʌpˈsɛt/"
+      "form": "upset",
+      "pronunciation": "/ʌpˈsɛt/",
+      "example": ["The result has upset the team's fans."]
     },
-    "meaning": "Đánh đổ; Lật đổ"
+    "meaning": "Đánh đổ, Lật đổ"
   },
   {
     "word": "Wake",
     "infinitive": {
-      "form": "Wake",
-      "pronunciation": "/weɪk/"
+      "form": "wake",
+      "pronunciation": "/weɪk/",
+      "example": ["I wake up early every day."]
     },
     "past_simple": {
-      "form": "Woke",
-      "pronunciation": "/woʊk/"
+      "form": "woke",
+      "pronunciation": "/woʊk/",
+      "example": ["She woke up to the sound of birds."]
     },
     "past_participle": {
-      "form": "Woken",
-      "pronunciation": "/ˈwoʊkən/"
+      "form": "woken",
+      "pronunciation": "/ˈwoʊkən/",
+      "example": ["He had woken up before anyone else."]
     },
     "meaning": "Thức giấc"
   },
   {
     "word": "Waylay",
     "infinitive": {
-      "form": "Waylay",
-      "pronunciation": "/ˌweɪˈleɪ/"
+      "form": "waylay",
+      "pronunciation": "/ˌweɪˈleɪ/",
+      "example": ["The bandits waylaid the travelers on the road."]
     },
     "past_simple": {
-      "form": "Waylaid",
-      "pronunciation": "/ˌweɪˈleɪd/"
+      "form": "waylaid",
+      "pronunciation": "/ˌweɪˈleɪd/",
+      "example": ["He was waylaid by a group of thieves."]
     },
     "past_participle": {
-      "form": "Waylaid",
-      "pronunciation": "/ˌweɪˈleɪd/"
+      "form": "waylaid",
+      "pronunciation": "/ˌweɪˈleɪd/",
+      "example": ["She had been waylaid while walking home."]
     },
     "meaning": "Mai phục"
   },
   {
     "word": "Wear",
     "infinitive": {
-      "form": "Wear",
-      "pronunciation": "/weər/"
+      "form": "wear",
+      "pronunciation": "/weər/",
+      "example": ["She likes to wear fashionable clothes."]
     },
     "past_simple": {
-      "form": "Wore",
-      "pronunciation": "/wɔːr/"
+      "form": "wore",
+      "pronunciation": "/wɔːr/",
+      "example": ["He wore a suit to the meeting."]
     },
     "past_participle": {
-      "form": "Worn",
-      "pronunciation": "/wɔːrn/"
+      "form": "worn",
+      "pronunciation": "/wɔːrn/",
+      "example": ["The shoes have been worn for years."]
     },
     "meaning": "Mặc"
   },
@@ -3395,15 +4034,18 @@
     "word": "Weave",
     "infinitive": {
       "form": "weave",
-      "pronunciation": "/wiːv/"
+      "pronunciation": "/wiːv/",
+      "example": ["She can weave a beautiful tapestry."]
     },
     "past_simple": {
       "form": ["wove", "weaved"],
-      "pronunciation": ["/ˈwoʊv/", "/wiːvd/"]
+      "pronunciation": ["/ˈwoʊv/", "/wiːvd/"],
+      "example": ["They wove the fabric by hand.", "He weaved a basket."]
     },
     "past_participle": {
       "form": ["woven", "weaved"],
-      "pronunciation": ["/ˈwoʊvn/", "/wiːvd/"]
+      "pronunciation": ["/ˈwoʊvn/", "/wiːvd/"],
+      "example": ["The cloth has been woven with care.", "She had weaved the rug herself."]
     },
     "meaning": "Dệt"
   },
@@ -3411,15 +4053,18 @@
     "word": "Wed",
     "infinitive": {
       "form": "wed",
-      "pronunciation": "/wɛd/"
+      "pronunciation": "/wɛd/",
+      "example": ["They will wed in the spring."]
     },
     "past_simple": {
       "form": ["wed", "wedded"],
-      "pronunciation": ["/wɛd/", "/ˈwɛdɪd/"]
+      "pronunciation": ["/wɛd/", "/ˈwɛdɪd/"],
+      "example": ["They wed last year.", "He wedded his longtime love."]
     },
     "past_participle": {
       "form": ["wed", "wedded"],
-      "pronunciation": ["/wɛd/", "/ˈwɛdɪd/"]
+      "pronunciation": ["/wɛd/", "/ˈwɛdɪd/"],
+      "example": ["They have wed in a small ceremony.", "They had wedded by the sea."]
     },
     "meaning": "Kết hôn"
   },
@@ -3427,15 +4072,18 @@
     "word": "Weep",
     "infinitive": {
       "form": "weep",
-      "pronunciation": "/wiːp/"
+      "pronunciation": "/wiːp/",
+      "example": ["She began to weep after hearing the news."]
     },
     "past_simple": {
       "form": "wept",
-      "pronunciation": "/wɛpt/"
+      "pronunciation": "/wɛpt/",
+      "example": ["He wept bitterly at the funeral."]
     },
     "past_participle": {
       "form": "wept",
-      "pronunciation": "/wɛpt/"
+      "pronunciation": "/wɛpt/",
+      "example": ["She had wept all night."]
     },
     "meaning": "Khóc"
   },
@@ -3443,15 +4091,18 @@
     "word": "Wet",
     "infinitive": {
       "form": "wet",
-      "pronunciation": "/wɛt/"
+      "pronunciation": "/wɛt/",
+      "example": ["She got wet in the rain."]
     },
     "past_simple": {
       "form": ["wet", "wetted"],
-      "pronunciation": ["/wɛt/", "/ˈwɛtɪd/"]
+      "pronunciation": ["/wɛt/", "/ˈwɛtɪd/"],
+      "example": ["He wet his clothes while swimming.", "She wetted the paper."]
     },
     "past_participle": {
       "form": ["wet", "wetted"],
-      "pronunciation": ["/wɛt/", "/ˈwɛtɪd/"]
+      "pronunciation": ["/wɛt/", "/ˈwɛtɪd/"],
+      "example": ["The ground has been wet by the rain.", "She had wetted her hair."]
     },
     "meaning": "Làm ướt"
   },
@@ -3459,15 +4110,18 @@
     "word": "Win",
     "infinitive": {
       "form": "win",
-      "pronunciation": "/wɪn/"
+      "pronunciation": "/wɪn/",
+      "example": ["He will win the race."]
     },
     "past_simple": {
       "form": "won",
-      "pronunciation": "/wʌn/"
+      "pronunciation": "/wʌn/",
+      "example": ["She won the award."]
     },
     "past_participle": {
       "form": "won",
-      "pronunciation": "/wʌn/"
+      "pronunciation": "/wʌn/",
+      "example": ["They have won the competition."]
     },
     "meaning": "Chiến thắng"
   },
@@ -3475,15 +4129,18 @@
     "word": "Wind",
     "infinitive": {
       "form": "wind",
-      "pronunciation": "/waɪnd/"
+      "pronunciation": "/waɪnd/",
+      "example": ["You need to wind the clock."]
     },
     "past_simple": {
       "form": "wound",
-      "pronunciation": "/waʊnd/"
+      "pronunciation": "/waʊnd/",
+      "example": ["He wound the rope around the pole."]
     },
     "past_participle": {
       "form": "wound",
-      "pronunciation": "/waʊnd/"
+      "pronunciation": "/waʊnd/",
+      "example": ["The rope has been wound tightly."]
     },
     "meaning": "Quấn"
   },
@@ -3491,15 +4148,18 @@
     "word": "Withdraw",
     "infinitive": {
       "form": "withdraw",
-      "pronunciation": "/wɪðˈdrɔː/"
+      "pronunciation": "/wɪðˈdrɔː/",
+      "example": ["He decided to withdraw from the race."]
     },
     "past_simple": {
       "form": "withdrew",
-      "pronunciation": "/wɪðˈdruː/"
+      "pronunciation": "/wɪðˈdruː/",
+      "example": ["She withdrew from the agreement."]
     },
     "past_participle": {
       "form": "withdrawn",
-      "pronunciation": "/wɪðˈdrɔːn/"
+      "pronunciation": "/wɪðˈdrɔːn/",
+      "example": ["The funds have been withdrawn."]
     },
     "meaning": "Rút lui"
   },
@@ -3507,15 +4167,18 @@
     "word": "Withhold",
     "infinitive": {
       "form": "withhold",
-      "pronunciation": "/wɪðˈhoʊld/"
+      "pronunciation": "/wɪðˈhoʊld/",
+      "example": ["The company decided to withhold the information."]
     },
     "past_simple": {
       "form": "withheld",
-      "pronunciation": "/wɪðˈhɛld/"
+      "pronunciation": "/wɪðˈhɛld/",
+      "example": ["They withheld the evidence from the court."]
     },
     "past_participle": {
       "form": "withheld",
-      "pronunciation": "/wɪðˈhɛld/"
+      "pronunciation": "/wɪðˈhɛld/",
+      "example": ["The documents have been withheld."]
     },
     "meaning": "Từ khước"
   },
@@ -3523,15 +4186,18 @@
     "word": "Withstand",
     "infinitive": {
       "form": "withstand",
-      "pronunciation": "/wɪðˈstænd/"
+      "pronunciation": "/wɪðˈstænd/",
+      "example": ["This material can withstand high temperatures."]
     },
     "past_simple": {
       "form": "withstood",
-      "pronunciation": "/wɪðˈstʊd/"
+      "pronunciation": "/wɪðˈstʊd/",
+      "example": ["The building withstood the earthquake."]
     },
     "past_participle": {
       "form": "withstood",
-      "pronunciation": "/wɪðˈstʊd/"
+      "pronunciation": "/wɪðˈstʊd/",
+      "example": ["The structure has withstood many storms."]
     },
     "meaning": "Cầm cự"
   },
@@ -3539,15 +4205,18 @@
     "word": "Work",
     "infinitive": {
       "form": "work",
-      "pronunciation": "/wɜrk/"
+      "pronunciation": "/wɜrk/",
+      "example": ["He needs to work on improving his skills."]
     },
     "past_simple": {
       "form": "worked",
-      "pronunciation": "/wɜrkt/"
+      "pronunciation": "/wɜrkt/",
+      "example": ["She worked at the factory for five years."]
     },
     "past_participle": {
       "form": "worked",
-      "pronunciation": "/wɜrkt/"
+      "pronunciation": "/wɜrkt/",
+      "example": ["The metal has been worked into a beautiful sculpture."]
     },
     "meaning": "Rèn (sắt), Nhào nặng đất"
   },
@@ -3555,31 +4224,37 @@
     "word": "Wring",
     "infinitive": {
       "form": "wring",
-      "pronunciation": "/rɪŋ/"
+      "pronunciation": "/rɪŋ/",
+      "example": ["She wrung the towel out to dry it."]
     },
     "past_simple": {
       "form": "wrung",
-      "pronunciation": "/rʌŋ/"
+      "pronunciation": "/rʌŋ/",
+      "example": ["He wrung the cloth until it was dry."]
     },
     "past_participle": {
       "form": "wrung",
-      "pronunciation": "/rʌŋ/"
+      "pronunciation": "/rʌŋ/",
+      "example": ["The shirt has been wrung out."]
     },
-    "meaning": "Vặn; Siết chặt"
+    "meaning": "Vặn, Siết chặt"
   },
   {
     "word": "Write",
     "infinitive": {
       "form": "write",
-      "pronunciation": "/raɪt/"
+      "pronunciation": "/raɪt/",
+      "example": ["She loves to write in her journal."]
     },
     "past_simple": {
       "form": "wrote",
-      "pronunciation": "/roʊt/"
+      "pronunciation": "/roʊt/",
+      "example": ["He wrote a letter to his friend."]
     },
     "past_participle": {
       "form": "written",
-      "pronunciation": "/ˈrɪtən/"
+      "pronunciation": "/ˈrɪtən/",
+      "example": ["The report has been written."]
     },
     "meaning": "Viết"
   }

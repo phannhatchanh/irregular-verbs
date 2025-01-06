@@ -2,8 +2,13 @@
 
 import { useState, useMemo } from "react";
 import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { Input } from "./ui/input";
-import AudioPlayer from "./reading";
+import AudioPlayer from "@/components/reading";
+import { Input } from "@/components//ui/input";
+import { PopoverVerb } from "@/components/popover";
+import { X } from "lucide-react";
+// import { GenerateExample } from "@/components/generate-example";
+import GenerateExample from "./(gemini)/generate-example";
+
 import data from "../data.json";
 
 interface SearchInputProps {
@@ -13,29 +18,62 @@ interface SearchInputProps {
 }
 
 const SearchInput: React.FC<SearchInputProps> = ({ searchTerm, setSearchTerm, clearSearch }) => (
-  <div className="relative w-full">
+  <div className="relative w-full print:hidden">
     <Input
       type="text"
-      placeholder="Search verb..."
+      placeholder="Nhập động từ cần tìm..."
       value={searchTerm}
       onChange={(e) => setSearchTerm(e.target.value)}
-      className="mb-2 border border-gray-300 rounded"
     />
     {searchTerm && (
       <button onClick={clearSearch} className="absolute right-2 top-[18px] transform -translate-y-1/2 hover:opacity-70">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          className="w-5 h-5"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-        </svg>
+        <X />
       </button>
     )}
   </div>
 );
+
+const highlightVerb = (example: string, verb: string) => {
+  return example.replace(new RegExp(`(${verb})`, "gi"), `<span style='font-weight: bold'>$1</span>`);
+};
+
+const ExampleDisplay = ({ example, verb }: { example: string | string[]; verb: string }) => {
+  if (Array.isArray(example)) {
+    return (
+      <>
+        {example.map((ex, index) => (
+          <div
+            key={index}
+            className="mb-2"
+            dangerouslySetInnerHTML={{
+              __html: `<strong>Ví dụ:</strong> ${highlightVerb(ex, verb)}`,
+            }}
+          />
+        ))}
+      </>
+    );
+  }
+
+  return (
+    <div
+      className="mb-2"
+      dangerouslySetInnerHTML={{
+        __html: `<strong>Ví dụ:</strong> ${highlightVerb(example, verb)}`,
+      }}
+    />
+  );
+};
+
+const groupByFirstLetter = (data: any) => {
+  return data.reduce((acc: any, item: any) => {
+    const firstLetter = item.word.charAt(0).toUpperCase();
+    if (!acc[firstLetter]) {
+      acc[firstLetter] = [];
+    }
+    acc[firstLetter].push(item);
+    return acc;
+  }, {});
+};
 
 export function Vocabulary() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -44,8 +82,8 @@ export function Vocabulary() {
     setSearchTerm("");
   };
 
-  const filteredData = useMemo(() => {
-    return data.filter(
+  const groupedData = useMemo(() => {
+    const filtered = data.filter(
       (item) =>
         item.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
         item.infinitive.form.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -57,72 +95,143 @@ export function Vocabulary() {
           : item.past_participle.form.toLowerCase().includes(searchTerm.toLowerCase())) ||
         item.meaning.toLowerCase().includes(searchTerm.toLowerCase())
     );
+    return groupByFirstLetter(filtered);
   }, [searchTerm]);
 
   return (
     <>
       <SearchInput searchTerm={searchTerm} setSearchTerm={setSearchTerm} clearSearch={clearSearch} />
-      <Table className="border">
+      <Table className=" overflow-hidden visible  rounded-lg border">
         <TableCaption>Common irregular verbs.</TableCaption>
         <TableHeader>
           <TableRow>
-            <TableHead className="bg-gray-600 text-white font-bold">No.</TableHead>
-            <TableHead className="bg-blue-600 text-white font-bold">Infinitive</TableHead>
-            <TableHead className="bg-green-600 text-white font-bold">Past Simple</TableHead>
-            <TableHead className="bg-pink-600 text-white font-bold">Past Participle</TableHead>
-            <TableHead className="bg-gray-600 text-white font-bold">Meaning</TableHead>
+            <TableHead className="bg-blue-600 text-white font-bold">INFINITIVE</TableHead>
+            <TableHead className="bg-green-600 text-white font-bold">PAST SIMPLE</TableHead>
+            <TableHead className="bg-pink-600 text-white font-bold">PAST PARTICIPLE</TableHead>
+            <TableHead className="bg-gray-600 text-white font-bold">MEANING</TableHead>
           </TableRow>
         </TableHeader>
-        <TableBody>
-          {filteredData.map((item, index) => (
-            <TableRow key={index}>
-              <TableCell className="bg-gray-100">{index + 1}</TableCell>
-              <TableCell className="bg-blue-100">
-                <AudioPlayer word={item.infinitive.form} verb={item.infinitive.form} />
-                <span className="text-gray-700">{item.infinitive.pronunciation}</span>
+        {Object.keys(groupedData).map((letter) => (
+          <TableBody key={letter}>
+            <TableRow id={`group-${letter}`} className="bg-slate-100 border-t">
+              <TableCell colSpan={4} className="text-2xl text-center font-bold">
+                {letter}
               </TableCell>
-              <TableCell className="bg-green-100">
-                {Array.isArray(item.past_simple.form) ? (
-                  item.past_simple.form.map((form, i) => (
-                    <div key={i} className="flex items-center">
-                      <AudioPlayer word={form} verb={form} />
-                      <span className="text-gray-700">
-                        {Array.isArray(item.past_simple.pronunciation)
-                          ? item.past_simple.pronunciation[i]
-                          : item.past_simple.pronunciation}
-                      </span>
-                    </div>
-                  ))
-                ) : (
-                  <div>
-                    <AudioPlayer word={item.past_simple.form} verb={item.past_simple.form} />
-                    <span className="text-gray-700">{item.past_simple.pronunciation}</span>
-                  </div>
-                )}
-              </TableCell>
-              <TableCell className="bg-pink-100">
-                {Array.isArray(item.past_participle.form) ? (
-                  item.past_participle.form.map((form, i) => (
-                    <div key={i} className="flex items-center">
-                      <AudioPlayer word={form} verb={form} />
-                      <span className="text-gray-700">
-                        {Array.isArray(item.past_participle.pronunciation)
-                          ? item.past_participle.pronunciation[i]
-                          : item.past_participle.pronunciation}
-                      </span>
-                    </div>
-                  ))
-                ) : (
-                  <div>
-                    <AudioPlayer word={item.past_participle.form} verb={item.past_participle.form} />
-                    <span className="text-gray-700">{item.past_participle.pronunciation}</span>
-                  </div>
-                )}
-              </TableCell>
-              <TableCell className="bg-gray-100">{item.meaning}</TableCell>
             </TableRow>
-          ))}
-        </TableBody>
+            {groupedData[letter].map((item: any, index: any) => (
+              <TableRow key={index}>
+                <TableCell>
+                  <PopoverVerb
+                    colorVariant="blue"
+                    verb={item.word}
+                    children={
+                      <>
+                        <AudioPlayer
+                          word={item.word}
+                          verb={item.infinitive.form}
+                          pronunciation={item.infinitive.pronunciation}
+                        />
+                        <hr className="my-2" />
+                        {item.infinitive.example && (
+                          <ExampleDisplay example={item.infinitive.example} verb={item.infinitive.form} />
+                        )}
+                        <GenerateExample verb={item.word} />
+                        <hr className="my-2" />
+                      </>
+                    }
+                  />
+                </TableCell>
+                <TableCell>
+                  {Array.isArray(item.past_simple.form) ? (
+                    <div className="flex items-center">
+                      {item.past_simple.form.map((word: any, index: any) => (
+                        <div key={index}>
+                          <PopoverVerb colorVariant="green" verb={word}>
+                            <AudioPlayer
+                              word={word}
+                              verb={word}
+                              pronunciation={item.past_simple.pronunciation[index]}
+                            />
+                            <hr className="my-2" />
+                            {item.past_simple.example && item.past_simple.example[index] && (
+                              <ExampleDisplay example={item.past_simple.example[index]} verb={word} />
+                            )}
+                            <GenerateExample verb={item.word} />
+                            <hr className="my-2" />
+                          </PopoverVerb>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <PopoverVerb
+                      colorVariant="green"
+                      verb={item.past_simple.form}
+                      children={
+                        <>
+                          <AudioPlayer
+                            word={item.past_simple.form}
+                            verb={item.past_simple.form}
+                            pronunciation={item.past_simple.pronunciation}
+                          />
+                          <hr className="my-2" />
+                          {item.past_simple.example && (
+                            <ExampleDisplay example={item.past_simple.example} verb={item.past_simple.form} />
+                          )}
+                          <GenerateExample verb={item.word} />
+                          <hr className="my-2" />
+                        </>
+                      }
+                    />
+                  )}
+                </TableCell>
+                <TableCell>
+                  {Array.isArray(item.past_participle.form) ? (
+                    <div className="flex items-center">
+                      {item.past_participle.form.map((word: any, index: any) => (
+                        <div key={index}>
+                          <PopoverVerb verb={word} colorVariant="pink">
+                            <AudioPlayer
+                              word={word}
+                              verb={word}
+                              pronunciation={item.past_participle.pronunciation[index]}
+                            />
+                            <hr className="my-2" />
+                            {item.past_participle.example && item.past_participle.example[index] && (
+                              <ExampleDisplay example={item.past_participle.example[index]} verb={word} />
+                            )}
+                            <GenerateExample verb={word} />
+                            <hr className="my-2" />
+                          </PopoverVerb>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <PopoverVerb
+                      colorVariant="pink"
+                      verb={item.past_participle.form}
+                      children={
+                        <>
+                          <AudioPlayer
+                            word={item.past_participle.form}
+                            verb={item.past_participle.form}
+                            pronunciation={item.past_participle.pronunciation}
+                          />
+                          <hr className="my-2" />
+                          {item.past_participle.example && (
+                            <ExampleDisplay example={item.past_participle.example} verb={item.past_participle.form} />
+                          )}
+                          <GenerateExample verb={item.past_participle.form} />
+                          <hr className="my-2" />
+                        </>
+                      }
+                    />
+                  )}
+                </TableCell>
+                <TableCell className="font-semibold">{item.meaning}</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        ))}
       </Table>
     </>
   );

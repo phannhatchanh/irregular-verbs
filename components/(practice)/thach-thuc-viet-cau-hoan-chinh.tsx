@@ -124,9 +124,9 @@ const SentenceChallenge = () => {
       </Card>
 
       {apiResponse && (
-        <p className="whitespace-pre-line">
+        <div className="whitespace-pre-line mt-4">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{apiResponse}</ReactMarkdown>
-        </p>
+        </div>
       )}
     </>
   );

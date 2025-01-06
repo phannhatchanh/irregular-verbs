@@ -10,12 +10,7 @@ export const metadata: Metadata = {
 
 const SentenceChallengePage: React.FC = () => {
   return (
-    <div className="max-w-2xl m-auto my-10 px-4 gap-6">
-      <h1 className="text-pink-600 text-lg font-bold text-center">THÁCH THỨC VIẾT CÂU HOÀN CHỈNH</h1>
-      <p className="text-base text-muted-foreground">
-        Cải thiện kỹ năng ngữ pháp tiếng Anh và kiểm tra sự chính xác của câu viết một cách nhanh chóng và dễ dàng nhờ
-        công nghệ AI.
-      </p>
+    <div className="max-w-2xl m-auto mt-10 mb-24 px-4 gap-6">
       <SentenceChallenge />
     </div>
   );

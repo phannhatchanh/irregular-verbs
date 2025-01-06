@@ -6,7 +6,8 @@ import { GeminiLogo } from "@/components/icon";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Frown, Laugh } from "lucide-react";
+import { CheckCheck, Frown, Laugh } from "lucide-react";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
 interface Question {
   question: string;
@@ -86,52 +87,93 @@ export default function QuizGenerator() {
 
   return (
     <>
-      <div className="flex space-x-4 mt-4">
-        <Select onValueChange={setTopic}>
-          <SelectTrigger>
-            <SelectValue placeholder={topic} />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="Chọn dạng đúng của động từ (Verb Forms)">
-              Chọn dạng đúng của động từ (Verb Forms)
-            </SelectItem>
-            <SelectItem value="Động từ nguyên thể và V-ing (Gerunds and Infinitives)">
-              Động từ nguyên thể và V-ing (Gerunds and Infinitives)
-            </SelectItem>
-            <SelectItem value="Động từ khuyết thiếu (Modal Verbs)">Động từ khuyết thiếu (Modal Verbs)</SelectItem>
-            <SelectItem value="Động từ bất quy tắt (Irregular Verbs)">Động từ bất quy tắt (Irregular Verbs)</SelectItem>
-            <SelectItem value="Chia động từ trong ngoặc (Verb Tense)">Chia động từ trong ngoặc (Verb Tense)</SelectItem>
-          </SelectContent>
-        </Select>
-        <Select onValueChange={handleNumQuestionsChange} defaultValue={numQuestions.toString()}>
-          <SelectTrigger className="w-[80px]">
-            <SelectValue placeholder={numQuestions} />
-          </SelectTrigger>
-          <SelectContent>
-            {questionOptions.map((option) => (
-              <SelectItem key={option} value={option.toString()}>
-                {option} Câu hỏi
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
-        <Select onValueChange={setLevel} defaultValue={level}>
-          <SelectTrigger className="w-[120px]">
-            <SelectValue placeholder={level} />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="Easy (Dễ)">Dễ</SelectItem>
-            <SelectItem value="Medium (Trung bình)">Trung bình</SelectItem>
-            <SelectItem value="Hard (Khó)">Khó</SelectItem>
-          </SelectContent>
-        </Select>
-      </div>
-      <Button variant="outline" onClick={generateQuiz} disabled={loading} className="my-4">
-        <GeminiLogo animate={loading ? true : false} className="!size-5" />
-        {loading ? "Đang tạo bộ câu hỏi mới..." : "Tạo bộ câu hỏi mới"}
-      </Button>
-      {error && <p style={{ color: "red" }}>Lỗi: {error}</p>}
-
+      <Card>
+        <CardHeader>
+          <CardTitle>
+            <h1 className="text-pink-600 text-lg font-bold text-center">CÂU HỎI TRẮC NGHIỆM</h1>
+          </CardTitle>
+          <CardDescription>
+            Tự kiểm tra kiếm thức của bạn bằng cách lựa chọn một đáp án đúng với hình thức trắc nghiệm từ một bộ các câu
+            hỏi được tạo bởi AI liên quan đến một chủ đề dưới đây:
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="grid gap-6">
+          <div className="grid gap-2">
+            <Label htmlFor="topics">Chủ đề</Label>
+            <Select onValueChange={setTopic}>
+              <SelectTrigger>
+                <SelectValue placeholder={topic} />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem className="cursor-pointer" value="Chọn dạng đúng của động từ (Verb Forms)">
+                  Chọn dạng đúng của động từ (Verb Forms)
+                </SelectItem>
+                <SelectItem className="cursor-pointer" value="Động từ nguyên thể và V-ing (Gerunds and Infinitives)">
+                  Động từ nguyên thể và V-ing (Gerunds and Infinitives)
+                </SelectItem>
+                <SelectItem className="cursor-pointer" value="Động từ khuyết thiếu (Modal Verbs)">
+                  Động từ khuyết thiếu (Modal Verbs)
+                </SelectItem>
+                <SelectItem className="cursor-pointer" value="Động từ bất quy tắt (Irregular Verbs)">
+                  Động từ bất quy tắt (Irregular Verbs)
+                </SelectItem>
+                <SelectItem className="cursor-pointer" value="Chia động từ trong ngoặc (Verb Tense)">
+                  Chia động từ trong ngoặc (Verb Tense)
+                </SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2">
+            <div className="grid gap-2">
+              <Label htmlFor="number-questions">Số câu</Label>
+              <Select onValueChange={handleNumQuestionsChange} defaultValue={numQuestions.toString()}>
+                <SelectTrigger>
+                  <SelectValue placeholder={numQuestions} />
+                </SelectTrigger>
+                <SelectContent>
+                  {questionOptions.map((option) => (
+                    <SelectItem className="cursor-pointer" key={option} value={option.toString()}>
+                      {option} Câu hỏi
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+            <div className="grid gap-2">
+              <Label htmlFor="questions-level">Cấp độ</Label>
+              <Select onValueChange={setLevel} defaultValue={level}>
+                <SelectTrigger>
+                  <SelectValue placeholder={level} />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem className="cursor-pointer" value="Easy (Dễ)">
+                    Dễ (Easy)
+                  </SelectItem>
+                  <SelectItem className="cursor-pointer" value="Medium (Trung bình)">
+                    Trung bình (Medium)
+                  </SelectItem>
+                  <SelectItem className="cursor-pointer" value="Hard (Khó)">
+                    Khó (Hard)
+                  </SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+          {error && (
+            <CardDescription>
+              <Label htmlFor="error" className="text-red-500">
+                Lỗi: {error}
+              </Label>
+            </CardDescription>
+          )}
+        </CardContent>
+        <CardFooter className="justify-between space-x-2">
+          <Button variant="outline" onClick={generateQuiz} disabled={loading} className="m-auto">
+            <GeminiLogo animate={loading ? true : false} className="!size-5" />
+            {loading ? "Đang tạo bộ câu hỏi mới..." : "Tạo bộ câu hỏi mới"}
+          </Button>
+        </CardFooter>
+      </Card>
       {questions && (
         <div>
           <ul>
@@ -177,15 +219,16 @@ export default function QuizGenerator() {
               </li>
             ))}
           </ul>
-
-          <Button
-            variant="outline"
-            onClick={calculateScore}
-            disabled={showResult ? true : false}
-            className="flex justify-center my-4"
-          >
-            {showResult ? `Bạn đạt được: ${score} / ${questions.length} câu hỏi` : "Kiểm tra kết quả"}
-          </Button>
+          {showResult ? (
+            <div className="flex items-center justify-center text-black font-semibold border rounded-md h-9 px-4 py-2 my-4 m-auto">
+              Bạn đạt được: {score} / {questions.length} câu hỏi
+            </div>
+          ) : (
+            <Button variant="outline" onClick={calculateScore} className="flex justify-center my-4 m-auto">
+              <CheckCheck />
+              Kiểm tra kết quả
+            </Button>
+          )}
         </div>
       )}
     </>

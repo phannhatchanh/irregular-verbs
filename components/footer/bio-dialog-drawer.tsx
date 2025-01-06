@@ -98,10 +98,10 @@ export function BioDialogDrawer() {
           <DrawerHeader className="flex flex-col gap-0 p-0">
             <DrawerTitle className="text-pink-600 text-lg font-bold text-center tracking-tight">GIỚI THIỆU</DrawerTitle>
             <DrawerDescription className="mb-0">
-              Chào mừng đến với ứng dụng học tập thông minh! Đây là một trong những công cụ đặc biệt giúp các bạn học
-              sinh dễ dàng <span className="text-pink-600 font-bold">TRA ĐỘNG TỪ BẤT QUY TẮC</span> trong tiếng Anh. Với
-              giao diện thân thiện và các tính năng hiện đại, ứng dụng sẽ là người bạn đồng hành đắc lực trên hành trình
-              chinh phục ngôn ngữ của bạn.
+              Chào mừng đến với ứng dụng học tập thông minh! Đây là một trong những công cụ đặc biệt giúp bạn dễ dàng{" "}
+              <span className="text-pink-600 font-bold">TRA ĐỘNG TỪ BẤT QUY TẮC</span> trong tiếng Anh. Với giao diện
+              thân thiện và các tính năng hiện đại, ứng dụng sẽ là người bạn đồng hành đắc lực trên hành trình chinh
+              phục ngôn ngữ của bạn.
             </DrawerDescription>
           </DrawerHeader>
           <Content />
@@ -132,9 +132,9 @@ export function BioDialogDrawer() {
             BẢNG TRA ĐỘNG TỪ BẤT QUY TẮC
           </DrawerTitle>
           <DrawerDescription className="mb-0 px-[-124px]">
-            Chào mừng bạn đến với ứng dụng học tập thông minh! Đây là một trong những công cụ đặc biệt giúp các bạn học
-            sinh dễ dàng tra cứu và học tập động từ bất quy tắc trong tiếng Anh. Với giao diện thân thiện và các tính
-            năng hiện đại, ứng dụng sẽ là người bạn đồng hành đắc lực trên hành trình chinh phục tiếng Anh của bạn.
+            Chào mừng bạn đến với ứng dụng học tập thông minh! Đây là một trong những công cụ đặc biệt giúp bạn dễ dàng
+            tra cứu và học tập động từ bất quy tắc trong tiếng Anh. Với giao diện thân thiện và các tính năng hiện đại,
+            ứng dụng sẽ là người bạn đồng hành đắc lực trên hành trình chinh phục tiếng Anh của bạn.
           </DrawerDescription>
         </DrawerHeader>
         <Content />

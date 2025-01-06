@@ -6,7 +6,9 @@ import remarkGfm from "remark-gfm";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { GeminiLogo } from "@/components/icon";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import irregularVerbsData from "../../data.json";
+import { Label } from "../ui/label";
 
 const SentenceChallenge = () => {
   const [randomWord, setRandomWord] = useState("");
@@ -70,36 +72,62 @@ const SentenceChallenge = () => {
 
   return (
     <>
-      <div className="mb-4">
-        Thử với động từ: <span className="font-bold bg-yellow-200 p-1 rounded">{randomWord}</span>
-        <Button variant="link" className="text-blue-600 m-0 p-0 ml-2" onClick={handleGetRandomWord} disabled={loading}>
-          Đổi từ khác
-        </Button>
-      </div>
+      <Card>
+        <CardHeader>
+          <CardTitle>
+            <h1 className="text-pink-600 text-lg font-bold text-center">CÂU HỎI TRẮC NGHIỆM</h1>
+          </CardTitle>
+          <CardDescription>
+            Cải thiện kỹ năng ngữ pháp tiếng Anh và kiểm tra sự chính xác của câu viết một cách nhanh chóng và dễ dàng
+            nhờ công nghệ AI
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="grid gap-6">
+          <div className="grid gap-2">
+            <div className="flex items-center space-x-2">
+              <Label htmlFor="topics">
+                Thử sức với động từ <span className="font-bold bg-yellow-200 p-1 rounded">{randomWord}</span>
+              </Label>
+              <Button
+                variant="link"
+                className="text-blue-600 m-0 p-0 ml-2"
+                onClick={handleGetRandomWord}
+                disabled={loading}
+              >
+                Đổi từ khác
+              </Button>
+            </div>
+            <div className="w-full mb-4">
+              <Input
+                type="text"
+                placeholder={`Viết một câu có sử dụng từ: '${randomWord}'`}
+                value={userInput}
+                onChange={handleInputChange}
+                disabled={loading || checking}
+              />
+            </div>
+          </div>
+          {error && (
+            <CardDescription>
+              <Label htmlFor="error" className="text-red-500">
+                Lỗi: {error}
+              </Label>
+            </CardDescription>
+          )}
+        </CardContent>
+        <CardFooter className="justify-between space-x-2">
+          <Button variant="outline" onClick={handleCheck} disabled={checking || !userInput.trim()} className="m-auto">
+            <GeminiLogo animate={checking ? true : false} className="!size-5" />
+            {checking ? "Đang kiểm tra..." : "Kiểm tra"}
+          </Button>
+        </CardFooter>
+      </Card>
 
-      <div className="w-full mb-4">
-        <Input
-          type="text"
-          placeholder={`Viết một câu có sử dụng từ: '${randomWord}'`}
-          value={userInput}
-          onChange={handleInputChange}
-          disabled={loading || checking}
-        />
-      </div>
-
-      <Button variant="outline" onClick={handleCheck} disabled={checking || !userInput.trim()}>
-        <GeminiLogo animate={checking ? true : false} className="!size-5" />
-        {checking ? "Đang kiểm tra..." : "Kiểm tra"}
-      </Button>
-
-      <div className="mt-4">
-        {error && <p className="text-red-500">Lỗi: {error}</p>}
-        {apiResponse && (
-          <p className="whitespace-pre-line">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{apiResponse}</ReactMarkdown>
-          </p>
-        )}
-      </div>
+      {apiResponse && (
+        <p className="whitespace-pre-line">
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>{apiResponse}</ReactMarkdown>
+        </p>
+      )}
     </>
   );
 };

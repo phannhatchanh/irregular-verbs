@@ -101,7 +101,7 @@ export function Vocabulary() {
   return (
     <>
       <SearchInput searchTerm={searchTerm} setSearchTerm={setSearchTerm} clearSearch={clearSearch} />
-      <Table className=" overflow-hidden visible  rounded-lg border">
+      <Table className=" overflow-hidden visible rounded-lg border">
         <TableCaption>Common irregular verbs.</TableCaption>
         <TableHeader>
           <TableRow>

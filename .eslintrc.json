@@ -1,7 +1,22 @@
 {
-  "extends": "next",
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals",
+    "next",
+    "prettier",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:import/recommended",
+    "plugin:tailwindcss/recommended"
+  ],
   "rules": {
-    "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off"
+    "react/prop-types": 1,
+    "react/display-name": 1,
+    "@next/next/no-img-element": 1,
+    "no-unused-vars": 1,
+    "import/named": 1,
+    "tailwindcss/no-custom-classname": 1,
+    "import/no-unresolved": [1, { "caseSensitive": false }],
+    "react/no-unescaped-entities": 1
   }
 }

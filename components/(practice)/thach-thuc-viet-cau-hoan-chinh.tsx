@@ -75,7 +75,7 @@ const SentenceChallenge = () => {
       <Card>
         <CardHeader>
           <CardTitle>
-            <h1 className="text-pink-600 text-lg font-bold text-center">CÂU HỎI TRẮC NGHIỆM</h1>
+            <h1 className="text-pink-600 text-lg font-bold text-center">VIẾT CÂU HOÀN CHỈNH</h1>
           </CardTitle>
           <CardDescription>
             Cải thiện kỹ năng ngữ pháp tiếng Anh và kiểm tra sự chính xác của câu viết một cách nhanh chóng và dễ dàng

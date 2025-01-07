@@ -2,8 +2,8 @@ import { cn } from "@/lib/utils";
 import { FC, ReactNode, useState } from "react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
-// import { GenerateExplain } from "@/components/generate-explain";
-import GenerateExplain from "./(gemini)/generate-explain";
+// import { GenerateExplain } from "@/components/(chatgpt)/generate-explain";
+import GenerateExplain from "@/components/(gemini)/generate-explain";
 
 interface PopoverProps {
   verb: string;

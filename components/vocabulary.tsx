@@ -6,8 +6,8 @@ import AudioPlayer from "@/components/reading";
 import { Input } from "@/components//ui/input";
 import { PopoverVerb } from "@/components/popover";
 import { X } from "lucide-react";
-// import { GenerateExample } from "@/components/generate-example";
-import GenerateExample from "./(gemini)/generate-example";
+// import { GenerateExample } from "@/components/(chatgpt)/generate-example";
+import GenerateExample from "@/components/(gemini)/generate-example";
 
 import data from "../data.json";
 

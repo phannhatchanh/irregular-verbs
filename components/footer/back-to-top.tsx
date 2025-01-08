@@ -27,7 +27,6 @@ const BackToTop = () => {
                 })
               }
               aria-label="Back to top"
-              className="size-8"
               variant="outline"
               size="icon"
             >

@@ -97,13 +97,14 @@ const SentenceChallenge = () => {
                 Đổi từ khác
               </Button>
             </div>
-            <div className="w-full mb-4">
+            <div className="w-full">
               <Input
                 type="text"
                 placeholder={`Viết một câu có sử dụng từ: '${randomWord}'`}
                 value={userInput}
                 onChange={handleInputChange}
                 disabled={loading || checking}
+                className="text-pink-600"
               />
             </div>
           </div>

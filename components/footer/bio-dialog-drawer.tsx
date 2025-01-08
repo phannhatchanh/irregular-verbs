@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { CircleHelp } from "lucide-react";
+import { Users } from "lucide-react";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import {
   Drawer,
@@ -15,6 +15,16 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
+
+const DescriptionContent = () => {
+  return (
+    <>
+      Chào mừng đến với ứng dụng học tập thông minh! Đây là một trong những công cụ đặc biệt giúp bạn dễ dàng{" "}
+      <span className="text-pink-600 font-bold">TRA ĐỘNG TỪ BẤT QUY TẮC</span> trong tiếng Anh. Với giao diện thân thiện
+      và các tính năng hiện đại, ứng dụng sẽ là người bạn đồng hành đắc lực trên hành trình chinh phục ngôn ngữ của bạn.
+    </>
+  );
+};
 
 const Content = () => {
   return (
@@ -84,8 +94,8 @@ export function BioDialogDrawer() {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
-                <Button className="size-8 p-1.5" variant="outline" asChild>
-                  <CircleHelp className="size-8" />
+                <Button className="p-1.5" variant="outline" asChild>
+                  <Users className="size-8" />
                 </Button>
               </TooltipTrigger>
               <TooltipContent>
@@ -98,10 +108,7 @@ export function BioDialogDrawer() {
           <DrawerHeader className="flex flex-col gap-0 p-0">
             <DrawerTitle className="text-pink-600 text-lg font-bold text-center tracking-tight">GIỚI THIỆU</DrawerTitle>
             <DrawerDescription className="mb-0">
-              Chào mừng đến với ứng dụng học tập thông minh! Đây là một trong những công cụ đặc biệt giúp bạn dễ dàng{" "}
-              <span className="text-pink-600 font-bold">TRA ĐỘNG TỪ BẤT QUY TẮC</span> trong tiếng Anh. Với giao diện
-              thân thiện và các tính năng hiện đại, ứng dụng sẽ là người bạn đồng hành đắc lực trên hành trình chinh
-              phục ngôn ngữ của bạn.
+              <DescriptionContent />
             </DrawerDescription>
           </DrawerHeader>
           <Content />
@@ -116,8 +123,8 @@ export function BioDialogDrawer() {
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
-              <Button className="size-8 p-1.5" variant="outline" asChild>
-                <CircleHelp className="size-8" />
+              <Button className="size-10 p-1.5" variant="outline" asChild>
+                <Users className="size-8" />
               </Button>
             </TooltipTrigger>
             <TooltipContent>
@@ -128,13 +135,9 @@ export function BioDialogDrawer() {
       </DrawerTrigger>
       <DrawerContent className="h-[90%] px-4 pb-4">
         <DrawerHeader className="flex flex-col gap-0 -mx-4 text-left">
-          <DrawerTitle className="text-pink-600 text-lg font-bold text-center tracking-tight">
-            BẢNG TRA ĐỘNG TỪ BẤT QUY TẮC
-          </DrawerTitle>
+          <DrawerTitle className="text-pink-600 text-lg font-bold text-center tracking-tight">GIỚI THIỆU</DrawerTitle>
           <DrawerDescription className="mb-0 px-[-124px]">
-            Chào mừng bạn đến với ứng dụng học tập thông minh! Đây là một trong những công cụ đặc biệt giúp bạn dễ dàng
-            tra cứu và học tập động từ bất quy tắc trong tiếng Anh. Với giao diện thân thiện và các tính năng hiện đại,
-            ứng dụng sẽ là người bạn đồng hành đắc lực trên hành trình chinh phục tiếng Anh của bạn.
+            <DescriptionContent />
           </DrawerDescription>
         </DrawerHeader>
         <Content />

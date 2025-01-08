@@ -25,21 +25,40 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Topic and a positive number of questions are required" }, { status: 400 });
     }
 
-    const prompt = `Tạo "${numQuestions}" câu hỏi trắc nghiệm ở cấp độ "${level}" về "${topic}" trong tiếng Anh. Mỗi câu hỏi phải có 4 tùy chọn (A, B, C, D) và chỉ rõ câu trả lời đúng. CHỈ trả về một mảng JSON hợp lệ của các đối tượng. KHÔNG bao gồm bất kỳ định dạng Markdown, khối mã hoặc văn bản nào khác bên ngoài JSON. VALUE của KEY luôn luôn bắt buộc là tiếng Việt.
+    const prompt = `Tạo "${numQuestions}" câu hỏi trắc nghiệm ở cấp độ "${level}" về "${topic}" trong tiếng Anh. Mỗi câu hỏi phải có 4 tùy chọn (A, B, C, D) và chỉ rõ câu trả lời đúng. CHỈ trả về một mảng JSON hợp lệ của các đối tượng. KHÔNG bao gồm bất kỳ định dạng Markdown, khối mã hoặc văn bản nào khác bên ngoài JSON. VALUE của KEY luôn luôn bắt buộc là tiếng Việt. 
+    Điểm nhấn trong các VALUE luôn luôn sử dụng dấu ** theo cấu trúc như: "Thể bị động của **know** ở thì tương lai đơn là **will be known**".
     BẮT BUỘC JSON phải có cấu trúc sau:
     [
       {
-        "question": "The 'question' text",
+        "question": "The **question** text",
         "options": ["Option A", "Option B", "Option C", "Option D"],
         "correctAnswer": "The correct option (A, B, C, or D)",
-        "explanation": "The 'explanation' text"
+        "explanation": "The **explanation** text"
       },
       ...
     ]
     `;
 
     const result = await model.generateContent(prompt);
-    const responseText = result.response.text();
+    let responseText = result.response.text();
+
+    responseText = responseText.trim(); // Loại bỏ khoảng trắng đầu và cuối
+    if (responseText.startsWith("```json")) {
+      responseText = responseText.substring(7); // Bỏ "```json"
+    }
+    if (responseText.endsWith("```")) {
+      responseText = responseText.slice(0, -3); // Bỏ "```"
+    }
+    // Loại bỏ dấu nháy đơn hoặc kép thừa ở đầu và cuối chuỗi nếu có
+    if (responseText.startsWith('"') || responseText.startsWith("'")) {
+      responseText = responseText.substring(1);
+    }
+    if (responseText.endsWith('"') || responseText.endsWith("'")) {
+      responseText = responseText.slice(0, -1);
+    }
+    responseText = responseText.replace(/\\"/g, "**");
+    responseText = responseText.replace(/'/g, "**");
+    responseText = responseText.replace(/\\'/g, "**");
 
     try {
       // Attempt to parse the response as JSON

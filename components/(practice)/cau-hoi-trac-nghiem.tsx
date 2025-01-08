@@ -179,8 +179,13 @@ export default function QuizGenerator() {
           <ul>
             {questions.map((q, index) => (
               <li id={`question-${index + 1}`} key={index} className="mt-4">
-                <h2 className="font-semibold">
-                  Câu hỏi {index + 1}: {q.question}
+                <h2>
+                  <span
+                    className={`before:content-[Câu ${
+                      index + 1
+                    }] mr-2 inline-flex justify-center items-center w-6 h-6 rounded bg-green-500 text-white font-medium text-sm`}
+                  />
+                  {q.question}
                 </h2>
                 <RadioGroup value={userAnswers[index]} onValueChange={(value) => handleAnswerChange(index, value)}>
                   {q.options.map((option, optionIndex) => (
@@ -210,9 +215,7 @@ export default function QuizGenerator() {
                           </span>
                         )}
                       </p>
-                      <p>
-                        <span className="underline">Giải thích thêm</span>: {q.explanation}
-                      </p>
+                      <p>{q.explanation}</p>
                     </div>
                   )}
                 </RadioGroup>

@@ -50,22 +50,32 @@ const Content = () => {
             <ul className="list-disc">
               <span className="text-blue-600">Trợ lý AI thông minh:</span>
               <li className="ml-5 font-normal">
-                <span className="underline">Ví dụ minh họa:</span> Tự động cung cấp các ví dụ, được hỗ trợ bởi công nghệ
-                AI hiện đại.
+                <span className="underline">Ví dụ minh họa:</span> Không chỉ đơn thuần đưa ra định nghĩa, công cụ tự
+                động cung cấp các ví dụ sinh động và thực tế, được tạo ra bởi công nghệ AI hiện đại. Điều này giúp người
+                học hiểu rõ hơn cách sử dụng từ vựng và cấu trúc ngữ pháp trong ngữ cảnh cụ thể.
               </li>
               <li className="ml-5 font-normal">
-                <span className="underline">Giải thích từ:</span> Tìm hiểu và phân tích thêm cấu trúc câu, cách sử dụng
-                từ và ý nghĩa một cách rõ ràng, giúp bạn hiểu sâu và ghi nhớ lâu hơn.
+                <span className="underline">Giải thích chi tiết về từ và ngữ pháp:</span> Công cụ không chỉ đơn thuần
+                dịch nghĩa mà còn phân tích sâu về cấu trúc câu, cách sử dụng từ và các sắc thái ý nghĩa khác nhau. Điều
+                này giúp người học hiểu bản chất của ngôn ngữ, từ đó ghi nhớ kiến thức một cách sâu sắc và lâu dài hơn.
               </li>
               <li className="ml-5 font-normal">
-                <span className="underline">Luyện tập trắc nghiệm:</span> Đưa ra bộ câu hỏi trắc nghiệm phù hợp với
-                nhiều dạng khác nhau nhằm kiểm tra và củng cố khả năng sử dụng động từ. Sau mỗi câu hỏi, bạn sẽ được xem
-                phản hồi về kết quả và giải thích chi tiết ở từng câu hỏi.
+                <span className="underline">Luyện tập trắc nghiệm đa dạng:</span> Công cụ đưa ra một loạt các câu hỏi
+                trắc nghiệm được thiết kế khoa học, bao gồm nhiều chủ đề. Sau mỗi câu trả lời, người học sẽ nhận được
+                phản hồi ngay lập tức về kết quả và giải thích chi tiết cho từng câu hỏi, giúp họ hiểu rõ lỗi sai và
+                củng cố kiến thức.
               </li>
               <li className="ml-5 font-normal">
-                <span className="underline">Viết câu hoàn chỉnh:</span> Hỗ trợ luyện viết câu hoàn chỉnh với động từ cho
-                trước. Hệ thống sẽ kiểm tra ngữ pháp, chỉnh sửa lỗi sai và gợi ý cách viết tối ưu, đồng thời đánh giá số
-                điểm mà bạn đạt được qua câu trả lời của mình.
+                <span className="underline">Luyện viết câu hoàn chỉnh:</span> Tính năng này hỗ trợ người học luyện viết
+                câu hoàn chỉnh với động từ cho trước. Hệ thống sẽ tự động kiểm tra ngữ pháp, phát hiện và chỉnh sửa lỗi
+                sai, đồng thời đưa ra gợi ý để câu văn trở nên tối ưu hơn. Đặc biệt, hệ thống còn đánh giá và chấm điểm
+                dựa trên nhiều tiêu chí, giúp người học theo dõi sự tiến bộ của mình.
+              </li>
+              <li className="ml-5 font-normal">
+                <span className="underline">Hỏi đáp (Q&A) không giới hạn:</span> Đây là một tính năng mạnh mẽ cho phép
+                người học đặt bất kỳ câu hỏi nào liên quan đến tiếng Anh, từ ngữ pháp, từ vựng, phát âm và các khía cạnh
+                khác của ngôn ngữ. Công cụ sẽ tận dụng khả năng của Gemini để cung cấp câu trả lời chính xác, đầy đủ và
+                dễ hiểu.
               </li>
             </ul>
           </li>
@@ -104,7 +114,7 @@ export function BioDialogDrawer() {
             </Tooltip>
           </TooltipProvider>
         </DialogTrigger>
-        <DialogContent className="h-[90%] p-4 sm:max-w-[full]">
+        <DialogContent className="max-w-2xl h-[90%] p-4 sm:max-w-[full]">
           <DrawerHeader className="flex flex-col gap-0 p-0">
             <DrawerTitle className="text-pink-600 text-lg font-bold text-center tracking-tight">GIỚI THIỆU</DrawerTitle>
             <DrawerDescription className="mb-0">

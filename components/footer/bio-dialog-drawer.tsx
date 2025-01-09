@@ -15,6 +15,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
+import { GeminiLogo } from "@/components/icon";
 
 const DescriptionContent = () => {
   return (
@@ -31,24 +32,35 @@ const Content = () => {
     <ScrollArea className="h-full">
       <div className="grid gap-4 px-0">
         <ul className="list-disc">
-          <span className="font-bold text-blue-600">Nhóm tác giả:</span>
+          <span className="font-bold text-green-600">Nhóm tác giả:</span>
           <li className="ml-5 text-pink-600">Huỳnh Thị Diễm Như</li>
           <li className="ml-5 text-pink-600">Huỳnh Ngọc Khánh Vy</li>
         </ul>
         <ul className="font-bold list-decimal">
-          <span className="text-blue-600">Các tính năng chính:</span>
+          <span className="text-green-600">Các tính năng chính:</span>
           <li className="ml-5 font-normal">
-            <span className="text-blue-600">Tra cứu:</span> Với giao diện đẹp mắt, thân thiện với người sử dụng bên cạnh
-            các động từ được nhóm theo chữ cái, bạn có thể dễ dàng tìm kiếm các từ vựng thông qua công cụ lọc dữ liệu
-            được tích hợp sẵn, giúp việc tra cứu trở nên nhanh chóng, dễ dàng và hiệu quả hơn.
+            <span className="text-green-600">Tra cứu:</span> Với giao diện đẹp mắt, thân thiện với người sử dụng bên
+            cạnh các động từ được nhóm theo chữ cái, bạn có thể dễ dàng tìm kiếm các từ vựng thông qua công cụ lọc dữ
+            liệu được tích hợp sẵn, giúp việc tra cứu trở nên nhanh chóng, dễ dàng và hiệu quả hơn.
           </li>
           <li className="ml-5 font-normal">
-            <span className="text-blue-600">Luyện phát âm:</span> Hệ thống hỗ trợ nghe và luyện phát âm chuẩn xác, giúp
+            <span className="text-green-600">Luyện phát âm:</span> Hệ thống hỗ trợ nghe và luyện phát âm chuẩn xác, giúp
             bạn tự tin hơn trong giao tiếp hàng ngày.
           </li>
           <li className="ml-5 font-normal">
             <ul className="list-disc">
-              <span className="text-blue-600">Trợ lý AI thông minh:</span>
+              <span className="text-green-600">
+                Trợ lý AI thông minh (
+                <a
+                  href="https://ai.google.dev/gemini-api/docs?authuser=4&hl=vi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline hover:underline-offset-4"
+                >
+                  Gemini <GeminiLogo className="size-5 inline" />
+                </a>
+                ) được sử dụng cho các chức năng sau:
+              </span>
               <li className="ml-5 font-normal">
                 <span className="underline underline-offset-4">Ví dụ minh họa</span>: Không chỉ đơn thuần đưa ra định
                 nghĩa, công cụ tự động cung cấp các ví dụ sinh động và thực tế, được tạo ra bởi công nghệ AI hiện đại.

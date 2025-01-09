@@ -85,7 +85,7 @@ const SentenceChallenge = () => {
           <div className="grid gap-2">
             <div className="flex items-center">
               <Label htmlFor="topics">
-                Động từ <span className="font-bold bg-yellow-200 p-1 rounded">{randomWord}</span>
+                Động từ <span className="font-bold bg-yellow-200 text-pink-600 p-1 rounded">{randomWord}</span>
               </Label>
               <Button
                 variant="link"

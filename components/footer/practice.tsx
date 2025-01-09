@@ -6,37 +6,36 @@ import {
   DropdownMenuContent,
   DropdownMenuGroup,
   DropdownMenuItem,
-  DropdownMenuSeparator,
   DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { ListTodo, PenLine, SquarePen, UserPen } from "lucide-react";
+import { ListTodo, PenLine, UserPen } from "lucide-react";
 import Link from "next/link";
 
 const PracticeMenu = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="h-8">
-          <UserPen /> Luyện tập
+        <Button variant="outline" className="size-8 sm:size-full sm:h-8">
+          <UserPen className="size-8" /> <span className="hidden sm:block">Luyện tập</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-56 ml-2">
+      <DropdownMenuContent className="ml-4">
         <DropdownMenuGroup>
           <Link href="../practice/cau-hoi-trac-nghiem">
             <DropdownMenuItem>
-              Câu hỏi trắc nghiệm
               <DropdownMenuShortcut>
                 <ListTodo size={20} />
               </DropdownMenuShortcut>
+              Câu hỏi trắc nghiệm
             </DropdownMenuItem>
           </Link>
           <Link href="../practice/thach-thuc-viet-cau-hoan-chinh">
             <DropdownMenuItem>
-              Viết câu hoàn chỉnh
               <DropdownMenuShortcut>
                 <PenLine size={20} />
               </DropdownMenuShortcut>
+              Viết câu hoàn chỉnh
             </DropdownMenuItem>
           </Link>
         </DropdownMenuGroup>

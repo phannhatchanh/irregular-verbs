@@ -8,6 +8,8 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { CheckCheck, Frown, Laugh } from "lucide-react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 interface Question {
   question: string;
@@ -179,13 +181,11 @@ export default function QuizGenerator() {
           <ul>
             {questions.map((q, index) => (
               <li id={`question-${index + 1}`} key={index} className="mt-4">
-                <h2>
-                  <span
-                    className={`before:content-[Câu ${
-                      index + 1
-                    }] mr-2 inline-flex justify-center items-center w-6 h-6 rounded bg-green-500 text-white font-medium text-sm`}
-                  />
-                  {q.question}
+                <h2 className="flex items-center space-x-2">
+                  <span className="inline-flex justify-center items-center rounded px-1 py-0.5 bg-pink-600 text-white font-medium text-sm">
+                    Câu {index + 1}
+                  </span>
+                  <ReactMarkdown remarkPlugins={[remarkGfm]}>{q.question}</ReactMarkdown>
                 </h2>
                 <RadioGroup value={userAnswers[index]} onValueChange={(value) => handleAnswerChange(index, value)}>
                   {q.options.map((option, optionIndex) => (
@@ -215,7 +215,9 @@ export default function QuizGenerator() {
                           </span>
                         )}
                       </p>
-                      <p>{q.explanation}</p>
+                      <p>
+                        <ReactMarkdown remarkPlugins={[remarkGfm]}>{q.explanation}</ReactMarkdown>
+                      </p>
                     </div>
                   )}
                 </RadioGroup>

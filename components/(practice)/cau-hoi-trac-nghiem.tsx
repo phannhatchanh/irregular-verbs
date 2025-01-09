@@ -94,7 +94,7 @@ export default function QuizGenerator() {
           </CardTitle>
           <CardDescription>
             Tự kiểm tra kiếm thức của bạn bằng cách lựa chọn một đáp án đúng với hình thức trắc nghiệm từ một bộ các câu
-            hỏi được tạo bởi AI liên quan đến một chủ đề dưới đây:
+            hỏi liên quan đến một chủ đề dưới đây:
           </CardDescription>
         </CardHeader>
         <CardContent className="grid gap-6">

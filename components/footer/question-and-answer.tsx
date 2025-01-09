@@ -73,10 +73,10 @@ export function QuestionAndAnswer() {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
-                <Button variant="outline" asChild>
-                  <span>
-                    <CircleHelp className="size-8" /> Hỏi đáp
-                  </span>
+                <Button variant="outline" className="h-8" asChild>
+                  <p>
+                    <CircleHelp className="size-8" /> <span className="hidden sm:block">Hỏi đáp</span>
+                  </p>
                 </Button>
               </TooltipTrigger>
               <TooltipContent>
@@ -92,7 +92,7 @@ export function QuestionAndAnswer() {
               Bạn gặp vấn để gì trong quá trình tự luyện tiếng Anh của mình?
               <div className="text-center mt-2 space-y-2">
                 <Textarea
-                  placeholder="Mô tả câu hỏi của bạn ở đây..."
+                  placeholder="Đặt câu hỏi của bạn ở đây..."
                   value={question}
                   onChange={(e) => setQuestion(e.target.value)}
                   className="text-pink-600"
@@ -123,10 +123,10 @@ export function QuestionAndAnswer() {
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
-              <Button className="size-8 p-1.5" variant="outline" asChild>
-                <span>
-                  <CircleHelp className="size-8" /> Hỏi đáp
-                </span>
+              <Button className="size-8 sm:size-0 p-1.5" variant="outline" asChild>
+                <p>
+                  <CircleHelp className="size-8" /> <span className="hidden sm:block">Hỏi đáp</span>
+                </p>
               </Button>
             </TooltipTrigger>
             <TooltipContent>

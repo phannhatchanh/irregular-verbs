@@ -17,7 +17,7 @@ const PracticeMenu = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline">
+        <Button variant="outline" className="h-8">
           <UserPen /> Luyện tập
         </Button>
       </DropdownMenuTrigger>
@@ -25,7 +25,7 @@ const PracticeMenu = () => {
         <DropdownMenuGroup>
           <Link href="../practice/cau-hoi-trac-nghiem">
             <DropdownMenuItem>
-              Lựa chọn đáp án đúng
+              Câu hỏi trắc nghiệm
               <DropdownMenuShortcut>
                 <ListTodo size={20} />
               </DropdownMenuShortcut>

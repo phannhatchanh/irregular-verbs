@@ -78,15 +78,14 @@ const SentenceChallenge = () => {
             <h1 className="text-pink-600 text-lg font-bold text-center">VIẾT CÂU HOÀN CHỈNH</h1>
           </CardTitle>
           <CardDescription>
-            Cải thiện kỹ năng ngữ pháp tiếng Anh và kiểm tra sự chính xác của câu viết một cách nhanh chóng và dễ dàng
-            nhờ công nghệ AI
+            Cải thiện kỹ năng ngữ pháp tiếng Anh và kiểm tra sự chính xác của câu viết một cách nhanh chóng và dễ dàng.
           </CardDescription>
         </CardHeader>
         <CardContent className="grid gap-6">
           <div className="grid gap-2">
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center">
               <Label htmlFor="topics">
-                Thử sức với động từ <span className="font-bold bg-yellow-200 p-1 rounded">{randomWord}</span>
+                Động từ <span className="font-bold bg-yellow-200 p-1 rounded">{randomWord}</span>
               </Label>
               <Button
                 variant="link"
@@ -94,13 +93,13 @@ const SentenceChallenge = () => {
                 onClick={handleGetRandomWord}
                 disabled={loading}
               >
-                Đổi từ khác
+                Đổi
               </Button>
             </div>
             <div className="w-full">
               <Input
                 type="text"
-                placeholder={`Viết một câu có sử dụng từ: '${randomWord}'`}
+                placeholder={`Viết một câu có sử dụng '${randomWord}'`}
                 value={userInput}
                 onChange={handleInputChange}
                 disabled={loading || checking}

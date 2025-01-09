@@ -28,7 +28,7 @@ const BackToTop = () => {
               }
               aria-label="Back to top"
               variant="outline"
-              size="icon"
+              className="size-8"
             >
               <ChevronUp
                 className={cn("duration-500", {

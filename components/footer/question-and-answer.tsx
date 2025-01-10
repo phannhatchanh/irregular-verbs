@@ -45,7 +45,7 @@ export function QuestionAndAnswer() {
           *   Câu trả lời cần ngắn gọn, đầy đủ ý, và dễ hiểu đối với học sinh trung học.
           *   Sử dụng tiếng Việt trong câu trả lời.
           *   Chỉ trả về định dạng text không có enter xuống dòng quá 2 lần. Không sử dụng bất kỳ định dạng nào khác như code block, markdown, list, bảng, hình ảnh,...
-          *   Nếu câu hỏi không liên quan đến tiếng Anh, hãy từ chối trả lời một cách hài hước và lịch sự. Ví dụ: "Câu hỏi này thú vị đấy, nhưng tiếc là tôi chỉ giỏi tiếng Anh thôi."
+          *   Nếu câu hỏi không liên quan đến tiếng Anh, hãy từ chối trả lời một cách hài hước và lịch sự nhưng phải đa dạng cách từ chối làm cho người dùng thích thú. Ví dụ: "Câu hỏi này thú vị đấy, nhưng tiếc là tôi chỉ giỏi tiếng Anh thôi." Đồng gợi ý một vài câu hỏi liên quan đến tiếng Anh.
           
           **Câu hỏi:** "${question}"`,
         }),

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { generateCorrection } from "@/lib/generate-correction";
 import { generatePromptExplain } from "@/lib/generate-prompt";
 import { Button } from "@/components/ui/button";
-import { OpenAIGenerateIcon } from "@/components/icon";
+import { GeminiLogo } from "@/components/icon";
 
 export function GenerateExplain({ verb }: { verb?: string }) {
   const [generatedCorrection, setGeneratedCorrection] = useState<string>("");
@@ -54,7 +54,7 @@ export function GenerateExplain({ verb }: { verb?: string }) {
     <div className="mx-auto w-full max-w-2xl space-y-4">
       <div className="mt-4 flex space-x-2">
         <Button variant="outline" onClick={handleClick} disabled={loading}>
-          <OpenAIGenerateIcon className="!size-6 mt-2" /> {loading ? "Đợi tí, đang xử lý..." : "Tìm hiểu thêm"}
+          <GeminiLogo className="!size-6 mt-2" /> {loading ? "Đợi tí, đang xử lý..." : "Tìm hiểu thêm"}
         </Button>
       </div>
 

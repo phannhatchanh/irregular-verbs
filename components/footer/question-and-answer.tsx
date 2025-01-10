@@ -90,18 +90,16 @@ export function QuestionAndAnswer() {
             <DrawerTitle className="text-pink-600 text-lg font-bold text-center tracking-tight">HỎI ĐÁP</DrawerTitle>
             <DrawerDescription className="mb-0">
               Bạn gặp vấn để gì trong quá trình tự luyện tiếng Anh của mình?
-              <div className="text-center mt-2 space-y-2">
-                <Textarea
-                  placeholder="Đặt câu hỏi của bạn ở đây..."
-                  value={question}
-                  onChange={(e) => setQuestion(e.target.value)}
-                  className="text-pink-600"
-                />
-                <Button variant="outline" onClick={handleSubmit} disabled={loading} className="w-auto">
-                  <GeminiLogo animate={loading ? true : false} className="!size-5" />
-                  {loading ? "Đang xử lý câu hỏi..." : "Trả lời"}
-                </Button>
-              </div>
+              <Textarea
+                placeholder="Đặt câu hỏi của bạn ở đây..."
+                value={question}
+                onChange={(e) => setQuestion(e.target.value)}
+                className="my-2 text-pink-600"
+              />
+              <Button variant="outline" onClick={handleSubmit} disabled={loading} className="m-auto w-auto">
+                <GeminiLogo animate={loading ? true : false} className="!size-5" />
+                {loading ? "Đang xử lý câu hỏi..." : "Trả lời"}
+              </Button>
             </DrawerDescription>
           </DrawerHeader>
 
@@ -140,18 +138,16 @@ export function QuestionAndAnswer() {
           <DrawerTitle className="text-pink-600 text-lg font-bold text-center tracking-tight">HỎI ĐÁP</DrawerTitle>
           <DrawerDescription className="mb-0 px-[-124px]">
             Bạn muốn hỏi về vấn để gì trong quá trình tự học tiếng Anh của mình?
-            <div className="text-center mt-2 space-y-2">
-              <Textarea
-                placeholder="Mô tả câu hỏi của bạn ở đây..."
-                value={question}
-                onChange={(e) => setQuestion(e.target.value)}
-                className="text-pink-600"
-              />
-              <Button variant="outline" onClick={handleSubmit} disabled={loading}>
-                <GeminiLogo animate={loading ? true : false} className="!size-5" />
-                {loading ? "Đang xử lý câu hỏi..." : "Trả lời"}
-              </Button>
-            </div>
+            <Textarea
+              placeholder="Mô tả câu hỏi của bạn ở đây..."
+              value={question}
+              onChange={(e) => setQuestion(e.target.value)}
+              className="my-2 text-pink-600"
+            />
+            <Button variant="outline" onClick={handleSubmit} disabled={loading}>
+              <GeminiLogo animate={loading ? true : false} className="!size-5" />
+              {loading ? "Đang xử lý câu hỏi..." : "Trả lời"}
+            </Button>
           </DrawerDescription>
         </DrawerHeader>
         {response && (

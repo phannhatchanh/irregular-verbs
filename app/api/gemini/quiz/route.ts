@@ -78,22 +78,24 @@ export async function POST(request: Request) {
             q.explanation
         )
       ) {
-        console.error("Invalid JSON format from Gemini:", responseText);
-        return NextResponse.json({ error: "Invalid quiz format from Gemini" }, { status: 500 });
+        console.error("Định dạng JSON không hợp lệ từ Gemini:", responseText);
+        return NextResponse.json({ error: "Định dạng bài kiểm tra không hợp lệ từ Gemini" }, { status: 500 });
       }
 
       return NextResponse.json({ questions });
     } catch (jsonError) {
       // If JSON parsing fails, return an error with the raw response for debugging
-      console.error("JSON parsing error:", jsonError);
-      console.error("Raw Gemini Response:", responseText);
+      console.error("Lỗi phân tích cú pháp JSON:", jsonError);
+      console.error("Phản hồi thô từ Gemini:", responseText);
       return NextResponse.json(
-        { error: "Could not parse quiz from Gemini response. Check server logs for details." },
+        {
+          error: "Không thể phân tích bài kiểm tra từ phản hồi của Gemini. Kiểm tra nhật ký máy chủ để biết chi tiết.",
+        },
         { status: 500 }
       );
     }
   } catch (error) {
-    console.error("Error:", error);
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+    console.error("Lỗi:", error);
+    return NextResponse.json({ error: "Lỗi máy chủ nội bộ" }, { status: 500 });
   }
 }

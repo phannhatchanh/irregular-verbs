@@ -49,7 +49,7 @@ export default function QuizGenerator() {
 
       if (!response.ok) {
         const errorData = await response.json();
-        throw new Error(errorData.error || "Failed to generate quiz");
+        throw new Error(errorData.error || "Không thể tạo bài kiểm tra");
       }
 
       const data = await response.json();

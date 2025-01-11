@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
-import { BioDialogDrawer } from "@/components/footer/bio-dialog-drawer";
-import { QuestionAndAnswer } from "@/components/footer/question-and-answer";
+import { BioDialogDrawer } from "@/components/bio-dialog-drawer";
+import { QuestionAndAnswer } from "@/components/question-and-answer";
 import PrintButton from "@/components/footer/print";
 import HomeButton from "@/components/footer/home";
 import BackToTop from "@/components/footer/back-to-top";

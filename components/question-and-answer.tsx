@@ -96,10 +96,12 @@ export function QuestionAndAnswer() {
                 onChange={(e) => setQuestion(e.target.value)}
                 className="my-2 text-pink-600"
               />
-              <Button variant="outline" onClick={handleSubmit} disabled={loading} className="m-auto w-auto">
-                <GeminiLogo animate={loading ? true : false} className="!size-5" />
-                {loading ? "Đang xử lý câu hỏi..." : "Trả lời"}
-              </Button>
+              <span className="flex justify-center">
+                <Button variant="outline" onClick={handleSubmit} disabled={loading} className="m-auto w-auto">
+                  <GeminiLogo animate={loading ? true : false} className="!size-5" />
+                  {loading ? "Đang xử lý câu hỏi..." : "Trả lời"}
+                </Button>
+              </span>
             </DrawerDescription>
           </DrawerHeader>
 
@@ -144,10 +146,12 @@ export function QuestionAndAnswer() {
               onChange={(e) => setQuestion(e.target.value)}
               className="my-2 text-pink-600"
             />
-            <Button variant="outline" onClick={handleSubmit} disabled={loading}>
-              <GeminiLogo animate={loading ? true : false} className="!size-5" />
-              {loading ? "Đang xử lý câu hỏi..." : "Trả lời"}
-            </Button>
+            <span className="flex justify-center">
+              <Button variant="outline" onClick={handleSubmit} disabled={loading}>
+                <GeminiLogo animate={loading ? true : false} className="!size-5" />
+                {loading ? "Đang xử lý câu hỏi..." : "Trả lời"}
+              </Button>
+            </span>
           </DrawerDescription>
         </DrawerHeader>
         {response && (

@@ -1,6 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
-import SentenceChallenge from "@/components/(practice)/thach-thuc-viet-cau-hoan-chinh";
+import SentenceChallenge from "@/components/(practice)/viet-cau-hoan-chinh";
 
 export const metadata: Metadata = {
   title: "Viết Câu Hoàn Chỉnh (Sentence Challenge)",

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -10,7 +11,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ListTodo, PenLine, UserPen } from "lucide-react";
-import Link from "next/link";
 
 const PracticeMenu = () => {
   return (
@@ -30,7 +30,7 @@ const PracticeMenu = () => {
               Câu hỏi trắc nghiệm
             </DropdownMenuItem>
           </Link>
-          <Link href="../practice/thach-thuc-viet-cau-hoan-chinh">
+          <Link href="../practice/viet-cau-hoan-chinh">
             <DropdownMenuItem>
               <DropdownMenuShortcut>
                 <PenLine size={20} />

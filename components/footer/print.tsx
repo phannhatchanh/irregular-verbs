@@ -14,7 +14,7 @@ const PrintButton = () => {
           </Button>
         </TooltipTrigger>
         <TooltipContent>
-          <p>In ra giấy</p>
+          <p>Tạo một bản IN</p>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>

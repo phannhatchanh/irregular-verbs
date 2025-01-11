@@ -28,69 +28,42 @@ export async function POST(request: Request) {
       );
     }
 
-    const prompt = `Tạo ${numQuestions} câu hỏi trắc nghiệm ở cấp độ ${level} về ${topic} bằng tiếng Anh. Mỗi câu hỏi phải có 4 lựa chọn (A, B, C, D) và chỉ rõ đáp án đúng.
-
+    const prompt = `Tạo "${numQuestions}" câu hỏi trắc nghiệm ở cấp độ "${level}" về "${topic}" trong tiếng Anh. Mỗi câu hỏi phải có 4 tùy chọn (A, B, C, D) và chỉ rõ câu trả lời đúng. CHỈ trả về một mảng JSON hợp lệ của các đối tượng. KHÔNG bao gồm bất kỳ định dạng Markdown, khối mã hoặc văn bản nào khác bên ngoài JSON. VALUE của KEY luôn luôn bắt buộc là tiếng Việt. 
+    Điểm nhấn trong các VALUE luôn luôn sử dụng dấu ** theo cấu trúc như: "Thể bị động của **know** ở thì tương lai đơn là **will be known**".
     **YÊU CẦU QUAN TRỌNG:** Trả về *DUY NHẤT VÀ CHÍNH XÁC* một chuỗi JSON hợp lệ. TUYỆT ĐỐI KHÔNG bao gồm bất kỳ văn bản, ký tự, dấu cách thừa, dấu backtick (\`\`\`) hoặc bất kỳ định dạng nào khác bên ngoài JSON. Chuỗi JSON này phải có thể được phân tích cú pháp trực tiếp bằng \`JSON.parse()\`.
-
-    VALUE của KEY luôn luôn bắt buộc là tiếng Việt. Điểm nhấn trong các VALUE luôn luôn sử dụng dấu ** theo cấu trúc như: "Thể bị động của **know** ở thì tương lai đơn là **will be known**".
-
-    **ĐỊNH DẠNG JSON BẮT BUỘC:**
-
-    \`\`\`json
+    BẮT BUỘC JSON phải có cấu trúc sau:
     [
       {
-        "question": "Văn bản **câu hỏi** (Tiếng Việt)",
-        "options": ["Lựa chọn A (Tiếng Việt)", "Lựa chọn B (Tiếng Việt)", "Lựa chọn C (Tiếng Việt)", "Lựa chọn D (Tiếng Việt)"],
-        "correctAnswer": "Đáp án đúng (A, B, C, hoặc D)",
-        "explanation": "Văn bản **giải thích** (Tiếng Việt)"
+        "question": "The **question** text",
+        "options": ["Option A", "Option B", "Option C", "Option D"],
+        "correctAnswer": "The correct option (A, B, C, or D)",
+        "explanation": "The **explanation** text"
       },
-      {
-          "question": "Ví dụ câu hỏi 2 **rất hay**",
-          "options": ["Đáp án A **tuyệt vời**", "Đáp án B **khá tốt**", "Đáp án C **tạm ổn**", "Đáp án D **không tốt**"],
-          "correctAnswer": "A",
-          "explanation": "Đây là **giải thích** cho câu hỏi thứ 2"
-      },
-      ... (tổng cộng ${numQuestions} đối tượng)
+      ...
     ]
-    \`\`\`
-
     **LƯU Ý:** Đảm bảo JSON được trả về là một mảng JavaScript hợp lệ, không có bất kỳ ký tự thừa nào.
     `;
 
     const result = await model.generateContent(prompt);
     let responseText = result.response.text();
 
-    responseText = responseText.trim();
+    responseText = responseText.trim(); // Loại bỏ khoảng trắng đầu và cuối
     if (responseText.startsWith("```json")) {
-      responseText = responseText.substring(7);
+      responseText = responseText.substring(7); // Bỏ "```json"
     }
     if (responseText.endsWith("```")) {
-      responseText = responseText.slice(0, -3);
+      responseText = responseText.slice(0, -3); // Bỏ "```"
     }
-    // Bước 1: Loại bỏ backtick và khoảng trắng thừa ở đầu và cuối chuỗi
-    responseText = responseText.trim();
-    responseText = responseText.replace(/^`json/, ""); // Loại bỏ `json ở đầu
-    responseText = responseText.replace(/`$/, ""); // Loại bỏ ` ở cuối
-
-    // Bước 2: Giải mã các ký tự HTML entities (nếu có)
-    responseText = responseText.replace(/&quot;/g, '"');
-    responseText = responseText.replace(/&#39;/g, "'");
-    // Có thể thêm các entity khác nếu cần, ví dụ: &amp; &lt; &gt;
-
-    // Bước 3: Loại bỏ các ký tự \ không cần thiết (chú ý xử lý \\)
-    responseText = responseText.replace(/\\\\/g, "\\"); // Chuyển \\ thành \
-    responseText = responseText.replace(/\\"/g, '"'); // Chuyển \" thành "
-    responseText = responseText.replace(/\\'/g, "'"); // Chuyển \' thành '
-    responseText = responseText.replace(/\\/g, ""); // Loại bỏ các \ còn lại
-
-    // Bước 4: Kiểm tra và xử lý dấu nháy kép ở đầu và cuối (nếu cần)
-    if (responseText.startsWith('"') && responseText.endsWith('"')) {
-      responseText = responseText.slice(1, -1);
+    // Loại bỏ dấu nháy đơn hoặc kép thừa ở đầu và cuối chuỗi nếu có
+    if (responseText.startsWith('"') || responseText.startsWith("'")) {
+      responseText = responseText.substring(1);
     }
-    // hoặc nếu có thể bắt đầu bằng ' và kết thúc bằng '
-    if (responseText.startsWith("'") && responseText.endsWith("'")) {
-      responseText = responseText.slice(1, -1);
+    if (responseText.endsWith('"') || responseText.endsWith("'")) {
+      responseText = responseText.slice(0, -1);
     }
+    responseText = responseText.replace(/\\"/g, "**");
+    responseText = responseText.replace(/'/g, "**");
+    responseText = responseText.replace(/\\'/g, "**");
 
     try {
       // Attempt to parse the response as JSON
@@ -110,7 +83,7 @@ export async function POST(request: Request) {
             q.explanation
         )
       ) {
-        console.error("Định dạng JSON không hợp lệ từ Gemini:", responseText);
+        console.error("Định dạng JSON không hợp lệ:", responseText);
         return NextResponse.json(
           { error: "Định dạng dữ liệu trả về từ hệ thống bị lỗi. Vui lòng thử lại." },
           { status: 500 }
@@ -119,10 +92,9 @@ export async function POST(request: Request) {
 
       return NextResponse.json({ questions });
     } catch (jsonError) {
-      // If JSON parsing fails, return an error with the raw response for debugging
       console.error("Lỗi phân tích cú pháp JSON:", jsonError);
-      console.error("Phản hồi thô từ Gemini (Đã được định dạng):", JSON.stringify(responseText, null, 2)); // In ra JSON đã được định dạng nếu có thể
-      console.error("Phản hồi thô từ Gemini (Nguyên văn):", responseText); // Vẫn giữ nguyên bản để so sánh
+      console.error("Phản hồi thô từ Gemini (Đã được định dạng):", JSON.stringify(responseText, null, 2));
+      console.error("Phản hồi thô từ Gemini (Nguyên văn):", responseText);
       return NextResponse.json({ error: "Đã xảy ra lỗi khi xử lý dữ liệu. Vui lòng thử lại." }, { status: 500 });
     }
   } catch (error) {

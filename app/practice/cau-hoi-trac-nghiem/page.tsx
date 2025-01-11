@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const ChoiceQuestionPage = () => {
   return (
-    <div className="max-w-2xl m-auto mt-10 mb-24 px-4 gap-6">
+    <div className="m-auto mb-24 mt-10 max-w-2xl gap-6 px-4">
       <ChoiceQuestion />
     </div>
   );

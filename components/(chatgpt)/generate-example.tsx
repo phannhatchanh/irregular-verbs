@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 import { generateCorrection } from "@/lib/generate-correction";
 import { generatePromptExample } from "@/lib/generate-prompt";
@@ -60,7 +60,7 @@ export function GenerateExample({ verb }: { verb?: string }) {
   return (
     <div className="mx-auto w-full max-w-2xl space-y-4">
       <Button variant="outline" onClick={generateExample} disabled={loading || !verb}>
-        <GeminiLogo className="!size-6 mt-2" />
+        <GeminiLogo className="mt-2 !size-6" />
         {loading ? "Chờ xíu, đang lấy ví dụ..." : "Tạo ví dụ mới"}
       </Button>
 

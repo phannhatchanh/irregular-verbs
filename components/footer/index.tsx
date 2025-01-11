@@ -13,14 +13,14 @@ export default function Footer() {
         "print:hidden bg-slate-100 border-t w-full fixed bottom-0 p-4 transition-all duration-300 z-50 group flex items-center justify-between"
       )}
     >
-      <div className="flex items-center justify-between text-left space-x-2">
+      <div className="flex items-center justify-between space-x-2 text-left">
         <PracticeMenu />
         <QuestionAndAnswer />
       </div>
       <div>
         <HomeButton />
       </div>
-      <div className="flex items-center justify-between text-right space-x-2">
+      <div className="flex items-center justify-between space-x-2 text-right">
         <BioDialogDrawer />
         <PrintButton />
         <BackToTop />

@@ -25,8 +25,8 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ word, verb, pronunciation }) 
 
   return (
     <div className="flex items-center justify-between">
-      <div className="flex items-center text-2xl gap-2">
-        <span className="font-bold text-2xl lowercase">{verb}</span>
+      <div className="flex items-center gap-2 text-2xl">
+        <span className="text-2xl font-bold lowercase">{verb}</span>
         <button onClick={playAudio} disabled={isPlaying} className="flex items-center gap-2">
           <PlayIcon isPlaying={isPlaying} />
           <span>{pronunciation}</span>

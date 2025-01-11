@@ -1,5 +1,6 @@
+import React, { FC, ReactNode, useState } from "react";
 import { cn } from "@/lib/utils";
-import { FC, ReactNode, useState } from "react";
+
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
 // import { GenerateExplain } from "@/components/(chatgpt)/generate-explain";
@@ -36,7 +37,7 @@ export const PopoverVerb: FC<PopoverProps> = ({ verb, children, colorVariant }) 
           {verb}
         </Button>
       </PopoverTrigger>
-      <PopoverContent className=" w-auto ml-2">
+      <PopoverContent className=" ml-2 w-auto">
         {children}
         {showExplain && <GenerateExplain verb={verb} />}
       </PopoverContent>

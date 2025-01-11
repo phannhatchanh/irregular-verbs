@@ -26,7 +26,7 @@ const SearchInput: React.FC<SearchInputProps> = ({ searchTerm, setSearchTerm, cl
       onChange={(e) => setSearchTerm(e.target.value)}
     />
     {searchTerm && (
-      <button onClick={clearSearch} className="absolute right-2 top-[18px] transform -translate-y-1/2 hover:opacity-70">
+      <button onClick={clearSearch} className="absolute right-2 top-[18px] -translate-y-1/2 hover:opacity-70">
         <X />
       </button>
     )}
@@ -101,20 +101,20 @@ export function Vocabulary() {
   return (
     <>
       <SearchInput searchTerm={searchTerm} setSearchTerm={setSearchTerm} clearSearch={clearSearch} />
-      <Table className=" overflow-hidden visible rounded-lg border">
+      <Table className=" visible overflow-hidden rounded-lg border">
         <TableCaption>Common irregular verbs.</TableCaption>
         <TableHeader>
           <TableRow>
-            <TableHead className="bg-blue-600 text-white font-bold">INFINITIVE</TableHead>
-            <TableHead className="bg-green-600 text-white font-bold">PAST SIMPLE</TableHead>
-            <TableHead className="bg-pink-600 text-white font-bold">PAST PARTICIPLE</TableHead>
-            <TableHead className="bg-gray-600 text-white font-bold">MEANING</TableHead>
+            <TableHead className="bg-blue-600 font-bold text-white">INFINITIVE</TableHead>
+            <TableHead className="bg-green-600 font-bold text-white">PAST SIMPLE</TableHead>
+            <TableHead className="bg-pink-600 font-bold text-white">PAST PARTICIPLE</TableHead>
+            <TableHead className="bg-gray-600 font-bold text-white">MEANING</TableHead>
           </TableRow>
         </TableHeader>
         {Object.keys(groupedData).map((letter) => (
           <TableBody key={letter}>
-            <TableRow id={`group-${letter}`} className="bg-slate-100 border-t">
-              <TableCell colSpan={4} className="text-2xl text-center font-bold">
+            <TableRow id={`group-${letter}`} className="border-t bg-slate-100">
+              <TableCell colSpan={4} className="text-center text-2xl font-bold">
                 {letter}
               </TableCell>
             </TableRow>

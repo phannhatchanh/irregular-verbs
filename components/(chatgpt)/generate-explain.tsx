@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { generateCorrection } from "@/lib/generate-correction";
 import { generatePromptExplain } from "@/lib/generate-prompt";
@@ -54,7 +54,7 @@ export function GenerateExplain({ verb }: { verb?: string }) {
     <div className="mx-auto w-full max-w-2xl space-y-4">
       <div className="mt-4 flex space-x-2">
         <Button variant="outline" onClick={handleClick} disabled={loading}>
-          <GeminiLogo className="!size-6 mt-2" /> {loading ? "Đợi tí, đang xử lý..." : "Tìm hiểu thêm"}
+          <GeminiLogo className="mt-2 !size-6" /> {loading ? "Đợi tí, đang xử lý..." : "Tìm hiểu thêm"}
         </Button>
       </div>
 

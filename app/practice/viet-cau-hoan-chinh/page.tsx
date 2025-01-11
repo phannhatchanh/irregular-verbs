@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const SentenceChallengePage: React.FC = () => {
   return (
-    <div className="max-w-2xl m-auto mt-10 mb-24 px-4 gap-6">
+    <div className="m-auto mb-24 mt-10 max-w-2xl gap-6 px-4">
       <SentenceChallenge />
     </div>
   );

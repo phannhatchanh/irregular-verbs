@@ -92,7 +92,7 @@ export default function QuizGenerator() {
       <Card>
         <CardHeader>
           <CardTitle>
-            <h1 className="text-pink-600 text-lg font-bold text-center">CÂU HỎI TRẮC NGHIỆM</h1>
+            <h1 className="text-center text-lg font-bold text-pink-600">CÂU HỎI TRẮC NGHIỆM</h1>
           </CardTitle>
           <CardDescription>
             Tự kiểm tra kiếm thức của bạn bằng cách lựa chọn một đáp án đúng với hình thức trắc nghiệm từ một bộ các câu
@@ -182,7 +182,7 @@ export default function QuizGenerator() {
             {questions.map((q, index) => (
               <li id={`question-${index + 1}`} key={index} className="mt-4">
                 <h2 className="flex items-center space-x-2">
-                  <span className="inline-flex justify-center items-center rounded px-1 py-0.5 bg-pink-600 text-white font-medium text-sm">
+                  <span className="inline-flex items-center justify-center rounded bg-pink-600 px-1 py-0.5 text-sm font-medium text-white">
                     Câu {index + 1}
                   </span>
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>{q.question}</ReactMarkdown>
@@ -190,7 +190,7 @@ export default function QuizGenerator() {
                 <RadioGroup value={userAnswers[index]} onValueChange={(value) => handleAnswerChange(index, value)}>
                   {q.options.map((option, optionIndex) => (
                     <div className="flex space-x-2" key={optionIndex}>
-                      <div className="flex items-center space-x-2 my-1">
+                      <div className="my-1 flex items-center space-x-2">
                         <RadioGroupItem
                           value={String.fromCharCode(65 + optionIndex)}
                           id={`question-${index + 1}-option-${optionIndex + 1}`}
@@ -202,7 +202,7 @@ export default function QuizGenerator() {
                     </div>
                   ))}
                   {showResult && (
-                    <div className="border p-2 rounded-sm">
+                    <div className="rounded-sm border p-2">
                       <p className="space-x-1">
                         {userAnswers[index] === q.correctAnswer ? (
                           <span className="text-green-600">
@@ -225,11 +225,11 @@ export default function QuizGenerator() {
             ))}
           </ul>
           {showResult ? (
-            <div className="flex items-center justify-center text-black font-semibold border rounded-md h-9 px-4 py-2 my-4 m-auto">
+            <div className="m-auto my-4 flex h-9 items-center justify-center rounded-md border px-4 py-2 font-semibold text-black">
               Bạn đạt được: {score} / {questions.length} câu hỏi
             </div>
           ) : (
-            <Button variant="outline" onClick={calculateScore} className="flex justify-center my-4 m-auto">
+            <Button variant="outline" onClick={calculateScore} className="m-auto my-4 flex justify-center">
               <CheckCheck />
               Kiểm tra kết quả
             </Button>

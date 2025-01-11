@@ -21,7 +21,7 @@ const DescriptionContent = () => {
   return (
     <>
       Chào mừng đến với ứng dụng học tập thông minh! Đây là một trong những công cụ đặc biệt giúp bạn dễ dàng{" "}
-      <span className="text-pink-600 font-bold">TRA ĐỘNG TỪ BẤT QUY TẮC</span> trong tiếng Anh. Với giao diện thân thiện
+      <span className="font-bold text-pink-600">TRA ĐỘNG TỪ BẤT QUY TẮC</span> trong tiếng Anh. Với giao diện thân thiện
       và các tính năng hiện đại, ứng dụng sẽ là người bạn đồng hành đắc lực trên hành trình chinh phục ngôn ngữ của bạn.
     </>
   );
@@ -36,7 +36,7 @@ const Content = () => {
           <li className="ml-5 text-pink-600">Huỳnh Thị Diễm Như</li>
           <li className="ml-5 text-pink-600">Huỳnh Ngọc Khánh Vy</li>
         </ul>
-        <ul className="font-bold list-decimal">
+        <ul className="list-decimal font-bold">
           <span className="text-green-600">Các tính năng chính:</span>
           <li className="ml-5 font-normal">
             <span className="text-green-600">Tra cứu:</span> Với giao diện đẹp mắt, thân thiện với người sử dụng bên
@@ -57,7 +57,7 @@ const Content = () => {
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:underline hover:underline-offset-4"
                 >
-                  Gemini <GeminiLogo className="size-5 inline" />
+                  Gemini <GeminiLogo className="inline size-5" />
                 </a>
                 ) được sử dụng cho các chức năng sau:
               </span>
@@ -124,9 +124,9 @@ export function BioDialogDrawer() {
             </Tooltip>
           </TooltipProvider>
         </DialogTrigger>
-        <DialogContent className="max-w-2xl h-[90%] p-4 sm:max-w-[full]">
+        <DialogContent className="h-[90%] max-w-2xl p-4 sm:max-w-[full]">
           <DrawerHeader className="flex flex-col gap-0 p-0">
-            <DrawerTitle className="text-pink-600 text-lg font-bold text-center tracking-tight">GIỚI THIỆU</DrawerTitle>
+            <DrawerTitle className="text-center text-lg font-bold tracking-tight text-pink-600">GIỚI THIỆU</DrawerTitle>
             <DrawerDescription className="mb-0">
               <DescriptionContent />
             </DrawerDescription>
@@ -154,8 +154,8 @@ export function BioDialogDrawer() {
         </TooltipProvider>
       </DrawerTrigger>
       <DrawerContent className="h-full px-4 pb-4">
-        <DrawerHeader className="flex flex-col gap-0 -mx-4 text-left">
-          <DrawerTitle className="text-pink-600 text-lg font-bold text-center tracking-tight">GIỚI THIỆU</DrawerTitle>
+        <DrawerHeader className="-mx-4 flex flex-col gap-0 text-left">
+          <DrawerTitle className="text-center text-lg font-bold tracking-tight text-pink-600">GIỚI THIỆU</DrawerTitle>
           <DrawerDescription className="mb-0 px-[-124px]">
             <DescriptionContent />
           </DrawerDescription>

@@ -85,9 +85,9 @@ export function QuestionAndAnswer() {
             </Tooltip>
           </TooltipProvider>
         </DialogTrigger>
-        <DialogContent className="flex flex-col h-[90%] p-4 sm:max-w-[full]">
+        <DialogContent className="flex h-[90%] flex-col p-4 sm:max-w-[full]">
           <DrawerHeader className="p-0">
-            <DrawerTitle className="text-pink-600 text-lg font-bold text-center tracking-tight">HỎI ĐÁP</DrawerTitle>
+            <DrawerTitle className="text-center text-lg font-bold tracking-tight text-pink-600">HỎI ĐÁP</DrawerTitle>
             <DrawerDescription className="mb-0">
               Bạn gặp vấn để gì trong quá trình tự luyện tiếng Anh của mình?
               <Textarea
@@ -107,7 +107,7 @@ export function QuestionAndAnswer() {
 
           {response && (
             <ScrollArea>
-              <div className="border rounded-md p-2 bg-gray-100 whitespace-pre-wrap">
+              <div className="whitespace-pre-wrap rounded-md border bg-gray-100 p-2">
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{response}</ReactMarkdown>
               </div>
             </ScrollArea>
@@ -123,7 +123,7 @@ export function QuestionAndAnswer() {
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
-              <Button className="size-8 sm:size-0 p-1.5" variant="outline" asChild>
+              <Button className="size-8 p-1.5 sm:size-0" variant="outline" asChild>
                 <p>
                   <CircleHelp className="size-8" /> <span className="hidden sm:block">Hỏi đáp</span>
                 </p>
@@ -135,9 +135,9 @@ export function QuestionAndAnswer() {
           </Tooltip>
         </TooltipProvider>
       </DrawerTrigger>
-      <DrawerContent className="flex flex-col h-full px-4 pb-4">
+      <DrawerContent className="flex h-full flex-col px-4 pb-4">
         <DrawerHeader className="-mx-4 text-left">
-          <DrawerTitle className="text-pink-600 text-lg font-bold text-center tracking-tight">HỎI ĐÁP</DrawerTitle>
+          <DrawerTitle className="text-center text-lg font-bold tracking-tight text-pink-600">HỎI ĐÁP</DrawerTitle>
           <DrawerDescription className="mb-0 px-[-124px]">
             Bạn muốn hỏi về vấn để gì trong quá trình tự học tiếng Anh của mình?
             <Textarea
@@ -156,7 +156,7 @@ export function QuestionAndAnswer() {
         </DrawerHeader>
         {response && (
           <ScrollArea>
-            <div className="border rounded-md p-2 bg-gray-100 whitespace-pre-wrap">
+            <div className="whitespace-pre-wrap rounded-md border bg-gray-100 p-2">
               <ReactMarkdown remarkPlugins={[remarkGfm]}>{response}</ReactMarkdown>
             </div>
           </ScrollArea>

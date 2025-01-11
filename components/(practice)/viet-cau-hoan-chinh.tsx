@@ -75,7 +75,7 @@ const SentenceChallenge = () => {
       <Card>
         <CardHeader>
           <CardTitle>
-            <h1 className="text-pink-600 text-lg font-bold text-center">VIẾT CÂU HOÀN CHỈNH</h1>
+            <h1 className="text-center text-lg font-bold text-pink-600">VIẾT CÂU HOÀN CHỈNH</h1>
           </CardTitle>
           <CardDescription>
             Cải thiện kỹ năng ngữ pháp tiếng Anh và kiểm tra sự chính xác của câu viết một cách nhanh chóng và dễ dàng.
@@ -85,11 +85,11 @@ const SentenceChallenge = () => {
           <div className="grid gap-2">
             <div className="flex items-center">
               <Label htmlFor="topics">
-                Động từ <span className="font-bold bg-yellow-200 text-pink-600 p-1 rounded">{randomWord}</span>
+                Động từ <span className="rounded bg-yellow-200 p-1 font-bold text-pink-600">{randomWord}</span>
               </Label>
               <Button
                 variant="link"
-                className="text-blue-600 m-0 p-0 ml-2"
+                className="m-0 ml-2 p-0 text-blue-600"
                 onClick={handleGetRandomWord}
                 disabled={loading}
               >
@@ -124,7 +124,7 @@ const SentenceChallenge = () => {
       </Card>
 
       {apiResponse && (
-        <div className="whitespace-pre-line mt-4">
+        <div className="mt-4 whitespace-pre-line">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{apiResponse}</ReactMarkdown>
         </div>
       )}

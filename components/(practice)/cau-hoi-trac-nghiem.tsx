@@ -49,7 +49,7 @@ export default function QuizGenerator() {
 
       if (!response.ok) {
         const errorData = await response.json();
-        throw new Error(errorData.error || "Không thể tạo bài kiểm tra");
+        throw new Error(errorData.error || "Không thể tạo bài kiểm tra. Vui lòng thử lại.");
       }
 
       const data = await response.json();
@@ -181,10 +181,10 @@ export default function QuizGenerator() {
           <ul>
             {questions.map((q, index) => (
               <li id={`question-${index + 1}`} key={index} className="mt-4">
-                <h2 className="flex items-center space-x-2">
-                  <span className="inline-flex items-center justify-center rounded bg-pink-600 px-1 py-0.5 text-sm font-medium text-white">
+                <h2 className="flex space-x-2">
+                  <p className="inline rounded bg-pink-600 px-1 h-min text-sm font-medium text-white whitespace-nowrap">
                     Câu {index + 1}
-                  </span>
+                  </p>
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>{q.question}</ReactMarkdown>
                 </h2>
                 <RadioGroup value={userAnswers[index]} onValueChange={(value) => handleAnswerChange(index, value)}>

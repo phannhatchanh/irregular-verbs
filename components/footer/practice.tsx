@@ -9,6 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuShortcut,
   DropdownMenuTrigger,
+  DropdownMenuArrow,
 } from "@/components/ui/dropdown-menu";
 import { ListTodo, PenLine, UserPen } from "lucide-react";
 
@@ -39,6 +40,7 @@ const PracticeMenu = () => {
             </DropdownMenuItem>
           </Link>
         </DropdownMenuGroup>
+        <DropdownMenuArrow className="fill-white" />
       </DropdownMenuContent>
     </DropdownMenu>
   );

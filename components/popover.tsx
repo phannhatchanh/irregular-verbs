@@ -1,7 +1,7 @@
 import { FC, ReactNode, useState } from "react";
 import { cn } from "@/lib/utils";
 
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { Popover, PopoverContent, PopoverArrow, PopoverTrigger } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
 // import { GenerateExplain } from "@/components/(chatgpt)/generate-explain";
 import GenerateExplain from "@/components/(gemini)/generate-explain";
@@ -40,6 +40,7 @@ export const PopoverVerb: FC<PopoverProps> = ({ verb, children, colorVariant }) 
       <PopoverContent className="ml-2 w-auto">
         {children}
         {showExplain && <GenerateExplain verb={verb} />}
+        <PopoverArrow className="fill-white" />
       </PopoverContent>
     </Popover>
   );

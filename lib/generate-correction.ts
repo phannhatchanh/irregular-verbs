@@ -1,5 +1,5 @@
 export async function generateCorrection(prompt: string): Promise<Response> {
-  const response = await fetch(process.env.BASE_URL + "/api/chatgpt/chat", {
+  const response = await fetch("/api/chatgpt/chat", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

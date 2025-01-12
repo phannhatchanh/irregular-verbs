@@ -60,7 +60,7 @@ export function GenerateExample({ verb }: { verb?: string }) {
   return (
     <div className="mx-auto w-full max-w-2xl space-y-4">
       <Button variant="outline" onClick={generateExample} disabled={loading || !verb}>
-        <GeminiLogo className="mt-2 !size-6" />
+        <GeminiLogo className="!size-5" />
         {loading ? "Chờ xíu, đang lấy ví dụ..." : "Tạo ví dụ mới"}
       </Button>
 

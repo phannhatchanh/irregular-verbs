@@ -1,4 +1,4 @@
-import React, { FC, ReactNode, useState } from "react";
+import { FC, ReactNode, useState } from "react";
 import { cn } from "@/lib/utils";
 
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
@@ -37,7 +37,7 @@ export const PopoverVerb: FC<PopoverProps> = ({ verb, children, colorVariant }) 
           {verb}
         </Button>
       </PopoverTrigger>
-      <PopoverContent className=" ml-2 w-auto">
+      <PopoverContent className="ml-2 w-auto">
         {children}
         {showExplain && <GenerateExplain verb={verb} />}
       </PopoverContent>

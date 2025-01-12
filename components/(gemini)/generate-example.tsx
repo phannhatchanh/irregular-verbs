@@ -41,7 +41,7 @@ export default function GenerateExample({ verb }: { verb: string }) {
   };
 
   return (
-    <div className="mx-auto w-full max-w-2xl space-y-4">
+    <div className="mx-auto w-full max-w-2xl space-y-2">
       <Button variant="outline" onClick={handleSubmit} disabled={loading}>
         <GeminiLogo className="!size-5" animate={loading ? true : false} />
         {loading ? "Chờ xíu, đang lấy ví dụ..." : "Tạo ví dụ mới"}

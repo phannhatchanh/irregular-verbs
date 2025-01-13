@@ -54,7 +54,7 @@
       "pronunciation": "/əˈwoukən/",
       "example": ["She was awoken by a loud noise early in the morning."]
     },
-    "meaning": "Đánh thức"
+    "meaning": "đánh thức, thức, làm thức giấc"
   },
   {
     "word": "be",
@@ -799,6 +799,25 @@
       "example": ["The tribe has dwelt in this region for centuries."]
     },
     "meaning": "Trú ngụ"
+  },
+  {
+    "word": "earn",
+    "infinitive": {
+      "form": "earn",
+      "pronunciation": "/ɜːn/",
+      "example": ""
+    },
+    "past_simple": {
+      "form": ["earned", "earnt"],
+      "pronunciation": ["/ɜːnd/", "/ɜːnt/"],
+      "example": ""
+    },
+    "past_participle": {
+      "form": ["earned", "earnt"],
+      "pronunciation": ["/ɜːnd/", "/ɜːnt/"],
+      "example": ""
+    },
+    "meaning": "kiếm sống"
   },
   {
     "word": "Eat",

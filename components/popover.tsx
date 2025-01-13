@@ -37,7 +37,7 @@ export const PopoverVerb: FC<PopoverProps> = ({ verb, children, colorVariant }) 
           {verb}
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="ml-2 w-auto">
+      <PopoverContent className="mx-2">
         {children}
         {showExplain && <GenerateExplain verb={verb} />}
         <PopoverArrow className="fill-white" />

@@ -42,7 +42,7 @@ export default function GenerateExplain({ verb }: { verb: string }) {
 
   return (
     <div className="mx-auto w-full max-w-2xl space-y-4">
-      <div className="mt-4 flex space-x-2">
+      <div className="flex space-x-2">
         <Button variant="outline" onClick={handleSubmit} disabled={loading}>
           <GeminiLogo className="!size-5" animate={loading ? true : false} />
           {loading ? "Đợi tí, đang xử lý..." : "Tìm hiểu thêm"}
@@ -51,7 +51,7 @@ export default function GenerateExplain({ verb }: { verb: string }) {
       {error && <div className="text-red-500">{error}</div>}
 
       {response && (
-        <div className="my-4 rounded-md border p-4">
+        <div className="rounded-md border p-2">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{response}</ReactMarkdown>
         </div>
       )}

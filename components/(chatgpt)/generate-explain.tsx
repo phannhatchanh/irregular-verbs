@@ -52,7 +52,7 @@ export function GenerateExplain({ verb }: { verb?: string }) {
 
   return (
     <div className="mx-auto w-full max-w-2xl space-y-4">
-      <div className="mt-4 flex space-x-2">
+      <div className="flex space-x-2">
         <Button variant="outline" onClick={handleClick} disabled={loading}>
           <GeminiLogo className="!size-5" /> {loading ? "Đợi tí, đang xử lý..." : "Tìm hiểu thêm"}
         </Button>
@@ -61,7 +61,7 @@ export function GenerateExplain({ verb }: { verb?: string }) {
       {error && <div className="text-red-500">{error}</div>}
 
       {generatedCorrection && (
-        <div className="my-4 rounded-md border p-4">
+        <div className="rounded-md border p-2">
           <div className="whitespace-pre-wrap" dangerouslySetInnerHTML={{ __html: generatedCorrection }} />
         </div>
       )}

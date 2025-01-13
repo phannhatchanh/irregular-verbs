@@ -134,7 +134,7 @@ export default function QuizGenerator() {
                 </SelectTrigger>
                 <SelectContent>
                   {questionOptions.map((option) => (
-                    <SelectItem className="cursor-pointer" key={option} value={option.toString()}>
+                    <SelectItem key={option} value={option.toString()}>
                       {option} Câu hỏi
                     </SelectItem>
                   ))}

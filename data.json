@@ -1,5 +1,24 @@
 [
   {
+    "word": "123",
+    "infinitive": {
+      "form": "123",
+      "pronunciation": "/əˈbaid/",
+      "example": "I will abide by the school rules."
+    },
+    "past_simple": {
+      "form": ["ẻyeryery", "ưetwetwet"],
+      "pronunciation": ["/əˈboud/", "/əˈbaidid/"],
+      "example": ["hêrhy.", "She abided by the teacher's instructions."]
+    },
+    "past_participle": {
+      "form": ["abode", "abided"],
+      "pronunciation": ["/əˈboud/", "/əˈbaidid/"],
+      "example": ["He abode by the rules during the exam.", "They have abided by the traffic laws"]
+    },
+    "meaning": "Lưu trú"
+  },
+  {
     "word": "abide",
     "infinitive": {
       "form": "abide",

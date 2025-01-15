@@ -53,7 +53,18 @@ const SentenceChallenge = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          prompt: `Vui lòng kiểm tra xem câu sau có đúng ngữ pháp khi sử dụng từ '${randomWord}' hay không: '${userInput}'. Nếu không đúng, hãy giải thích lý do và đề xuất cách sửa câu cho phù hợp. Đồng thời cho điểm với câu '${userInput}' với thang điểm 0 đến 10 (Câu bạn đạt:.../10).`,
+          prompt: `Là một chuyên gia ngôn ngữ Anh. Vui lòng kiểm tra xem câu sau có đúng ngữ pháp khi sử dụng từ '${randomWord}' hay không: '${userInput}'. Nếu không đúng, hãy giải thích lý do và đề xuất cách sửa câu cho phù hợp. Đồng thời cho điểm với câu '${userInput}' với thang điểm 0 đến 10 (Câu bạn đạt:.../10). CHẮC CHẮN phải theo cấu trúc sau:
+          - Bạn thử thách với từ: **${randomWord}**
+          - Câu bạn viết là: **${userInput}**
+          - Kết quả: Đúng/Sai
+          - Tính tự nhiên: (Tốt/Khá/Trung bình/Kém) Đánh giá mức độ tự nhiên của câu trong tiếng Việt.
+          - Phong cách: (Phù hợp/Không phù hợp) Đánh giá xem câu có phù hợp với ngữ cảnh chung hay không.
+          - Lỗi gặp phải: Loại lỗi (nếu có)
+          - Giải thích: Giải thích chi tiết lỗi (nếu có)
+          - Giải thích cơ sở của việc sửa lỗi (nếu có)
+          - Đề xuất sửa lại: **Đề xuất sửa lỗi (nếu có)**
+          - Điểm: **Điểm/10** (Giải thích tổng quan về câu và điểm số)
+          `,
         }),
       });
 

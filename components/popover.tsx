@@ -1,18 +1,18 @@
 import { FC, ReactNode, useState } from "react";
-import { cn } from "@/lib/utils";
+import { cn, highlightSearchTerm } from "@/lib/utils";
 
 import { Popover, PopoverContent, PopoverArrow, PopoverTrigger } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
-// import { GenerateExplain } from "@/components/(chatgpt)/generate-explain";
 import GenerateExplain from "@/components/(gemini)/generate-explain";
 
-interface PopoverProps {
+interface PopoverVerbProps {
   verb: string;
   children: ReactNode;
   colorVariant?: "blue" | "green" | "pink";
+  searchTerm: string;
 }
 
-export const PopoverVerb: FC<PopoverProps> = ({ verb, children, colorVariant }) => {
+export const PopoverVerb: FC<PopoverVerbProps> = ({ verb, children, colorVariant, searchTerm }) => {
   const [showExplain, setShowExplain] = useState(false);
 
   const handleClick = () => {
@@ -30,12 +30,11 @@ export const PopoverVerb: FC<PopoverProps> = ({ verb, children, colorVariant }) 
               "text-pink-600": colorVariant === "pink",
               "text-blue-600": colorVariant !== "green" && colorVariant !== "pink",
             },
-            "font-bold m-0 px-2 lowercase"
+            "font-bold m-0 px-2 gap-0 lowercase"
           )}
           onClick={handleClick}
-        >
-          {verb}
-        </Button>
+          dangerouslySetInnerHTML={{ __html: highlightSearchTerm(verb, searchTerm) }}
+        />
       </PopoverTrigger>
       <PopoverContent className="mx-2">
         {children}

@@ -1,15 +1,17 @@
+import { highlightSearchTerm } from "@/lib/utils";
 import React from "react";
-
-const highlightVerb = (example: string, verb: string) => {
-  return example.replace(new RegExp(`(${verb})`, "gi"), `<span style='font-weight: bold'>$1</span>`);
-};
 
 interface ExampleDisplayProps {
   example: string | string[];
   verb: string;
+  searchTerm: string;
 }
 
-export const ExampleDisplay: React.FC<ExampleDisplayProps> = ({ example, verb }) => {
+export const ExampleDisplay: React.FC<ExampleDisplayProps> = ({ example, verb, searchTerm }) => {
+  const renderExample = (ex: string) => {
+    return `<strong>Ví dụ:</strong> ${highlightSearchTerm(ex, searchTerm)}`;
+  };
+
   if (Array.isArray(example)) {
     return (
       <>
@@ -18,7 +20,7 @@ export const ExampleDisplay: React.FC<ExampleDisplayProps> = ({ example, verb })
             key={index}
             className="mb-2"
             dangerouslySetInnerHTML={{
-              __html: `<strong>Ví dụ:</strong> ${highlightVerb(ex, verb)}`,
+              __html: renderExample(ex),
             }}
           />
         ))}
@@ -30,7 +32,7 @@ export const ExampleDisplay: React.FC<ExampleDisplayProps> = ({ example, verb })
     <div
       className="mb-2"
       dangerouslySetInnerHTML={{
-        __html: `<strong>Ví dụ:</strong> ${highlightVerb(example, verb)}`,
+        __html: renderExample(example),
       }}
     />
   );

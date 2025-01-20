@@ -7,7 +7,7 @@ interface ExampleDisplayProps {
   searchTerm: string;
 }
 
-export const ExampleDisplay: React.FC<ExampleDisplayProps> = ({ example, verb, searchTerm }) => {
+export const ExampleDisplay: React.FC<ExampleDisplayProps> = ({ example, searchTerm }) => {
   const renderExample = (ex: string) => {
     return `<strong>Ví dụ:</strong> ${highlightSearchTerm(ex, searchTerm)}`;
   };

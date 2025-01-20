@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { SearchInput } from "@/components/search-input";
 import { VerbCell } from "@/components/verb-cell";
 import { useVocabularySearch } from "@/hooks/use-vocabulary-search";
@@ -38,7 +37,7 @@ export function Vocabulary() {
             {items.map((item: VerbItem, index: number) => (
               <div
                 key={index}
-                className="grid grid-cols-4 gap-2 rounded border p-2 text-sm hover:bg-gray-100 md:text-base"
+                className="grid  grid-cols-4 items-center gap-2 rounded border p-2 text-sm hover:bg-gray-100 md:text-base"
               >
                 <div className="text-blue-600">
                   <VerbCell colorVariant="blue" verbForm={item.infinitive} searchTerm={searchTerm} />

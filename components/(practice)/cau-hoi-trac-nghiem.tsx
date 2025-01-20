@@ -182,7 +182,7 @@ export default function QuizGenerator() {
             {questions.map((q, index) => (
               <li id={`question-${index + 1}`} key={index} className="mt-4">
                 <h2 className="flex space-x-2">
-                  <p className="inline rounded bg-pink-600 px-1 h-min text-sm font-medium text-white whitespace-nowrap">
+                  <p className="inline h-min whitespace-nowrap rounded bg-pink-600 px-1 text-sm font-medium text-white">
                     Câu {index + 1}
                   </p>
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>{q.question}</ReactMarkdown>

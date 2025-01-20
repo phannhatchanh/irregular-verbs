@@ -17,7 +17,7 @@ export const VerbCell: React.FC<VerbCellProps> = ({ colorVariant, verbForm, sear
 
   if (Array.isArray(form)) {
     return (
-      <div className="flex items-center">
+      <div>
         {form.map((word, index) => (
           <VerbCell
             key={index}

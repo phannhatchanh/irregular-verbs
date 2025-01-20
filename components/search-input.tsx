@@ -9,11 +9,11 @@ interface SearchInputProps {
 }
 
 export const SearchInput: React.FC<SearchInputProps> = ({ searchTerm, setSearchTerm, clearSearch }) => (
-  <div className="relative w-full flex flex-1 flex-shrink-0 print:hidden">
+  <div className="relative flex w-full flex-1 shrink-0 print:hidden">
     <label htmlFor="search" className="sr-only">
       Search
     </label>
-    <SearchIcon className="absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2" />
+    <SearchIcon className="absolute left-3 top-1/2 size-[18px] -translate-y-1/2" />
     <Input
       type="text"
       placeholder="Nhập động từ cần tìm..."

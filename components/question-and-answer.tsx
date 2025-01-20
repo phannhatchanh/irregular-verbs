@@ -11,7 +11,6 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
@@ -69,21 +68,10 @@ export function QuestionAndAnswer() {
   if (isDesktop) {
     return (
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogTrigger>
-          <TooltipProvider>
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <Button variant="outline" className="h-8" asChild>
-                  <p>
-                    <CircleHelp className="size-8" /> <span className="hidden sm:block">Hỏi đáp</span>
-                  </p>
-                </Button>
-              </TooltipTrigger>
-              <TooltipContent>
-                <p>Hỏi đáp với AI</p>
-              </TooltipContent>
-            </Tooltip>
-          </TooltipProvider>
+        <DialogTrigger asChild>
+          <Button variant="outline" className="size-8 sm:size-full sm:h-8">
+            <CircleHelp className="size-8" /> <span className="hidden sm:block">Hỏi đáp</span>
+          </Button>
         </DialogTrigger>
         <DialogContent className="flex h-[90%] flex-col p-4 sm:max-w-[full]">
           <DrawerHeader className="p-0">
@@ -119,21 +107,10 @@ export function QuestionAndAnswer() {
 
   return (
     <Drawer open={open} onOpenChange={setOpen}>
-      <DrawerTrigger>
-        <TooltipProvider>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <Button className="size-8 p-1.5 sm:size-0" variant="outline" asChild>
-                <p>
-                  <CircleHelp className="size-8" /> <span className="hidden sm:block">Hỏi đáp</span>
-                </p>
-              </Button>
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>Hỏi đáp với AI</p>
-            </TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
+      <DrawerTrigger asChild>
+        <Button variant="outline" className="size-8 sm:size-full sm:h-8">
+          <CircleHelp className="size-8" /> <span className="hidden sm:block">Hỏi đáp</span>
+        </Button>
       </DrawerTrigger>
       <DrawerContent className="flex h-full flex-col px-4 pb-4">
         <DrawerHeader className="-mx-4 text-left">

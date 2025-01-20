@@ -9,7 +9,7 @@ const PrintButton = () => {
     <TooltipProvider>
       <Tooltip>
         <TooltipTrigger asChild>
-          <Button className="size-8" variant="outline" size="icon" onClick={() => window.print()}>
+          <Button className="size-8" variant="outline" onClick={() => window.print()}>
             <Printer />
           </Button>
         </TooltipTrigger>

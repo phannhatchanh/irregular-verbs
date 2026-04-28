@@ -28,7 +28,8 @@ export default function GenerateExplain({ verb }: { verb: string }) {
       });
 
       if (!res.ok) {
-        throw new Error("Failed to fetch response");
+        const errorData = (await res.json().catch(() => null)) as { error?: string } | null;
+        throw new Error(errorData?.error || "Failed to fetch response");
       }
 
       const data = await res.json();

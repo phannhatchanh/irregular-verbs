@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI, type GenerativeModel } from "@google/generative-ai";
 
-const GEMINI_MODEL_NAME = "gemini-2.5-flash";
+const GEMINI_MODEL_NAME = "gemini-2.5-flash-lite";
 
 let cachedModel: GenerativeModel | null = null;
 

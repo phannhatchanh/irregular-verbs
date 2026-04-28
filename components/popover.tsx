@@ -4,7 +4,6 @@ import { cn, highlightSearchTerm } from "@/lib/utils";
 import { Popover, PopoverContent, PopoverArrow, PopoverTrigger } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
 import GenerateExplain from "@/components/(gemini)/generate-explain";
-// import { GenerateExplain } from "@/components/(chatgpt)/generate-explain";
 
 interface PopoverVerbProps {
   verb: string;

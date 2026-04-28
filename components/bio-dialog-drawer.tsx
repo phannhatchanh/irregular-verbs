@@ -31,11 +31,13 @@ const Content = () => {
   return (
     <ScrollArea className="h-full">
       <div className="grid gap-4 px-0">
-        <ul className="list-disc">
+        {/* <ul className="list-disc">
           <span className="font-bold text-green-600">Nhóm tác giả:</span>
           <li className="ml-5 text-pink-600">Huỳnh Thị Diễm Như</li>
           <li className="ml-5 text-pink-600">Huỳnh Ngọc Khánh Vy</li>
-        </ul>
+        </ul> */}
+        <p><span className="font-bold text-green-600">Tác giả:</span>
+          <span className="ml-2 text-pink-600">Huỳnh Thị Ngọc	Lan</span></p>
         <ul className="list-decimal font-bold">
           <span className="text-green-600">Các tính năng chính:</span>
           <li className="ml-5 font-normal">
@@ -97,7 +99,7 @@ const Content = () => {
             nhấp chuột, giúp lưu trữ và tiện lợi khi sử dụng.
           </li>
         </ul>
-        <div>Nhóm xin gửi lời cảm ơn chân thành đến các bạn đã đánh giá và góp ý cho dự án này! 😊</div>
+        <div>Xin gửi lời cảm ơn chân thành đến các bạn đã đánh giá và góp ý cho dự án này! 😊</div>
       </div>
     </ScrollArea>
   );

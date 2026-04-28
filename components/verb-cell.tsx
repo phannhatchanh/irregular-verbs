@@ -4,7 +4,6 @@ import { PopoverVerb } from "@/components/popover";
 import AudioPlayer from "@/components/reading";
 import { ExampleDisplay } from "@/components/example-display";
 import GenerateExample from "@/components/(gemini)/generate-example";
-// import { GenerateExample } from "@/components/(chatgpt)/generate-example";
 
 interface VerbCellProps {
   colorVariant?: "blue" | "green" | "pink";

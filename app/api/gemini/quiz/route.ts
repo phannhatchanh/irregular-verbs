@@ -1,8 +1,5 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextResponse } from "next/server";
-
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY as string);
-const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+import { generateGeminiText } from "@/lib/gemini";
 
 interface Question {
   question: string;
@@ -44,8 +41,7 @@ export async function POST(request: Request) {
     **LƯU Ý:** Đảm bảo JSON được trả về là một mảng JavaScript hợp lệ, không có bất kỳ ký tự thừa nào.
     `;
 
-    const result = await model.generateContent(prompt);
-    let responseText = result.response.text();
+    let responseText = await generateGeminiText(prompt);
 
     responseText = responseText.trim(); // Loại bỏ khoảng trắng đầu và cuối
     if (responseText.startsWith("```json")) {
@@ -98,7 +94,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Đã xảy ra lỗi khi xử lý dữ liệu. Vui lòng thử lại." }, { status: 500 });
     }
   } catch (error) {
-    console.error("Lỗi:", error);
+    console.error("Gemini quiz error:", error);
     return NextResponse.json({ error: "Đã có lỗi xảy ra. Vui lòng thử lại sau." }, { status: 500 });
   }
 }

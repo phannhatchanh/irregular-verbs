@@ -2,7 +2,7 @@
 
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { generatePromptExample } from "@/lib/generate-prompt";
+import { generatePrompt, PromptType } from "@/lib/generate-prompt";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { GeminiLogo } from "@/components/icon";
@@ -17,25 +17,23 @@ export default function GenerateExample({ verb }: { verb: string }) {
     setError("");
 
     try {
-      const formattedPrompt = generatePromptExample(verb);
+      const formattedPrompt = generatePrompt(PromptType.Example, verb);
 
       const res = await fetch("/api/gemini/chat", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt: formattedPrompt }),
       });
 
       if (!res.ok) {
         const errorData = (await res.json().catch(() => null)) as { error?: string } | null;
-        throw new Error(errorData?.error || "Failed to fetch response");
+        throw new Error(errorData?.error || "Không thể tải phản hồi");
       }
 
       const data = await res.json();
       setResponse(data.response);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Something went wrong");
+      setError(err instanceof Error ? err.message : "Đã xảy ra lỗi, vui lòng thử lại.");
     } finally {
       setLoading(false);
     }

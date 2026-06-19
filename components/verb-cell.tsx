@@ -23,8 +23,8 @@ export const VerbCell: React.FC<VerbCellProps> = ({ colorVariant, verbForm, sear
             colorVariant={colorVariant}
             verbForm={{
               form: word,
-              pronunciation: Array.isArray(pronunciation) ? pronunciation[index] : pronunciation,
-              example: example && Array.isArray(example) ? example[index] : example,
+              pronunciation: Array.isArray(pronunciation) ? (pronunciation[index] ?? pronunciation) : pronunciation,
+              example: example && Array.isArray(example) ? (example[index] ?? example) : example,
             }}
             searchTerm={searchTerm}
           />

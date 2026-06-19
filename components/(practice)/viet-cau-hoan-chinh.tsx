@@ -9,6 +9,7 @@ import { GeminiLogo } from "@/components/icon";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import irregularVerbsData from "../../data.json";
 import { Label } from "../ui/label";
+import { generatePrompt, PromptType } from "@/lib/generate-prompt";
 
 const SentenceChallenge = () => {
   const [randomWord, setRandomWord] = useState("");
@@ -20,7 +21,7 @@ const SentenceChallenge = () => {
 
   const getRandomWord = () => {
     const randomIndex = Math.floor(Math.random() * irregularVerbsData.length);
-    return irregularVerbsData[randomIndex].word;
+    return irregularVerbsData[randomIndex]?.word ?? "go";
   };
 
   useEffect(() => {
@@ -49,33 +50,20 @@ const SentenceChallenge = () => {
     try {
       const res = await fetch("/api/gemini/chat", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          prompt: `Là một chuyên gia ngôn ngữ Anh. Vui lòng kiểm tra xem câu sau có đúng ngữ pháp khi sử dụng từ '${randomWord}' hay không: '${userInput}'. Nếu không đúng, hãy giải thích lý do và đề xuất cách sửa câu cho phù hợp. Đồng thời cho điểm với câu '${userInput}' với thang điểm 0 đến 10 (Câu bạn đạt:.../10). CHẮC CHẮN phải theo cấu trúc sau:
-          - Bạn thử thách với từ: **${randomWord}**
-          - Câu bạn viết là: **${userInput}**
-          - Kết quả: Đúng/Sai
-          - Tính tự nhiên: (Tốt/Khá/Trung bình/Kém) Đánh giá mức độ tự nhiên của câu trong tiếng Việt.
-          - Phong cách: (Phù hợp/Không phù hợp) Đánh giá xem câu có phù hợp với ngữ cảnh chung hay không.
-          - Lỗi gặp phải: Loại lỗi (nếu có)
-          - Giải thích: Giải thích chi tiết lỗi (nếu có)
-          - Giải thích cơ sở của việc sửa lỗi (nếu có)
-          - Đề xuất sửa lại: **Đề xuất sửa lỗi (nếu có)**
-          - Điểm: **Điểm/10** (Giải thích tổng quan về câu và điểm số)
-          `,
+          prompt: generatePrompt(PromptType.SentenceCheck, randomWord, userInput),
         }),
       });
 
       if (!res.ok) {
-        throw new Error("Failed to fetch response from API");
+        throw new Error("Không thể tải phản hồi từ API");
       }
 
       const data = await res.json();
       setApiResponse(data.response);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Something went wrong");
+      setError(err instanceof Error ? err.message : "Đã xảy ra lỗi, vui lòng thử lại.");
     } finally {
       setChecking(false);
     }

@@ -74,7 +74,8 @@ export default function QuizGenerator() {
 
     let correctCount = 0;
     for (let i = 0; i < questions.length; i++) {
-      if (userAnswers[i] === questions[i].correctAnswer) {
+      const question = questions[i];
+      if (question && userAnswers[i] === question.correctAnswer) {
         correctCount++;
       }
     }
@@ -215,9 +216,9 @@ export default function QuizGenerator() {
                           </span>
                         )}
                       </p>
-                      <p>
+                      <div>
                         <ReactMarkdown remarkPlugins={[remarkGfm]}>{q.explanation}</ReactMarkdown>
-                      </p>
+                      </div>
                     </div>
                   )}
                 </RadioGroup>

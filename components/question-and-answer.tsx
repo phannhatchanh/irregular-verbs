@@ -18,6 +18,7 @@ import { GeminiLogo } from "@/components/icon";
 import { Textarea } from "@/components/ui/textarea";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { generatePrompt, PromptType } from "@/lib/generate-prompt";
 
 export function QuestionAndAnswer() {
   const [open, setOpen] = useState(false);
@@ -32,34 +33,23 @@ export function QuestionAndAnswer() {
     try {
       const res = await fetch("/api/gemini/chat", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          prompt: `Bạn là một trợ lý dạy tiếng Anh cho học sinh trung học.
-      
-          **Hướng dẫn:**
-          
-          *   Bạn chỉ trả lời các câu hỏi liên quan đến tiếng Anh, bao gồm ngữ pháp, từ vựng, phát âm, kỹ năng (nghe, nói, đọc, viết), và văn hóa liên quan đến tiếng Anh.
-          *   Câu trả lời cần ngắn gọn, đầy đủ ý, và dễ hiểu đối với học sinh trung học.
-          *   Sử dụng tiếng Việt trong câu trả lời.
-          *   Chỉ trả về định dạng text không có enter xuống dòng quá 2 lần. Không sử dụng bất kỳ định dạng nào khác như code block, markdown, list, bảng, hình ảnh,...
-          *   Nếu câu hỏi không liên quan đến tiếng Anh, hãy từ chối trả lời một cách hài hước và lịch sự nhưng phải đa dạng cách từ chối làm cho người dùng thích thú. Ví dụ: "Câu hỏi này thú vị đấy, nhưng tiếc là tôi chỉ giỏi tiếng Anh thôi." Đồng gợi ý một vài câu hỏi liên quan đến tiếng Anh.
-          
-          **Câu hỏi:** "${question}"`,
+          prompt: generatePrompt(PromptType.QnA, question),
         }),
       });
 
       if (!res.ok) {
         const errorData = await res.json();
-        throw new Error(errorData.error || "Failed to fetch response");
+        throw new Error(errorData.error || "Không thể tải phản hồi");
       }
 
       const data = await res.json();
       setResponse(data.response);
-    } catch (error: any) {
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : "Đã xảy ra lỗi, vui lòng thử lại.";
       console.error("Error fetching Gemini response:", error);
-      setResponse(`Error: ${error.message}`);
+      setResponse(`Lỗi: ${message}`);
     } finally {
       setLoading(false);
     }
@@ -69,20 +59,20 @@ export function QuestionAndAnswer() {
     return (
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogTrigger asChild>
-          <Button variant="outline" className="size-8 sm:size-full sm:h-8">
+          <Button variant="outline" className="size-8 sm:size-full sm:h-8 hover:bg-pink-100" aria-label="Mở hộp thoại hỏi đáp">
             <CircleHelp className="size-8" /> <span className="hidden sm:block">Hỏi đáp</span>
           </Button>
         </DialogTrigger>
-        <DialogContent className="flex h-[90%] flex-col p-4 sm:max-w-[full]">
+        <DialogContent className="flex h-[90%] flex-col p-6 bg-white rounded-lg shadow-lg transition-transform duration-200 ease-out">
           <DrawerHeader className="p-0">
             <DrawerTitle className="text-center text-lg font-bold tracking-tight text-pink-600">HỎI ĐÁP</DrawerTitle>
             <DrawerDescription className="mb-0">
-              Bạn gặp vấn để gì trong quá trình tự luyện tiếng Anh của mình?
+              Bạn gặp vấn đề gì trong quá trình tự luyện tiếng Anh của mình?
               <Textarea
                 placeholder="Đặt câu hỏi của bạn ở đây..."
                 value={question}
                 onChange={(e) => setQuestion(e.target.value)}
-                className="my-2 text-pink-600"
+                className="my-2 w-full border rounded-md p-2 focus:border-primary focus:ring-2 focus:ring-primary"
               />
               <span className="flex justify-center">
                 <Button variant="outline" onClick={handleSubmit} disabled={loading} className="m-auto w-auto">
@@ -95,7 +85,7 @@ export function QuestionAndAnswer() {
 
           {response && (
             <ScrollArea>
-              <div className="whitespace-pre-wrap rounded-md border bg-gray-100 p-2">
+              <div className="whitespace-pre-wrap rounded-md p-2">
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{response}</ReactMarkdown>
               </div>
             </ScrollArea>
@@ -108,23 +98,23 @@ export function QuestionAndAnswer() {
   return (
     <Drawer open={open} onOpenChange={setOpen}>
       <DrawerTrigger asChild>
-        <Button variant="outline" className="size-8 sm:size-full sm:h-8">
+        <Button variant="outline" className="size-8 sm:size-full sm:h-8 hover:bg-pink-100" aria-label="Mở hỏi đáp trên thiết bị di động">
           <CircleHelp className="size-8" /> <span className="hidden sm:block">Hỏi đáp</span>
         </Button>
       </DrawerTrigger>
-      <DrawerContent className="flex h-full flex-col px-4 pb-4">
+      <DrawerContent className="flex h-full flex-col p-6 bg-white rounded-lg shadow-md transition-transform duration-200 ease-out">
         <DrawerHeader className="-mx-4 text-left">
           <DrawerTitle className="text-center text-lg font-bold tracking-tight text-pink-600">HỎI ĐÁP</DrawerTitle>
           <DrawerDescription className="mb-0 px-[-124px]">
-            Bạn muốn hỏi về vấn để gì trong quá trình tự học tiếng Anh của mình?
+            Bạn muốn hỏi về vấn đề gì trong quá trình tự học tiếng Anh của mình?
             <Textarea
               placeholder="Mô tả câu hỏi của bạn ở đây..."
               value={question}
               onChange={(e) => setQuestion(e.target.value)}
-              className="my-2 text-pink-600"
+              className="my-2 w-full border rounded-md p-2 focus:border-primary focus:ring-2 focus:ring-primary"
             />
             <span className="flex justify-center">
-              <Button variant="outline" onClick={handleSubmit} disabled={loading}>
+              <Button variant="outline" onClick={handleSubmit} disabled={loading} className="m-auto w-auto">
                 <GeminiLogo animate={loading ? true : false} className="!size-5" />
                 {loading ? "Đang xử lý câu hỏi..." : "Trả lời"}
               </Button>

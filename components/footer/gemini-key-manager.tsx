@@ -156,7 +156,7 @@ export default function GeminiKeyManager() {
           <div className="flex flex-col gap-2">
             <label className="text-xs font-semibold text-zinc-700 dark:text-zinc-300 flex items-center gap-1.5">
               <Key className="size-3.5 text-pink-500" />
-              API Key Gemini Cá Nhân (<Link href="./gemini-keys" className="text-pink-600 hover:text-pink-700 font-semibold" onClick={() => setOpen(false)}>CÓ SẴN</Link>)
+              API Key Gemini Cá Nhân (<Link href="/gemini-keys" className="text-pink-600 hover:text-pink-700 font-semibold" onClick={() => setOpen(false)}>CÓ SẴN</Link>)
             </label>
             
             {hasSavedKey && (

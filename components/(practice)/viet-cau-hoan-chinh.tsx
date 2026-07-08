@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { GeminiLogo } from "@/components/icon";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { GeminiKeyInput } from "../(gemini)/gemini-key-input";
 import irregularVerbsData from "../../data.json";
 import { Label } from "../ui/label";
 import { generatePrompt, PromptType } from "@/lib/generate-prompt";
@@ -48,16 +49,23 @@ const SentenceChallenge = () => {
     setApiResponse("");
 
     try {
+      const userApiKey = typeof window !== "undefined" ? localStorage.getItem("user_gemini_api_key") || "" : "";
+      const userModel = typeof window !== "undefined" ? localStorage.getItem("user_gemini_model") || "gemini-2.5-flash-lite" : "gemini-2.5-flash-lite";
       const res = await fetch("/api/gemini/chat", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { 
+          "Content-Type": "application/json",
+          "x-gemini-api-key": userApiKey,
+          "x-gemini-model": userModel
+        },
         body: JSON.stringify({
           prompt: generatePrompt(PromptType.SentenceCheck, randomWord, userInput),
         }),
       });
 
       if (!res.ok) {
-        throw new Error("Không thể tải phản hồi từ API");
+        const errorData = (await res.json().catch(() => null)) as { error?: string } | null;
+        throw new Error(errorData?.error || "Không thể tải phản hồi từ API");
       }
 
       const data = await res.json();
@@ -107,10 +115,13 @@ const SentenceChallenge = () => {
             </div>
           </div>
           {error && (
-            <CardDescription>
-              <Label htmlFor="error" className="text-red-500">
+            <CardDescription className="space-y-2">
+              <Label htmlFor="error" className="text-red-500 block">
                 Lỗi: {error}
               </Label>
+              {(error.toLowerCase().includes("lượt sử dụng") || error.toLowerCase().includes("api key") || error.toLowerCase().includes("rate limit") || error.toLowerCase().includes("quota")) && (
+                <GeminiKeyInput onSaved={handleCheck} />
+              )}
             </CardDescription>
           )}
         </CardContent>

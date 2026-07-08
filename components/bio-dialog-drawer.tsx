@@ -37,11 +37,13 @@ const Content = () => {
           <li className="ml-5 text-pink-600">Huỳnh Ngọc Khánh Vy</li>
         </ul> */}
         <p><span className="font-bold text-green-600">Tác giả:</span>
-          <span className="ml-2 text-pink-600">Huỳnh Thị Ngọc	Lan</span></p>
+          <span className="ml-2 text-pink-600">Huỳnh Thị Ngọc Lan</span></p>
+        <p><span className="font-bold text-green-600">Trường:</span>
+          <span className="ml-2 text-pink-600">PTDTNT-THCS Càng Long, xã Tân An, tỉnh Vĩnh Long</span></p>
         <ul className="list-decimal font-bold">
           <span className="text-green-600">Các tính năng chính:</span>
           <li className="ml-5 font-normal">
-            <span className="text-green-600">Tra cứu:</span> Với giao diện đẹp mắt, thân thiện với người sử dụng bên
+            <span className="text-green-600">Tra cứu:</span> Với giao diện đẹp mắt, thân thiện với người sử dụng. Bên
             cạnh các động từ được nhóm theo chữ cái, bạn có thể dễ dàng tìm kiếm các từ vựng thông qua công cụ lọc dữ
             liệu được tích hợp sẵn, giúp việc tra cứu trở nên nhanh chóng, dễ dàng và hiệu quả hơn.
           </li>
@@ -97,6 +99,21 @@ const Content = () => {
           <li className="ml-5 font-normal">
             <span className="text-blue-600">Hỗ trợ In ấn:</span> Dễ dàng có được một phiên bản trên giấy chỉ với một cú
             nhấp chuột, giúp lưu trữ và tiện lợi khi sử dụng.
+          </li>
+        </ul>
+        <ul className="list-decimal font-bold">
+          <span className="text-purple-600">Định hướng phát triển:</span>
+          <li className="ml-5 font-normal">
+            <span className="text-purple-600 font-semibold">Hệ thống Flashcards thông minh:</span> Tích hợp thuật toán lặp lại ngắt quãng (Spaced Repetition) giúp cá nhân hóa và tối ưu hóa việc ghi nhớ các động từ bất quy tắc khó.
+          </li>
+          <li className="ml-5 font-normal">
+            <span className="text-purple-600 font-semibold">Bảng theo dõi tiến độ:</span> Thống kê chi tiết tiến trình học tập, tổng hợp các từ hay viết sai và gợi ý lộ trình học phù hợp với từng cá nhân.
+          </li>
+          <li className="ml-5 font-normal">
+            <span className="text-purple-600 font-semibold">Trò chơi hóa (Gamification):</span> Thêm các thử thách hàng ngày, hệ thống huy hiệu và minigame tương tác nhằm tạo động lực và giảm bớt sự nhàm chán khi học.
+          </li>
+          <li className="ml-5 font-normal">
+            <span className="text-purple-600 font-semibold">Chế độ Ngoại tuyến & Đồng bộ:</span> Hỗ trợ học và tra cứu ngoại tuyến, tự động đồng bộ hóa tiến trình học tập của bạn trên nhiều thiết bị.
           </li>
         </ul>
         <div>Xin gửi lời cảm ơn chân thành đến các bạn đã đánh giá và góp ý cho dự án này! 😊</div>

@@ -19,6 +19,7 @@ import { Textarea } from "@/components/ui/textarea";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { generatePrompt, PromptType } from "@/lib/generate-prompt";
+import { GeminiKeyInput } from "./(gemini)/gemini-key-input";
 
 export function QuestionAndAnswer() {
   const [open, setOpen] = useState(false);
@@ -31,9 +32,15 @@ export function QuestionAndAnswer() {
   const handleSubmit = async () => {
     setLoading(true);
     try {
+      const userApiKey = typeof window !== "undefined" ? localStorage.getItem("user_gemini_api_key") || "" : "";
+      const userModel = typeof window !== "undefined" ? localStorage.getItem("user_gemini_model") || "gemini-2.5-flash-lite" : "gemini-2.5-flash-lite";
       const res = await fetch("/api/gemini/chat", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { 
+          "Content-Type": "application/json",
+          "x-gemini-api-key": userApiKey,
+          "x-gemini-model": userModel
+        },
         body: JSON.stringify({
           prompt: generatePrompt(PromptType.QnA, question),
         }),
@@ -85,8 +92,11 @@ export function QuestionAndAnswer() {
 
           {response && (
             <ScrollArea>
-              <div className="whitespace-pre-wrap rounded-md p-2">
+              <div className="whitespace-pre-wrap rounded-md p-2 space-y-2">
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{response}</ReactMarkdown>
+                {(response.toLowerCase().includes("lượt sử dụng") || response.toLowerCase().includes("api key") || response.toLowerCase().includes("rate limit") || response.toLowerCase().includes("quota")) && (
+                  <GeminiKeyInput onSaved={handleSubmit} />
+                )}
               </div>
             </ScrollArea>
           )}
@@ -123,8 +133,11 @@ export function QuestionAndAnswer() {
         </DrawerHeader>
         {response && (
           <ScrollArea>
-            <div className="whitespace-pre-wrap rounded-md border bg-gray-100 p-2">
+            <div className="whitespace-pre-wrap rounded-md border bg-gray-100 p-2 space-y-2">
               <ReactMarkdown remarkPlugins={[remarkGfm]}>{response}</ReactMarkdown>
+              {(response.toLowerCase().includes("lượt sử dụng") || response.toLowerCase().includes("api key") || response.toLowerCase().includes("rate limit") || response.toLowerCase().includes("quota")) && (
+                <GeminiKeyInput onSaved={handleSubmit} />
+              )}
             </div>
           </ScrollArea>
         )}

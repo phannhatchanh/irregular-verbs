@@ -5,6 +5,7 @@ import PrintButton from "@/components/footer/print";
 import HomeButton from "@/components/footer/home";
 import BackToTop from "@/components/footer/back-to-top";
 import PracticeMenu from "@/components/footer/practice";
+import GeminiKeyManager from "@/components/footer/gemini-key-manager";
 
 export default function Footer() {
   return (
@@ -23,6 +24,7 @@ export default function Footer() {
       <div className="flex items-center justify-between space-x-2 text-right">
         <BioDialogDrawer />
         <PrintButton />
+        <GeminiKeyManager />
         <BackToTop />
       </div>
     </footer>

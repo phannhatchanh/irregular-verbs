@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { generateGeminiText } from "@/lib/gemini";
+import { generateGeminiText, GeminiError } from "@/lib/gemini";
 
 interface Question {
   question: string;
@@ -16,6 +16,8 @@ interface GenerateQuizRequest {
 
 export async function POST(request: Request) {
   try {
+    const customApiKey = request.headers.get("x-gemini-api-key") || undefined;
+    const customModel = request.headers.get("x-gemini-model") || undefined;
     const { level, topic, numQuestions } = (await request.json()) as GenerateQuizRequest;
 
     if (!level || !topic || !numQuestions || numQuestions <= 0) {
@@ -41,7 +43,7 @@ export async function POST(request: Request) {
     **LƯU Ý:** Đảm bảo JSON được trả về là một mảng JavaScript hợp lệ, không có bất kỳ ký tự thừa nào.
     `;
 
-    let responseText = await generateGeminiText(prompt);
+    let responseText = await generateGeminiText(prompt, customApiKey, customModel);
 
     responseText = responseText.trim(); // Loại bỏ khoảng trắng đầu và cuối
     if (responseText.startsWith("```json")) {
@@ -95,6 +97,25 @@ export async function POST(request: Request) {
     }
   } catch (error) {
     console.error("Gemini quiz error:", error);
+
+    if (error instanceof GeminiError) {
+      if (error.status === 429) {
+        return NextResponse.json({ error: error.message }, { status: 429 });
+      }
+      return NextResponse.json({ error: error.message }, { status: 500 });
+    }
+
+    const rawMessage = error instanceof Error ? error.message : "Unknown Gemini error";
+    const normalizedMessage = rawMessage.toLowerCase();
+
+    if (normalizedMessage.includes("missing gemini_api_key")) {
+      return NextResponse.json({ error: "Server chưa cấu hình GEMINI_API_KEY trên production." }, { status: 500 });
+    }
+
+    if (normalizedMessage.includes("429") || normalizedMessage.includes("quota") || normalizedMessage.includes("exhausted")) {
+      return NextResponse.json({ error: "Gemini đang quá tải hoặc đã hết quota. Vui lòng thử lại sau." }, { status: 429 });
+    }
+
     return NextResponse.json({ error: "Đã có lỗi xảy ra. Vui lòng thử lại sau." }, { status: 500 });
   }
 }

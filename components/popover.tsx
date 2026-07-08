@@ -1,9 +1,18 @@
-import { FC, ReactNode, useState } from "react";
+import { FC, ReactNode, useState, createContext, useRef, useCallback } from "react";
 import { cn, highlightSearchTerm } from "@/lib/utils";
 
 import { Popover, PopoverContent, PopoverArrow, PopoverTrigger } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
 import GenerateExplain from "@/components/(gemini)/generate-explain";
+import { GeminiKeyInput } from "@/components/(gemini)/gemini-key-input";
+
+interface RateLimitContextType {
+  hasRateLimitError: boolean;
+  setHasRateLimitError: (val: boolean) => void;
+  registerRetry: (cb: () => void) => () => void;
+}
+
+export const RateLimitContext = createContext<RateLimitContextType | null>(null);
 
 interface PopoverVerbProps {
   verb: string;
@@ -14,6 +23,20 @@ interface PopoverVerbProps {
 
 export const PopoverVerb: FC<PopoverVerbProps> = ({ verb, children, colorVariant, searchTerm }) => {
   const [showExplain, setShowExplain] = useState(false);
+  const [hasRateLimitError, setHasRateLimitError] = useState(false);
+  const retryCallbacks = useRef<(() => void)[]>([]);
+
+  const registerRetry = useCallback((cb: () => void) => {
+    retryCallbacks.current.push(cb);
+    return () => {
+      retryCallbacks.current = retryCallbacks.current.filter((c) => c !== cb);
+    };
+  }, []);
+
+  const triggerRetry = useCallback(() => {
+    setHasRateLimitError(false);
+    retryCallbacks.current.forEach((cb) => cb());
+  }, []);
 
   const handleClick = () => {
     setShowExplain(true);
@@ -37,9 +60,16 @@ export const PopoverVerb: FC<PopoverVerbProps> = ({ verb, children, colorVariant
         />
       </PopoverTrigger>
       <PopoverContent className="mx-2">
-        {children}
-        {showExplain && <GenerateExplain verb={verb} />}
-        <PopoverArrow className="fill-white" />
+        <RateLimitContext.Provider value={{ hasRateLimitError, setHasRateLimitError, registerRetry }}>
+          {children}
+          {showExplain && <GenerateExplain verb={verb} />}
+          {hasRateLimitError && (
+            <div className="mt-2 border-t pt-2 flex justify-center w-full">
+              <GeminiKeyInput onSaved={triggerRetry} />
+            </div>
+          )}
+          <PopoverArrow className="fill-white" />
+        </RateLimitContext.Provider>
       </PopoverContent>
     </Popover>
   );

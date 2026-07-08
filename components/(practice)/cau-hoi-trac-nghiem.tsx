@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { GeminiLogo } from "@/components/icon";
+import { GeminiKeyInput } from "../(gemini)/gemini-key-input";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -39,10 +40,14 @@ export default function QuizGenerator() {
     setShowResult(false);
 
     try {
+      const userApiKey = typeof window !== "undefined" ? localStorage.getItem("user_gemini_api_key") || "" : "";
+      const userModel = typeof window !== "undefined" ? localStorage.getItem("user_gemini_model") || "gemini-2.5-flash-lite" : "gemini-2.5-flash-lite";
       const response = await fetch("/api/gemini/quiz", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "x-gemini-api-key": userApiKey,
+          "x-gemini-model": userModel,
         },
         body: JSON.stringify({ level, topic, numQuestions }),
       });
@@ -163,10 +168,13 @@ export default function QuizGenerator() {
             </div>
           </div>
           {error && (
-            <CardDescription>
-              <Label htmlFor="error" className="text-red-500">
+            <CardDescription className="space-y-2">
+              <Label htmlFor="error" className="text-red-500 block">
                 Lỗi: {error}
               </Label>
+              {(error.toLowerCase().includes("lượt sử dụng") || error.toLowerCase().includes("api key") || error.toLowerCase().includes("rate limit") || error.toLowerCase().includes("quota")) && (
+                <GeminiKeyInput onSaved={generateQuiz} />
+              )}
             </CardDescription>
           )}
         </CardContent>
